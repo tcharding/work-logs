@@ -15,5 +15,5 @@ com = community work (LUG)
 misc = miscellaneous  
 read = read text book
 
-_see individual log files for topics_
+_see individual log files for topics_  
 Tobin Harding 2015
