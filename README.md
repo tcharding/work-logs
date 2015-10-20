@@ -24,7 +24,7 @@ Notes
 August, 2015. (log was not split between reading and exercises at this
 stage). Summarized as follows;
 
-Total time spent studying text: 82 hours 15 minutes
+Total time spent studying text: **82 hours 15 minutes**
 
 Total time by month:  
 June: 35 hours 25 minutes  
@@ -36,7 +36,7 @@ September and October, 2015. Logging read time separately from dev (exercise
 completion) time commenced in September. Augusts dev time logged is therefore
 read/exercise combined. Summarized as follows;
 
-Total time spent studying text: 107 hours 2 minutes
+Total time spent studying text: **107 hours 2 minutes**
 
 Total time by month:  
 August: 35 hours 7 minutes  
@@ -49,7 +49,7 @@ Total time answering questions: 81 hours 22 minutes. (see above)
 **UNIX Systems Programming** was completed during August and
 September, 2015.
 
-Total time spent studying text: 121 hours 28 minutes
+Total time spent studying text: **121 hours 28 minutes**
 
 Total time by month:  
 August: 84 hours 13 minutes  
@@ -60,7 +60,7 @@ September: 37 hours 15 minutes
 beginning) was completed solely in October. Summarized as follows (for October
 attempt only);
 
-Total time spent studying text: 57 hours 34 minutes
+Total time spent studying text: **57 hours 34 minutes**
 
 Total time by month:  
 October: 57 hours 34 minutes  
