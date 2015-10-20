@@ -18,6 +18,14 @@ my %times_by_day;
 my %times_by_cat;
 my %times_by_top;
 
+
+die "Usage: $0 [-d | -m] log.file\n"
+    if (@ARGV < 1);
+    
+my $opt = "-m";			# default report on whole month
+if (@ARGV == 2) {
+    $opt = shift @ARGV;
+}
 my $file = $ARGV[0];
 open STDIN, $file;
 my $month = $file;
@@ -46,27 +54,36 @@ while (<STDIN>) {
 #	print "Adding session: $day $cat $top $time\n";
     }
 }
+if ($opt eq "-m") {
+    &print_totals;    
+} elsif ($opt eq "-d") {
+    &print_all_days;    
+} else {
+    die "Unknown option: $opt\n";
+}
+exit;
 
-&print_totals;
+#print Dumper(\%days_ct);
 
-# # Build time hashes
-# for my $day (keys %days) {
-#     for my $cat (keys %{ $days{$day} }) {
-# 	for my $top (keys %{ $days{$day}{$cat} }) {
-# 	    my $t = $days{$day}{$cat}{$top};
-# 	    $times_by_day{$day} += $t;
-# 	    $times_by_cat{$cat} += $t;
-# 	    $times_by_top{$top} += $t;
-# 	    $total_time += $t;
-# 	}
-#     }
-# }
-#print "days: ";
-#print Dumper(\%days);
-#print "catagorgies: ";
-# print Dumper(\%catagories);
-# print "topics ";
-# print Dumper(\%topics);
+
+sub print_all_days {
+    for my $day (sort { compare($a, $b) } keys %days_ct) {
+	printf "%-20s ", $day;
+	&dump_time($times_by_day{$day});
+	print "\n";
+	for my $cat (keys %{ $days_ct{$day} }) {
+	    printf "   * %-10s", $cat;
+#	    &dump_time(${ $days_ct{$day}{$cat}});
+	    print "\n";
+	    for my $top (keys %{ $days_ct{$day}{$cat}}) {
+		printf "    -> %-10s", $top;
+		&dump_time( $days_ct{$day}{$cat}{$top} );
+		print "\n";
+	    }
+	}
+	print "\n";
+    }
+}
 
 sub print_totals {
     printf "%s: ", $month;
@@ -86,28 +103,6 @@ sub print_totals {
     }
 }
 
-# sub print_all_days {
-#     print "$month: ";
-#     &dump_time($total_time);
-#     print "\n";
-#     for my $day (keys %days) {
-# 	print "$day: ";
-# 	&dump_time($times_by_day{$day});
-# 	print "\n";
-# 	for my $cat (keys %{ $days{$day} }) {
-# 	    print "\t$cat: ";
-# 	    &dump_time($times_by_cat{$cat});
-# 	    print "\n";
-# 	    for my $top (keys %{ $days{$day}{$cat} }) {
-# 		print "\t\t$top: ";
-# 		&dump_time($times_by_top{$top});
-# 		print "\n";
-# 	    }
-# 	}
-#     }
-# }
-
-
 sub dump_time {
     my $time = shift;
     my $hours = $time / 60;
@@ -120,12 +115,7 @@ sub compare {
     my ($aday, $amonth, $ayear) = split /\//, $adate;
     my ($bname, $bdate) = split / /, $b;
     my ($bday, $bmonth, $byear) = split /\//, $bdate;
-
-    if ( $aday < $bday) {
-	return 0;
-    } else {
-	return 1;
-    }
+    $aday <=> $bday
 }
 
 # return duration in minutes

@@ -165,4 +165,35 @@ Monday 19/10/15
 12:25 13:01 dev ip - exercises ch 6
 13:01 16:10 dev perl - work log report
 16:14 16:57 dev perl - work log report
+16:57 17:25 ops misc - github and work log
+17:30 18:06 read ip - ch 7
+18:06 18:46 dev ip - ch 7
+18:46 19:07 read ip - ch 8
+19:07 19:41 dev ip - ch 8
+19:41 20:20 dev perl - added -d option to log report
+
+Tuesday 20/10/15
+----------------
+06:59 08:36 read unp - ch 26
+08:36 10:01 dev unp - worked on exercises ch 26
+10:38 11:51 dev unp - completed chapter 26
+11:51 12:02 read unp - ch 27
+12:02 12:14 dev unp - completed chapter 27
+12:16 13:31 read unp - ch 28
+13:31 13:46 dev unp - ch 28
+14:28 15:22 read unp - ch 29
+15:22 15:27 dev unp - ch 29
+15:31 15:56 read ip - ch 9
+15:56 17:00 dev ip - ch 9
+17:00 17:51 read ip - ch 10
+17:51 18:03 dev ip - started exercises ch 10
+18:20 20:09 dev ip - ch 10
+20:10 20:53 read knuth - 
+
+Wednesday 21/10/15
+----------------
+06:54 07:51 read unp - ch 30
+07:51 08:11 dev unp - ch 30
+08:11 09:33 dev web - updated personal website and resume
+09:33 10:09 read usp - skimmed section 4
 ***** END *****
