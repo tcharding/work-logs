@@ -5,10 +5,11 @@ use autodie;
 #
 # manage log entries
 #
-my $file = "/home/tobin/docs/work-logs/October.md";
-my $editor = "/usr/bin/emacs --maximized";
+my $file = "/home/tobin/build/github/work-logs/February.md";
+my $editor = "/usr/bin/emacsclient"; # emacs in terminal window
+#my $editor = "/usr/bin/emacs --maximized";
 my $end_marker = '***** END *****';
-
+    
 if (@ARGV == 0) {
     system "vimcat $file";
     exit;
@@ -120,8 +121,12 @@ sub edit {
 sub time_now {
     my $ds = `date`;
     my @date = split / /,$ds;
-    my $hms = $date[3];
+    # change this to 3 if uninitialized var error
+    # set to 4 if AEDT appears
+    my $hms = $date[4];
+
     my ($h, $m, $s) = split /:/, $hms;
+
     my $now = $h;
     $now .= ":";
     $now .= "$m";

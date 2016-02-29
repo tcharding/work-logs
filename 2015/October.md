@@ -12,13 +12,14 @@ misc = miscellaneous
 read = read text book
 
 ### Topic Key #
-ung = UNIX Network Programming - W. Richard Stevens, Bill Fenner, Andrew M. Rudoff
+sch - Applied Cryptography - Bruce Schneier
+unp = UNIX Network Programming - W. Richard Stevens, Bill Fenner, Andrew M. Rudoff
 apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  
-mixal = MIX Assembly Language - Knuth
 Knuth = The Art of Computer Programming, Volume 1
 Knuth = The Art of Computer Programming, Volume 2 ( from Wednesday 14th)
 ip = Intermediate Perl - Randal L. Schwartz, brian d foy and Tom Phoenix
 tpp = The Pragmatic Programmer - Andrew Hunt, David Thmomas
+crypto = Cryptography challenges
 
 ### Logging/Work Method #
 1. Break day into sessions of between 2 an 3 hours.  
@@ -196,4 +197,52 @@ Wednesday 21/10/15
 07:51 08:11 dev unp - ch 30
 08:11 09:33 dev web - updated personal website and resume
 09:33 10:09 read usp - skimmed section 4
+10:09 10:58 ops misc - set up for cryptography study block
+11:55 12:50 dev crypto - - chal 1 and 2, base-conversion.pl re-write
+12:51 14:02 dev crypto - 
+20:13 22:00 read sch - ch 1
+
+Sunday 25/10/15
+----------------
+14:44 15:51 read sch - ch 2
+15:58 17:00 read sch - ch 3
+17:12 20:48 dev crypto - 
+
+Monday 26/10/15
+----------------
+08:30 10:05 dev crypto - 
+11:13 12:09 read sch - ch 4
+12:14 12:51 read sch - ch 5
+12:51 17:21 dev crypto - 
+17:21 17:36 read ip - ch 11
+17:36 17:54 dev ip - ch 11
+17:55 18:18 read ip - ch 12
+18:19 18:36 dev ip - ch 12
+18:36 20:30 dev crypto -
+
+Tuesday 27/10/15
+----------------
+07:17 10:34 dev crypto - 
+11:12 13:18 dev crypto - 
+13:18 14:00 read sch - ch 6
+15:18 15:57 read sch - ch 7
+15:57 18:03 dev crypto - 
+18:17 18:46 read knuth - 
+18:46 20:03 dev crypto - 
+20:03 20:24 read ip - ch 13
+20:24 20:24 read ip - ch 13
+20:24 20:53 dev ip - module-starter hell
+
+Wednesday 28/10/15
+----------------
+07:30 09:38 dev crypto - 
+09:38 10:39 read sch - ch 8
+10:39 11:34 read sch - ch 9
+11:34 13:17 ops misc - - backups
+13:17 14:00 dev crypto -
+
+Sunday 01/11/15
+----------------
+14:53 15:42 read sch - ch 10
+15:45 16:37 read sch - ch 11
 ***** END *****
