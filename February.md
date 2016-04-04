@@ -1,4 +1,4 @@
-Work Log February 2015
+Work Log February 2016
 ======================
 **Tobin Harding**
 
@@ -121,9 +121,4 @@ Monday 29/02/16
 14:45 15:09 dev gopl - 
 15:48 18:01 dev gopl - 
 18:41 21:00 txt math -
-
-Tuesday 01/03/16
-----------------
-07:02 09:03 dev gopl - 
-09:48
 ******END********

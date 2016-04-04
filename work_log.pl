@@ -5,7 +5,7 @@ use autodie;
 #
 # manage log entries
 #
-my $file = "/home/tobin/build/github/work-logs/February.md";
+my $file = "/home/tobin/build/github/work-logs/April.md";
 my $editor = "/usr/bin/emacsclient"; # emacs in terminal window
 #my $editor = "/usr/bin/emacs --maximized";
 my $end_marker = '***** END *****';

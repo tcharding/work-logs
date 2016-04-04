@@ -9,7 +9,6 @@ com = community work (LUG)
 misc = miscellaneous
 
 ### Topic Key #
-apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago
 usp = UNIX Systems Programming - Robbins and Robbins
 cpl = The C Programming Language - Kernighan and Ritchie
 bash = BASH scripting
@@ -19,7 +18,6 @@ description key
 cpl = The C Programming Language - text and questions
 bash = BASH scripting
 tpp = The Pragmatic Programmer - Andrew Hunt, David Thmomas
-apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago
 usp = UNIX Systems Programming - Robbins and Robbins
 
 Wednesday 01/07/15 
