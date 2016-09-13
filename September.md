@@ -70,5 +70,8 @@ Tuesday 13/09/16
 13:20 15:20 dev h99 - 
 15:20 16:30 dev h99 - 
 16:36 17:25 read algos - 
-17:25
+17:25 18:06 dev haskell - BST implementation
+18:18 19:40 dev h99 -
+19:40 20:15 ops misc - clean up github repos
+20:16
 ******END********
