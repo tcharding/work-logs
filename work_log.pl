@@ -123,7 +123,7 @@ sub time_now {
     my @date = split / /,$ds;
     # change this to 3 if uninitialized var error
     # set to 4 if AEDT appears
-    my $hms = $date[4];
+    my $hms = $date[3];
 
     my ($h, $m, $s) = split /:/, $hms;
 
