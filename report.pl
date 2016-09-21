@@ -21,7 +21,7 @@ my %times_by_top;
 
 die "Usage: $0 [-d | -m] log.file\n"
     if (@ARGV < 1);
-    
+
 my $opt = "-m";			# default report on whole month
 if (@ARGV == 2) {
     $opt = shift @ARGV;
@@ -46,7 +46,7 @@ while (<STDIN>) {
 	$days_tc{$day}{$top}{$cat} += $time;
 	$catagories{$cat}{$top} += $time;
 	$topics{$top}{$cat} += $time;
-	
+
 	$times_by_day{$day} += $time;
 	$times_by_cat{$cat} += $time;
 	$times_by_top{$top} += $time;
@@ -55,9 +55,9 @@ while (<STDIN>) {
     }
 }
 if ($opt eq "-m") {
-    &print_totals;    
+    &print_totals;
 } elsif ($opt eq "-d") {
-    &print_all_days;    
+    &print_all_days;
 } else {
     die "Unknown option: $opt\n";
 }

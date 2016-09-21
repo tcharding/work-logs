@@ -7,18 +7,18 @@ start-time stop-time category topic - [ description ]
   
 ### Category Key #  
 misc = miscellaneous  
-ops = system operations    
-dev = development    
-com = community work (LUG)    
+ops = system operations  
+dev = development  
+com = community work (LUG)  
 read = read text book  
 exc = text book exercises  
   
 ### Topic Key #  
-misc = miscellaneous    
+misc = miscellaneous  
 gopl = The Go Programming Language - Alan A. A. Donovan, Brian W. Kernhigan  
 tlpi = The Linux Programming Interface - Michael Kerrisk  
 lkd = Linux Kernel Development - Robert Love  
-mm = mathematics text books and music practice (violin)   
+mm = mathematics text books and music practice (violin)  
 math = mathematics text books  
 music = violin practice (or music theory)  
 go = Golang programming  
@@ -27,9 +27,9 @@ kern = Linux kernel programming
 Sunday 03/04/16  
 ----------------  
 17:51 18:20 read tlpi - ch29  
-18:21 18:54 exc tlpi -   
+18:21 18:54 exc tlpi -  
 18:54 19:36 read tlpi - ch30  
-19:36 21:02 exc tlpi -   
+19:36 21:02 exc tlpi -  
   
 Monday 04/04/16  
 ----------------  
@@ -41,9 +41,9 @@ Monday 04/04/16
 11:49 12:26 exc tlpi - ch32  
 12:26 13:01 ops misc - mutt, email etc  
 13:02 13:51 ops misc - duplicity, kernel problems  
-13:52 14:32 read tlpi -   
+13:52 14:32 read tlpi -  
 16:36 17:09 read tlpi - ch34  
-17:09 18:30 exc tlpi -   
+17:09 18:30 exc tlpi -  
 18:30 21:00 misc mm -  
   
 Tuesday 05/04/16  
@@ -89,16 +89,16 @@ Friday 15/04/16
 Saturday 16/04/16  
 ----------------  
 15:30 16:26 read lkd - ch3  
-16:27 18:05 exc tlpi -   
-18:29 19:58 exc tlpi -   
+16:27 18:05 exc tlpi -  
+18:29 19:58 exc tlpi -  
 20:00 21:00 masc math -  
   
 Sunday 17/04/16  
 ----------------  
-07:31 09:10 dev kern -   
-09:10 09:55 read lkd -   
-11:30 13:04 dev kern -   
-13:29 14:22 read lkd -   
+07:31 09:10 dev kern -  
+09:10 09:55 read lkd -  
+11:30 13:04 dev kern -  
+13:29 14:22 read lkd -  
 14:22 16:44 dev kern -  
 16:45 17:59 exc tlpi - ch44  
 18:25 19:09 read tlpi - ch45  
@@ -107,18 +107,18 @@ Sunday 17/04/16
   
 Monday 18/04/16  
 ----------------  
-07:22 08:30 dev kern -   
+07:22 08:30 dev kern -  
 08:30 09:32 read tlip - ch46 and ch47  
 09:32 09:52 dev misc - stackoverflow pipe question/answer  
 10:00 10:39 dev kern - fix patch set to include full name  
 12:36 13:46 ops misc - - configure mutt/emacs  
-13:46 14:37 read lkd -   
-14:37 18:00 exc tlpi -   
+13:46 14:37 read lkd -  
+14:37 18:00 exc tlpi -  
 18:30 18:52 exc tlpi - ch46  
 18:52 20:07 read lkd - ch6  
 20:07 21:00 misc math -  
   
 Saturday 23/04/16  
 ----------------  
-07:50 09:29 read lkd -   
+07:50 09:29 read lkd -  
 ******END********  

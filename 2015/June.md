@@ -103,7 +103,7 @@ Thursday 18/06/15
 13:00 13:30 lunch  
 13:30 14:30 dev cpl  
   
-Friday 19 - Friday 26   
+Friday 19 - Friday 26  
 ---------------------  
 Holiday Blue Mountains  
   

@@ -7,13 +7,13 @@ Log files for day to day work sessions.
 * Each log contains key to contents.  
 * Print report with `./report month.md`  
   
-Typical Categories   
+Typical Categories  
 ------------------  
-ops = system operations    
-dev = development    
-com = community work (LUG)    
-misc = miscellaneous    
+ops = system operations  
+dev = development  
+com = community work (LUG)  
+misc = miscellaneous  
 read = read text book  
   
-_see individual log files for topics_    
+_see individual log files for topics_  
   

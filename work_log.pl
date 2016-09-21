@@ -9,7 +9,7 @@ my $file = "/home/tobin/build/github/work-logs/September.md";
 my $editor = "/usr/bin/emacsclient"; # emacs in terminal window
 #my $editor = "/usr/bin/emacs --maximized";
 my $end_marker = '***** END *****';
-    
+
 if (@ARGV == 0) {
     system "vimcat $file";
     exit;
@@ -37,7 +37,7 @@ sub end {
     open IN, '<', $file;
     open OUT, '>', $tmp;
     select OUT;
-    
+
     while (<IN>) {
 	chomp;
 	if (/\A\d{2}:\d{2}\Z/) {
@@ -45,10 +45,10 @@ sub end {
 	    print &time_now;
 	    printf " %s", shift @_;
 	    printf " %s", shift @_;
-	    print " - @_\n";
+	    print " - @_  \n";
 	} else {
 	    print;
-	    print "\n";
+	    print "  \n";
 	}
     }
     rename $tmp, $file;
@@ -60,7 +60,7 @@ sub new {
     open IN, '<', $file;
     open OUT, '>', $tmp;
     select OUT;
-    
+
     while (<IN>) {
 	if (/END/) {
 	    print "\n";
@@ -82,13 +82,13 @@ sub start {
     open IN, '<', $file;
     open OUT, '>', $tmp;
     select OUT;
-    
+
     while (<IN>) {
 	if (/END/) {
 	    if (defined $time) {
 		print $time;
 	    } else {
-		print &time_now;		
+		print &time_now;
 	    }
 	    print "\n";
 	    print;

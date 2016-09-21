@@ -3,23 +3,23 @@ Work Sessions September 20:15 - Tobin Harding
 _start stop category topic [ - description ]_  
   
 ### Category Key #  
-ops = system operations    
-dev = development    
-com = community work (LUG)    
-misc = miscellaneous    
+ops = system operations  
+dev = development  
+com = community work (LUG)  
+misc = miscellaneous  
   
 ### Topic Key #  
-apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago    
-usp = UNIX Systems Programming - Robbins and Robbins    
-bash = BASH scripting    
+apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  
+usp = UNIX Systems Programming - Robbins and Robbins  
+bash = BASH scripting  
 mixal = MIX Assembly Language - Knuth  
 Knuth = The Art of Computer Programming, Volume 1  
 lp = Learning Perl - Randal L. Schwartz, brian d foy and Tom Phoenix  
   
 ### logging/work method #  
-* break day into sessions of between 2 an 3 hours.    
-* include 'between session' breaks in logged time if less than 10 minutes.    
-* otherwise do not log breaks as time worked    
+* break day into sessions of between 2 an 3 hours.  
+* include 'between session' breaks in logged time if less than 10 minutes.  
+* otherwise do not log breaks as time worked  
   
 Tuesday 01/09/15  
 ---------------  
@@ -106,7 +106,7 @@ Sunday 20/09/15
 18:20 20:15 dev usp - completed usp ch14  
 20:15 20:40 read usp - read ch15  
   
-Monday 21/09/15   
+Monday 21/09/15  
 ---------------  
 06:45 10:00 dev usp -  Completed usp chapter 15  
 10:00 11:00 read usp - read ch16  

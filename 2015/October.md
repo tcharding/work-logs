@@ -5,16 +5,16 @@ Work Sessions September 20:15 - Tobin Harding
 start-time stop-time category topic [ - description ]  
   
 ### Category Key #  
-ops = system operations    
-dev = development    
-com = community work (LUG)    
-misc = miscellaneous    
+ops = system operations  
+dev = development  
+com = community work (LUG)  
+misc = miscellaneous  
 read = read text book  
   
 ### Topic Key #  
 sch - Applied Cryptography - Bruce Schneier  
 unp = UNIX Network Programming - W. Richard Stevens, Bill Fenner, Andrew M. Rudoff  
-apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago    
+apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  
 Knuth = The Art of Computer Programming, Volume 1  
 Knuth = The Art of Computer Programming, Volume 2 ( from Wednesday 14th)  
 ip = Intermediate Perl - Randal L. Schwartz, brian d foy and Tom Phoenix  
@@ -22,9 +22,9 @@ tpp = The Pragmatic Programmer - Andrew Hunt, David Thmomas
 crypto = Cryptography challenges  
   
 ### Logging/Work Method #  
-1. Break day into sessions of between 2 an 3 hours.    
-2. Include 'between session' breaks in logged time if less than 10 minutes.    
-3. Otherwise do not log breaks as time worked    
+1. Break day into sessions of between 2 an 3 hours.  
+2. Include 'between session' breaks in logged time if less than 10 minutes.  
+3. Otherwise do not log breaks as time worked  
   
 Thursday 01/10/15  
 -----------------  
@@ -102,7 +102,7 @@ Sunday 11/10/15
 15:33 15:53 dev unp - completed exercises ch 9  
 15:53 16:10 read unp - ch 10  
 16:11 17:34 dev unp - completed exercises chapter 10  
-17:57 20:35 read knuth -   
+17:57 20:35 read knuth -  
   
 Monday 12/10/15  
 ----------------  
@@ -112,7 +112,7 @@ Monday 12/10/15
 11:43 12:04 dev unp - completed exercises ch 12  
 12:04 12:26 read unp - ch 13  
 12:26 12:41 dev unp - completed exercises ch 13  
-14:11 15:06 read knuth -   
+14:11 15:06 read knuth -  
 15:12 15:51 read unp - ch14  
 15:51 16:41 dev unp - completed exercises ch 14  
 16:41 17:25 read ip - ch 1 and 2  
@@ -149,7 +149,7 @@ Sunday 18/10/15
 13:32 14:09 read unp - ch 21  
 14:09 14:30 dev unp - started exercises ch 20  
 14:59 15:07 dev unp - completed exercises ch 21  
-15:07 16:10 read knuth -   
+15:07 16:10 read knuth -  
 18:53 19:42 read knuth - completed reading chapter 3  
 19:42 20:08 read ip - ch 5  
 20:08 20:59 dev ip - started exercises ch 5  
@@ -189,7 +189,7 @@ Tuesday 20/10/15
 17:00 17:51 read ip - ch 10  
 17:51 18:03 dev ip - started exercises ch 10  
 18:20 20:09 dev ip - ch 10  
-20:10 20:53 read knuth -   
+20:10 20:53 read knuth -  
   
 Wednesday 21/10/15  
 ----------------  
@@ -199,21 +199,21 @@ Wednesday 21/10/15
 09:33 10:09 read usp - skimmed section 4  
 10:09 10:58 ops misc - set up for cryptography study block  
 11:55 12:50 dev crypto - - chal 1 and 2, base-conversion.pl re-write  
-12:51 14:02 dev crypto -   
+12:51 14:02 dev crypto -  
 20:13 22:00 read sch - ch 1  
   
 Sunday 25/10/15  
 ----------------  
 14:44 15:51 read sch - ch 2  
 15:58 17:00 read sch - ch 3  
-17:12 20:48 dev crypto -   
+17:12 20:48 dev crypto -  
   
 Monday 26/10/15  
 ----------------  
-08:30 10:05 dev crypto -   
+08:30 10:05 dev crypto -  
 11:13 12:09 read sch - ch 4  
 12:14 12:51 read sch - ch 5  
-12:51 17:21 dev crypto -   
+12:51 17:21 dev crypto -  
 17:21 17:36 read ip - ch 11  
 17:36 17:54 dev ip - ch 11  
 17:55 18:18 read ip - ch 12  
@@ -222,20 +222,20 @@ Monday 26/10/15
   
 Tuesday 27/10/15  
 ----------------  
-07:17 10:34 dev crypto -   
-11:12 13:18 dev crypto -   
+07:17 10:34 dev crypto -  
+11:12 13:18 dev crypto -  
 13:18 14:00 read sch - ch 6  
 15:18 15:57 read sch - ch 7  
-15:57 18:03 dev crypto -   
-18:17 18:46 read knuth -   
-18:46 20:03 dev crypto -   
+15:57 18:03 dev crypto -  
+18:17 18:46 read knuth -  
+18:46 20:03 dev crypto -  
 20:03 20:24 read ip - ch 13  
 20:24 20:24 read ip - ch 13  
 20:24 20:53 dev ip - module-starter hell  
   
 Wednesday 28/10/15  
 ----------------  
-07:30 09:38 dev crypto -   
+07:30 09:38 dev crypto -  
 09:38 10:39 read sch - ch 8  
 10:39 11:34 read sch - ch 9  
 11:34 13:17 ops misc - - backups  

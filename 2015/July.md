@@ -20,7 +20,7 @@ bash = BASH scripting
 tpp = The Pragmatic Programmer - Andrew Hunt, David Thmomas  
 usp = UNIX Systems Programming - Robbins and Robbins  
   
-Wednesday 01/07/15   
+Wednesday 01/07/15  
 ------------------  
 08:30 10:30 dev cpl  
   
@@ -34,7 +34,7 @@ Saturday 04/07/15
 07:00 09:00 dev cpl  
 10:00 12:00 dev cpl  
   
-July 5 - July 24   
+July 5 - July 24  
 ----------------  
 *Separated from wife and moved house*  
   
