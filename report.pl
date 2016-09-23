@@ -40,6 +40,7 @@ while (<STDIN>) {
     while (<STDIN>) {
 	last if /\A\Z/;
 	last if /END/;
+
 	my ($start, $end, $cat, $top) = split;
 	my $time = &duration($start, $end);
 	$days_ct{$day}{$cat}{$top} += $time;
