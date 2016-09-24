@@ -26,6 +26,7 @@ hunt = hunt for a job
 rwh = Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart    
 h99 = H-99: Ninety-Nine Haskell Problems - https://wiki.haskell.org/99_questions    
 cis = CIS194 http://www.seas.upenn.edu/~cis194/spring13/    
+maas = Ubuntu MAAS
     
 Sunday 04/09/16    
 ----------------    
@@ -128,6 +129,11 @@ Wednesday 21/09/16
 
 Friday 23/09/16
 ----------------
-16:30
-******END********    
+16:30 10:30 misc ops - ubuntu install and setup
     
+Saturday 24/09/16
+-----------------
+08:00 12:49 dev maas - started work on MAAS
+13:42 15:52 dev maas
+16:12
+******END********    
