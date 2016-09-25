@@ -2,17 +2,17 @@ Work Log July 2016
 ==================  
 **Tobin Harding**  
   
-### Format #  
+### Format  
 start-time stop-time category topic - [ description ]  
   
-### Category Key #  
+### Category Key  
 misc = miscellaneous  
 ops = system operations  
 dev = development  
 read = read text book  
 exc = text book exercises  
   
-### Topic Key #  
+### Topic Key  
 misc = miscellaneous  
 math = mathematics text books  
 kern = Linux kernel programming  

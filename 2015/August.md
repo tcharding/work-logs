@@ -2,13 +2,13 @@ Work Sessions August 20:15 - Tobin Harding
 =========================================  
 _start stop category topic [ - description ]_  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
 misc = miscellaneous  
   
-### Topic Key #  
+### Topic Key  
 apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  
 usp = UNIX Systems Programming - Robbins and Robbins  
 cpl = The C Programming Language - Kernighan and Ritchie  
@@ -16,7 +16,7 @@ bash = BASH scripting
 rust = The Rust Book (https://doc.rust-lang.org/stable/book)  
 mixal = MIX Assembly Language - Knuth  
   
-### logging/work method #  
+### logging/work method  
 * break day into sessions of between 2 an 3 hours.  
 * include 'between session' breaks in session log if less than 10 minutes.  
 * otherwise do not log breaks  

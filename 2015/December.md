@@ -2,17 +2,17 @@ Work Log December 2015
 =======================  
 **Tobin Harding**  
   
-### Format #  
+### Format  
 start-time stop-time category topic - [ description ]  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
 misc = miscellaneous  
 read = read text book  
   
-### Topic Key #  
+### Topic Key  
 crypto = cryptopals.com code challenges  
 cm = Concrete Mathematics - Graham, Knuth, Patashnik  
 git = Version Control with Git - Jon Loeliger and Matthew McCullough  
@@ -24,7 +24,7 @@ euler = Project Euler www.projecteuler.net
 hlw = How Linux Works - Brian Ward.  
 cc = clean code - Robert C. Martin  
   
-### Logging/Work Method #  
+### Logging/Work Method  
 1. Break day into sessions of between 2 an 3 hours.  
 2. Include 'between session' breaks in logged time if less than 10 minutes.  
 3. Otherwise do not log breaks as time worked  

@@ -2,16 +2,16 @@ Work Log January 2015
 =======================  
 **Tobin Harding**  
   
-### Format #  
+### Format  
 start-time stop-time category topic - [ description ]  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 misc = miscellaneous  
 read = read text book  
   
-### Topic Key #  
+### Topic Key  
 crypto = cryptopals.misc code challenges  
 kernel = Linux Kernel Development  
 doc = write documentation  

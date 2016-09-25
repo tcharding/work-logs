@@ -2,13 +2,13 @@ Work Sessions July 20:15 - Tobin Harding
 =======================================  
 _start stop category topic [ - description ]_  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
 misc = miscellaneous  
   
-### Topic Key #  
+### Topic Key  
 usp = UNIX Systems Programming - Robbins and Robbins  
 cpl = The C Programming Language - Kernighan and Ritchie  
 bash = BASH scripting  

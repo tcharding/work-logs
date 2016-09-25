@@ -2,10 +2,10 @@ Work Log September 2016
 =======================  
 **Tobin Harding**  
   
-### Format #  
+### Format  
 start-time stop-time category topic - [ description ]  
   
-### Category Key #  
+### Category Key  
 misc = miscellaneous  
 ops = system operations  
 dev = development  
@@ -13,7 +13,7 @@ read = read text book
 exc = text book exercises  
 job = employment related activities  
   
-### Topic Key #  
+### Topic Key  
 misc = miscellaneous  
 kern = Linux kernel programming  
 edc = Eudyptula Challenge  

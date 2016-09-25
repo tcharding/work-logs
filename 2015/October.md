@@ -1,17 +1,17 @@
 Work Sessions September 20:15 - Tobin Harding  
 ============================================  
   
-### Format #  
+### Format  
 start-time stop-time category topic [ - description ]  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
 misc = miscellaneous  
 read = read text book  
   
-### Topic Key #  
+### Topic Key  
 sch = Applied Cryptography - Bruce Schneier  
 unp = UNIX Network Programming - W. Richard Stevens, Bill Fenner, Andrew M. Rudoff  
 apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  

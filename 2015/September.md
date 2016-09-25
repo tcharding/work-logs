@@ -2,13 +2,13 @@ Work Sessions September 20:15 - Tobin Harding
 ============================================  
 _start stop category topic [ - description ]_  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
 misc = miscellaneous  
   
-### Topic Key #  
+### Topic Key  
 apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  
 usp = UNIX Systems Programming - Robbins and Robbins  
 bash = BASH scripting  

@@ -2,13 +2,13 @@ Work Sessions June 20:15 - Tobin Harding
 =======================================  
 start_time stop_time category [description ...]  
 
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
 misc = miscellaneous  
 
-### Topic Key #  
+### Topic Key  
 crypto = cryptopals.com code challenges  
 cpl = The C Programming Language - Kernighan and Ritchie  
 unp = UNIX Network Programming - W. Richard Stevens, Bill Fenner, Andrew M. Rudoff  

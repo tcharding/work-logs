@@ -2,10 +2,10 @@ Work Log November 2015
 ======================  
 **Tobin Harding**  
   
-### Format #  
+### Format  
 start-time stop-time category topic [ - description ]  
   
-### Category Key #  
+### Category Key  
 ops = system operations  
 dev = development  
 com = community work (LUG)  
@@ -13,7 +13,7 @@ misc = miscellaneous
 read = read text book  
 math = mathematics  
   
-### Topic Key #  
+### Topic Key  
 sch = Applied Cryptography - Bruce Schneier  
 knuth = The Art of Computer Programming
 ip = Intermediate Perl - Randal L. Schwartz, brian d foy and Tom Phoenix  
