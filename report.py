@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import re
 import argparse
+import time
+import datetime
 
 """
 Print report of log files.
@@ -9,12 +11,12 @@ report --categories --topics --by-category --by-topic September.md
 
 """
 
-CATEGORY_HEADER = "### Category Key #"
-TOPIC_HEADER = "### Topic Key #"
+CATEGORY_HEADER = "### Category Key"
+TOPIC_HEADER = "### Topic Key"
 
 categories = {}
 topics = {}
-days = []
+DAYS = []
 
 regex = r'(\d{1,2})[/-](\d{1,2})[/-](\d{1,4})'
 
@@ -37,7 +39,7 @@ def parse_log_file(log_file):
         match = re.search(regex, line)
         if match:
             day = Day(match.group(0))
-            days.append(day)
+            DAYS.append(day)
             line = next(f)                 # skip underline
             line = next(f)                 # get first log entry
             add_sessions(f, day, line)
@@ -99,15 +101,13 @@ def calc_duration(start, end):
     
     return duration
 
-def total_hours():
+def total_hours(days):
+    """Return total hours from days."""
     total = 0
     for d in days:
         total += d.total_hours()
 
     return total
-
-def total_days():
-    return len(days)
 
 def merge(d, e):
     """Merge two dictionaries"""
@@ -215,15 +215,71 @@ def pp_dict(d):
         print(k, ":", d[k])
     print("")
 
-def show_stats():
-    td = total_days()
-    th = total_hours()
+def days_today(days):
+    """Return singular list of today's Day."""
+    now = datetime.datetime.now()
+    date = now.strftime("%d/%m/%y")
+
+    for d in days:
+        if d.date == date:
+            return [d]
+
+    return None
+
+def days_this_week(days):
+    """Return list of this weeks Days."""
+    week = []
+    for d in days:
+        if is_this_week(d.date):
+            week.append(d)
+
+    return week
+
+# date form: dd/mm/yy
+def is_this_week(date):
+    """this week is defined as last Sunday until today."""
+    now = datetime.datetime.now()
+    today = now.strftime("%d/%m/%y")
+
+    (td, tm, ty) = today.split("/", 3)
+    (dd, dm, dy) = date.split("/", 3)
+                    
+    if ty != dy or tm != dm:
+        return False
+
+    n = todays_day_number()
+
+    if int(dd) + n >= int(td):
+        return True
+
+    return False
+
+def todays_day_number():
+    dow = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+    now = datetime.datetime.now()
+    day = now.strftime("%A")
+
+    for i in range(7):
+        if dow[i] == day:
+            return i
+
+    return -1                   # error
+    
+def log_file_for_this_month():
+    """Return name of this month."""
+    now = datetime.datetime.now()
+    return now.strftime("%B") + '.md'
+    
+def show_stats(days):
+    td = len(days)
+    th = total_hours(days)
 
     print("Total days worked: ", td)
     print("Total hours logged: ", th)
     print("")
 
-def show_by_category():
+def show_by_category(days):
     totals = {}
     print("Hours worked by category:")
     print("-------------------------")
@@ -237,7 +293,7 @@ def show_by_category():
 
     print("")
 
-def show_by_topic():        
+def show_by_topic(days):        
     totals = {}
     print("Hours worked by topic:")
     print("----------------------")
@@ -256,46 +312,70 @@ def pp_minutes(m):
     h = m // 60
     r = m - (h * 60)
     print("%s h %s m" % (h, r))
-              
-def main():
-    
+
+def results_argsparse():    
+    """Parse args and return results."""
     parser = argparse.ArgumentParser(description='Print report from work logs.')
 
     parser.add_argument('--categories', action='store_true', default=False,
-                    dest='show_categories',
-                    help='Show description of categories')
+                        dest='show_categories',
+                        help='Show description of categories')
 
     parser.add_argument('--topics', action='store_true', default=False,
-                    dest='show_topics',
-                    help='Show description of topics')
+                        dest='show_topics',
+                        help='Show description of topics')
 
     parser.add_argument('--by-category', action='store_true', default=False,
-                    dest='by_category',
-                    help='Show work time logged by category')
+                        dest='by_category', help='Show work time logged by category')
 
     parser.add_argument('--by-topic', action='store_true', default=False,
-                    dest='by_topic',
-                    help='Show work time logged by topic')
-    parser.add_argument('log_files', nargs='*')
+                    dest='by_topic', help='Show work time logged by topic')
 
-    op = parser.parse_args()
+    parser.add_argument('--period', action='store', dest='period', default="month",
+                        help='(day | week | month), report period')
+    
+    parser.add_argument('log', nargs='*', help='input files')
+#                        default=log_file_for_this_month())
 
-    if not op.log_files:
-        print("Please supply log files to report on")
+    results = parser.parse_args()
+    
+    if not results.log:
+        print("Please supply input log files")
+        return None
+
+    return results
+
+def main():
+    op = results_argsparse()
+    if op == None:
+        exit()
+
+    parse_log_files(op.log)
+
+    if op.period == "day":
+        days = days_today(DAYS)
+    elif op.period == "week":
+        days = days_this_week(DAYS)
+    elif op.period == "month":
+        days = DAYS
+    else:
+        print("Error: unsupported period (day | week | month): ", op.period)
+        exit()
+       
+    if days == None or days == []: # is this correct Python?
+        print("Error: you don't appear to have any logged days for that period")
         exit()
         
-    parse_log_files(op.log_files)
-    
     if op.show_categories:
-        show_categories()
+        show_categories(days)
     if op.show_topics:
-        show_topics()
+        show_topics(days)
     if op.by_category:
-        show_by_category()
+        show_by_category(days)
     if op.by_topic:
-        show_by_topic()
+        show_by_topic(days)
 
-    show_stats()
-    
+    show_stats(days)
+
 if __name__ == "__main__":
     main()

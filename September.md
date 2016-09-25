@@ -122,24 +122,26 @@ Wednesday 21/09/16
 11:06 12:08 dev cis - wk06    
 12:08 16:17 dev cis -    
 16:17 18:55 dev cis -    
-18:56 19:41 read algos -    
-19:41 20:46 misc job - updated resume    
+18:56 19:41 read algos -  
+19:41 20:46 misc job - updated resume  
 20:46 20:59 dev misc - lg script  
 
-Friday 23/09/16
-----------------
-16:30 10:30 misc ops - ubuntu install and setup
-    
-Saturday 24/09/16
------------------
-08:00 12:49 dev maas - started work on MAAS
-13:42 15:52 dev maas -
-16:12 20:00 dev maas -
-22:00 24:20 dev python - worked on log scripts in python
-
-Sunday 25/09/16
----------------
-09:00 14:03 dev misc - python script for log reports
+Friday 23/09/16  
+----------------  
+16:30 22:30 misc ops - ubuntu install and setup  
+      
+Saturday 24/09/16  
+-----------------  
+08:00 12:49 dev maas - started work on MAAS  
+13:42 15:52 dev maas -  
+16:12 20:00 dev maas -  
+22:00 00:20 dev python - worked on log scripts in python  
+  
+Sunday 25/09/16  
+---------------  
+09:00 14:03 dev misc - python script for log reports  
+14:44 17:15 dev misc - python script for creating logs  
+17:20 19:10 dev misc - added features to report
 
 
 
