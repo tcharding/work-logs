@@ -16,7 +16,7 @@ FILE = "dev.md"
     
 def main():
     if len(sys.argv) == 1:
-        show()                  # for convenience 
+        cmd = "show"            # for convenience 
     else:
         cmd = sys.argv[1]
 
@@ -42,7 +42,7 @@ def main():
 
         end(content, sys.argv[2:len(sys.argv)])
 
-    elif cmd == "new-day":
+    elif cmd == "new-day" or cmd == "new":
         new_day(content)
 
     else:
