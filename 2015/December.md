@@ -13,7 +13,7 @@ misc = miscellaneous
 read = read text book  
   
 ### Topic Key #  
-crypto = Cryptography challenges  
+crypto = cryptopals.com code challenges  
 cm = Concrete Mathematics - Graham, Knuth, Patashnik  
 git = Version Control with Git - Jon Loeliger and Matthew McCullough  
 kernel = Linux Kernel Development  
@@ -75,7 +75,7 @@ Wednesday 09/12/15
 ----------------  
 06:59 08:20 read ldd -  
 08:21 11:02 dev kernel -  
-11:40 12:51 com lug - - email and wiki  
+11:40 12:51 com lug - email and wiki  
 12:51 14:50 read ldd -  
 15:02 16:56 dev kernel -  
 16:56 18:01 misc git - and kernel  
@@ -86,7 +86,7 @@ Thursday 10/12/15
 ----------------  
 07:02 07:33 misc doc - started document how to become a kernel hacker  
 07:33 08:56 dev misc - cleaned up self_learning tree  
-08:56 09:30 ops misc - - domain registrar, email  
+08:56 09:30 ops misc - domain registrar, email  
 09:30 11:51 dev blp -  
 12:38 17:31 dev blp -  
   
@@ -124,7 +124,7 @@ Thursday 17/12/15
 05:24 07:06 read blp -  
 07:06 08:30 ops abook  
 08:31 09:30 ops misc - mutt, gpg  
-15:00 16:22 ops mutt, gpg  
+15:00 16:22 ops misc - mutt, gpg  
 16:23 17:35 read blp -  
 17:36 18:51 dev euler -  
 19:04 21:35 dev euler -  
@@ -138,7 +138,7 @@ Tuesday 22/12/15
 06:31 07:21 dev euler -  
 07:21 10:41 dev euler -  
 10:46 11:15 read per -  
-11:15 11:41 hlw  -  
+11:15 11:41 read hlw  -  
 12:12 16:20 dev euler -  
 16:20 16:46 read per -  
 16:46 17:28 read hlw -  
@@ -183,7 +183,7 @@ Monday 28/12/15
 06:52 12:49 dev crypto -  
 14:39 16:35 read hlw - finished text  
 16:35 16:51 read cc -  
-16:51 17:23 misc design - re-think current tasks  
+16:51 17:23 misc design - re think current tasks  
 17:23 18:37 dev euler -  
 18:37 21:05 dev scheme -  
   
@@ -194,4 +194,4 @@ Tuesday 29/12/15
 07:54 09:59 dev crypto -  
 10:59 12:04 dev crypto -  
 12:05 14:30 dev spl - ch 2 parts 1 to 4  
-***** END *****  
+

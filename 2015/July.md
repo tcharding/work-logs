@@ -12,13 +12,7 @@ misc = miscellaneous
 usp = UNIX Systems Programming - Robbins and Robbins  
 cpl = The C Programming Language - Kernighan and Ritchie  
 bash = BASH scripting  
-  
-description key  
----------------  
-cpl = The C Programming Language - text and questions  
-bash = BASH scripting  
 tpp = The Pragmatic Programmer - Andrew Hunt, David Thmomas  
-usp = UNIX Systems Programming - Robbins and Robbins  
   
 Wednesday 01/07/15  
 ------------------  
@@ -48,7 +42,7 @@ Monday 27/07/15
 11:30 14:30 dev cpl  
 16:30 18:30 dev cpl  
 18:30 19:00 dev cpl  
-19:00 20:00 misc tpp - The Practical Programmer - Hunt and Thomas  
+19:00 20:00 misc tpp - The Practical Programmer, Hunt and Thomas  
 20:00 20:30 dev cpl  
   
 Tuesday 28/07/15  

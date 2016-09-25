@@ -9,7 +9,6 @@ start-time stop-time category topic - [ description ]
 misc = miscellaneous  
 ops = system operations  
 dev = development  
-com = community work (LUG)  
 read = read text book  
 exc = text book exercises  
   
@@ -52,9 +51,9 @@ Tuesday 05/04/16
 08:43 09:50 read tlpi - ch35  
 09:50 11:51 exc tlpi - start ch35  
 11:51 12:10 read tlpi - ch36  
-12:52 13:26 exc tlpi - completed ch35  
+12:52 13:26 exc tlpi - miscpleted ch35  
 13:26 14:59 exc tlpi - ch36  
-14:59 15:43 reat tlpi - ch37  
+14:59 15:43 read tlpi - ch37  
 15:43 15:57 exc tlip - ch37  
 15:59 18:02 dev go - html code gen and persoal site  
 18:30 21:00 misc mm -  
@@ -66,7 +65,7 @@ Wednesday 06/04/16
 10:21 12:00 read misc - memory paper  
 12:25 13:30 read misc - memory paper  
 13:30 14:00 misc music -  
-17:00 21:00 com lug - lug meeting  
+17:00 21:00 misc lug - lug meeting  
   
 Thursday 14/04/16  
 ----------------  
@@ -82,7 +81,7 @@ Thursday 14/04/16
   
 Friday 15/04/16  
 ----------------  
-07:23 07:56 dev misc - tlpi re-read libcap section  
+07:23 07:56 dev misc - tlpi re read libcap section  
 07:57 08:27 read tlpi - ch43  
 10:09 11:43 read tlpi - ch44  
   
@@ -91,7 +90,7 @@ Saturday 16/04/16
 15:30 16:26 read lkd - ch3  
 16:27 18:05 exc tlpi -  
 18:29 19:58 exc tlpi -  
-20:00 21:00 masc math -  
+20:00 21:00 misc math -  
   
 Sunday 17/04/16  
 ----------------  
@@ -111,7 +110,7 @@ Monday 18/04/16
 08:30 09:32 read tlip - ch46 and ch47  
 09:32 09:52 dev misc - stackoverflow pipe question/answer  
 10:00 10:39 dev kern - fix patch set to include full name  
-12:36 13:46 ops misc - - configure mutt/emacs  
+12:36 13:46 ops misc - configure mutt/emacs  
 13:46 14:37 read lkd -  
 14:37 18:00 exc tlpi -  
 18:30 18:52 exc tlpi - ch46  
@@ -121,4 +120,5 @@ Monday 18/04/16
 Saturday 23/04/16  
 ----------------  
 07:50 09:29 read lkd -  
-******END********  
+
+ 

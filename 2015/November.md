@@ -14,10 +14,10 @@ read = read text book
 math = mathematics  
   
 ### Topic Key #  
-sch - Applied Cryptography - Bruce Schneier  
-Knuth = The Art of Computer Programming, Volume 3 ( from Monday 9th)  
+sch = Applied Cryptography - Bruce Schneier  
+knuth = The Art of Computer Programming
 ip = Intermediate Perl - Randal L. Schwartz, brian d foy and Tom Phoenix  
-crypto = Cryptography challenges  
+crypto = cryptopals.com code challenges  
 mp = Mastering Perl - brian d foy  
 thw = Python the Hard Way - learnpythonthehardway.com  
 cm = Concrete Mathematics - Graham, Knuth, Patashnik  
@@ -36,7 +36,7 @@ Monday 02/11/15
 09:05 10:10 dev crypto -  
 11:25 12:39 dev perl  
 12:40 14:46 dev ip -  
-14:48 16:29 dev ip - - worked on exercises in ch 13/14 (incomplete)  
+14:48 16:29 dev ip - worked on exercises in ch 13/14 (incomplete)  
 16:31 17:02 read knuth -  
 19:09 21:14 dev crypto -  
 21:19 23:01 dev crypto -  
@@ -47,7 +47,7 @@ Tuesday 03/11/15
 08:48 09:15 read sch - ch 14  
 09:15 09:30 read sch - ch 15  
 09:30 10:00 dev crypto -  
-10:00 10:26 com lug emails  
+10:00 10:26 com lug - emails  
 10:26 12:06 dev cyrpto -  
 12:39 17:56 dev crypto -  
 18:08 21:15 dev crypto -  
@@ -132,23 +132,23 @@ Tuesday 17/11/15
   
 Wednesday 18/11/15  
 ----------------  
-06:40 07:42 dev thw - ex [1 - 11]  
-08:32 09:59 dev thw - ex [1 - 16] re-did from beginning  
+06:40 07:42 dev thw - ex [1 to 11]  
+08:32 09:59 dev thw - ex [1 to 16] re did from beginning  
 10:05 10:16 dev thw - ex 17  
-10:21 11:33 dev thw - ex [18 - 30]  
-11:40 12:55 dev thw - ex [31 - 40]  
+10:21 11:33 dev thw - ex [18 to 30]  
+11:40 12:55 dev thw - ex [31 to 40]  
 12:55 13:40 read tpp  
   
 Sunday 22/11/15  
 ----------------  
-14:00 18:19 dev thw - [41 - 48]  
+14:00 18:19 dev thw - [41 to 48]  
 18:38 19:55 dev thw - 49  
 20:01 21:33 math cm - started ch1  
   
 Monday 23/11/15  
 ----------------  
 06:57 7:19 misc thw - concluded Python the Hard Way  
-07:20 07:50 dev crypto - - restarted challenges in Python  
+07:20 07:50 dev crypto - restarted challenges in Python  
 07:50 08:33 read per - ch 3  
 08:34 10:07 dev crypto -  
 11:14 12:05 dev crypto -  
@@ -186,4 +186,4 @@ Monday 30/11/15
 13:11 17:12 dev crypto -  
 17:17 19:04 dev crypto -  
 19:04 19:53 read per -  
-***** END *****  
+

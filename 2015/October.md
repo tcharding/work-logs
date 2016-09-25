@@ -12,19 +12,13 @@ misc = miscellaneous
 read = read text book  
   
 ### Topic Key #  
-sch - Applied Cryptography - Bruce Schneier  
+sch = Applied Cryptography - Bruce Schneier  
 unp = UNIX Network Programming - W. Richard Stevens, Bill Fenner, Andrew M. Rudoff  
 apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago  
-Knuth = The Art of Computer Programming, Volume 1  
-Knuth = The Art of Computer Programming, Volume 2 ( from Wednesday 14th)  
+knuth = The Art of Computer Programming   
 ip = Intermediate Perl - Randal L. Schwartz, brian d foy and Tom Phoenix  
 tpp = The Pragmatic Programmer - Andrew Hunt, David Thmomas  
-crypto = Cryptography challenges  
-  
-### Logging/Work Method #  
-1. Break day into sessions of between 2 an 3 hours.  
-2. Include 'between session' breaks in logged time if less than 10 minutes.  
-3. Otherwise do not log breaks as time worked  
+crypto = cryptopals.com code challenges  
   
 Thursday 01/10/15  
 -----------------  
@@ -63,9 +57,9 @@ Saturday 03/10/15
 Monday 05/10/15  
 ---------------  
 07:15 08:30 read unp - ch1  
-08:30 10:30 ops perl/bash - fell down a bash/perl hole  
+08:30 10:30 ops misc - fell down a bash/perl hole  
 10:30 11:30 ops unp - setup initial tree, wrote newchapter.pl  
-11:30 12:30 ops perl - wrote mod-file.pl  
+11:30 12:30 dev perl - 
 12:30 14:15 dev unp - compeleted ch1  
 15:30 16:30 read unp - ch2  
 16:30 17:00 dev unp - compeleted ch2  
@@ -80,11 +74,11 @@ Tuesday 06/10/15
 06:55 08:30 dev unp  
 09:00 09:30 dev unp - completed exercises chapter 4  
 09:30 10:55 read unp - ch 5  
-10:55 11:40 dev unp _ completed exercises chapter 5  
+10:55 11:40 dev unp - completed exercises chapter 5  
 12:00 12:40 read unp - started reading ch6  
 13:40 14:08 read unp - finished ch6  
 14:08 16:44 dev unp - completed exercises chapter 6  
-16:44 18:08 dev perl - tried to write log parser - failed  
+16:44 18:08 dev perl - tried to write log parser, failed  
 19:00 21:00 dev perl - worked on work_log.pl, new script to manage logging  
   
 Wednesday 07/10/15  
@@ -171,7 +165,7 @@ Monday 19/10/15
 18:06 18:46 dev ip - ch 7  
 18:46 19:07 read ip - ch 8  
 19:07 19:41 dev ip - ch 8  
-19:41 20:20 dev perl - added -d option to log report  
+19:41 20:20 dev perl - added 'd' option to log report  
   
 Tuesday 20/10/15  
 ----------------  
@@ -198,7 +192,7 @@ Wednesday 21/10/15
 08:11 09:33 dev web - updated personal website and resume  
 09:33 10:09 read usp - skimmed section 4  
 10:09 10:58 ops misc - set up for cryptography study block  
-11:55 12:50 dev crypto - - chal 1 and 2, base-conversion.pl re-write  
+11:55 12:50 dev crypto - chal 1 and 2, base_conversion.pl re write  
 12:51 14:02 dev crypto -  
 20:13 22:00 read sch - ch 1  
   
@@ -231,18 +225,19 @@ Tuesday 27/10/15
 18:46 20:03 dev crypto -  
 20:03 20:24 read ip - ch 13  
 20:24 20:24 read ip - ch 13  
-20:24 20:53 dev ip - module-starter hell  
+20:24 20:53 dev ip -
   
 Wednesday 28/10/15  
 ----------------  
 07:30 09:38 dev crypto -  
 09:38 10:39 read sch - ch 8  
 10:39 11:34 read sch - ch 9  
-11:34 13:17 ops misc - - backups  
+11:34 13:17 ops misc - backups  
 13:17 14:00 dev crypto -  
   
 Sunday 01/11/15  
 ----------------  
 14:53 15:42 read sch - ch 10  
 15:45 16:37 read sch - ch 11  
-***** END *****  
+
+

@@ -9,7 +9,6 @@ start-time stop-time category topic - [ description ]
 misc = miscellaneous  
 ops = system operations  
 dev = development  
-com = community work (LUG)  
 read = read text book  
 exc = text book exercises  
   
@@ -18,8 +17,8 @@ misc = miscellaneous
 math = mathematics text books  
 kern = Linux kernel programming  
 arm = ARM Assembly Language - William Hohl  
-cc = Code Complete - Steve McConnell  
-tls = The little Schemer  
+miscp = Code Complete - Steve McConnell  
+tls = The Little Schemer - Danial P. Friedman, Matthias Felleisen  
 tspl = The Scheme Programming Language - R. Kent Dybvig  
 sicp = The Structure and Interpretation of Computer Programs  
 scm = Scheme  
@@ -45,8 +44,8 @@ Tuesday 07/06/16
 ----------------  
 07:42 10:37 dev arm -  
 12:50 17:41 dev arm -  
-17:41 18:04 read cc -  
-18:20 19:03 read cc -  
+17:41 18:04 read miscp -  
+18:20 19:03 read miscp -  
 19:04 21:00 misc math -  
   
 Wednesday 08/06/16  
@@ -67,9 +66,9 @@ Monday 13/06/16
 11:37 11:46 misc ops - emails  
 11:46 13:14 ops kern -  
 14:07 15:25 misc kern -  
-17:00 19:41 dev tls - chapters 1 - 4 inclusive  
+17:00 19:41 dev tls - chapters 1 to 4 inclusive  
 19:41 20:39 misc math - linear algebra  
-20:39 21:00 read cc -  
+20:39 21:00 read miscp -  
   
 Tuesday 14/06/16  
 ----------------  
@@ -90,7 +89,7 @@ Sunday 19/06/16
 12:56 15:05 dev tspl -  
 16:15 17:59 dev tspl -  
 18:17 20:41 dev sicp -  
-20:41 21:13 read cc -  
+20:41 21:13 read miscp -  
   
 Monday 20/06/16  
 ----------------  
@@ -100,7 +99,7 @@ Monday 20/06/16
 15:00 17:50 dev sicp -  
 17:50 18:07 misc read - guile manual  
 18:07 20:17 read tls -  
-n  
+
 Tuesday 21/06/16  
 ----------------  
 07:49 09:50 dev sicp -  
@@ -124,4 +123,5 @@ Thursday 23/06/16
 Thursday 30/06/16  
 ----------------  
 19:00 20:57 dev scheme -  
-******END********  
+
+ 

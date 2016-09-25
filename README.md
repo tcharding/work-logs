@@ -11,7 +11,6 @@ Typical Categories
 ------------------  
 ops = system operations  
 dev = development  
-com = community work (LUG)  
 misc = miscellaneous  
 read = read text book  
   

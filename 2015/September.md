@@ -13,13 +13,8 @@ apue = Advanced Programming in the UNIX Environment - W. R. Stevens, S. A. Rago
 usp = UNIX Systems Programming - Robbins and Robbins  
 bash = BASH scripting  
 mixal = MIX Assembly Language - Knuth  
-Knuth = The Art of Computer Programming, Volume 1  
+knuth = The Art of Computer Programming
 lp = Learning Perl - Randal L. Schwartz, brian d foy and Tom Phoenix  
-  
-### logging/work method #  
-* break day into sessions of between 2 an 3 hours.  
-* include 'between session' breaks in logged time if less than 10 minutes.  
-* otherwise do not log breaks as time worked  
   
 Tuesday 01/09/15  
 ---------------  
@@ -85,7 +80,7 @@ Monday 14/09/15
 Tuesday 15/09/15  
 ----------------  
 07:00 10:00 read apue - read chapter 14, and various man pages  
-10:40 12:45 dev misc updated lib/ and include/apue.h, wrote signals section in $NOTES/C.md  
+10:40 12:45 dev misc - updated lib/ and include/apue.h, wrote signals section in $NOTES/C.md  
 12:45 13:50 dev apue  
 14:35 16:05 dev apue - Completed chapter 14  
 16:05 17:30 read apue - started reading ch15  
@@ -113,7 +108,7 @@ Monday 21/09/15
 11:00 13:00 dev usp  
 13:30 15:10 dev usp - finised usp section 16.7  
 15:10 16:15 read apue - started reading ch16  
-17:30 20:20 dev lp - did chapters 1 - 4  
+17:30 20:20 dev lp - did chapters 1 to 4  
   
 Tuesday 22/09/15  
 ---------------  

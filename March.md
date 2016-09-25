@@ -9,7 +9,6 @@ start-time stop-time category topic - [ description ]
 misc = miscellaneous  
 ops = system operations  
 dev = development  
-com = community work (LUG)  
 read = read text book  
 exc = text book exercises  
   
@@ -80,7 +79,7 @@ Monday 14/03/16
 12:38 13:15 read tlpi - ch7  
 13:15 16:05 exc tlpi - start of ch7 (malloc and free)  
 16:32 17:05 read shell - ch6 and ch7  
-17:06 17:15 dev exc - tlpi ch7 (allocator imp incomplete)  
+17:06 17:15 dev exc - tlpi ch7 (allocator imp inmiscplete)  
 17:15 17:48 read tlpi - ch8  
 17:48 17:59 exc tlpi - ch8  
 18:52 21:02 read math -  
@@ -143,7 +142,7 @@ Wednesday 23/03/16
 09:38 13:10 exc tlpi -  
 13:24 13:56 read tlpi - ch19  
 13:56 14:39 exc tlpi -  
-14:39 16:02 ops misc - - printer (oh brother!)  
+14:39 16:02 ops misc - printer (oh brother!)  
 16:02 16:18 exc tlpi -  
   
 Sunday 27/03/16  
@@ -190,12 +189,13 @@ Wednesday 30/03/16
 ----------------  
 07:26 09:08 read tlpi - ch27  
 09:08 09:30 exc tlpi -  
-10:00 12:02 ext tlpi -  
-12:32 13:32 read arm - ARM Assembly Language - William Hohl  
+10:00 12:02 exc tlpi -  
+12:32 13:32 read arm - ARM Assembly Language, William Hohl  
 13:33 15:01 exc tlpi - ch27  
 15:11 15:40 read tlpi - ch28  
 15:40 15:56 exc tlpi - ch28  
-15:57 17:56 dev go - - more code generation  
+15:57 17:56 dev go - more code generation  
 18:25 19:05 misc music -  
 19:05 21:00 misc math -  
-******END********  
+
+ 

@@ -9,7 +9,6 @@ start-time stop-time category topic - [ description ]
 misc = miscellaneous    
 ops = system operations    
 dev = development    
-com = community work (LUG)    
 read = read text book    
 exc = text book exercises    
 job = employment related activities    
@@ -19,7 +18,7 @@ misc = miscellaneous
 kern = Linux kernel programming    
 edc = Eudyptula Challenge    
 sicp = The Structure and Interpretation of Computer Programs    
-lyah = Learn You a Haskell For Great Good! http://learnyouahaskell.com/    
+lyah = Learn You a Haskell For Gread Good! http://learnyouahaskell.misc/    
 euler = Project Euler https://projecteuler.net/    
 algos = Introduction to Algorithms - Cormen, Leiserson, Rivest, Stein    
 hunt = hunt for a job    
@@ -134,6 +133,7 @@ Friday 23/09/16
 Saturday 24/09/16
 -----------------
 08:00 12:49 dev maas - started work on MAAS
-13:42 15:52 dev maas
-16:12
-******END********    
+13:42 15:52 dev maas -
+16:12 20:00 dev maas -
+22:00 24:20 dev python - worked on log scripts in python
+

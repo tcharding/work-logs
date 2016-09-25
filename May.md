@@ -9,14 +9,12 @@ start-time stop-time category topic - [ description ]
 misc = miscellaneous  
 ops = system operations  
 dev = development  
-com = community work (LUG)  
 read = read text book  
 exc = text book exercises  
   
 ### Topic Key #  
 misc = miscellaneous  
 math = mathematics text books  
-music = violin practice  
 kern = Linux kernel programming  
 ldd = Linux Device Drivers  
 eldd = Essential Linux Device Drivers  
@@ -118,7 +116,7 @@ Sunday 29/05/16
 15:54 16:54 dev kern -  
 16:54 18:00 read eldd -  
 18:13 18:58 read eldd -  
-18:58 21:07 misc ops - - gnome setup on laptop  
+18:58 21:07 misc ops - gnome setup on laptop  
   
 Monday 30/05/16  
 ----------------  
@@ -156,4 +154,5 @@ Monday 06/06/16
 Tuesday 07/06/16  
 ----------------  
 07:42 10:37 dev arm -  
-******END********  
+
+ 
