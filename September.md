@@ -137,3 +137,9 @@ Saturday 24/09/16
 16:12 20:00 dev maas -
 22:00 24:20 dev python - worked on log scripts in python
 
+Sunday 25/09/16
+---------------
+09:00 14:03 dev misc - python script for log reports
+
+
+
