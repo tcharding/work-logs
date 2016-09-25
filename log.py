@@ -3,16 +3,28 @@ import re
 import sys
 import time
 
-"""
-Add log entry to log file
+FILE = "September.md"
 
-Usage:
- log new-day - start a new day
- log start - start work session
- log end category topic description ... - end a work session
+def usage():
+    print(
 """
+Usage: log (show | start | new-day)
+       log end <category> <topic> [<description>]  
 
-FILE = "dev.md"
+Commands:
+
+ show      show the log file
+ new-day   start a new day
+ start     start new session
+ end       end a session
+
+Example: 
+ 
+ log end dev python wrote script for adding log entry
+           
+
+""")
+    exit()
     
 def main():
     if len(sys.argv) == 1:
@@ -57,27 +69,6 @@ def rm_trailing_newlines(lines):
             lines.pop()
         else:
             break
-
-def usage():
-    print(
-"""
-Usage: log (show | start | new-day)
-       log end <category> <topic> [<description>]  
-
-Commands:
-
- show      show the log file
- new-day   start a new day
- start     start new session
- end       end a session
-
-Example: 
- 
- log end dev python wrote script for adding log entry
-           
-
-""")
-    exit()
 
 def show(lines):
     for l in lines:
