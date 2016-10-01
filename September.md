@@ -26,6 +26,7 @@ rwh = Real World Haskell - Bryan O'Sullivan, John Goerzen, Don Stewart
 h99 = H-99: Ninety-Nine Haskell Problems - https://wiki.haskell.org/99_questions    
 cis = CIS194 http://www.seas.upenn.edu/~cis194/spring13/    
 maas = Ubuntu MAAS
+gopl = The Go Programming Language - Alan A. A. Donovan, Brian W. Kernhigan  
     
 Sunday 04/09/16    
 ----------------    
@@ -142,6 +143,32 @@ Sunday 25/09/16
 09:00 14:03 dev misc - python script for log reports  
 14:44 17:15 dev misc - python script for creating logs  
 17:20 19:10 dev misc - added features to report
+19:16 20:37 dev kern -  continued effort on edc task 5
 
+Monday 26/09/16
+---------------
+05:30 06:00 ops misc - set up golang dev environment
+07:00 08:46 dev gopl - 
+09:32 11:40 dev gopl - 
+12:26 13:01 dev gopl - 
+13:43 17:37 dev gopl - 
+18:06 20:28 dev gopl - 
 
+Thursday 29/09/16
+-----------------
+16:22 17:28 dev gopl - 
+17:55 19:10 dev gopl - 
+19:27 19:57 dev gopl - 
+20:18 21:30 dev gopl - 
+
+Friday 30/09/16
+---------------
+06:39 08:40 dev gopl - 
+09:28 11:51 dev gopl - 
+13:05 14:14 dev gopl -
+14:20 15:56 dev gopl - 
+
+Saturday 01/10/16
+-----------------
+08:00 11:02 dev gopl - 
 

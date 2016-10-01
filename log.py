@@ -3,7 +3,7 @@ import re
 import sys
 import time
 
-FILE = "September.md"
+FILE = "/home/tobin/build/github/work-logs/September.md"
 
 def usage():
     print(
@@ -117,7 +117,7 @@ def now():
 
 def today():
     """Return day of week and date (dd/mm/yyyy)."""
-    return time.strftime("%A %d/%m/%Y")
+    return time.strftime("%A %d/%m/%y")
 
 def write_file(content):
     content.append('\n')
