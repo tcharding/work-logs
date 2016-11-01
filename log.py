@@ -3,7 +3,7 @@ import re
 import sys
 import time
 
-FILE = "/home/tobin/build/github/work-logs/September.md"
+FILE = "/home/tobin/build/github/work-logs/October.md"
 
 def usage():
     print(
@@ -86,7 +86,7 @@ def end(content, args):
     cat = args[0]
     topic = args[1]
     
-    suffix = " " + now() + " " + cat + " " + topic + " - "
+    suffix = " " + now() + " " + cat + " " + topic + " -"
 
     for word in args[2:len(args)]:
         suffix += " " + word
