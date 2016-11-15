@@ -114,7 +114,7 @@ def new_day(content):
     content.append(underscore)
     content.append(now())
     write_file(content)
-    show()
+    show(content)
 
 def now():
     """Return current time, form hh:mm"""
