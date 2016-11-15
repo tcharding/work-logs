@@ -2,14 +2,13 @@
 import re
 import sys
 import time
-import os
 
-MONTH = "November.md"
+FILE = "/home/tobin/build/github/work-logs/November.md"
 
 def usage():
     print(
 """
-Usage: log [show | start | new-day]
+Usage: log (show | start | new-day)
        log end <category> <topic> [<description>]  
 
 Commands:
@@ -20,30 +19,34 @@ Commands:
  end       end a session
 
 Example: 
- log start
- log end dev python Write script for adding log entry
+ 
+ log end dev python wrote script for adding log entry
            
+
 """)
+    exit()
     
 def main():
+    path = os.path.realpath(__file__)
+    print(path)
+    exit()
     if len(sys.argv) == 1:
         cmd = "show"            # for convenience 
     else:
         cmd = sys.argv[1]
 
-    path = log_file()
-    f = open(path, 'r')
+    f = open(FILE, 'r')
     content = f.readlines()
-    f.close()
-
     rm_trailing_newlines(content)
+
+    f.close()
 
     if cmd == "show":
         show(content)
 
     elif cmd == "-h" or cmd == "--help":
         usage()
-
+    
     elif cmd == "start":
         start(content)
 
@@ -52,8 +55,7 @@ def main():
             print("not enough arguments to %s end" % sys.argv[0])
             usage()
 
-        else:
-            end(content, sys.argv[2:len(sys.argv)])
+        end(content, sys.argv[2:len(sys.argv)])
 
     elif cmd == "new-day" or cmd == "new":
         new_day(content)
@@ -61,11 +63,6 @@ def main():
     else:
         print("Command not supported", cmd)
         usage()
-
-def log_file():
-    """get name of log file to use"""
-    dirname = os.path.dirname(os.path.realpath(__file__))
-    return os.path.join(dirname, MONTH)
 
 def rm_trailing_newlines(lines):
     """remove trailing newlines from list."""
@@ -77,12 +74,13 @@ def rm_trailing_newlines(lines):
             break
 
 def show(lines):
-    for line in lines:
-        print(line, end="")
+    for l in lines:
+        print(l, end="")
     
 def start(content):
     """Add start time to log"""
     content.append(now())
+
     write_file(content)
 
 # args form: cat topic [desc ...]
@@ -100,6 +98,7 @@ def end(content, args):
 
     rm_trailing_newline_of_last_element(content)
     content.append(suffix)
+
     write_file(content)
     
 def new_day(content):
@@ -114,7 +113,6 @@ def new_day(content):
     content.append(underscore)
     content.append(now())
     write_file(content)
-    show()
 
 def now():
     """Return current time, form hh:mm"""
@@ -128,8 +126,7 @@ def write_file(content):
     content.append('\n')
     out = "".join(content)
 
-    path = log_file()
-    f = open(path, 'w')
+    f = open(FILE, 'w')
     f.write(out)
     f.close() 
 

@@ -21,12 +21,12 @@ DAYS = []
 regex = r'(\d{1,2})[/-](\d{1,2})[/-](\d{1,4})'
 
 def parse_log_files(files):
-    """Parse list of files"""
+    """parse list of files"""
     for f in files:
         parse_log_file(f)
         
 def parse_log_file(log_file):
-    """Parse log file"""
+    """parse file"""
     f = open(log_file,"r")
     for line in f:
         if CATEGORY_HEADER in line:
@@ -101,40 +101,13 @@ def calc_duration(start, end):
     
     return duration
 
-def total_time(days):
+def total_hours(days):
     """Return total hours from days."""
     total = 0
     for d in days:
-        total += d.total_minutes()
+        total += d.total_hours()
 
-    return minutes_to_time(total)
-
-def minutes_to_time(total_minutes):
-    hours = total_minutes // 60
-    minutes = total_minutes - (hours * 60)
-    return (hours, minutes)
-
-def mergeNested(d, e):
-    """Merge two nested dictionaries"""
-    merged = {}
-
-    # Add keys from d to merged (merging as necessary) 
-    for k in d:
-        if k in e:
-            merged[k] = merge(d[k], e[k])
-        else:
-            merged[k] = {}
-            for sub_k in d[k]:
-                merged[k][sub_k] = d[k][sub_k]
-
-    # Add keys in e (not in d) to merged
-    for k in e:
-        if k not in d:
-            merged[k] = {}
-            for sub_k in e[k]:
-                merged[k][sub_k] = e[k][sub_k]
-
-    return merged
+    return total
 
 def merge(d, e):
     """Merge two dictionaries"""
@@ -166,31 +139,18 @@ class Day:
     def add_session(self, session):
         self.sessions.append(session)
 
-    def total_minutes(self):
+    def total_hours(self):
         minutes = 0
         for s in self.sessions:
             minutes += s.duration
 
-        return minutes
+        return minutes // 60
 
     def print_day(self):
         print(self.date)
         for s in self.sessions:
             s.print_session()
         print("")
-
-    def by_category(self):
-        acc = {}
-        for s in self.sessions:
-            if s.cat in acc:
-                if s.topic in acc[s.cat]:
-                    acc[s.cat][s.topic] += s.duration
-                else:
-                    acc[s.cat][s.topic] = s.duration
-            else:
-                acc[s.cat] = {s.topic: s.duration}
-
-        return acc
 
     def minutes_by_category(self):
         acc = {}
@@ -313,9 +273,10 @@ def log_file_for_this_month():
     
 def show_stats(days):
     td = len(days)
-    hours, minutes = total_time(days)
+    th = total_hours(days)
 
-    print("Total logged: %d d (%d h %d m)" % (td, hours, minutes))
+    print("Total days worked: ", td)
+    print("Total hours logged: ", th)
     print("")
 
 def show_by_category(days):
@@ -324,30 +285,13 @@ def show_by_category(days):
     print("-------------------------")
 
     for d in days:
-        totals = mergeNested(totals, d.by_category())
+        totals = merge(totals, d.minutes_by_category())
 
-    total_minutes = 0
-    for cat in totals:
-        total_minutes_cat = 0
-        for topic in totals[cat]:
-            total_minutes += totals[cat][topic]
-            total_minutes_cat += totals[cat][topic]
-
-        print("\n", cat, ": ", end="")
-        hours, minutes = minutes_to_time(total_minutes_cat)
-        print(time_string(hours,minutes))
-
-        for topic in totals[cat]:
-            print("   %s: " % topic, end="")
-            tm = totals[cat][topic]
-            hours, minutes = minutes_to_time(tm)
-            print("%d h %d m" % (hours, minutes))
+    for k in totals:
+        print(k, ": ", end="")
+        pp_minutes(totals[k])
 
     print("")
-
-
-def time_string(hours, minutes):
-    return str(hours) + " h " + str(minutes) + " m"
 
 def show_by_topic(days):        
     totals = {}
