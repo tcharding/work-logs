@@ -22,6 +22,7 @@ math = Discrete and Combinatorial Mathematiocs - Ralph P. Grimaldi
 algos = Introduction to Algorithms - Cormen, Leiserson, Rivest, Stein    
 adm = Algorithm Design Manual - Steven S. Skiena  
 ods = Open Data Structures - Pat Morin  
+graph = Graph data structures and algorithms
 
 Tuesday 01/11/16
 ----------------
@@ -102,4 +103,65 @@ Tuesday 15/11/16
 Wednesday 16/11/16
 ------------------
 07:23 09:39 dev misc - Worked on log/report scripts
+09:44 10:24 read adm -
+10:40 11:59 read adm -
+12:43 13:51 misc ops - Setup weechat, and ask question on go_nuts
+13:52 16:42 dev graph - Write Goraph patch and do pull request
+17:10 18:31 dev graph - More graphs
+18:56 20:59 dev graph - 
+
+Monday 21/11/16
+---------------
+16:11 18:59 dev graph - graph hacking, github.com/gonum
+
+Tuesday 22/11/16
+----------------
+06:18 07:30 dev rank -
+09:07 12:01 dev rank -
+12:42 16:00 dev rank -
+16:31 18:16 dev rank -
+19:00 20:10 misc math - 
+
+Wednesday 23/11/16
+------------------
+07:42 11:54 dev rank -
+12:37 13:55 dev rank -
+
+Thursday 24/11/16
+-----------------
+16:17 17:56 dev rank -
+17:56 18:12 read adm -
+18:47 20:03 read adm -
+20:10 20:39 read misc - Go design patterns paper
+
+Sunday 27/11/16
+---------------
+16:50 20:38 dev rank -
+
+Monday 28/11/16
+---------------
+07:10 07:40 read adm -
+08:00 08:36 read algos -
+08:36 11:52 dev rank -
+12:45 15:12 dev rank -
+15:30 17:47 dev rank -
+
+Tuesday 29/11/16
+----------------
+10:00 10:43 dev misc - Add to and test lib/tricks.go.
+10:43 12:13 dev rank -
+13:30 17:05 dev rank -
+18:03 20:38 dev rank -
+
+Wednesday 30/11/16
+------------------
+08:11 09:20 dev rank -
+09:20 10:09 read adm -
+10:09 11:05 dev rank -
+11:15 12:11 read adm -
+13:16 17:56 dev rank -
+18:17 20:51 dev rank -
+
+
+
 
