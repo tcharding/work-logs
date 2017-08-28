@@ -4,7 +4,7 @@ import sys
 import time
 import os
 
-MONTH = "July.md"
+MONTH = "August.md"
 
 def usage():
     print(
@@ -63,12 +63,12 @@ def main():
         usage()
 
 def log_file():
-    """get name of log file to use"""
+    """Get name of log file to use."""
     dirname = os.path.dirname(os.path.realpath(__file__))
     return os.path.join(dirname, MONTH)
 
 def rm_trailing_newlines(lines):
-    """remove trailing newlines from list."""
+    """Remove trailing newlines from list."""
     while True:
         i = len(lines) - 1
         if lines[i] == '\n':
@@ -81,29 +81,29 @@ def show(lines):
         print(line, end="")
     
 def start(content):
-    """Add start time to log"""
+    """Add start time to log."""
     content.append(now())
     write_file(content)
 
 # args form: cat topic [desc ...]
 def end(content, args):
-    """Add end time to log"""
+    """Add end time to log."""
     cat = args[0]
     topic = args[1]
     
-    suffix = " " + now() + " " + cat + " " + topic + " -"
+    entry = " " + now() + " " + cat + " " + topic + " -"
 
     for word in args[2:len(args)]:
-        suffix += " " + word
+        entry += " " + word
 
-    suffix += '\n'
+    entry += '  \n'             # Two spaces to satisfy markdown
 
     rm_trailing_newline_of_last_element(content)
-    content.append(suffix)
+    content.append(entry)
     write_file(content)
     
 def new_day(content):
-    """Add new day to log"""
+    """Add new day to log."""
     day = today()
     underscore = '-' * len(day) + '\n'
 
