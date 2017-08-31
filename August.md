@@ -19,7 +19,7 @@ kern = Miscellaneous kernel development
 k8s = Kubernetes  
 gopl = The Go Programming Language - Alan A. A. Donovan, Brian W. Kernhigan  
 job = Job hunting  
-ment = Tasks relating to mentor-ship  
+ment = Tasks relating to mentor-ship1;2802;0c  
   
   
 Tuesday 01/08/17  
@@ -161,4 +161,39 @@ Monday 28/08/17
 12:42 13:21 dev k8s -  
 15:15 16:15 dev k8s - cleanup branches  
 16:15 19:16 dev k8s - tidy up create PR  
-  
+19:16 19:25 dev misc - update log scripts  
+
+
+Tuesday 29/08/17
+----------------
+07:38 10:18 dev k8s - building and testing PRs  
+10:19 10:47 dev k8s - more testing  
+10:47 11:41 dev k8s - args, aliases retrieval PR  
+12:30 15:34 dev k8s - cmd golint fixes  
+15:34 15:52 dev k8s -  
+16:13 16:55 dev k8s -  
+19:51 20:54 dev blog - k8s colorize help blog post  
+21:00 21:28 dev k8s - kc/appli golint PR  
+
+Wednesday 30/08/17
+------------------
+07:44 09:41 dev k8s - AddJsonFilenameFlag PR  
+09:46 10:18 misc misc - emails and junk  
+10:18 11:21 dev k8s - 2 cleanup PRs  
+11:21 11:29 dev k8s -  
+11:30 12:00 misc ment - scheduled video chat  
+12:37 15:49 dev k8s - cmd/util/resources.go PR  
+15:49 17:29 dev k8s - 4 clean up PRs  
+17:29 17:36 dev k8s - check up on inflight PRs  
+19:56 21:15 dev k8s - more cleanup PRs  
+21:15 23:33 dev k8s - move generators into subpackge  
+23:51 23:59 dev k8s - bug hunting in generators  
+
+Thursday 31/08/17
+-----------------
+00:00 01:41 dev k8s - hello world exercises  
+01:42 02:53 misc k8s - sig/cil meeting  
+12:48 16:55 dev k8s - plugin golint PR  
+16:55 17:17 dev web - fix typos in blog post  
+20:08 21:33 dev k8s - remove constructor PR  
+
