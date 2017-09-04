@@ -197,3 +197,7 @@ Thursday 31/08/17
 16:55 17:17 dev web - fix typos in blog post  
 20:08 21:33 dev k8s - remove constructor PR  
 
+Monday 04/09/17
+---------------
+11:05 13:28 ops misc -  
+
