@@ -9,7 +9,7 @@ start-time stop-time category topic - [ description ]
 misc = miscellaneous  
 ops = system operations  
 dev = development  
-read = read text book  
+read = read text book or online resource  
       
 ### Topic Key  
 misc = miscellaneous  
@@ -17,7 +17,8 @@ blog = write blog post
 www = Web programming, usually updating personal website  
 k8s = Kubernetes  
 job = Job hunting  
-ment = Tasks relating to mentor-ship1;2802;0c  
+ment = Tasks relating to mentor-ship
+zfs = ZFS on Linux project  
   
   
 Monday 04/09/17
@@ -40,4 +41,10 @@ Wednesday 06/09/17
 ------------------
 10:52 12:22 dev k8s -  
 12:22 12:54 misc misc - schedule for open source summit  
+13:49 16:06 dev k8s - update pull requests  
+
+Saturday 30/09/17
+-----------------
+18:00 21:00 dev kern - printk hardening patch set testing  
+21:00 21:20 misc kern - answer mailing list mail  
 

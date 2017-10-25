@@ -4,7 +4,7 @@ import sys
 import time
 import os
 
-MONTH = "September.md"
+MONTH = "October.md"
 
 def usage():
     print(
