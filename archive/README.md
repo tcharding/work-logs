@@ -1,5 +1,7 @@
 Work Session Logs    
 =================    
+
+**Old work logging system, written in Python.**
   
 This tree contains log files created during my daily working hours.  
   
