@@ -20,6 +20,7 @@ job = Job hunting
 ment = Tasks relating to mentor-ship
 zfs = ZFS on Linux project  
 ufs = UNIX Filesystems, Steve D. Pate  
+lug = Central Coast GNU/Linux Users Group  
 
 Sunday 01/10/17
 ---------------
@@ -153,4 +154,35 @@ Wednesday 25/10/17
 07:41 11:11 dev kern - %p patch, leaking_addresses.pl patch  
 11:11 12:02 dev kern -  
 13:08 15:09 dev kern - verification work on %p patch  
-15:09
+15:09 17:40 dev kern - VLA investigation  
+
+Thursday 26/10/17
+-----------------
+08:23 09:28 dev kern - %p next version research  
+10:07 11:00 read kern - read up on sleeping and contexts  
+11:00 14:00 dev kern - %p patch v8  
+14:50 17:28 dev kern - leaking_pointers patch submit  
+20:03 20:50 dev kern - email  
+
+Monday 30/10/17
+---------------
+08:38 09:06 dev kern - email  
+09:15 09:59 dev kern - %p patch v9 submitted  
+09:59 10:09 dev kern - email  
+12:16 12:53 read kern - lwn  
+12:53 14:28 dev kern - investigate hardeneddefconfig  
+14:28 14:47 dev kern - hardening task research  
+14:47 15:03 read ufs -  
+16:16 17:19 dev kern - kernel janitor tasks  
+17:19 17:39 dev kern - drivers research  
+20:15 20:42 read kern - lwd block layer article  
+20:42 22:00 read ufs -  
+
+Tuesday 31/10/17
+----------------
+08:19 08:49 dev misc - email  
+08:49 09:41 dev kern - %p patch emails and drdb email  
+09:41 12:02 dev drbd - x86 two node cluster setup  
+12:56 13:39 dev kern - email drbd and %p responses  
+13:39 15:29 dev kern -  
+
