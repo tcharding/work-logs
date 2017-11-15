@@ -1,0 +1,843 @@
+2017-01-03 08:33 09:03  read    
+2017-01-03 09:03 09:45  read    
+2017-01-03 09:45 10:55  dev    golang graph data types  
+2017-01-03 13:00 13:51  dev     
+2017-01-03 13:57 20:44  dev     
+2017-01-04 09:31 10:30  dev    Work on union find  
+2017-01-04 10:30 12:01  dev     
+2017-01-04 12:20 12:56  dev      
+2017-01-04 12:56 13:29  read    
+2017-01-04 13:29 13:38  dev    Update reading list  
+2017-01-04 13:49 14:54  misc   Clean up self_learning tree  
+2017-01-05 08:29 09:22  read    
+2017-01-05 09:22 10:07  read    
+2017-01-05 10:07 11:50  dev    Write graph blog post  
+2017-01-05 11:50 12:08  misc   Email and social networking junk  
+2017-01-05 12:38 18:20  dev     
+2017-01-05 18:50 20:12  dev     
+2017-01-06 07:08 07:42  read    
+2017-01-06 07:51 09:02  read    
+2017-01-06 09:02 11:25  dev     
+2017-01-06 11:54 15:57  dev     
+2017-01-06 16:34 18:01  dev     
+2017-01-06 18:36 19:07  misc    
+2017-01-06 19:07 20:31  dev     
+2017-01-07 07:34 12:51  dev    Fenwick tree research, implementation, and blog  
+2017-01-07 13:25 14:21  dev    Fix up blog post  
+2017-01-07 14:21 17:56  dev     
+2017-01-07 18:33 20:33  dev     
+2017-01-24 10:00 17:00  misc   new SSD, fresh install  
+2017-01-24 17:00 18:49  dev    Started OS from scratch  
+2017-01-24 18:59 20:21  dev    Eudyptula challenge 5  
+2017-01-24 20:24 21:06  dev     
+2017-01-25 08:06 08:53  misc    
+2017-01-25 08:53 11:02  dev     
+2017-01-25 13:08 18:00  dev     
+2017-01-25 19:16 20:41  dev     
+2017-01-26 08:00 11:04  dev    Eudyptula challenge task 06  
+2017-01-26 11:31 12:37  read    
+2017-01-26 12:37 14:20  dev     
+2017-01-26 15:22 17:17  dev     
+2017-01-26 17:37 20:36  dev     
+2017-01-26 20:36 21:36  dev     
+2017-01-27 06:25 09:00  dev     
+2017-01-28 20:30 22:00  dev     
+2017-01-30 20:30 22:05  dev     
+2017-01-31 10:49 12:18  dev     
+2017-01-31 12:22 17:04  dev     
+2017-01-31 19:00 21:07  dev     
+2017-02-01 07:30 08:50  dev     
+2017-02-01 09:26 10:00  dev     
+2017-02-01 10:20 11:51  read    
+2017-02-01 11:51 12:35  dev      
+2017-02-01 13:00 15:01  dev    memory.c sparse and checkpatch cleanup  
+2017-02-01 15:23 16:20  dev     
+2017-02-01 21:15 23:05  dev    built stripped down net device driver  
+2017-02-02 07:27 08:03  dev    task 07  
+2017-02-02 08:03 10:40  dev    submit memory.c patchset  
+2017-02-02 10:51 11:37  dev    build and run selftests  
+2017-02-02 11:37 11:59  dev    kselftest blog post  
+2017-02-02 12:55 16:10  dev    vmalloc_sg_list initial attempt  
+2017-02-08 18:30 21:00  dev     
+2017-02-09 07:21 08:18  ops    attempt to reproduce kernel bug  
+2017-02-09 08:18 10:35  dev    start task 08  
+2017-02-09 10:50 11:41  ops    more bug chasing  
+2017-02-09 11:41 13:21  dev    task 08 part 2  
+2017-02-09 13:21 13:51  read    
+2017-02-09 13:51 15:24  dev    Complete part 3 and submit task 08  
+2017-02-09 15:59 18:09  dev    net: Checkpath fixes submit patchset  
+2017-02-09 18:09 19:20  misc   looking around  
+2017-02-12 09:47 11:00  dev     
+2017-02-12 11:30 12:48  dev    net/core/dev add use of ida  
+2017-02-12 13:08 13:58  dev    submit ida patch  
+2017-02-12 14:00 14:41  dev    resubmit task 08  
+2017-02-12 14:42 15:41  read    
+2017-02-12 15:41 18:06  dev    purgatory patch submitted  
+2017-02-12 18:06 18:20  misc   mutt  
+2017-02-12 18:38 20:45  dev    sparse warnings  
+2017-02-12 21:40 00:09  dev    various patches  
+2017-02-13 07:50 08:09  dev    submit purgatory patch series  
+2017-02-13 08:30 08:51  dev    misc builds  
+2017-02-13 08:51 11:44  dev    task 09  
+2017-02-13 11:50 12:35  dev     
+2017-02-13 12:42 12:54  dev     
+2017-02-13 14:01 15:40  dev     
+2017-02-13 15:40 16:42  read    
+2017-02-13 16:42 17:06  misc    
+2017-02-13 17:06 18:42  dev    vmalloc_sg_list patch to willy  
+2017-02-13 18:47 19:40  misc    
+2017-02-13 19:40 20:36  dev     
+2017-02-14 07:16 07:32  misc    
+2017-02-14 07:32 12:00  dev     
+2017-02-14 12:00 12:30  read    
+2017-02-14 12:51 13:00  dev     
+2017-02-14 13:00 13:50  dev    purgatory patch v3  
+2017-02-14 13:50 16:02  misc    
+2017-02-14 18:26 19:37  dev    build tip kernel and bug hunt  
+2017-02-14 19:37 20:13  dev     
+2017-02-14 20:13 20:20  dev    bash ops coding  
+2017-02-14 20:20 21:42  dev    tos and email reading  
+2017-02-15 07:30 08:24  dev     
+2017-02-15 08:24 10:16  dev     
+2017-02-15 10:31 11:49  dev    strncpy to strlcpy patches  
+2017-02-15 11:49 13:05  dev     
+2017-02-15 13:36 14:29  dev    fbtft patchset v2  
+2017-02-15 14:30 15:18  read    
+2017-02-15 15:35 16:04  read    
+2017-02-15 16:04 18:41  dev     
+2017-02-15 19:24 21:25  dev     
+2017-02-16 07:30 09:30  dev    bug hunt  
+2017-02-16 10:00 12:22  dev     
+2017-02-16 13:08 15:15  dev    strlcpy softmac_wx issue  
+2017-02-16 15:15 15:31  misc    
+2017-02-16 15:55 17:37  read    
+2017-02-16 17:52 19:29  dev     
+2017-02-16 19:48 21:30  dev     
+2017-02-20 10:04 10:40  dev    send patch, email kernel newbies  
+2017-02-20 10:40 10:47  dev    resubmit task 09  
+2017-02-20 12:00 12:42  dev    ks7010 checkpatch fixes  
+2017-02-20 12:43 13:02  read    
+2017-02-20 13:24 14:33  read    
+2017-02-20 14:33 19:53  dev    ks7010 second patch series  
+2017-02-20 19:56 20:52  read    
+2017-02-21 07:20 08:27  misc   read Documentation/process/*  
+2017-02-21 08:33 11:01  dev     
+2017-02-21 11:12 12:37  ops    procmail to maildrop  
+2017-02-21 12:37 13:51  read    
+2017-02-21 14:49 15:32  dev     
+2017-02-21 19:00 22:18  dev    comed patch set v1  
+2017-02-22 07:27 09:03  dev     
+2017-02-22 09:03 10:55  dev     
+2017-02-22 11:15 12:55  dev     
+2017-02-22 12:55 13:36  read    
+2017-02-22 13:53 14:43  read    
+2017-02-22 14:43 14:51  dev    read mailing lists  
+2017-02-22 15:11 16:04  dev     
+2017-02-22 16:04 17:50  dev    coccinelle patches  
+2017-02-22 18:53 21:48  dev     
+2017-02-23 07:27 08:52  dev    sort out current active patches  
+2017-02-23 08:57 09:51  dev    bare bones os  
+2017-02-23 09:51 11:57  dev    meaty skeleton tutorial  
+2017-02-23 11:57 12:03  misc    
+2017-02-23 12:42 17:59  dev     
+2017-02-23 18:22 20:39  dev    get GDT working  
+2017-02-23 20:39 20:56  dev     
+2017-02-23 20:56 21:23  dev     
+2017-02-27 08:07 11:56  dev     
+2017-02-27 12:20 12:26  dev     
+2017-02-27 12:26 14:16  dev    drivers/staging/ks7010/ks7010_sdio.c patch  
+2017-02-27 14:16 14:49  dev     
+2017-02-27 14:53 16:14  read    
+2017-02-27 16:15 17:38  dev    comedi patch  
+2017-02-27 19:47 21:36  dev    edc task 11  
+2017-02-28 06:52 07:19  misc   emails  
+2017-02-28 07:19 08:15  dev    comedi patch v2  
+2017-02-28 08:15 10:55  dev    edc  
+2017-02-28 11:27 12:20  dev    edc submit task 11  
+2017-02-28 12:20 15:30  dev    reimplement IRQ and ISRs  
+2017-02-28 19:28 21:15  dev    learn about kprobes/jprobes  
+2017-02-28 21:15 21:30  misc   email  
+2017-03-01 07:28 08:08  dev    edc resubmit patch and email  
+2017-03-01 08:08 08:56  read    
+2017-03-01 09:40 12:26  dev    linux 0.11  
+2017-03-01 12:45 13:59  read    
+2017-03-01 13:59 14:37  ops    sync laptop, setup dev environment  
+2017-03-01 14:37 15:25  read    
+2017-03-01 15:25 15:57  dev    powerpc  
+2017-03-02 07:28 08:07  dev     
+2017-03-02 08:07 09:16  read    
+2017-03-02 09:16 11:58  dev    edc redo and submit task 11  
+2017-03-02 12:35 13:26  misc   order SDIO hardware  
+2017-03-02 13:26 14:49  read    
+2017-03-02 14:49 17:22  misc   qemu powerpc setup attempt, rpi setup  
+2017-03-02 19:47 20:55  read    
+2017-03-02 20:55 21:38  dev    powerpc research  
+2017-03-03 07:52 09:36  read    
+2017-03-06 09:50 11:29  dev     
+2017-03-06 11:29 12:57  read    
+2017-03-06 13:04 14:59  dev    powerpc sparse fixes  
+2017-03-06 14:59 15:27  read    
+2017-03-06 15:27 15:44  ops    resume and linked in update  
+2017-03-06 15:44 16:59  dev    binutils documentation patch  
+2017-03-06 16:59 17:23  dev     
+2017-03-06 19:17 21:05  dev     
+2017-03-06 21:05 21:30  read    
+2017-03-07 07:10 09:34  dev    ks7010 ks_sdio_interrupt() patch  
+2017-03-07 09:34 11:03  read    
+2017-03-07 11:36 12:31  ops    setup msmtp  
+2017-03-07 12:31 15:31  dev     
+2017-03-07 17:02 17:37  dev    dgnc patch set  
+2017-03-07 19:47 21:11  dev    binutils patch, drivers/staging patch set  
+2017-03-07 21:11 21:40  dev     
+2017-03-08 07:40 09:06  dev     
+2017-03-08 09:06 12:40  dev    ks_hostif patch  
+2017-03-08 12:53 14:46  dev    ks_hostif patch set  
+2017-03-08 14:46 15:07  dev    email  
+2017-03-08 15:08 17:04  read    
+2017-03-08 17:04 17:30  dev     
+2017-03-08 19:39 21:25  dev     
+2017-03-09 07:28 10:30  dev    dgnc patch preparation  
+2017-03-09 10:30 11:01  read    
+2017-03-09 11:01 12:44  dev    build script  
+2017-03-09 13:28 15:25  dev    ks_hostif patch set v2  
+2017-03-09 15:25 15:52  dev     
+2017-03-09 15:52 16:20  read    
+2017-03-09 16:20 16:49  dev    ppc .llong to .8byte patch  
+2017-03-09 16:49 17:34  read    
+2017-03-09 19:45 21:11  dev    edc task 12  
+2017-03-12 08:58 10:21  dev    miscelanious, email, ldd3  
+2017-03-12 10:21 11:48  dev    ppc coverity scan bug fixes  
+2017-03-12 13:04 17:58  ops    rpi kernel build, SDIO  
+2017-03-12 18:18 18:38  ops    more SDIO  
+2017-03-12 18:38 19:03  dev     
+2017-03-13 07:26 08:04  dev    email  
+2017-03-13 08:04 09:44  dev    eudyptula challenge task 13  
+2017-03-13 09:44 11:53  dev     
+2017-03-13 13:07 15:36  dev    ks7010 ks_hostif patch set v3  
+2017-03-13 15:55 17:05  read    
+2017-03-13 17:20 19:04  dev    ks_wlan_ioctl patch  
+2017-03-13 19:04 20:34  ops    file GPU bug  
+2017-03-13 20:34 21:51  dev    start ks_wlan_net patch set  
+2017-03-14 07:08 09:58  dev    ks7010: ks_wlan_net patch set  
+2017-03-14 09:58 11:26  ops    Raspberry Pi  
+2017-03-14 11:49 12:19  read    
+2017-03-14 12:36 15:37  dev     
+2017-03-14 17:08 18:21  dev     
+2017-03-14 18:39 21:21  dev    audit return statements, path set done  
+2017-03-14 21:21 22:04  dev    emails  
+2017-03-15 07:28 09:30  dev    dgnc patch  
+2017-03-15 10:00 11:29  ops    fight with msmtp  
+2017-03-15 11:29 13:10  dev     
+2017-03-15 13:30 14:19  dev     
+2017-03-15 14:19 16:18  dev    ks7010 header clean up patch set  
+2017-03-15 16:18 18:24  dev    mmc core bug fixes  
+2017-03-15 18:43 19:56  dev    mmc core patch set submit  
+2017-03-15 19:57 20:45  dev    investigate sparse endian issues ks7010  
+2017-03-15 20:45 21:30  dev    play with coccinelle  
+2017-03-16 07:35 12:37  dev     
+2017-03-16 13:06 15:36  ops    config  
+2017-03-16 15:36 16:49  ops    config, colors  
+2017-03-16 16:49 18:00  dev     
+2017-03-16 18:27 23:43  dev    ks7010 endianess patch  
+2017-03-20 09:55 14:00  dev    ks7010 more cleanup  
+2017-03-21 09:14 11:41  dev    ks7010 return value audit patch set  
+2017-03-21 12:19 13:22  dev    ks7010 return value audit patch set  
+2017-03-21 13:22 14:21  dev     
+2017-03-22 10:00 12:00  dev    ks7010 review inspired patch set  
+2017-03-22 12:23 14:10  dev     
+2017-03-22 20:30 21:34  dev    Michael MIC and emails  
+2017-03-26 18:25 21:49  dev    ks7010 patches  
+2017-03-27 06:59 11:32  dev    ks_hostif patch set  
+2017-03-27 12:00 16:07  dev    dgnc start patch set  
+2017-03-27 16:52 18:31  dev    dgnc patch set  
+2017-03-27 18:44 19:32  read   The art of Linux Kernel Design  
+2017-03-28 08:10 11:18  dev    misc driver research  
+2017-03-28 11:18 12:46  read    
+2017-03-28 12:47 14:01  ops     
+2017-03-28 14:02 17:47  dev    2 ks7010 patchsets  
+2017-03-28 18:49 20:51  dev     
+2017-03-28 20:52 21:32  read    
+2017-03-29 08:02 09:30  dev    cleanup  
+2017-03-29 10:05 11:06  dev     
+2017-03-29 11:07 12:01  read    
+2017-03-29 13:09 14:47  dev     
+2017-03-29 14:47 15:30  read   Version control with Git  
+2017-03-29 15:30 15:54  dev    git bisect  
+2017-03-29 17:32 18:30  dev     
+2017-03-30 07:31 11:41  dev    ks7010 epic patch set  
+2017-03-30 11:56 15:32  dev    more work on epic patch set  
+2017-03-30 15:32 16:23  read    
+2017-03-30 16:23 18:20  dev    more on the epic patch set  
+2017-03-30 18:45 21:20  dev     
+2017-03-31 08:19 11:38  dev    polish epic patch set  
+2017-03-31 12:15 15:48  dev    RFC to LKML, michael MIC  
+2017-03-31 15:50 17:03  read    
+2017-03-31 20:40 21:30  read   intro to cfg80211  
+2017-04-02 07:36 10:22  dev     
+2017-04-02 10:22 11:06  read   Linux Kernel Networking, Rami Rosen  
+2017-04-02 11:06 11:51  dev     
+2017-04-02 12:20 17:01  dev     
+2017-04-02 17:09 18:00  dev     
+2017-04-02 18:45 19:24  dev     
+2017-04-03 08:28 11:49  dev    ks7010 probe and remove  
+2017-04-03 11:55 14:35  dev     
+2017-04-03 14:56 18:43  dev     
+2017-04-03 18:43 20:38  read    
+2017-04-04 07:23 09:03  dev     
+2017-04-04 09:03 09:52  read    
+2017-04-04 10:40 11:30  read    
+2017-04-04 13:04 14:29  dev    ks7010 micael mic custom imp removal  
+2017-04-04 14:29 14:43  dev    edc play with task 13  
+2017-04-04 14:44 15:27  dev     
+2017-04-04 16:58 18:09  dev    investigate ks7010 host interface  
+2017-04-04 18:47 22:00  dev     
+2017-04-05 07:30 09:30  dev    ks7010 sdio header  
+2017-04-05 09:30 10:47  dev    ks7010 epic v2  
+2017-04-05 10:47 11:19  dev    emails and maintainers file  
+2017-04-05 12:28 14:59  ops    rpi SDIO fun  
+2017-04-05 14:59 16:00  dev     
+2017-04-06 08:00 19:53  dev    ks7010 refactor sdio source and header  
+2017-04-06 19:53 20:19  misc   mailin lists  
+2017-04-10 11:03 13:16  dev    kes7010 epic patch set v3  
+2017-04-10 13:16 13:43  dev    update reading list  
+2017-04-10 13:43 14:04  dev    update resume  
+2017-04-10 14:04 14:41  read   read spec  
+2017-04-10 14:41 15:26  dev    misc ks7010  
+2017-04-10 17:00 17:30  read    
+2017-04-10 19:54 20:45  read    
+2017-04-11 07:29 11:58  dev    ks7010 SDIO refactoring  
+2017-04-11 12:42 12:47  dev    worklog fix up  
+2017-04-11 12:47 13:14  dev    ks7010 SDIO refactoring  
+2017-04-11 13:15 14:22  read    
+2017-04-11 14:39 16:39  misc   open summit kernel tutorial submission  
+2017-04-11 16:41 17:32  read    
+2017-04-11 19:54 21:20  dev    ks7010 sdio refactoring  
+2017-04-11 21:21 21:36  misc   email  
+2017-04-12 08:27 09:34  dev    patch cover letter  
+2017-04-12 09:50 09:58  dev    submit ks7010 SDIO cleanup patch set  
+2017-04-12 09:58 11:19  misc   open summit kernel tutarial submission  
+2017-04-12 11:19 11:57  dev    start hif refactor  
+2017-04-12 12:36 13:20  misc   reworked submission, email reviewers  
+2017-04-12 13:20 13:30  misc   email  
+2017-04-12 14:06 14:23  dev    update personal website  
+2017-04-12 14:23 15:02  dev    resubmit task 13  
+2017-04-12 15:02 15:51  read    
+2017-04-17 10:00 15:40  dev    resume building  
+2017-04-17 15:41 16:02  dev    update linkedin profile  
+2017-04-17 16:02 17:37  misc   kernel hardware video talk  
+2017-04-17 18:08 18:31  read    
+2017-04-17 18:31 19:32  dev    eudyptula challenge submit task 13 again  
+2017-04-18 07:38 09:30  dev    SDIO pathset rework  
+2017-04-18 09:30 12:38  misc   add wiki pages to kernelnewbies  
+2017-04-18 12:44 13:58  read    
+2017-04-18 14:32 15:16  read    
+2017-04-18 15:16 17:04  dev    study ks_wlan_net.c  
+2017-04-18 20:40 21:38  dev    eudyptula started task 14  
+2017-04-19 07:31 11:13  dev    eudyptula task 14  
+2017-04-19 12:13 12:13  dev    ks_hostif refactor  
+2017-04-19 12:54 17:30  dev    ks_hostif refactor  
+2017-04-19 19:42 21:37  dev    more hif refactorings  
+2017-04-24 19:56 20:56  misc   email  
+2017-04-25 13:15 20:04  dev    ks_hostif refactoring  
+2017-04-26 07:00 07:24  misc   email  
+2017-04-26 07:24 08:33  dev    edc task 14 resubmit  
+2017-04-26 08:34 09:31  dev    ks7010 hostif patch set editing  
+2017-04-26 09:58 10:56  dev    post hostif path set  
+2017-04-26 10:56 11:54  dev     
+2017-04-26 12:40 15:44  dev     
+2017-04-26 16:04 17:21  dev     
+2017-04-26 20:12 20:48  misc   email  
+2017-04-26 20:48 21:34  read    
+2017-04-27 08:23 11:25  dev    email, patch set resubmission  
+2017-04-27 12:00 15:39  dev    eudyptula challenge task 15  
+2017-04-27 15:50 16:24  read    
+2017-04-27 16:24 16:27  dev     
+2017-04-27 20:00 21:30  read   Patterson and Hennessy    
+2017-04-30 17:45 19:20  dev     
+2017-05-01 08:30 15:48  dev    refactor ks_wlan_net  
+2017-05-01 15:52 17:30  dev    ks7010 from scratch  
+2017-05-01 20:00 21:19  dev    ks7010 endian patch set  
+2017-05-02 07:20 12:07  dev     
+2017-05-02 12:53 15:36  dev     
+2017-05-02 19:52 19:59  misc   email  
+2017-05-02 20:00 21:22  read   ks7010 fom scratch  
+2017-05-03 07:44 08:21  dev     
+2017-05-03 09:00 12:01  dev     
+2017-05-03 12:41 16:11  dev     
+2017-05-04 07:31 11:59  dev     
+2017-05-04 12:41 17:19  dev     
+2017-05-04 17:19 17:22  misc   email  
+2017-05-04 19:34 23:59  dev     
+2017-05-05 00:01 00:51  dev     
+2017-05-05 01:17 03:37  dev     
+2017-05-08 09:44 13:20  dev     
+2017-05-08 13:20 14:50  dev     
+2017-05-08 15:09 17:25  dev     
+2017-05-08 19:30 19:56  dev     
+2017-05-08 19:56 21:30  read    
+2017-05-09 07:04 11:13  dev     
+2017-05-09 11:54 15:20  dev     
+2017-05-09 16:34 17:30  dev     
+2017-05-09 19:49 21:33  dev     
+2017-05-10 07:23 12:03  dev     
+2017-05-10 12:46 17:15  dev     
+2017-05-10 19:30 20:03  dev     
+2017-05-10 20:03 21:32  read    
+2017-05-11 07:27 08:34  dev     
+2017-05-11 08:34 11:58  dev     
+2017-05-11 12:39 13:39  dev     
+2017-05-11 13:39 14:08  read    
+2017-05-11 14:09 17:30  dev     
+2017-05-11 19:39 00:59  dev     
+2017-05-12 00:01 03:43  dev     
+2017-05-14 09:46 12:40  dev     
+2017-05-14 12:40 12:47  misc   email  
+2017-05-14 13:35 14:16  dev     
+2017-05-14 14:16 15:02  read    
+2017-05-14 15:02 18:03  dev     
+2017-05-14 18:57 21:31  dev     
+2017-05-15 07:13 07:30  misc   email  
+2017-05-15 08:30 17:24  dev     
+2017-05-15 19:20 19:34  read    
+2017-05-15 19:34 21:32  dev     
+2017-05-16 08:08 12:05  dev     
+2017-05-16 12:41 13:14  dev     
+2017-05-16 13:14 14:13  dev    task 17 submission  
+2017-05-16 14:13 14:48  read    
+2017-05-16 14:48 15:30  dev     
+2017-05-16 19:49 21:30  dev     
+2017-05-17 07:28 09:27  dev     
+2017-05-17 09:27 11:47  dev    edc task 18  
+2017-05-17 12:24 13:05  dev    edc task 18 submitted  
+2017-05-17 13:11 13:34  read    
+2017-05-17 13:34 17:30  dev     
+2017-05-17 19:40 21:29  dev     
+2017-05-18 07:37 10:02  dev    stripped cfg82011 down to bare implementation  
+2017-05-18 10:03 11:50  dev    audited hif_sme_execute  
+2017-05-18 12:23 17:30  dev     
+2017-05-18 19:38 11:59  dev     
+2017-05-22 09:51 15:26  dev     
+2017-05-22 15:46 17:24  dev     
+2017-05-22 18:25 21:12  dev     
+2017-05-23 07:27 08:10  misc   email and edc task 18 resubmit  
+2017-05-23 08:10 12:00  dev     
+2017-05-23 12:39 15:30  dev     
+2017-05-23 17:20 17:24  dev     
+2017-05-23 19:49 21:36  dev     
+2017-05-24 07:42 11:56  dev     
+2017-05-24 11:56 12:09  misc   email  
+2017-05-24 12:45 12:59  read    
+2017-05-24 12:59 17:28  dev     
+2017-05-24 19:51 21:45  dev     
+2017-05-25 07:32 09:09  dev     
+2017-05-25 09:09 09:29  misc   email  
+2017-05-25 09:29 12:05  ops    rpi ks7010 card  
+2017-05-25 12:51 15:13  ops    ks hardware testing  
+2017-05-25 15:31 16:07  dev     
+2017-05-25 16:49 17:30  dev     
+2017-05-29 07:25 09:29  dev    testing ks7010 hardware  
+2017-05-29 09:50 14:05  dev    start on implementation of FIL  
+2017-05-29 14:21 17:29  dev    work on FIL  
+2017-05-29 19:35 21:56  dev    work on FIL  
+2017-05-30 07:31 09:58  dev    work on FIL  
+2017-05-30 10:12 12:00  dev    work on FIL  
+2017-05-30 12:44 13:33  read    
+2017-05-30 13:55 15:30  dev    work on FIL  
+2017-05-30 17:09 17:30  dev    work on FIL  
+2017-05-30 19:36 21:34  dev    work on FIL  
+2017-05-31 07:47 09:30  dev    work on FIL  
+2017-05-31 10:06 12:04  dev    work on FIL  
+2017-05-31 12:41 17:34  dev    work on FIL  
+2017-05-31 19:53 21:40  dev    work on FIL  
+2017-06-01 07:29 09:33  dev    work on FIL, ready for RFC submission  
+2017-06-01 09:33 11:58  dev    prepare FIL patch set  
+2017-06-01 12:40 13:28  dev    submit FIL RFC  
+2017-06-05 10:00 12:57  ops    debug ks7010 driver on hardware  
+2017-06-05 12:57 13:13  dev    delete this  
+2017-06-05 20:00 20:35  misc   email  
+2017-06-05 20:35 20:59  read    
+2017-06-06 07:20 11:44  dev    debugging ks7010 driver  
+2017-06-06 12:30 12:40  dev     
+2017-06-06 14:22 15:30  dev    add upload firmware  
+2017-06-06 16:48 17:30  dev    work on tx path  
+2017-06-06 20:02 20:53  dev    complete tx path  
+2017-06-07 08:49 16:03  dev     
+2017-06-08 08:20 08:53  dev     
+2017-06-08 08:53 15:58  dev     
+2017-06-08 15:59 16:07  misc    
+2017-06-08 16:23 17:30  dev     
+2017-06-08 19:44 21:39  dev     
+2017-06-12 08:32 12:06  dev     
+2017-06-12 14:51 19:28  dev     
+2017-06-12 19:32 19:47  dev     
+2017-06-12 19:51 21:32  read    
+2017-06-13 07:23 10:05  dev     
+2017-06-13 10:25 12:21  dev     
+2017-06-13 13:00 14:00  dev     
+2017-06-13 14:19 15:30  dev     
+2017-06-13 17:02 17:31  dev     
+2017-06-13 20:00 21:09  dev     
+2017-06-13 20:09 21:16  dev     
+2017-06-14 08:03 11:51  dev    prepare cfg patch set  
+2017-06-14 12:37 16:38  dev    submit cfg patch set  
+2017-06-14 20:16 22:08  read    
+2017-06-15 09:33 10:22  misc   email  
+2017-06-15 10:22 12:01  misc   RPi mainline kernel build  
+2017-06-15 12:44 14:01  misc   RPi mainline kernel build  
+2017-06-15 15:41 17:21  ops    rpi kernel builds  
+2017-06-15 19:54 21:37  ops    rpi kernel builds and das u boot  
+2017-06-19 10:27 11:32  dev    re work and submit task 18  
+2017-06-19 14:56 15:20  read    
+2017-06-19 19:59 20:20  read    
+2017-06-19 20:30 21:29  read    
+2017-06-20 07:13 07:23  read    
+2017-06-20 07:24 08:06  misc   email, conference rego  
+2017-06-20 08:06 09:33  read    
+2017-06-20 10:03 14:03  ops    rpi uboot hell  
+2017-06-20 14:56 15:21  read    
+2017-06-20 20:25 20:52  read    
+2017-06-21 09:20 09:37  misc   email  
+2017-06-21 09:37 11:28  read    
+2017-06-21 11:28 11:59  dev     
+2017-06-21 12:43 16:47  dev     
+2017-06-21 17:01 17:30  read    
+2017-06-21 20:38 21:10  read   finished Code Complete  
+2017-06-21 21:10 21:25  ops    personal website, reading material research  
+2017-06-22 09:06 12:04  dev     
+2017-06-22 12:50 14:17  dev     
+2017-06-22 14:34 16:12  read    
+2017-06-22 16:12 16:53  dev    hackerrank  
+2017-06-26 08:30 09:13  ops    uboot rpi  
+2017-07-17 09:35 13:37  ops     
+2017-07-17 14:54 16:02  read    
+2017-07-17 16:02 17:30  dev    document writing, kernel dev howto  
+2017-07-17 19:38 21:30  read    
+2017-07-18 20:03 22:52  misc   edc challenge and kernel hacking howtos  
+2017-07-19 08:18 08:40  dev    task 18 resubmit  
+2017-07-19 08:40 11:54  dev    write kernel dev part 1 blog post  
+2017-07-19 12:30 12:56  dev    finialize blog post and deploy  
+2017-07-19 12:56 15:34  dev    exploration of k8s code base  
+2017-07-19 15:35 16:03  dev    go recap  
+2017-07-19 16:24 17:30  dev    hackerrank  
+2017-07-19 20:12 20:22  read    
+2017-07-19 20:22 20:52  read    
+2017-07-19 20:53 21:59  read   read documentation  
+2017-07-20 08:00 11:53  dev    kernel dev part 2  
+2017-07-20 12:47 17:06  read    kubernetes tutorials, start Udacity online course  
+2017-07-20 17:07 17:13  dev    fix worklogs  
+2017-07-20 17:14 17:30  dev    recap   
+2017-07-20 20:06 21:12  read    finish udacity course  
+2017-07-24 14:10 14:40  dev     
+2017-07-24 14:40 17:26  dev    start to explore pkg/kubelet/kuberuntime  
+2017-07-24 20:14 21:30  dev    Read golang.org  
+2017-07-25 07:33 08:46  dev    finish kernel dev part 2 post  
+2017-07-25 08:46 09:55  read   read ch3  
+2017-07-25 09:55 11:19  dev    exercises from chapter 3  
+2017-07-25 11:56 12:16  read    
+2017-07-25 12:16 13:38  dev    exploration of kubelet  
+2017-07-25 13:38 14:17  dev    tour of go  
+2017-07-25 14:17 17:07  read   effective go website  
+2017-07-25 20:32 21:59  dev    remove duplicate code in kubelet_test.go  
+2017-07-26 07:38 09:11  dev    explore kubelet  
+2017-07-26 09:11 11:50  dev    kubelet_test refactoring, PR submitted  
+2017-07-26 12:15 12:44  read    
+2017-07-26 13:06 14:02  misc   cover letter and application CoreOS  
+2017-07-26 14:02 15:01  read    
+2017-07-26 15:01 17:01  dev    k8s GCE play  
+2017-07-26 20:24 21:31  dev    dev environment tweaking  
+2017-07-27 07:40 08:05  dev    add commit to first PR  
+2017-07-27 08:05 09:36  dev    code base exploration  
+2017-07-27 10:06 11:09  read    
+2017-07-27 11:09 12:19  dev    kubelet doc.go  
+2017-07-27 12:44 14:59  dev    kubelet doc.go  
+2017-07-27 15:00 16:19  dev    doc.go PR submitted  
+2017-07-27 16:19 17:31  dev    investigate github issues  
+2017-07-27 20:00 22:11  dev    investigate github issues  
+2017-08-01 11:00 11:59  dev    code kata  
+2017-08-01 11:59 13:09  read    
+2017-08-01 13:09 17:30  dev    learn build tools, write verify script  
+2017-08-01 19:45 21:13  dev    exploration  
+2017-08-02 07:48 11:09  dev    write kernel dev intro talk  
+2017-08-02 11:09 11:45  ops    prepare for LUG  
+2017-08-02 12:30 16:00  dev    kubectl code exploration  
+2017-08-02 17:30 20:30  misc   LUG meet  
+2017-08-02 22:40 23:59  dev    cleanup patches  
+2017-08-03 00:00 02:19  dev    cleanup patches + sig cli metting  
+2017-08-03 11:27 13:49  dev    explore flaky test  
+2017-08-03 13:49 14:26  dev    work on kubectl help comments  
+2017-08-06 16:06 18:52  dev     
+2017-08-06 19:23 20:57  dev    play around with cobra library  
+2017-08-07 08:00 09:11  misc   various github tasks and procrastinating  
+2017-08-07 09:11 10:26  dev     
+2017-08-07 10:26 10:57  read    
+2017-08-07 11:19 14:26  dev    two PR cleaning up run.go  
+2017-08-07 14:26 15:18  misc   rearrange office  
+2017-08-07 15:26 17:29  dev    clean up cli docs  
+2017-08-07 19:30 21:15  dev    kubectl explain PR  
+2017-08-08 07:26 09:38  dev    more kubectl cleanup  
+2017-08-08 11:52 15:30  dev    investigate 'edit' bug  
+2017-08-08 15:46 16:20  read    
+2017-08-08 16:47 19:31  dev    kubectl help  
+2017-08-08 20:07 21:38  dev    started talk application  
+2017-08-09 07:33 09:30  dev    sanitize command examples  
+2017-08-09 09:50 11:55  dev    PR fixing Example verification  
+2017-08-09 12:34 12:44  read    
+2017-08-09 12:44 14:09  ops    docker  
+2017-08-09 14:32 14:56  ops    docker  
+2017-08-09 14:56 17:29  dev    node_controller refactor  
+2017-08-09 20:12 21:15  dev    finished initial version node_controller  
+2017-08-10 07:36 09:38  dev    rework node_controller patches  
+2017-08-10 11:48 12:47  dev    and submit node_controller PR  
+2017-08-10 12:47 13:09  dev    check up on all PR's  
+2017-08-10 13:33 16:55  dev    implemented pod integration test  
+2017-08-10 17:15 17:30  dev    testing  
+2017-08-15 08:01 08:30  misc   media research  
+2017-08-15 08:30 09:08  dev     
+2017-08-15 15:08 17:27  dev    conference talk  
+2017-08-15 19:37 20:32  dev     
+2017-08-16 09:55 12:44  dev    kernel hakcing tutorial  
+2017-08-16 13:30 15:14  dev    explore issues  
+2017-08-16 15:14 17:25  dev    start constant project  
+2017-08-16 20:02 22:47  dev    finish constant extraction project  
+2017-08-16 22:47 23:20  misc   email requesting mentorship  
+2017-08-16 23:20 23:59  dev    rebase and fix PR  
+2017-08-17 00:00 00:15  dev    rebase and fix PR  
+2017-08-17 00:15 01:24  dev     
+2017-08-17 01:44 02:50  misc   sig/cli meeting  
+2017-08-17 11:54 12:27  dev    tidy up PRs  
+2017-08-21 11:20 14:02  dev    covnersion PR  
+2017-08-21 14:02 14:33  misc   Heptio job application  
+2017-08-21 14:55 15:20  misc   sumbit Hepto application  
+2017-08-21 15:24 17:38  dev    investigate kubectl help flags format  
+2017-08-21 20:04 21:16  dev    kubect options output PR  
+2017-08-21 21:16 21:34  misc   expectations email  
+2017-08-21 21:34 22:35  dev    start of resource patch  
+2017-08-22 07:28 08:54  dev     
+2017-08-22 08:54 13:57  ops    work with Max  
+2017-08-22 13:58 14:49  misc   apply to Boeing  
+2017-08-22 14:49 16:07  dev    investigate issues  
+2017-08-22 16:30 17:27  dev     
+2017-08-22 19:50 21:25  dev     
+2017-08-22 21:25 21:59  misc   apply to Identitii  
+2017-08-23 07:00 09:01  dev    markdown bug  
+2017-08-23 09:01 09:38  misc   apply to Canonical  
+2017-08-23 09:51 11:43  misc   work on kernel hacking tutorial  
+2017-08-23 13:36 14:31  misc   more tutorial work  
+2017-08-23 14:31 16:51  dev    markdown bug  
+2017-08-23 19:50 21:00  misc   hosted kernel hacking tutorial   
+2017-08-24 07:58 08:10  misc   thank you email  
+2017-08-24 08:10 09:35  dev    edit bug, raised upstream issue  
+2017-08-24 09:35 10:52  ops    fix kubectl help output issue  
+2017-08-24 10:52 11:59  dev    start move of create to separate pkg  
+2017-08-24 12:30 14:40  dev     
+2017-08-24 15:01 17:37  dev    refactor get.go  
+2017-08-24 20:12 23:59  dev    epic refactor RunGet  
+2017-08-25 00:01 00:30  dev    epic refactor RunGet  
+2017-08-25 09:04 12:29  dev    more refactoring RunGet  
+2017-08-25 17:05 19:50  dev    more refactoring RunGet  
+2017-08-25 20:27 22:47  dev    submitted GetRun refactor PR  
+2017-08-28 09:18 10:08  dev    attempt to fix up PRs  
+2017-08-28 10:08 12:25  misc   create and submit kernel talk slides  
+2017-08-28 12:42 13:21  dev     
+2017-08-28 15:15 16:15  dev    cleanup branches  
+2017-08-28 16:15 19:16  dev    tidy up create PR  
+2017-08-28 19:16 19:25  dev    update log scripts  
+2017-08-29 07:38 10:18  dev    building and testing PRs  
+2017-08-29 10:19 10:47  dev    more testing  
+2017-08-29 10:47 11:41  dev    args, aliases retrieval PR  
+2017-08-29 12:30 15:34  dev    cmd golint fixes  
+2017-08-29 15:34 15:52  dev     
+2017-08-29 16:13 16:55  dev     
+2017-08-29 19:51 20:54  dev    k8s colorize help blog post  
+2017-08-29 21:00 21:28  dev    kc/appli golint PR  
+2017-08-30 07:44 09:41  dev    AddJsonFilenameFlag PR  
+2017-08-30 09:46 10:18  misc   emails and junk  
+2017-08-30 10:18 11:21  dev    2 cleanup PRs  
+2017-08-30 11:21 11:29  dev     
+2017-08-30 11:30 12:00  misc   scheduled video chat  
+2017-08-30 12:37 15:49  dev    cmd/util/resources.go PR  
+2017-08-30 15:49 17:29  dev    4 clean up PRs  
+2017-08-30 17:29 17:36  dev    check up on inflight PRs  
+2017-08-30 19:56 21:15  dev    more cleanup PRs  
+2017-08-30 21:15 23:33  dev    move generators into subpackge  
+2017-08-30 23:51 23:59  dev    bug hunting in generators  
+2017-08-31 00:00 01:41  dev    hello world exercises  
+2017-08-31 01:42 02:53  misc   sig/cil meeting  
+2017-08-31 12:48 16:55  dev    plugin golint PR  
+2017-08-31 16:55 17:17  dev    fix typos in blog post  
+2017-08-31 20:08 21:33  dev    remove constructor PR  
+2017-09-04 11:05 13:28  ops     
+2017-09-04 11:05 13:28  ops     
+2017-09-04 18:05 18:11  dev    fix up loging  
+2017-09-04 18:11 20:35  dev    rebase, push, and retest PRs  
+2017-09-04 20:35 21:30  dev     
+2017-09-05 07:44 09:44  dev    massage pull requests  
+2017-09-05 11:56 13:36  dev    patch PRs  
+2017-09-05 13:36 13:50  dev     
+2017-09-05 15:16 15:24  dev    update personal website  
+2017-09-05 15:24 16:56  dev    work through tutorial ready for LA presentation  
+2017-09-05 16:56 17:08  misc   report cinnamon bug  
+2017-09-06 10:52 12:22  dev     
+2017-09-06 12:22 12:54  misc   schedule for open source summit  
+2017-09-06 13:49 16:06  dev    update pull requests  
+2017-09-30 18:00 21:00  dev    printk hardening patch set testing  
+2017-09-30 21:00 21:20  misc   answer mailing list mail  
+2017-10-01 09:10 11:11  dev    printk hardening patch set submitted  
+2017-10-01 11:11 12:03  misc   email Gus (mentor)
+2017-10-01 12:03 12:24  dev    add todo list to personal web site  
+2017-10-01 14:18 15:03  dev    explore free electrons kernel courses  
+2017-10-01 15:03 17:02  dev    rebase and fix PRs  
+2017-10-01 17:13 18:58  dev    drbd checkpatch series  
+2017-10-02 09:00 09:38  dev    drbd checkpatch series submit  
+2017-10-02 09:38 11:11  misc   OSS email follow ups  
+2017-10-02 11:21 14:03  dev    clean up pull requests  
+2017-10-02 14:47 16:17  dev     
+2017-10-02 16:53 18:37  dev    explore drdb  
+2017-10-02 18:37 20:20  read   lwn namespaces articles  
+2017-10-03 08:30 09:07  misc   various email  
+2017-10-03 09:07 09:55  misc   email resume etc  
+2017-10-03 09:55 11:45  read   lwn namespaces articles  
+2017-10-03 11:45 12:40  dev    miscelanious exploration  
+2017-10-03 12:40 12:57  dev    blackfriday bug  
+2017-10-03 13:30 15:42  dev     
+2017-10-03 15:52 17:37  dev    golint PRs  
+2017-10-03 17:56 19:22  dev    hackerrank  
+2017-10-04 08:26 09:09  misc   email and patch review  
+2017-10-04 10:11 11:19  dev    write grep challenges for LUG
+2017-10-04 11:19 12:09  read   filesystem research  
+2017-10-04 12:39 15:26  read   more filesystem research  
+2017-10-05 08:21 08:55  dev    kernel patches and zfs email  
+2017-10-05 09:20 11:45  dev    3 bitesized PRs  
+2017-10-05 12:23 13:25  dev    kernel email  
+2017-10-05 13:25 13:51  misc   lca presenter form  
+2017-10-05 13:51 15:49  dev    coverity issues  
+2017-10-08 16:06 17:54  dev    printk hardening research  
+2017-10-08 19:30 20:30  dev    printk hardening  
+2017-10-09 07:47 12:23  dev    printk module  
+2017-10-09 13:18 17:32  dev    printk hardening 3 patches sent  
+2017-10-10 07:54 10:25  dev    printk hashing patch  
+2017-10-10 10:25 10:57  dev    checkpatch script  
+2017-10-10 11:07 12:53  dev     
+2017-10-10 13:41 15:25  dev    coverity issues  
+2017-10-10 15:25 16:10  dev    init research  
+2017-10-10 16:10 16:54  read   chapters 1, 2, and 3  
+2017-10-10 16:57 17:40  dev  
+2017-10-11 08:43 09:07  dev    email and github responses  
+2017-10-11 09:07 10:10  dev    %pX patch set  
+2017-10-11 10:10 11:28  dev     
+2017-10-11 11:28 11:46  misc   set up irssi  
+2017-10-11 11:46 12:12  dev    scripting fun  
+2017-10-11 13:02 13:54  dev    %p hash patch  
+2017-10-11 13:54 16:00  dev  
+2017-10-12 13:08 14:03  dev    email and github  
+2017-10-12 14:49 16:41  dev    coverity fixes  
+2017-10-12 16:41 19:00  ops    set up two rpis ready for drdb install  
+2017-10-16 13:30 16:09  ops    drbd setup on rpi  
+2017-10-16 19:31 21:51  dev    pointer hash and irc chat  
+2017-10-17 07:29 08:28  dev    email  
+2017-10-17 08:28 10:54  ops    attempt custom build  
+2017-10-17 11:05 11:57  ops    more install fun  
+2017-10-17 12:34 15:17  dev    %p patch v2  
+2017-10-17 15:37 15:53  dev    %p patch v2 submitted  
+2017-10-17 16:06 17:33  dev    fix up inflight PRs  
+2017-10-18 09:07 11:56  dev    %p patch v3 submitted  
+2017-10-18 13:21 15:22  dev    %p patch v4 submitted  
+2017-10-18 15:22 17:40  ops    drbd rpi setup  
+2017-10-18 20:43 21:43  read   chapters 4 and 5  
+2017-10-19 07:31 08:32  dev    %p patch v5 submitted  
+2017-10-19 08:32 08:45  dev    email  
+2017-10-19 08:45 10:13  ops    more setup drama  
+2017-10-19 10:13 10:47  dev    %p patch review comments  
+2017-10-19 10:47 11:18  dev    coverity  
+2017-10-19 11:18 11:36  read    
+2017-10-19 12:36 14:45  dev    work on %p patch v6  
+2017-10-19 14:46 17:35  dev    perl script to catch leaking addresses  
+2017-10-23 09:31 10:32  dev    new implementation/submit, %p patch v6  
+2017-10-23 10:33 11:57  dev    leaking_addresses.pl  
+2017-10-23 12:31 14:54  dev    more perl script fun  
+2017-10-24 08:47 09:35  dev    %p patch v7  
+2017-10-24 09:35 11:33  dev    leaking_addresses.pl RFC v2  
+2017-10-24 11:41 11:58  dev    bug hunt  
+2017-10-24 12:40 13:46  read   lwn articles  
+2017-10-24 13:46 16:36  ops    attempt rpi setup  
+2017-10-24 17:02 17:40  read    
+2017-10-25 07:41 11:11  dev    %p patch, leaking_addresses.pl patch  
+2017-10-25 11:11 12:02  dev     
+2017-10-25 13:08 15:09  dev    verification work on %p patch  
+2017-10-25 15:09 17:40  dev    VLA investigation  
+2017-10-26 08:23 09:28  dev    %p next version research  
+2017-10-26 10:07 11:00  read   read up on sleeping and contexts  
+2017-10-26 11:00 14:00  dev    %p patch v8  
+2017-10-26 14:50 17:28  dev    leaking_pointers patch submit  
+2017-10-26 20:03 20:50  dev    email  
+2017-10-30 08:38 09:06  dev    email  
+2017-10-30 09:15 09:59  dev    %p patch v9 submitted  
+2017-10-30 09:59 10:09  dev    email  
+2017-10-30 12:16 12:53  read   lwn  
+2017-10-30 12:53 14:28  dev    investigate hardeneddefconfig  
+2017-10-30 14:28 14:47  dev    hardening task research  
+2017-10-30 14:47 15:03  read    
+2017-10-30 16:16 17:19  dev    kernel janitor tasks  
+2017-10-30 17:19 17:39  dev    drivers research  
+2017-10-30 20:15 20:42  read   lwd block layer article  
+2017-10-30 20:42 22:00  read    
+2017-10-31 08:19 08:49  dev    email  
+2017-10-31 08:49 09:41  dev    %p patch emails and drdb email  
+2017-10-31 09:41 12:02  dev    x86 two node cluster setup  
+2017-10-31 12:56 13:39  dev    email drbd and %p responses  
+2017-10-31 13:39 15:29  dev     
+2017-11-01 09:21 11:14  dev    email  
+2017-11-01 11:14 12:52  dev    %p add testing  
+2017-11-01 13:37 15:37  dev    %p v10 submitted  
+2017-11-01 17:30 20:45  misc   November LUG meet  
+2017-11-01 21:07 21:57  dev    leaking_addresses.pl v2  
+2017-11-02 07:35 08:04  dev    email  
+2017-11-02 08:04 10:51  dev    vla RFC  
+2017-11-02 10:51 11:55  dev     
+2017-11-02 12:46 13:09  dev    k8s PR maintenance  
+2017-11-02 13:10 17:25  dev    seq_file patch  
+2017-11-02 21:04 21:16  dev    email  
+2017-11-02 21:04 21:35  misc   apply at Canonical  
+2017-11-06 14:33 15:31  dev    visorbus review  
+2017-11-06 15:31 16:19  dev    leaking_addresses.pl v3  
+2017-11-06 16:19 16:53  misc   email  
+2017-11-06 16:53 17:58  dev    VLA v2 research
+2017-11-06 18:30 19:08  dev    vla macro patch  
+2017-11-06 19:08 19:51  dev    kernel email, github notifications  
+2017-11-07 07:21 11:59  dev    leaking_addresses.pl  
+2017-11-07 12:34 14:02  dev    more perl  
+2017-11-07 18:49 21:33  dev    leaking_addresses v4 submitted  
+2017-11-08 07:28 10:02  dev    leaking_addresses  
+2017-11-08 10:16 10:55  ops    emacs configuration  
+2017-11-08 10:55 12:14  dev    leaking_addresses.pl  
+2017-11-08 12:38 14:42  dev    email to Linus and LA patch set  
+2017-11-08 14:44 15:06  dev    clang reading  
+2017-11-08 15:06 15:19  read    
+2017-11-08 15:43 16:26  read    
+2017-11-08 16:26 17:40  dev    xpfo  
+2017-11-08 20:50 21:30  dev    email
+2017-11-09 07:36 10:40  dev    leaking_addresses  
+2017-11-09 10:40 11:58  dev    email  
+2017-11-09 12:30 12:50  dev    kallsyms patch  
+2017-11-09 12:51 16:46  dev    leaking_addresses patch set v2  
+2017-11-09 16:46 17:00  dev    email  
+2017-11-13 08:09 10:07  dev    email  
+2017-11-13 10:07 10:37  ops    tree confusion  
+2017-11-13 10:37 12:47  dev    vla patchset  
+2017-11-13 12:47 13:19  misc   lug email  
+2017-11-13 13:51 14:13  dev    email from Linus  
+2017-11-13 14:13 15:18  dev    vla patchset  
+2017-11-13 15:18 15:35  dev    email  
+2017-11-13 15:35 16:06  read    
+2017-11-13 16:59 17:08  dev    email  
+2017-11-13 17:08 17:40  dev    coverity  
+2017-11-14 07:48 10:14  dev    git pull request to Linus  
+2017-11-14 10:14 10:55  ops    gpg stuff  
+2017-11-14 10:55 11:40  dev    %p SsB leaks  
+2017-11-14 13:01 16:04  dev    %p SsBfF patch set crafted  
+2017-11-14 16:04 18:00  dev    coverity  
+2017-11-15 07:36 09:59  dev    submit submitting pull requests doc
+2017-11-15 10:01 12:18  dev    work-log.pl script
+2017-11-15 12:53 13:41  dev    email
+2017-11-15 13:41 16:27  dev    convert-log-format.pl and conversion of old logs
+
