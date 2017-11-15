@@ -125,7 +125,7 @@
 2016-03-02 12:30 12:45  read    
 2016-03-02 13:18 16:00  dev     
 2016-03-07 09:56 12:19  dev     
-2016-03-07 12:19 12:30  math    
+2016-03-07 12:19 12:30  misc   maths study    
 2016-03-07 13:00 14:10  dev     
 2016-03-07 14:10 14:27  read    
 2016-03-08 12:10 14:29  dev     
@@ -520,10 +520,10 @@
 2016-08-31 07:37 09:05  read    
 2016-08-31 09:05 10:47  dev     
 2016-08-31 10:47 11:35  dev    personal website and resume  
-2016-08-31 11:35 12:04  job     
+2016-08-31 11:35 12:04  misc   job hunt     
 2016-08-31 12:43 13:38  read    
 2016-08-31 13:38 14:55  read    
-2016-08-31 14:56 16:08  job     
+2016-08-31 14:56 16:08  misc   job hunt
 2016-08-31 17:08 18:00  dev     
 2016-08-31 18:22 21:11  read    
 2016-09-04 16:00 19:28  dev     
@@ -672,8 +672,8 @@
 2016-10-16 14:28 18:25  dev    
 2016-10-16 18:46 19:16  misc   blog plan
 2016-10-16 19:16 21:05  misc   started discrete math text
-2016-10-17 07:43 09:51  dev     wrote stack blog post
-2016-10-17 10:00 13:19  dev     wrote ftp client and server, has bugs
+2016-10-17 07:43 09:51  dev    wrote stack blog post
+2016-10-17 10:00 13:19  dev    wrote ftp client and server, has bugs
 2016-10-17 13:39 15:10  read 
 2016-10-17 15:10 15:42  dev    implement queue
 2016-10-17 16:26 20:22  dev  
