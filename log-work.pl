@@ -20,8 +20,11 @@ my $VERSION = '0.01';
 # Command line options.
 my $help = 0;
 my $debug = 0;
+my $config_dir = "~/.log-work.d";
 my $year = "";
 my $month = "";
+my $today = 0;
+my $this_week = 0;
 
 sub help
 {
@@ -41,11 +44,17 @@ Commands:
 	end	Same as stop.
 	show	Same as report.
 
-Options:
+Options (all commands):
 
-	-y, --year=<year>	Use <year> instead of current year.
-	-m, --month=<month>	Display report for <month>.
 	-h, --help, --version   Display this help and exit.
+	    --config-dir	Directory holding log files (default ~/.log-work.d)
+
+Report Options:
+
+	-y, --year=<year>	Display report for <year>.
+	-m, --month=<month>	Display report for <month>.
+	    --today		Display report for today.
+	    --this-week		Display report for this week.
 
 Create log entries (start and stop work sessions). View summary
 report of hours logged.
@@ -57,9 +66,12 @@ EOM
 GetOptions(
 	'y|year=s'	=> \$year,
 	'm|month=s'	=> \$month,
+	'today'		=> \$today,
+	'this-week'	=> \$this_week,
+	'config-dir=s'	=> \$config_dir,
 	'h|help'	=> \$help,
 	'version'	=> \$help,
-) or help(1);
+    ) or help(1);
 
 help(0) if ($help);
 
@@ -67,18 +79,25 @@ if (@ARGV < 1) {
 	help(128);
 }
 
+my $CONFIG_DIR = glob($config_dir);
+
 my $command = $ARGV[0];
 shift @ARGV;
 
 if ($command =~ /^start/) {
 	start();
-} elsif ($command =~ /^(stop|end)/){
+} elsif ($command =~ /^(stop|end)/) {
 	stop(@ARGV);
 } elsif ($command =~ /^(report|show)/) {
 	if ($year eq "") {
 		$year = this_year();
 	}
-	report($year, $month);
+
+	if ($today && $this_week) {
+		die "$0: mutually exclusive options: --today, --this-week\n";
+	}
+
+	report($year, $month, $this_week, $today);
 } else {
 	printf "\nUnknown command: %s\n", $command;
 	help(129);
@@ -133,15 +152,27 @@ sub active_session
 sub last_log_entry
 {
 	my ($year) = @_;
+
 	my $filename = get_log_filename($year);
-	my $backwards = File::ReadBackwards->new($filename);
-	my $last_line = $backwards->readline;
+	my $backwards = File::ReadBackwards->new($filename) or die "$0: can't read file backwards: $!";
+	my $last_line = $backwards->readline();
+
+	return $last_line;
 }
 
 sub get_log_filename
 {
 	my ($year) = @_;
-	return sprintf("%s.log", $year);
+	my $filename;
+
+	my $dir = $CONFIG_DIR;
+	if (-e $dir and -d $dir) {
+		$filename = sprintf("%s/%s.log", $dir, $year);
+	} else {
+		$filename = sprintf("%s.log", $year);
+	}
+
+	return $filename;
 }
 
 sub this_year
@@ -176,7 +207,11 @@ sub stop
 
 	die "$0: too many arguments\n" if @_ > 2;
 
-	my $filename = get_log_filename();
+	my $year = this_year();
+	my $filename = get_log_filename(this_year());
+
+	say("year: " . $year . " filename: " . $filename);
+
 	open my $fh, '>>', $filename or die "$0: $filename: $!\n";
 
 	my $time = now();
@@ -195,9 +230,22 @@ sub stop
 # program sub command 'report'
 sub report
 {
-	my ($year, $month) = @_;
+	my ($year, $month, $this_week, $today) = @_;
+
 	my $AoH = parse_log_file($year);
-	print_report($AoH, $month);
+	my ($days, $cats);
+
+	if ($this_week) {
+		($days, $cats) = extract_records_for_this_week($AoH);
+	} elsif ($today) {
+		($days, $cats) = extract_records_for_today($AoH);
+	} elsif ($month) {
+		($days, $cats) = extract_records_for_month($AoH, $month);
+	} else {
+		($days, $cats) = extract_records_all($AoH);
+	}
+
+	print_report($days, $cats);
 }
 
 sub parse_log_file
@@ -229,17 +277,17 @@ sub parse_log_file
 	return \@AoH;
 }
 
-sub print_report
+# Extract all records using guardfn() as pre-condition for inclusion.
+sub extract_records
 {
-	my ($AoH, $month) = @_;
+	my ($AoH, $guardfn) = @_;
+
 	my %days;		# date / count
 	my %cats;		# category / total duration
 
 	foreach my $rec (@$AoH) {
-		if ($month ne "") {
-			if (!rec_is_from_month($rec, $month)) {
-				next;
-			}
+		if (!&$guardfn($rec)) {
+			next;
 		}
 
 		# count logged days
@@ -256,23 +304,87 @@ sub print_report
 			$cats{$key} = $rec_dur;
 		}
 	}
+	return \%days, \%cats;
 
-	foreach my $cat (keys %cats) {
-		printf("%s: %s\n", $cat, sprint_duration($cats{$cat}));
+}
+
+sub print_report
+{
+	my ($days, $cats) = @_;
+
+	my $ndays = keys %$days;
+
+	printf("\n%s:\n\n\t%d days\n\n", "Work log records for", $ndays);
+	print "Hours logged by category:\n\n";
+	foreach my $cat (keys %$cats) {
+		printf("\t%-5s: %s\n", $cat, sprint_duration($cats->{$cat}));
 	}
 }
 
-sub rec_is_from_month
+sub extract_records_all
 {
-	my ($rec, $month) = @_;
+	my ($AoH) = @_;
+	my $guardfn = sub {
+		return 1;
+	};
 
-	my $mon = month_name_to_number($month);
-	my $date = $rec->{'date'};
-	my @nums = split('-', $date);
-	my $rec_mon = $nums[1];
-
-	return $mon == $rec_mon;
+	return extract_records($AoH, $guardfn);
 }
+
+# Extract records for month N
+sub extract_records_for_month
+{
+	my ($AoH, $month) = @_;
+
+	my $guardfn = sub {
+		my ($rec) = @_;
+
+		my $mon = month_name_to_number($month);
+		my $date = $rec->{'date'};
+		my @nums = split('-', $date);
+		my $rec_mon = $nums[1];
+
+		return $mon == $rec_mon;
+	};
+
+	return extract_records($AoH, $guardfn);
+}
+
+# Extract all records for this week.
+sub extract_records_for_this_week
+{
+	my ($AoH) = @_;
+	my $guardfn = sub {
+		my ($rec) = @_;
+
+		die "$0: '--this-week' not yet implemented\n";
+		return 1;
+	};
+
+	return extract_records($AoH, $guardfn);
+}
+
+# Extract all records for today.
+sub extract_records_for_today
+{
+	my ($AoH) = @_;
+	my $guardfn = sub {
+		my ($rec) = @_;
+
+		my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
+
+		my $date = $rec->{'date'};
+		my @nums = split('-', $date);
+		my $rec_mon = $nums[1];
+		my $rec_mday = $nums[2];
+
+		return ($mday == $rec_mday and $mon == $rec_mon);
+
+	};
+
+	return extract_records($AoH, $guardfn);
+}
+
 
 sub month_name_to_number
 {
@@ -332,7 +444,7 @@ sub print_all_entries
 	}
 }
 
-sub print_record
+    sub print_record
 {
 	my ($rec) = @_;
 
@@ -343,7 +455,7 @@ sub print_record
 	printf("%s %s %s\n", $date, $cat, print_duration($dur));
 }
 
-sub duration
+    sub duration
 {
 	my ($rec) = @_;
 
@@ -376,9 +488,9 @@ sub null_record
 	my ($rec) = @_;
 
 	if (!defined $rec->{'date'} or
-	    !defined $rec->{'start'} or
-	    !defined $rec->{'stop'} or
-	    !defined $rec->{'cat'}) {
+		!defined $rec->{'start'} or
+		!defined $rec->{'stop'} or
+		!defined $rec->{'cat'}) {
 		return 1;
 	}
 	return 0;
@@ -427,6 +539,6 @@ sub test_duration_tc
 
 	if ($hours != $exph or $mins != $expm) {
 		die sprintf("fail duration() exp: %d h %d m got: %d h %d m\n",
-		    $exph, $expm, $hours, $mins);
+			    $exph, $expm, $hours, $mins);
 	}
 }

@@ -840,4 +840,7 @@
 2017-11-15 10:01 12:18  dev    work-log.pl script
 2017-11-15 12:53 13:41  dev    email
 2017-11-15 13:41 16:27  dev    convert-log-format.pl and conversion of old logs
-
+2017-11-15 20:30 22:03  dev    low-work.pl added reporting
+2017-11-16 07:33 08:23  dev    email Linus re tag signing
+2017-11-16 08:23 09:25  ops    install and debug log-work script
+2017-11-16 09:26
