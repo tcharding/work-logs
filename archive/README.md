@@ -13,3 +13,6 @@ Example usage:
   
 `./report.py September.md`    
 `./report.py *.md --by-category`    
+
+
+*.log are the original conversions for use with new Perl scritp `../work-log.pl`

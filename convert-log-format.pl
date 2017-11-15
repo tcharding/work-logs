@@ -133,10 +133,10 @@ sub add_entry
 	my ($start, $stop, $cat, $desc) = convert_original_entry($orig);
 
 	if (defined $desc) {
-		$entry = sprintf("%s %s %s %-5s %s\n",
+		$entry = sprintf("%s %s %s  %-5s %s\n",
 				    $date, $start, $stop, $cat, $desc);
 	} else {
-		$entry = sprintf("%s %s %s %-5s\n",
+		$entry = sprintf("%s %s %s  %-5s\n",
 				    $date, $start, $stop, $cat);
 	}
 	print $LOG_FH $entry;
