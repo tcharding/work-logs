@@ -20,7 +20,8 @@ my $VERSION = '0.01';
 # Command line options.
 my $help = 0;
 my $debug = 0;
-my $YEAR = "";
+my $year = "";
+my $month = "";
 
 sub help
 {
@@ -43,6 +44,7 @@ Commands:
 Options:
 
 	-y, --year=<year>	Use <year> instead of current year.
+	-m, --month=<month>	Display report for <month>.
 	-h, --help, --version   Display this help and exit.
 
 Create log entries (start and stop work sessions). View summary
@@ -53,7 +55,8 @@ EOM
 }
 
 GetOptions(
-	'y|year=s'	=> \$YEAR,
+	'y|year=s'	=> \$year,
+	'm|month=s'	=> \$month,
 	'h|help'	=> \$help,
 	'version'	=> \$help,
 ) or help(1);
@@ -72,7 +75,10 @@ if ($command =~ /^start/) {
 } elsif ($command =~ /^(stop|end)/){
 	stop(@ARGV);
 } elsif ($command =~ /^(report|show)/) {
-	report(@ARGV);
+	if ($year eq "") {
+		$year = this_year();
+	}
+	report($year, $month);
 } else {
 	printf "\nUnknown command: %s\n", $command;
 	help(129);
@@ -97,7 +103,7 @@ sub start
 		die 'You currently have an active session\n';
 	}
 
-	my $filename = get_log_filename();
+	my $filename = get_log_filename(this_year());
 	open my $fh, '>>', $filename or die "$0: $filename: $!\n";
 
 	my $entry = start_entry();
@@ -118,7 +124,7 @@ sub start_entry
 
 sub active_session
 {
-	my $entry = last_log_entry();
+	my $entry = last_log_entry(this_year());
 	my $start = start_entry();
 
 	return (length($entry) == length($start));
@@ -126,23 +132,23 @@ sub active_session
 
 sub last_log_entry
 {
-	my $filename = get_log_filename();
+	my ($year) = @_;
+	my $filename = get_log_filename($year);
 	my $backwards = File::ReadBackwards->new($filename);
 	my $last_line = $backwards->readline;
 }
 
 sub get_log_filename
 {
-	my $year;
-
-	if ($YEAR ne "") {
-		$year = $YEAR;
-	} else {
-		my ($sec,$min,$hour,$mday,$mon,$lyear,$wday,$yday,$isdst) = localtime();
-		$year = $lyear;
-		$year += 1900;
-	}
+	my ($year) = @_;
 	return sprintf("%s.log", $year);
+}
+
+sub this_year
+{
+	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
+	$year += 1900;
+	return $year;
 }
 
 sub yyyy_mm_dd
@@ -186,17 +192,19 @@ sub stop
 	close($fh);
 }
 
+# program sub command 'report'
 sub report
 {
-	my $AoH = parse_log_file();
-	print_report($AoH);
+	my ($year, $month) = @_;
+	my $AoH = parse_log_file($year);
+	print_report($AoH, $month);
 }
 
 sub parse_log_file
 {
 	my @AoH;
 
-	my $filename = get_log_filename();
+	my $filename = get_log_filename($year);
 	open my $fh, '<', $filename or die "$0: $filename: $!\n";
 
 	while (<$fh>) {
@@ -223,11 +231,17 @@ sub parse_log_file
 
 sub print_report
 {
-	my ($AoH) = @_;
+	my ($AoH, $month) = @_;
 	my %days;		# date / count
 	my %cats;		# category / total duration
 
 	foreach my $rec (@$AoH) {
+		if ($month ne "") {
+			if (!rec_is_from_month($rec, $month)) {
+				next;
+			}
+		}
+
 		# count logged days
 		$days{$rec->{'date'}}++;
 
@@ -246,6 +260,50 @@ sub print_report
 	foreach my $cat (keys %cats) {
 		printf("%s: %s\n", $cat, sprint_duration($cats{$cat}));
 	}
+}
+
+sub rec_is_from_month
+{
+	my ($rec, $month) = @_;
+
+	my $mon = month_name_to_number($month);
+	my $date = $rec->{'date'};
+	my @nums = split('-', $date);
+	my $rec_mon = $nums[1];
+
+	return $mon == $rec_mon;
+}
+
+sub month_name_to_number
+{
+	my ($month) = @_;
+	my @months_long = qw(January February March April May June July August September October November December);
+	my @months_short = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
+
+	my $n = 1;
+	foreach my $long (@months_long) {
+		if ($long  eq $month) {
+			return $n
+		}
+		$n++;
+	}
+	$n = 1;
+	foreach my $short (@months_short) {
+		if ($short eq $month) {
+			return $n
+		}
+		$n++;
+	}
+	die "$0: unrecognized month: $month\n";
+}
+
+sub month_from_rec
+{
+	my ($rec) = @_;
+
+	my $date = $rec->{'date'};
+	my @nums = split('/', $date);
+	return $nums[1];
 }
 
 # sums two duration hashes
