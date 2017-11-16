@@ -146,7 +146,8 @@ sub active_session
 	my $entry = last_log_entry(this_year());
 	my $start = start_entry();
 
-	return (length($entry) == length($start));
+	return ((length($entry) > length('2017-11-16 09:26') and
+		(length($entry) < length('2017-11-16 09:26 10:18'))));
 }
 
 sub last_log_entry
@@ -209,8 +210,6 @@ sub stop
 
 	my $year = this_year();
 	my $filename = get_log_filename(this_year());
-
-	say("year: " . $year . " filename: " . $filename);
 
 	open my $fh, '>>', $filename or die "$0: $filename: $!\n";
 
@@ -311,14 +310,22 @@ sub extract_records
 sub print_report
 {
 	my ($days, $cats) = @_;
+	my $total = {
+		'hours'	=> 0,
+		'mins'	=> 0,
+	};
 
 	my $ndays = keys %$days;
 
 	printf("\n%s:\n\n\t%d days\n\n", "Work log records for", $ndays);
 	print "Hours logged by category:\n\n";
 	foreach my $cat (keys %$cats) {
-		printf("\t%-5s: %s\n", $cat, sprint_duration($cats->{$cat}));
+		my $dur = $cats->{$cat};
+		$total = sum_duration($total, $dur);
+		printf("\t%-5s: %s\n", $cat, sprint_duration($dur));
 	}
+
+	printf("\nTotal hours: %s\n", sprint_duration($total));
 }
 
 sub extract_records_all
@@ -344,6 +351,7 @@ sub extract_records_for_month
 		my @nums = split('-', $date);
 		my $rec_mon = $nums[1];
 
+		$mon += 1;	# 0 based index
 		return $mon == $rec_mon;
 	};
 
@@ -357,8 +365,7 @@ sub extract_records_for_this_week
 	my $guardfn = sub {
 		my ($rec) = @_;
 
-		die "$0: '--this-week' not yet implemented\n";
-		return 1;
+		die "$0: not implemented yet\n";
 	};
 
 	return extract_records($AoH, $guardfn);
@@ -378,8 +385,8 @@ sub extract_records_for_today
 		my $rec_mon = $nums[1];
 		my $rec_mday = $nums[2];
 
+		$mon += 1;	# 0 based index
 		return ($mday == $rec_mday and $mon == $rec_mon);
-
 	};
 
 	return extract_records($AoH, $guardfn);
@@ -422,7 +429,6 @@ sub month_from_rec
 sub sum_duration
 {
 	my ($da, $db) = @_;
-
 	my $res = {};
 
 	$res->{'hours'} = $da->{'hours'} + $db->{'hours'};
@@ -437,14 +443,13 @@ sub sum_duration
 sub print_all_entries
 {
 	my ($AoH) = @_;
-	printf("ref: %s\n", ref($AoH));
 
 	foreach (@$AoH) {
 		print_record($_);
 	}
 }
 
-    sub print_record
+sub print_record
 {
 	my ($rec) = @_;
 
@@ -455,7 +460,7 @@ sub print_all_entries
 	printf("%s %s %s\n", $date, $cat, print_duration($dur));
 }
 
-    sub duration
+sub duration
 {
 	my ($rec) = @_;
 

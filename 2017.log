@@ -842,5 +842,9 @@
 2017-11-15 13:41 16:27  dev    convert-log-format.pl and conversion of old logs
 2017-11-15 20:30 22:03  dev    low-work.pl added reporting
 2017-11-16 07:33 08:23  dev    email Linus re tag signing
-2017-11-16 08:23 09:25  ops    install and debug log-work script
-2017-11-16 09:26
+2017-11-16 08:23 09:25  ops    install and debug log-work.pl
+2017-11-16 09:26 10:18  dev    add --today reporting to log-work.pl
+2017-11-16 10:18 11:13  dev   pull request to Linus
+2017-11-16 11:13 11:45  dev   play around with log-work.pl --this-week
+2017-11-16 12:32 14:42  misc  write talk for lca kernel mini-conf
+2017-11-16 14:42 14:57  dev   debug log-work.pl (fixed off by one error)
