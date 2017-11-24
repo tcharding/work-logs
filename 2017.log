@@ -848,3 +848,26 @@
 2017-11-16 11:13 11:45  dev   play around with log-work.pl --this-week
 2017-11-16 12:32 14:42  misc  write talk for lca kernel mini-conf
 2017-11-16 14:42 14:57  dev   debug log-work.pl (fixed off by one error)
+2017-11-20 10:45 11:06  dev   email
+2017-11-20 11:06 12:16  misc  submit LCA kernel miniconf talk proposal
+2017-11-21 09:42 12:55  dev   kernel maintainer docs
+2017-11-21 13:41 14:28  dev   kernel maintainer docs patch RFS (Ready For Submission)
+2017-11-21 15:22 15:41  dev   linux-next coverity
+2017-11-22 09:21 10:59  dev   maintainer: reply to patch
+2017-11-22 11:00 11:54  dev   review to kernel newbies patches
+2017-11-22 12:44 13:29  read  unix file systems
+2017-11-22 14:35 16:25  misc  submit job applications
+2017-11-22 16:33 17:40  read  unix file systems
+2017-11-22 21:30 21:40  dev   email
+2017-11-23 08:51 11:40  dev   add %px specifier, patchset RFS
+2017-11-23 12:12 13:03  dev   coverity fixes
+2017-11-23 14:05 15:50  dev   coccinelle research
+2017-11-23 15:51 16:10  dev   email
+2017-11-24 08:55 10:12  dev   email
+2017-11-24 10:12 10:31  dev   ftrace research
+2017-11-24 10:31 11:48  read  unix filesystems
+2017-11-24 13:03 14:46  dev   fix uxfs coding style and build warnings
+2017-11-24 14:46 15:56  dev   uxfs user space commands
+2017-11-24 15:56 17:00  dev   email, leaking_addresses.pl patch review
+2017-11-24 17:00 17:10  dev   kernel email
+2017-11-24 17:10 17:12  dev   fix log_work.pl bug
