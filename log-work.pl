@@ -433,7 +433,7 @@ sub sum_duration
 
 	$res->{'hours'} = $da->{'hours'} + $db->{'hours'};
 	$res->{'mins'} = $da->{'mins'} + $db->{'mins'};
-	if ($res->{'mins'} > 60) {
+	if ($res->{'mins'} > 59) {
 		$res->{'mins'} -= 60;
 		$res->{'hours'}++;
 	}
