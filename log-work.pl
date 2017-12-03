@@ -188,7 +188,12 @@ sub yyyy_mm_dd
 	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
 	$year += 1900;
 	$mon += 1;
-	return sprintf("%d-%d-%d", $year, $mon, $mday);
+
+	my ($smon, $sday);
+	$sday = $mday < 10 ? "0" . $mday : $mday . "";
+	$smon= $mon < 10 ? "0" . $mon : $mon . "";
+
+	return sprintf("%d-%d-%s", $year, $mon, $sday);
 }
 
 sub now
