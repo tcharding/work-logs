@@ -1,4 +1,4 @@
-Work Sessions June 20:15 - Tobin Harding  
+Work Sessions June 2015 - Tobin Harding  
 =======================================  
 start_time stop_time category [description ...]  
 

@@ -133,26 +133,5 @@ Tuesday 31/05/16
 12:30 13:40 dev arm -  
 14:58 17:24 dev arm - aal and gas manual  
 18:50 21:11 dev arm -  
-  
-Wednesday 01/06/16  
-----------------  
-07:31 10:09 dev arm -  
-11:09 21:28 dev arm -  
-  
-Sunday 05/06/16  
-----------------  
-16:30 21:29 dev arm -  
-21:29 23:08 dev arm -  
-  
-Monday 06/06/16  
-----------------  
-08:06 11:03 dev arm -  
-11:59 13:00 dev arm -  
-13:30 18:55 dev arm -  
-18:55 21:00 misc math - start linear algebra text  
-  
-Tuesday 07/06/16  
-----------------  
-07:42 10:37 dev arm -  
 
- 
+

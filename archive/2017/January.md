@@ -24,7 +24,7 @@ cc = Code Complete - Steve McConnell
 pp = Programming Perls - Jon Bentley    
 www = Web programming, usually updating personal website    
 os = OS from scratch  
-http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf    
+ http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf    
   
 Tuesday 03/01/17  
 ----------------  
