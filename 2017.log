@@ -941,20 +941,20 @@
 2017-12-20 12:36 15:31  dev   Eudyptula task 20
 2017-12-20 16:00 17:13  dev   Eudyptula task 20 submitted
 2017-12-21 07:30 07:41  dev   kernel email
-2017-12-21 07:41 08:14  app   code base exploration
-2017-12-21 08:14 10:07  app   clear checkpatch warnings for kernel module
-2017-12-21 10:49 13:41  app   kernel module code investigation
+2017-12-21 07:41 08:14  ax    code base exploration
+2017-12-21 08:14 10:07  ax    clear checkpatch warnings for kernel module
+2017-12-21 10:49 13:41  ax    kernel module code investigation
 2017-12-21 13:41 14:05  dev   re-submit Eudyptula task 20 (without previous response)
-2017-12-21 14:22 14:55  app   further kernel code investigation
-2017-12-21 16:18 17:30  app   play with appswitch
-2017-12-21 20:40 21:34  app   try to get appswitch running
-2017-12-22 07:17 08:20  app   bug hunting
-2017-12-22 08:20 08:35  app   phone call with Dinesh
+2017-12-21 14:22 14:55  ax    further kernel code investigation
+2017-12-21 16:18 17:30  ax    play with appswitch
+2017-12-21 20:40 21:34  ax    try to get appswitch running
+2017-12-22 07:17 08:20  ax    bug hunting
+2017-12-22 08:20 08:35  ax    phone call with Dinesh
 2017-12-22 08:35 09:10  dev   kernel email
-2017-12-22 08:35 09:41  app   fix pull request
-2017-12-22 10:10 12:00  app   bug hunting
-2017-12-22 12:52 13:52  app   successfully get AppSwitch running
-2017-12-22 13:52 14:58  app   write dev-guide.md
-2017-12-22 14:52 15:30  app   code reading and preparation for interview
-2017-12-22 15:30 15:50  app   phone interview with Pramod
-2017-12-24 08:30 09:14  app   trouble shoot github issues
+2017-12-22 08:35 09:41  ax    fix pull request
+2017-12-22 10:10 12:00  ax    bug hunting
+2017-12-22 12:52 13:52  ax    successfully get AppSwitch running
+2017-12-22 13:52 14:58  ax    write dev-guide.md
+2017-12-22 14:52 15:30  ax    code reading and preparation for interview
+2017-12-22 15:30 15:50  ax    phone interview with Pramod
+2017-12-24 08:30 09:14  ax    trouble shoot github issues
