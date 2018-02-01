@@ -4,3 +4,77 @@
 2018-1-06 07:26 07:47  misc  read up on lwn
 2018-1-06 07:47 10:06  dev   leaking_addresses patches
 2018-1-06 10:07 11:04  ax    investigate kernel version builds
+2018-1-06 11:32 12:57  dev   kernel documentation patches
+2018-1-07 08:34 09:10  dev   kernel email and branch management
+2018-1-07 09:29 11:46  dev   kernel fix sphinx warnings
+2018-1-07 11:46 11:53  dev   kernel email
+2018-1-07 13:35 17:22  ax    various pull requests
+2018-1-07 17:37 18:40  ax    found and fixed bugs in previous PR
+2018-1-07 19:45 20:04  ax    codebase reading
+2018-1-08 08:14 09:02  misc  talk preparation for lca
+2018-1-08 09:02 09:16  ax    branch/patch maintenance
+2018-1-08 09:16 10:57  ax    axctl exploration
+2018-1-08 12:01 14:33  ax    refactoring ax:main.go
+2018-1-08 14:33 15:00  misc  set up for interview
+2018-1-08 15:00 15:51  ax    interview with Ashish
+2018-1-08 15:51 17:36  ax    explore codebase
+2018-1-09 07:20 07:34  dev   kernel email
+2018-1-09 07:34 08:52  read  regex text
+2018-1-09 09:03 09:14  dev   spectre/meltdown kernel response blog
+2018-1-09 09:25 09:49  ax    investigate privilege issue
+2018-1-09 09:49 12:51  ax    interview call with Shaya and email to Dinesh
+2018-1-09 12:53 13:01  dev   kernel email
+2018-1-09 13:41 15:30  ax    refactor trap
+2018-1-09 15:56 17:33  ax    investigate trap code
+2018-1-10 07:21 07:45  misc  email
+2018-1-10 07:45 09:35  ax    privilges issue
+2018-1-10 10:03 10:23  ax    write test program for privileges patch
+2018-1-10 10:38 11:22  ax    give up on privileges patch - we need root!
+2018-1-10 11:22 11:39  ax    Update README re privileges issue
+2018-1-10 11:39 12:43  dev   documentation patch for jbd2
+2018-1-10 13:08 14:02  ax    codebase exploration
+2018-1-10 14:02 15:05  dev   rcupdate.h kernel-doc patch (RFC)
+2018-1-10 15:41 17:28  ax    refactor ax
+2018-1-11 07:27 08:00  dev   read up on UNIX domain sockets
+2018-1-11 08:00 08:23  ax    call with Dinesh
+2018-1-11 08:23 09:31  misc  research and register new entity
+2018-1-11 10:08 10:15  dev   lwn reading
+2018-1-11 11:31 12:35  misc  read kernel mailing list patches
+2018-1-20 17:14 19:14  misc  write slides for LCA presentation
+2018-1-29 12:11 13:15  dev   scrub leaking_addresses.pl patch set
+2018-1-29 13:15 14:14  dev   test leaking_addresses.pl patch set
+2018-1-29 14:14 15:51  dev   add 32-bit support to leaking_addresses.pl
+2018-1-29 16:23 19:21  ax    explore envoy via datawire blogpost
+2018-1-29 19:21 20:21  ax    attempt local build of envoy
+2018-1-29 20:22 21:33  misc  gpg key fun and lca follow up
+2018-1-30 07:31 09:25  ax    explore envoy
+2018-1-30 09:25 10:18  ax    run examples from README
+2018-1-30 10:39 12:14  ax    prep for standup demo
+2018-1-30 12:14 13:15  dev   test leaking_addresses patch set
+2018-1-30 13:15 13:27  ax    bug hunt README command
+2018-1-30 16:09 16:30  ax    docker mount issue
+2018-1-30 16:30 17:32  ax    standup
+2018-1-30 17:34 18:30  ax    research vagrant usage
+2018-1-31 07:23 07:49  dev   kernel email
+2018-1-31 07:49 08:34  dev   leaking_addresses final prep pre PR
+2018-1-31 11:13 12:13  dev   create pull request for linus
+2018-1-31 12:13 13:35  ax    docker containers
+2018-1-31 13:35 13:43  dev   submit pull request to linus
+2018-1-31 13:43 15:03  ax    systemd with docker
+2018-1-31 15:03 15:48  ax    setup dev environment vagrant
+2018-1-31 16:27 17:21  ax    standup
+2018-1-31 17:24 18:59  ax    write some simple golang network tools
+2018-1-31 19:16 20:54  ax    write network tools for testing
+2018-1-31 20:54 21:53  ax    start UPD work
+2018-1-31 21:59 22:28  misc  create invoice
+2018-1-31 22:29 23:39  ax    code exploration
+2018-2-01 07:52 08:47  dev   checkpatch kernel pull request prep
+2018-2-01 08:47 11:09  ax    udp test program
+2018-2-01 11:36 12:24  ax    udp testing tied into ax framework
+2018-2-01 12:24 13:38  ax    implement pre-checks for runtests.sh
+2018-2-01 13:38 13:49  misc  todo list etc
+2018-2-01 14:06 14:50  ax    lint pkg/util
+2018-2-01 14:51 15:07  read  read up on golang channels
+2018-2-01 15:07 15:59  ax    refactoring pkg/cookie
+2018-2-01 16:17 17:29  ax    standup
+2018-2-01 19:52 20:41  misc  company book work
