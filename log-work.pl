@@ -155,7 +155,7 @@ sub last_log_entry
 	my ($year) = @_;
 
 	my $filename = get_log_filename($year);
-	my $backwards = File::ReadBackwards->new($filename) or die "$0: can't read file backwards: $!";
+	my $backwards = File::ReadBackwards->new($filename) or die "$0: can't read file backwards $filename: $!";
 	my $last_line = $backwards->readline();
 
 	return $last_line;
