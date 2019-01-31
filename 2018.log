@@ -49,11 +49,11 @@
 2018-1-29 20:22 21:33  misc  gpg key fun and lca follow up
 2018-1-30 07:31 09:25  ax    explore envoy
 2018-1-30 09:25 10:18  ax    run examples from README
-2018-1-30 10:39 12:14  ax    prep for standup demo
+2018-1-30 10:39 12:14  ax    prep for stand up demo
 2018-1-30 12:14 13:15  dev   test leaking_addresses patch set
 2018-1-30 13:15 13:27  ax    bug hunt README command
 2018-1-30 16:09 16:30  ax    docker mount issue
-2018-1-30 16:30 17:32  ax    standup
+2018-1-30 16:30 17:32  ax    stand up
 2018-1-30 17:34 18:30  ax    research vagrant usage
 2018-1-31 07:23 07:49  dev   kernel email
 2018-1-31 07:49 08:34  dev   leaking_addresses final prep pre PR
@@ -62,7 +62,7 @@
 2018-1-31 13:35 13:43  dev   submit pull request to linus
 2018-1-31 13:43 15:03  ax    systemd with docker
 2018-1-31 15:03 15:48  ax    setup dev environment vagrant
-2018-1-31 16:27 17:21  ax    standup
+2018-1-31 16:27 17:21  ax    stand up
 2018-1-31 17:24 18:59  ax    write some simple golang network tools
 2018-1-31 19:16 20:54  ax    write network tools for testing
 2018-1-31 20:54 21:53  ax    start UPD work
@@ -76,5 +76,857 @@
 2018-2-01 14:06 14:50  ax    lint pkg/util
 2018-2-01 14:51 15:07  read  read up on golang channels
 2018-2-01 15:07 15:59  ax    refactoring pkg/cookie
-2018-2-01 16:17 17:29  ax    standup
+2018-2-01 16:17 17:29  ax    stand up
 2018-2-01 19:52 20:41  misc  company book work
+2018-2-02 07:35 07:50  dev   kernel email
+2018-2-02 07:50 10:26  ax    golint and testing
+2018-2-02 11:02 13:19  ax    reduce use of globals
+2018-2-02 13:19 14:30  ax    udp work
+2018-2-04 16:04 16:55  ax    fix UDP test
+2018-2-04 16:55 21:03  ax    refactoring and linting
+2018-2-05 07:12 08:29  misc  kernel.org git tree fun
+2018-2-05 08:42 08:58  misc  more git tree fun - set up leaks tree
+2018-2-05 08:59 09:24  misc  update LinkedIn profile
+2018-2-05 09:25 11:23  ax    start writing docs
+2018-2-05 11:44 12:53  ax    write docs
+2018-2-05 13:21 14:25  ax    lint pkg/events
+2018-2-05 14:25 15:30  ax    start writing firewall
+2018-2-05 18:09 20:58  ax    start hacking together trap demo
+2018-2-05 20:58 21:03  dev   kernel email
+2018-2-06 06:52 07:19  dev   kernel email
+2018-2-06 07:19 07:39  ax    ptrace vs trace
+2018-2-06 07:59 11:29  ax    demo work
+2018-2-06 12:05 14:00  ax    add syscall argument variables
+2018-2-06 14:00 14:19  ax    investigate privileges
+2018-2-06 14:25 15:22  ax    work on remove root requirements
+2018-2-06 15:32 16:27  ax    implement privilege PR
+2018-2-06 16:28 17:09  ax    stand up
+2018-2-06 17:10 17:30  dev   kernel email
+2018-2-07 06:52 07:16  ax    cleanup a couple of PRs
+2018-2-07 07:16 07:49  ax    started work on hashing net_ns
+2018-2-07 08:14 09:17  ax    do app_id hashing PR
+2018-2-07 09:17 11:06  ax    re-write UDP test
+2018-2-07 11:06 11:31  ax    fw QueryUser stuff
+2018-2-07 12:16 15:43  ax    failed attempt to resolve trap modulization
+2018-2-07 15:43 16:09  ax    attempted trouble shoot syscall arg names
+2018-2-07 16:09 16:32  ax    start convert trap to use inode for app_id
+2018-2-08 07:18 09:48  ax    use inode as app_id
+2018-2-08 09:48 11:47  ax    srtables project
+2018-2-08 12:14 12:39  ax    srtables stuff
+2018-2-08 12:39 13:31  dev   review jons kernel-docs patch set
+2018-2-08 13:31 14:10  ax    trouble shoot srtables idea
+2018-2-08 14:10 14:18  dev   kernel email
+2018-2-09 08:53 09:15  dev   kernel email
+2018-2-09 09:15 11:49  ax    fix patch set adding syscall variables
+2018-2-09 12:20 13:16  ax    add tests for getpeername
+2018-2-09 13:16 13:56  ax    srtables randomization
+2018-2-09 13:57 15:03  ax    add tests
+2018-2-09 15:04 15:21  ax    srtables testing
+2018-2-09 20:43 23:60  ax    attempted getpeername debugging
+2018-2-10 00:00 00:46  ax    attempted getpeername debugging
+2018-2-11 14:57 17:40  acc   setup accounts for crowd coded
+2018-2-11 17:41 18:37  misc  clean set up duplicity
+2018-2-11 19:03 20:56  ax    explore the code base, taking notes
+2018-2-12 07:18 09:04  ax    start on traping other process
+2018-2-12 09:30 10:49  ax    dead end on trapping othe process
+2018-2-12 10:49 12:14  dev   kernel bike shedding on Co-Developed-by tag
+2018-2-12 12:14 12:48  ax    restart on srtables separation stuff
+2018-2-12 13:10 14:30  ax    PR to trap any process in tracked netns
+2018-2-12 14:30 14:58  ax    testing above PR
+2018-2-13 08:12 09:26  misc  fix up environment
+2018-2-13 09:26 11:11  ax    rewrite yesterdays PR to separate ax from cmd
+2018-2-13 11:40 12:06  ax    inject resolv
+2018-2-13 12:25 14:28  ax    no net ns PR
+2018-2-13 14:29 15:40  ax    no net ns testing
+2018-2-13 15:40 17:03  ax    stand up
+2018-2-13 17:03 17:19  ax    rdtsc() implementation for app_id
+2018-2-14 06:30 06:47  dev   kernel email
+2018-2-14 06:47 08:33  ax    rebase PRs, app_id netns stuff
+2018-2-14 09:04 09:38  misc  set up gl wifi
+2018-2-14 09:38 12:00  ax    remove net ns
+2018-2-14 13:00 14:40  misc  gpg key signing fun
+2018-2-14 14:40 17:16  ax    track process hierarchy
+2018-2-15 07:27 08:12  ax    re-work process hierarchy patch set
+2018-2-15 08:12 09:47  ax    test app_id patch set
+2018-2-15 09:47 09:53  dev   kernel email
+2018-2-15 09:57 11:25  ax    further testing
+2018-2-15 11:49 12:56  ax    further testing - no more kernel crashes
+2018-2-15 12:56 16:19  ax    app_id patch set working, one test failing
+2018-2-15 16:19 17:02  ax    stand up
+2018-2-16 05:04 05:54  ax    tests PR cleanup
+2018-2-16 05:54 09:59  ax    test cleanup
+2018-2-16 10:10 12:02  ax    bug hunting
+2018-2-16 12:12 13:32  ax    bug hunting
+2018-2-19 06:50 07:56  dev   kernel patch review
+2018-2-19 08:13 08:32  ax    PR review
+2018-2-19 08:32 09:31  dev   leaks tree maintanence
+2018-2-19 09:31 12:00  dev   add scan once functionality to leaking_addresses
+2018-2-19 12:44 13:51  dev   submit leaking_addresses patch set
+2018-2-19 13:51 14:54  ax    bug hunting
+2018-2-19 14:54 15:13  dev   kernel email
+2018-2-20 08:16 09:43  ax    rework trap process patch set
+2018-2-20 09:43 11:25  ax    start work on adding ioctl for socket name
+2018-2-20 12:04 15:29  ax    more attempts at pid tracking
+2018-2-20 15:40 16:30  ax    bug hunting
+2018-2-20 16:30 17:30  ax    stand up
+2018-2-21 07:17 07:54  ax    conclude and add jira comment for pid tracking
+2018-2-21 07:54 11:07  ax    get stared with packer
+2018-2-21 11:47 15:32  ax    add packer build to appswitch project
+2018-2-21 15:32 15:45  ax    socket ioctl
+2018-2-21 15:45 16:57  ax    stand up
+2018-2-22 08:11 08:28  dev   perl primer
+2018-2-22 08:29 11:53  ax    packer ubuntu build
+2018-2-22 12:48 16:30  ax    set socket name ioctl
+2018-2-22 16:30 16:59  ax    stand up
+2018-2-22 16:59 17:22  ax    clean up pull requests
+2018-2-23 07:23 08:55  ax    review PR from Ashish
+2018-2-23 08:55 11:35  ax    socket ioctl re-write
+2018-2-23 12:10 15:25  ax    trap: socket path ioctl PR
+2018-2-23 15:25 15:45  ax    ioctl socket PR testing
+2018-2-24 07:40 09:31  dev   read up on and play with linux-next
+2018-2-25 18:22 18:59  dev   leaking_addresses into linux-next
+2018-2-26 09:03 09:29  dev   v2 MAINTAINERS leaking_addresses patch
+2018-2-26 09:29 10:18  ax    aws ami testing
+2018-2-26 10:18 12:13  ax    aws testing
+2018-2-26 12:37 13:10  ax    ioctl bug hunting
+2018-2-26 13:10 15:30  ax    ioctl fix PR
+2018-2-26 19:14 20:03  dev   review acooks i2c patch set
+2018-2-26 20:03 21:06  dev   read tycho seccomp patch set
+2018-2-27 08:10 08:48  ax    fix PRs
+2018-2-27 08:49 11:31  ax    ioctl to add handler - funcitonal
+2018-2-27 11:58 14:05  dev   checkpatch series
+2018-2-27 14:05 15:53  dev   leaking_addresses PID stuff
+2018-2-27 16:05 17:11  ax    stand up and ioctl testing
+2018-2-27 17:11 17:30  dev   kernel email
+2018-2-28 07:30 08:12  dev   kernel email
+2018-2-28 08:13 09:05  ax    aws ami testing
+2018-2-28 09:05 09:30  ax    integration test fixes
+2018-2-28 09:41 10:16  ax    clean up tests, do PR
+2018-2-28 10:16 11:39  ax    update jira for handler rego
+2018-2-28 11:39 13:03  ax    ioctl fix bug
+2018-2-28 13:30 14:04  ax    ioctl combined PR
+2018-2-28 14:04 14:34  ax    research next task
+2018-2-28 14:34 15:28  read  linux 0.11
+2018-2-28 15:45 16:37  ax    track pid
+2018-2-28 16:37 17:07  ax    stand up
+2018-2-28 17:07 17:19  ax    read patch review
+2018-3-01 07:45 08:07  ax    email and slack
+2018-3-01 08:33 11:01  ax    research eBFP
+2018-3-01 11:01 12:52  ax    add RCU to handler registration
+2018-3-01 13:25 15:14  ax    ioct handler registration re-write
+2018-3-01 16:06 16:48  ax    report on work done
+2018-3-01 16:48 17:10  ax    read code
+2018-3-02 07:50 09:10  dev   leaking_addresses patch set
+2018-3-02 09:11 09:33  ax    youtube channel
+2018-3-02 09:33 11:19  ax    research bpf
+2018-3-02 11:19 11:32  dev   kernel email
+2018-3-02 12:12 14:30  dev   mainly procrastination
+2018-3-05 09:34 10:01  dev   kernel email
+2018-3-05 10:01 10:43  ax    mail setup
+2018-3-05 10:43 12:05  ax    centos AMI packer build
+2018-3-05 12:54 15:10  ax    cloud image shenanigans
+2018-3-05 15:15 17:29  ax    bug hunting REST call
+2018-3-06 07:14 07:47  ax    patch review
+2018-3-06 08:47 11:55  ax    add gce cloud image builder
+2018-3-06 12:39 15:22  ax    golint ax/
+2018-3-06 15:22 15:30  ax    bug hunting in axctl
+2018-3-06 15:39 16:30  ax    bug hunting
+2018-3-06 16:30 17:02  ax    stand up
+2018-3-07 07:48 08:02  dev   kernel email
+2018-3-07 08:02 11:19  ax    gce cloud image builders
+2018-3-07 11:49 13:13  ax    cloud image testing
+2018-3-07 13:13 16:40  dev   vla removal patches
+2018-3-08 07:09 08:58  ax    patch review
+2018-3-08 09:21 10:09  dev   kernel email
+2018-3-08 10:09 11:49  ax    PR review, fix and discussion
+2018-3-08 11:49 12:06  ax    jira setup
+2018-3-08 12:30 12:39  dev   kernel email
+2018-3-08 12:39 13:15  ax    PR fix after review
+2018-3-08 13:15 13:29  ax    PR rebase
+2018-3-08 13:29 15:16  ax    make tests pass quietly
+2018-3-08 15:16 15:42  ax    fix makefile
+2018-3-08 15:55 16:30  ax    misc
+2018-3-08 16:30 17:07  ax    stand up
+2018-3-08 17:07 17:33  dev   kernel email
+2018-3-09 07:10 07:31  ax    rebase open PRs
+2018-3-09 07:31 07:58  ax    cloud firewall rules
+2018-3-09 08:33 10:41  ax    test internal ports
+2018-3-09 10:41 12:10  dev   ax comms and kerne email
+2018-3-09 12:40 14:39  dev   vla removal
+2018-3-09 15:55 17:48  dev   vla removal patches
+2018-3-12 07:30 08:58  dev   kernel email (some ax slack comms)
+2018-3-12 08:58 10:58  ax    aws testing
+2018-3-12 10:58 11:45  dev   kernel email
+2018-3-12 12:14 12:44  dev   re-spin patches
+2018-3-12 12:55 13:15  ax    reply to PR review
+2018-3-12 13:15 14:43  dev   vla, read up on mailing list
+2018-3-12 15:07 16:01  dev   vla removal patches
+2018-3-12 16:01 16:27  dev   email to list
+2018-3-12 16:27 17:10  dev   vla email
+2018-3-12 17:10 17:28  ax    slack with sumeet
+2018-3-13 07:02 07:20  ax    email and PR review
+2018-3-13 08:40 13:20  ax    ax demo video
+2018-3-13 13:53 15:23  ax    demo video stuff
+2018-3-13 15:23 16:31  ax    stand up
+2018-3-13 16:31 17:59  ax    cli patches
+2018-3-14 07:07 07:31  dev   email
+2018-3-14 07:50 08:10  ax    patch review
+2018-3-14 08:10 09:30  ax    makefile fixing
+2018-3-14 09:40 10:26  ax    fix up make
+2018-3-14 10:26 11:32  ax    cli work and call with Dinesh
+2018-3-14 12:15 14:53  ax    track all processes in net_ns
+2018-3-14 15:05 16:58  ax    docker testing
+2018-3-15 07:08 07:30  dev   kernel email
+2018-3-15 07:30 08:26  ax    unwrapped process tracking
+2018-3-15 08:48 09:50  ax    docker and scripting
+2018-3-15 09:50 11:47  ax    nginx fun
+2018-3-15 12:25 13:31  dev   rsi vla patch v2
+2018-3-15 13:31 14:27  ax    enable unwrapped process tracking
+2018-3-15 14:27 15:48  ax    bug hunting
+2018-3-15 15:48 16:53  ax    bug hunting
+2018-3-15 16:53 17:10  ax    bug hunting
+2018-3-16 07:00 08:40  ax    testing
+2018-3-16 09:00 09:33  ax    fix makefile tests
+2018-3-16 09:33 09:50  ax    research CI
+2018-3-16 10:30 12:30  tm    toastmasters
+2018-3-16 13:13 14:10  ax    ax perf comarison
+2018-3-19 09:05 09:49  ax    email and PR refresh
+2018-3-19 09:49 09:59  ax    slack and script thinking
+2018-3-19 09:59 11:38  ax    user branch exploration
+2018-3-19 12:25 14:24  ax    ax wrapper script
+2018-3-19 14:24 14:38  ax    perf thinking
+2018-3-19 14:38 16:07  ax    call with Dinesh
+2018-3-19 16:07 17:00  ax    explore user driver
+2018-3-20 09:12 09:33  ax    fix up ax wrapper script
+2018-3-20 09:33 11:39  ax    user driver code exploration
+2018-3-20 12:22 12:42  ax    update ax wrapper PR
+2018-3-20 12:42 15:30  ax    race condition hunting
+2018-3-20 15:30 16:59  ax    race condition hunted and killed
+2018-3-20 17:00 17:33  dev   test leaking_addresses on lxc
+2018-3-21 07:11 07:31  ax    email
+2018-3-21 07:32 10:32  ax    fix up race bug PR
+2018-3-21 10:32 11:46  ax    add signal to ptraceLoop
+2018-3-21 12:15 13:04  ax    README attempt docker fix
+2018-3-21 13:04 15:45  ax    more race condition fixing
+2018-3-21 15:59 17:01  read  kernel book
+2018-3-22 07:14 07:50  ax    study overnight merged patches
+2018-3-22 08:24 11:19  ax    race condition PR testing
+2018-3-22 11:19 11:23  ax    setup for next time block
+2018-3-22 11:55 12:30  ax    fix up open PRs
+2018-3-22 13:10 15:08  ax    scripting ax reset and verify
+2018-3-22 15:43 18:01  ax    seccomp filter bug hunting
+2018-3-23 07:07 07:55  ax    PR/overnight patch reading
+2018-3-23 08:20 09:51  misc  root partion drama
+2018-3-23 09:51 11:49  ax    debug docker run appswitch
+2018-3-23 12:30 15:29  ax    docker (and some boot chaos) PR
+2018-3-23 15:29 17:08  ax    seccomp debugging
+2018-3-26 07:01 07:10  ax    testing
+2018-3-26 07:57 08:13  ax    email, and patch review
+2018-3-26 08:13 10:01  ax    seccomp testing
+2018-3-26 10:01 11:13  ax    code reading and attempted bug fix
+2018-3-26 11:13 11:23  ax    prep for IP array addition
+2018-3-26 11:52 12:10  ax    code reading
+2018-3-26 12:33 14:17  ax    first attempt at multiple ips
+2018-3-26 14:17 15:30  ax    read api/ and srtables/ code
+2018-3-26 16:30 17:33  dev   vla pwrseq_simple.c patch
+2018-3-27 07:08 07:24  misc  email and slack ops
+2018-3-27 09:00 09:19  ax    master branch testing
+2018-3-27 09:50 10:10  ax    clean up tree
+2018-3-27 10:10 12:07  ax    fixing and testing master
+2018-3-27 13:05 16:50  ax    attempt to rename appId using util.ID
+2018-3-27 16:51 17:27  ax    ip change data type
+2018-3-28 07:03 07:11  ax    overnight catch up
+2018-3-28 07:11 08:09  ax    start refactoring api/
+2018-3-28 08:51 11:54  ax    replace IPAddr with EndPoint
+2018-3-28 12:58 17:27  ax    refactor api and srtables
+2018-3-29 07:05 08:03  ax    start to re-write end point code
+2018-3-29 09:30 11:54  ax    write net package
+2018-3-29 12:40 14:01  ax    do PR net package
+2018-3-29 14:01 14:21  ax    invoice and monthly wrap up
+2018-4-03 09:05 10:50  ax    PR implement suggestions
+2018-4-03 10:50 11:36  ax    set up slack github integration
+2018-4-03 12:16 12:40  ax    remove debug out - research ideas
+2018-4-03 12:40 14:10  dev   kernel layer 2 networking
+2018-4-03 14:10 14:17  ax    debug help pramod
+2018-4-03 14:17 14:49  dev   driver stuff
+2018-4-03 15:02 16:29  ax    refactoring work
+2018-4-04 07:15 08:44  dev   kernel email
+2018-4-04 09:05 10:12  ax    create release binary
+2018-4-04 11:21 11:33  ax    update PR to use docker
+2018-4-04 12:11 15:14  ax    play with cleaning up CLI
+2018-4-04 15:14 15:26  ax    do cleanup cli PR
+2018-4-04 15:26 15:40  misc  prep talk for LUG
+2018-4-04 15:40 16:02  dev   kernel email
+2018-4-04 17:00 21:00  misc  lug meetup
+2018-4-05 07:39 12:02  ax    refactor apptable
+2018-4-05 12:15 15:21  ax    refactor apptable
+2018-4-05 15:36 16:11  ax    look back into release PR
+2018-4-06 07:09 08:09  ax    start rewrite net pkg
+2018-4-06 08:28 10:16  ax    work on EndPoint
+2018-4-06 13:18 17:31  ax    refactor like mad
+2018-4-07 06:46 07:36  ax    more refactor
+2018-4-07 08:30 09:56  dev   pull request to linus
+2018-4-07 10:26 13:26  ax    work on end point refactor
+2018-4-07 13:59 18:18  ax    work on IPAddr removal
+2018-4-07 18:39 18:52  ax    implement idea from shower
+2018-4-09 07:43 12:03  ax    fix command line options
+2018-4-09 12:35 13:32  ax    PR fixing command line options
+2018-4-09 13:32 16:08  ax    Remove IPAddr
+2018-4-09 16:09 17:30  ax    fix help output
+2018-4-10 08:57 13:07  ax    proof read big patch
+2018-4-10 13:35 13:55  ax    test epic refactor
+2018-4-10 14:04 16:15  ax    fix command flags
+2018-4-10 16:15 17:40  ax    replace SvcAddr with EndPoint
+2018-4-13 07:20 07:35  dev   kernel email
+2018-4-13 07:40 08:04  ax    call with Dinesh
+2018-4-13 08:06 08:09  ax    set up slack
+2018-4-13 08:47 11:06  ax    bug hunting in user driver
+2018-4-13 11:06 11:56  dev   kernel build and testing
+2018-4-13 12:31 13:21  misc  conference research
+2018-4-13 13:21 14:30  read  linux networking
+2018-4-16 15:56 17:15  ax    loopback issue investigation
+2018-4-16 17:15 18:54  ax    clean up tests
+2018-4-16 19:15 21:20  ax    attempted to debug loopback issue
+2018-4-17 07:05 08:57  ax    debugging and call with dinesh
+2018-4-17 09:26 12:26  ax    debugging
+2018-4-17 12:59 13:54  ax    debug
+2018-4-17 13:54 15:09  ax    do more debugging
+2018-4-17 15:09 15:23  dev   review netdev patches
+2018-4-17 15:39 15:54  dev   kernel netdev patch review
+2018-4-17 15:54 17:28  ax    bug hunt and find EADDRINUSE errro
+2018-4-18 07:13 08:07  ax    chase bind loopback issue
+2018-4-18 08:35 11:26  ax    debugging and call with dinesh
+2018-4-18 11:56 12:37  ax    fix interface creation
+2018-4-18 12:37 13:20  ax    get lost in docker compose bullshit
+2018-4-18 13:20 15:14  ax    start sphinx docs
+2018-4-18 15:23 17:15  ax    work on docs
+2018-4-19 06:49 07:23  ax    docker ax/consul stuff
+2018-4-19 07:57 08:29  ax    troubleshoot readthedocs build
+2018-4-19 08:29 09:58  ax    fix PR, call with Dinesh, some docs work
+2018-4-19 09:58 12:29  ax    add docker-compose
+2018-4-19 13:00 15:48  ax    script docs updates
+2018-4-19 16:00 16:06  ax    sync script
+2018-4-19 17:01 17:17  ax    docs PR
+2018-4-19 17:17 17:20  daily report
+2018-4-30 07:12 08:03  ax    start on docs
+2018-4-30 08:36 10:02  ax    var path
+2018-4-30 10:31 12:25  ax    docs
+2018-4-30 12:45 15:30  ax    more docs work
+2018-4-30 16:15 16:24  dev   raise github issue for urfave/cli
+2018-4-30 16:24 16:45  dev   kernel mailing list reading
+2018-5-01 08:15 11:45  ax    continue work on docs
+2018-5-01 11:45 11:59  dev   start kernel printk work
+2018-5-01 12:27 16:31  dev   kernel printk patch
+2018-5-01 16:41 17:32  dev   kernel testing printk patch
+2018-5-02 07:32 09:34  dev   send kernel patch early random bytes
+2018-5-02 09:51 12:17  ax    more docs
+2018-5-02 12:32 14:22  ax    services rabbit hole
+2018-5-02 14:22 16:08  ax    pr review
+2018-5-03 06:00 08:03  dev   kernel v2 of earl boot patch set
+2018-5-03 08:27 08:52  dev   kernel early boot patch set v2
+2018-5-03 08:52 10:20  ax    docs refactor service
+2018-5-03 10:20 12:21  ax    docs - service options
+2018-5-03 12:57 15:05  ax    test command line options
+2018-5-03 15:05 15:54  dev   review netdev patch
+2018-5-03 16:20 17:23  dev   kernel patch review
+2018-5-04 06:56 07:24  dev   email
+2018-5-04 08:04 08:51  misc  irc and random stuff
+2018-5-04 08:51 10:09  misc  procrastinate
+2018-5-04 10:30 12:30  tm    toastmasters
+2018-5-04 13:24 15:30  ax    call with dinesh
+2018-5-07 07:37 08:49  misc  read up on RESTful APIs in golang
+2018-5-07 09:48 09:54  dev   kernel email
+2018-5-07 11:47 13:08  dev   netdev patch review
+2018-5-08 09:06 11:09  ax    documentation
+2018-5-08 11:09 12:12  ax    ax k8s vagrant
+2018-5-08 12:50 15:15  ax    vm testing multi-node set ups
+2018-5-08 15:15 15:40  dev   kernel email
+2018-5-08 15:40 17:38  dev   delve into r8169.c
+2018-5-09 06:46 07:39  dev   kernel patch review
+2018-5-09 08:07 11:03  ax    cluster testing
+2018-5-09 11:18 11:26  ax    testing
+2018-5-09 11:26 14:25  ax    more cluster testing
+2018-5-09 15:23 16:40  ax    more cluster testing
+2018-5-09 16:40 17:29  dev   netdev reading
+2018-5-10 07:09 07:27  ax    morning email and slack
+2018-5-10 08:04 10:18  ax    docs pr
+2018-5-10 10:18 13:13  ax    vagrant fun
+2018-5-10 13:30 14:51  ax    vagrant bullshit
+2018-5-10 14:51 17:29  ax    re-write Vagrantfile from scratch
+2018-5-11 07:08 07:21  ax    vagrant
+2018-5-11 07:50 11:40  ax    vagrant set up and cluster testing
+2018-5-11 11:40 12:23  ax    call with dinesh
+2018-5-14 08:40 12:24  ax    cluster testing
+2018-5-14 12:42 15:28  ax    srtables refactoring
+2018-5-14 15:43 17:34  ax    srtables refactor PR
+2018-5-15 06:32 07:26  ax    read srtables code
+2018-5-15 09:25 12:39  ax    bullshit
+2018-5-15 12:39 13:40  dev   kernel weak hash patch
+2018-5-15 14:27 14:39  dev   write and send patch
+2018-5-15 14:39 15:40  dev   netdev patch review
+2018-5-15 15:50 16:13  dev   kernel patch review
+2018-5-16 07:30 08:30  misc  sound issues
+2018-5-16 08:30 08:57  ax    call with Tycho
+2018-5-16 08:57 09:19  dev   early printk patch set v5
+2018-5-16 09:19 09:35  dev   patch review
+2018-5-16 09:35 11:02  dev   attempt syscall hostname fixes
+2018-5-16 11:03 12:24  ax    debug serf
+2018-5-16 12:39 13:56  ax    fix bug introduced in previous commit
+2018-5-16 13:56 15:30  ax    debug wan cluster
+2018-5-16 15:50 17:02  ax    debug WAN proxy
+2018-5-17 07:34 08:42  dev   kernel email
+2018-5-17 08:42 12:41  ax    serf repair
+2018-5-17 13:53 16:32  ax    work on wan proxy
+2018-5-17 16:48 16:58  ax    wrap up
+2018-5-18 07:10 07:34  dev   email
+2018-5-18 08:11 09:59  ax    debugging proxy connection
+2018-5-18 13:17 15:26  ax    debugging wan proxy
+2018-5-21 08:02 08:29  tm    toastmasters
+2018-5-21 08:29 12:42  ax    debug federation
+2018-5-21 12:42 13:05  ax    build test vms
+2018-5-21 13:22 14:47  dev   kernel email
+2018-5-21 14:47 15:05  ax    vagrant
+2018-5-21 16:06 17:08  ax    accounting and thinking
+2018-5-22 09:23 12:46  ax    debug wan proxy
+2018-5-22 13:02 16:56  ax    work on wan proxy
+2018-5-23 07:57 08:03  dev   kernel email
+2018-5-23 08:03 11:10  ax    work on srtables
+2018-5-23 11:28 12:34  ax    srtables trivial refactor PR
+2018-5-23 12:34 13:37  ax    refactor ax
+2018-5-23 13:45 17:08  refactor api
+2018-5-24 08:15 13:03  ax    remove PortMap
+2018-5-24 13:19 14:15  ax    pr and cleanup of github
+2018-5-24 14:15 16:37  ax    debugging srtables wan serf events
+2018-5-24 16:38 16:48  ax    do daily report
+2018-5-25 07:15 10:17  ax    test PR
+2018-5-25 10:23 11:01  misc  lug server ops
+2018-5-25 11:01 12:53  ax    debug wan connectivity
+2018-5-25 13:07 14:34  ax    debugging
+2018-5-28 08:54 09:34  ax    fix PR restructure-tree
+2018-5-28 09:35 11:47  dev   early printk patch set v6
+2018-5-28 11:47 12:10  ax    clean up PRs
+2018-5-28 12:42 16:03  ax    fix two node wan federation
+2018-5-28 16:04 16:22  ax    daily report
+2018-5-28 16:22 17:01  read  patterson and hennessy
+2018-5-29 08:14 11:16  ax    add e2e test infrastructure
+2018-5-29 11:16 12:12  ax    debug wan proxy
+2018-5-29 12:37 14:15  ax    docker fun and wan proxy debug
+2018-5-29 14:16 17:34  ax    debug wan proxy
+2018-5-30 08:13 11:26  ax    write wan proxy function call chain doc
+2018-5-30 11:26 13:40  ax    debug wan proxy
+2018-5-30 13:55 17:19  ax    worked on LookupServer()
+2018-5-31 07:53 10:30  ax    fix wan proxy connectivity!!!
+2018-5-31 10:30 13:05  ax    wan proxy PR
+2018-5-31 13:28 14:23  ax    ax daemon option names redesign
+2018-6-01 07:05 08:05  ax    email, patch review, and slack
+2018-6-01 08:47 10:01  ax    docs work
+2018-6-01 10:30 12:30  tm    toastmasters meeting
+2018-6-01 13:50 16:17  ax    docs PR
+2018-6-04 08:01 10:52  ax    fix PRs and merge
+2018-6-04 11:32 15:39  ax    config option fun
+2018-6-04 15:58 17:34  ax    pre release tasks
+2018-6-05 09:10 13:30  ax    cli update
+2018-6-05 14:43 16:29  ax    do pre release work
+2018-6-06 07:26 08:29  misc  update personal web site
+2018-6-06 08:45 08:56  ax    slack chat with dinesh
+2018-6-06 09:21 12:23  ax    start work on examples repo
+2018-6-06 12:43 13:07  tm    toastmasters pathways
+2018-6-06 13:07 14:42  ax    example scenarios
+2018-6-06 14:45 16:08  misc  make LUG presentation notes
+2018-6-06 16:28 16:53  ax    research automated e2e testing
+2018-6-07 07:30 08:18  ax    prep for day
+2018-6-07 09:01 11:46  ax    re-work examples PR
+2018-6-07 11:46 12:03  misc  read 'ruby in 20 minutes'
+2018-6-07 12:03 13:48  ax    vagrant and golang version drama
+2018-6-07 14:11 15:55  ax    vagrant and docker/ cleanup PRs
+2018-6-08 07:14 07:48  ax    email, slack, PR review response, and daily prep
+2018-6-08 08:20 09:10  ax    PR review
+2018-6-08 09:10 09:28  ax    Implement PR review suggestions
+2018-6-08 09:28 10:48  ax    automated testing
+2018-6-08 10:48 11:01  ax    test PR
+2018-6-08 11:01 11:50  ax    examples docs
+2018-6-08 11:50 14:24  ax    automated testing
+2018-6-12 09:16 11:11  ax    kernel patch, slack chat, bug fix
+2018-6-12 11:11 13:20  ax    e2e testing
+2018-6-12 13:35 17:09  ax    work on e2e test infrastructure
+2018-6-13 07:32 08:22  dev   read seccomp patch set
+2018-6-13 08:58 11:51  ax    e2e testing
+2018-6-13 11:51 13:07  ax    work on examples repo
+2018-6-13 13:26 15:52  ax    do federation examples and docs
+2018-6-14 08:16 13:03  ax    e2e testing upgrade hell
+2018-6-14 13:06 13:32  ax    start over on e2e tests in shell
+2018-6-14 13:50 15:03  ax    work on examples docs
+2018-6-14 15:03 18:05  ax    e2e testing in shell
+2018-6-15 07:59 08:21  ax    fix up docs PR
+2018-6-15 08:22 08:38  tm    talk prep
+2018-6-15 08:38 10:35  ax    e2e testing
+2018-6-15 10:35 12:30  tm    meeting
+2018-6-15 13:38 16:31  ax    e2e testing
+2018-6-18 07:59 08:55  ax    idiomatic golang research and PR review
+2018-6-18 08:55 10:40  ax    PR review and docker debugging
+2018-6-18 11:32 15:25  ax    debug docker issues
+2018-6-18 15:25 17:09  ax    debugging daemon and docker
+2018-6-19 08:55 09:44  ax    patch review
+2018-6-19 09:44 10:59  ax    patch update
+2018-6-19 12:02 12:54  ax    fix up automated testing
+2018-6-19 12:54 14:30  ax    serf debugging
+2018-6-19 14:47 15:08  ax    investigate serf debug methods
+2018-6-19 15:29 17:50  ax    vagrant virtualbox issues
+2018-6-20 07:52 09:13  ax    e2e testing
+2018-6-20 09:29 12:12  ax    dind serf testing
+2018-6-20 12:50 13:10  ax    write up solution
+2018-6-20 13:10 14:23  dev   early printk patch set v8
+2018-6-20 14:23 17:00  ax    read user driver code
+2018-6-21 08:00 12:08  ax    initial dind e2e setup
+2018-6-21 12:58 14:18  ax    bitching on slack
+2018-6-22 07:45 08:22  misc  email and slack
+2018-6-22 08:22 10:38  dev   kernel re-spin early_printk and docs patch set
+2018-6-22 11:24 13:51  ax    e2e cluster test PR based on dind
+2018-6-25 09:35 10:23  dev   kernel email and list patch reading
+2018-6-25 10:23 10:55  ax    NAT jira ticket
+2018-6-25 10:55 11:26  ax    e2e testing
+2018-6-25 12:05 13:05  ax    fix vagrant issues
+2018-6-25 13:05 14:39  ax    e2e dind shell scripting
+2018-6-25 15:01 16:58  ax    federation e2e dind test
+2018-6-26 08:22 08:52  misc  email
+2018-6-26 08:53 11:06  ax    e2e testing
+2018-6-26 11:52 17:07  ax    e2e test automation
+2018-6-27 07:55 09:20  ax    test scripting fail
+2018-6-27 09:20 12:02  ax    e2e automate testing
+2018-6-27 12:46 14:18  ax    e2e automated testing
+2018-6-27 14:27 16:57  ax    e2e testing
+2018-6-28 07:54 10:58  ax    e2e testing and bug hunting
+2018-6-28 11:51 12:37  ax    bug hunt egress gateway
+2018-6-28 14:54 17:31  ax    random reading
+2018-6-29 07:32 09:05  ax    resnt api
+2018-7-09 09:08 10:36  ax    add failing udp test
+2018-7-09 10:36 13:17  ax    manually apply udp patch
+2018-7-09 13:17 14:21  misc  vagrant hell
+2018-7-09 14:59 16:22  ax    work on udp support
+2018-7-09 16:27 16:42  tm    toastmasters email
+2018-7-09 16:42 19:47  misc  do end of financial year accounts
+2018-7-10 08:35 10:27  dev   kernel printk patch set
+2018-7-10 10:27 12:31  ax    read trace code
+2018-7-10 12:55 16:54  ax    debug udp
+2018-7-11 06:13 10:22  ax    refactoring socket code
+2018-7-11 11:28 13:58  ax    adt rewrite
+2018-7-11 18:56 20:46  dev   kernel networking docs patches
+2018-7-12 07:24 07:44  dev   send failover docs patch set
+2018-7-12 07:45 11:19  ax    debug refactor patch set
+2018-7-12 12:01 12:18  misc  fix backup system
+2018-7-12 12:18 13:59  ax    rebase udp-support patchset
+2018-7-12 13:59 15:04  ax    debug udp
+2018-7-13 08:42 10:39  ax    investigate master regression
+2018-7-13 10:39 11:27  ax    debug udp
+2018-7-13 12:26 17:15  ax    udp e2e testing
+2018-7-16 13:05 14:30  misc  fix email setup
+2018-7-17 08:30 10:43  ax    fix e2e tests for UDP
+2018-7-17 10:43 12:34  ax    debug upd connectivity
+2018-7-17 13:21 14:10  misc  kernel dev docs patch
+2018-7-17 14:32 15:27  ax    debug udp
+2018-7-17 15:49 16:40  ax    debug udp issue - found the problem!
+2018-7-17 16:40 17:30  dev   read up on MysteriumNetwork
+2018-7-17 19:14 21:51  dev   winter is coming
+2018-7-18 07:30 11:18  dev   re-write winter is coming solution
+2018-7-18 11:22 11:34  tm    toastmasters email
+2018-7-18 12:20 12:46  misc  etherium wallet setup
+2018-7-18 12:46 13:28  dev   kernel re-spin docs conversion patch set
+2018-7-18 13:28 15:10  ax    fix UDP cluster connectivity
+2018-7-18 15:10 16:55  ax    start debugging UPD federationconnectivity
+2018-7-19 08:31 11:53  ax    rework 'listening' data member
+2018-7-19 12:50 14:07  tm    toastmasters speech preparation
+2018-7-19 14:07 16:49  ax    udp branch rebasing and testing
+2018-7-20 07:41 09:23  ax    debug UDP fed connectivity
+2018-7-20 13:50 15:00  ax    debug UDP fed connectivity
+2018-7-23 08:47 09:29  ax    patch review
+2018-7-23 09:29 10:46  tm    toastamsters admin tasks
+2018-7-23 10:46 12:27  dev   netdev-FAQ rst conversion
+2018-7-23 12:43 13:05  ax    strace iperf
+2018-7-23 14:23 15:26  dev   netdev-FAQ rst conversion
+2018-7-23 15:26 17:32  ax    udp testing
+2018-7-24 09:35 10:30  ax    patch review
+2018-7-24 10:30 12:32  ax    udp federation connectivity
+2018-7-24 13:24 15:50  dev   netdev-FAQ conversion
+2018-7-24 15:50 16:40  ax    attempt to run DNS server under ax
+2018-7-24 16:40 17:16  ax    implement handleRecvfrom
+2018-7-25 07:38 08:30  ax    answer slack and email
+2018-7-25 08:30 09:30  ax    debug dns
+2018-7-25 09:30 11:10  ax    debug/understand named and host
+2018-7-25 11:10 11:31  ax    start on --expose for udp
+2018-7-25 12:01 12:30  dev   kernel bpf docs patch set
+2018-7-25 12:30 12:50  dev   kernel netdev-FAQ patch set
+2018-7-25 12:50 15:22  ax    design upd proxy
+2018-7-25 15:52 17:44  ax    impement UDP proxy server
+2018-7-26 08:13 08:33  misc  email
+2018-7-26 08:33 12:21  ax    work on address mapping code
+2018-7-26 13:01 14:06  ax    work on port_block
+2018-7-26 14:06 15:03  dev   kernel v2 of 2 docs patch sets
+2018-7-26 15:03 17:30  ax    re-write port_block
+2018-7-27 07:28 10:08  ax    work on recvfrom
+2018-7-27 10:08 12:10  ax    check udp port is free
+2018-7-27 12:40 13:02  ax    wrap up weeks work
+2018-7-30 08:51 10:36  misc  lca 2108 proposal submission
+2018-7-30 10:36 11:02  misc  nz research
+2018-7-30 11:02 11:59  ax    start ax get cleanup
+2018-7-30 12:26 14:58  ax    clean up ax get apps
+2018-7-30 14:58 17:09  dev   kerenl filter.txt RST conversion
+2018-7-31 09:00 11:56  ax    refactor vservice
+2018-7-31 12:41 13:23  ax    slack and next step planning
+2018-7-31 13:23 15:51  dev   kernel work on filter.rst conversion
+2018-7-31 15:51 16:50  ax    vservice dev docs
+2018-7-31 16:50 17:00  ax    july invoice
+2018-8-01 08:59 09:38  ax    respond to patch review
+2018-8-01 09:39 10:12  ax    update PR 245
+2018-8-01 10:12 10:47  misc  toastmasters preparation
+2018-8-01 10:48 11:29  ax    work on removing AppID
+2018-8-01 11:49 12:12  ax    more on removing AppID
+2018-8-01 13:00 13:54  ax    debug remove AppID stuff
+2018-8-01 13:55 15:11  dev   kernel send filter.txt to RST set
+2018-8-01 15:12 16:42  ax    code reading
+2018-8-02 08:21 12:18  ax    write model doc
+2018-8-02 12:56 15:22  ax    dev docs
+2018-8-02 15:22 16:29  dev   kernel RFC for filter.txt conversion
+2018-8-03 08:11 08:31  krn   do filter.txt RFC v2
+2018-8-03 08:31 09:28  ax    slack and debugging
+2018-8-03 14:28 15:46  ax    debug iperf -u
+2018-8-06 09:01 11:19  ax    lxc
+2018-8-06 11:50 12:28  ax    lxc dev ops
+2018-8-06 12:28 12:48  misc  toastmasters email
+2018-8-06 12:48 13:40  ax    patch lxc
+2018-8-06 13:40 14:37  ax    lxc dev ops
+2018-8-06 14:37 15:08  dev   eudyptula touch up on challenge 20
+2018-8-06 15:08 16:10  read  dragon book
+2018-8-06 16:10 17:31  ax    debug lxc with ax support
+2018-8-07 09:19 10:10  misc  toastmasters invite v2
+2018-8-07 10:11 11:50  ax    debug lxc
+2018-8-07 12:19 12:49  misc  kernel patch discussion email
+2018-8-07 12:49 13:43  ax    debug mount into /run
+2018-8-07 13:43 14:40  misc  update linkedin and resume
+2018-8-07 14:40 15:57  misc  job hunt and various applications
+2018-8-07 16:02 17:00  read  dragon book
+2018-8-08 09:04 12:07  krn   filter.txt conversion to RST
+2018-8-08 12:58 13:32  misc  job hunting
+2018-8-08 13:32 15:16  krn   filter.txt conversion
+2018-8-08 15:16 15:36  ax    debug lxc
+2018-8-08 15:36 16:16  read  dragon book
+2018-8-09 08:14 10:50  ax    debug lxc
+2018-8-09 11:30 13:02  ax    write lxc demo
+2018-8-09 14:34 15:25  krn   submit patch set for filter conversion
+2018-8-09 15:25 16:25  read  dragon book
+2018-8-09 16:26 17:29  ax    lxc patch
+2018-8-10 07:42 08:10  ax    slack bullshit with Dinesh
+2018-8-10 11:30 12:25  krn   filter conversion v2
+2018-8-10 12:26 12:49  ax    lxc stuff
+2018-8-10 12:49 12:52  misc  job hunt
+2018-8-13 09:55 11:23  misc  canonical job application
+2018-8-13 12:13 13:32  ax    work on lxc
+2018-8-13 13:59 16:11  ax    lxc stuff
+2018-8-13 16:12 12:30  ax    debug lxc
+2018-8-14 13:08 14:24  ax    lxc debugging
+2018-8-15 07:30 11:42  ax    port ax support to lxc:latest
+2018-8-15 12:42 15:57  ax    made lxc work with ax inc ip and name
+2018-8-16 07:16 09:53  ax    work on ax support in lxc-usernsexec
+2018-8-16 10:25 11:46  ax    debug unshare -U
+2018-8-16 11:46 12:14  misc  toastmastes preparation
+2018-8-16 12:14 16:27  ax    lxc stuff
+2018-8-16 16:40 17:15  lxc   clean up pull requests
+2018-8-17 08:28 09:58  lxc   coding style docs
+2018-8-17 13:36 15:19  lxc   coding style docs PR
+2018-8-17 15:39 17:17  lxc   Do PR fixing issue 2523
+2018-8-20 07:30 08:43  ax    read up on systemd
+2018-8-20 08:44 08:59  lxc   update PRs
+2018-8-20 08:59 10:00  ax    lxc debugging
+2018-8-20 10:00 10:32  misc  toastmasters newspaper piece
+2018-8-20 10:33 11:26  ax    debug lxc-start
+2018-8-20 11:55 15:27  lxc   zfs issue debugging
+2018-8-20 15:33 17:33  lxc   chased github issues
+2018-8-21 08:28 09:18  misc  email and irc
+2018-8-21 09:18 11:24  lxc   minor patches
+2018-8-21 11:24 11:36  ax    debug lxc /sbin/init
+2018-8-21 12:30 12:42  ax    read new patches
+2018-8-21 13:17 17:28  ax    dubug lxc-start
+2018-8-22 07:45 08:06  misc  email
+2018-8-22 08:34 11:27  misc  mysterium research
+2018-8-22 11:27 12:13  ax    lxc
+2018-8-22 12:51 17:39  ax    start on var-path option
+2018-8-23 08:23 08:39  misc  email
+2018-8-23 08:39 12:16  ax    var-path and lxc
+2018-8-23 13:06 17:32  ax    var path PR
+2018-8-24 08:30 12:26  ax    re-work PR
+2018-8-24 20:49 21:21  ax    test PR
+2018-8-27 10:19 11:59  ax    lxc-usernsexec
+2018-8-27 12:01 14:10  dev   play with mysterium
+2018-8-27 14:29 16:29  ax    clean up
+2018-8-27 16:29 17:22  misc  mysterium interview
+2018-9-07 08:50 09:22  misc  plumbers proposal first draft
+2018-9-07 13:01 14:15  misc  plumbers proposal v2
+2018-9-10 08:53 09:10  misc  email
+2018-9-10 08:53 13:34  misc  syzkaller
+2018-9-10 14:09 15:59  misc  kernel build hell
+2018-9-11 08:49 11:57  dev   syzkaller
+2018-9-11 12:30 14:30  misc  syzkaller qemu image stuff
+2018-9-11 14:30 15:00  dev   syzkaller bug hunting
+2018-9-11 16:07 17:57  dev   VM setup
+2018-9-11 17:58 19:08  read  computer architecture
+2018-9-12 08:16 09:37  dev   syzkaller bug hunting
+2018-9-12 09:37 10:39  read  computer architecture
+2018-9-12 10:39 11:37  dev   netdev patch review
+2018-9-12 11:37 12:40  dev   kernel docs fixes
+2018-9-12 12:40 13:52  misc  install and get started with magit
+2018-9-12 13:52 14:07  syz   deadlock debugging
+2018-9-12 15:01 16:00  read  comupter architecture
+2018-9-12 16:00 17:57  dev   deadlock debugging
+2018-9-13 07:02 08:10  misc  frequent flyer program bullshit
+2018-9-13 08:10 10:34  misc  kernel research and bug hunting
+2018-9-13 10:51 11:57  dev   lock bug
+2018-9-13 13:01 13:22  misc  prepare for docs fixes
+2018-9-13 13:56 14:13  syz   research next bug
+2018-9-13 14:14 14:57  read  computer architecture
+2018-9-13 14:57 17:43  dev   tty docs fixes
+2018-9-13 18:00 19:41  dev   tty docs fixes
+2018-9-13 19:41 20:29  dev   patch review
+2018-9-14 08:30 11:57  dev   tty ldd3 and other learning
+2018-9-14 12:18 13:02  dev   tty kernel-docs fixes
+2018-9-14 13:22 14:38  dev   tty kernel-docs fixes
+2018-9-14 14:38 16:00  dev   fix /proc/tty/drivers output format
+2018-9-17 08:07 09:51  misc  accounts and emails
+2018-9-17 10:34 12:43  ax    work on tickets
+2018-9-18 09:20 09:34  ax    resond to ticket comments and slack
+2018-9-18 09:34 13:02  kern  tty docs; do return and context labels
+2018-9-18 13:10 16:07  ax    add debug daemon command
+2018-9-19 08:00 10:46  dev   kernel and slack
+2018-9-19 11:27 11:59  dev   tty docs set
+2018-9-19 12:00 13:07  dev   tty docs
+2018-9-19 13:32 16:00  ax    daemon debug framework
+2018-9-20 08:00 08:48  misc  email, slack, prep for day
+2018-9-20 09:13 10:23  ax    add support for ax to lxc-usernsexec
+2018-9-20 10:24 11:19  ax    lxc container shit
+2018-9-20 11:20 11:35  misc  start toastmasters talk
+2018-9-20 11:35 12:40  ax    lxc debugging
+2018-9-20 12:40 14:11  kern  tty docs
+2018-9-20 14:21 15:54  ax    lxc debugging
+2018-9-20 15:54 17:11  misc  toastmasters presentation prep
+2018-9-21 08:02 09:21  ax    lxc unpriviledged containers
+2018-9-24 09:04 11:02  misc  reading
+2018-9-25 08:16 08:47  misc  email
+2018-9-25 08:47 09:26  ax    create Ubuntu vagrantfile
+2018-9-25 09:26 12:10  ax    vagrant bullshit
+2018-9-25 12:11 13:29  misc  job coding challenge
+2018-9-25 14:19 17:00  misc  youtube: Doshin Nelson Roshi
+2018-9-26 09:57 12:04  ax    vagrant bullshit
+2018-9-26 13:01 14:21  ax    debugging
+2018-10-15 10:02 11:21  kern  tty kernel docs patch set
+2018-10-15 12:35 14:11  kern  tty kernel docs
+2018-10-15 14:12 14:29  misc  email
+2018-10-15 14:29 15:26  read  computer architecture
+2018-10-15 15:27 17:53  misc  accounting
+2018-10-15 17:53 18:30  misc  accounting
+2018-10-16 09:30 11:30  misc  meeting with accountant 
+2018-10-16 14:22 14:51  misc  accounting
+2018-10-16 14:51 18:18  kern  tty patchset
+2018-10-17 09:22 10:48  kern  post tty docs patch v1
+2018-10-17 10:49 15:15  myst  shell script patches
+2018-10-18 10:00 10:37  myst  golint patches
+2018-10-18 10:37 10:55  misc  message Jack
+2018-10-18 10:55 11:22  kern  review own patch
+2018-10-18 11:52 12:14  myst  update PR and respond to messages
+2018-10-18 12:14 12:44  kern  syzkaller research
+2018-10-18 12:44 13:43  misc  tax shit
+2018-10-18 15:00 18:00  myst  bunch of patches
+2018-10-19 08:15 09:39  kern  v2 tty-docs patch set
+2018-10-22 09:39 16:28  misc  etherium research
+2018-10-23 08:56 09:28  misc  sort out calander
+2018-10-23 09:28 09:44  myst  update PRs
+2018-10-23 09:44 12:14  dev   patch leaking_addresses.pl
+2018-10-23 12:14 13:57  dev   try to boot all yes config kernel with QEMU
+2018-10-23 14:46 15:57  myst  play around with payments repo, do docs PR
+2018-10-23 15:57 16:28  myst  read code
+2018-10-23 16:28 17:13  myst  proposals filter PR
+2018-10-24 07:21 07:35  myst  update PRs
+2018-10-24 07:35 10:50  myst  fix github issues
+2018-10-24 13:08 13:53  myst  do broker-port PR
+2018-10-24 13:53 15:57  misc  debug laptop setup
+2018-10-24 15:57 19:13  misc  try to get leaking_addresses.pl to run in QEMU
+2018-10-25 08:03 09:47  misc  set up new browser and email valdas
+2018-10-25 09:47 10:29  misc  read up on tun/tap interfaces
+2018-10-25 11:00 12:41  misc  read up on geth
+2018-10-25 12:41 14:04  misc  set up ethereum node
+2018-10-25 14:21 15:00  misc  play with ethereum
+2018-10-26 08:00 10:27  myst  dev docs
+2018-10-26 10:39 15:28  myst  broker-address PR
+2018-10-26 15:50 17:37  myst  research code and tasks
+2018-10-30 09:28 11:32  misc  explore mesg-foundation
+2018-10-30 12:19 14:35  myst  work on broker port v3
+2018-10-30 15:12 15:31  myst  debug pr
+2018-10-30 18:27 19:18  myst  broke-address confusion
+2018-10-30 19:18 21:28  misc  set up new root fs for qemu la-bot
+2018-10-31 10:55 11:50  misc  set up quickbooks
+2018-10-31 11:50 13:48  myst  broker port PR v3
+2018-10-31 13:48 14:39  misc  pre house move tasks
+2018-10-31 14:39 15:18  myst  shell script cleaning
+2018-10-31 16:00 16:32  myst  newline PR v2
+2018-10-31 16:33 16:42  misc  email
+2018-10-31 16:42 17:16  misc  back ups
+2018-10-31 19:22 20:48  misc  try to setup syncthing
+2018-11-01 07:30 08:12  misc  toastmasters tasks
+2018-11-01 08:14 12:00  dev   eudyptula task 20 v2
+2018-11-01 12:45 14:10  read  computer architecture
+2018-11-01 14:11 17:13  myst  play with node runner
+2018-11-01 22:32 11:59  dev   rest api stuff
+2018-11-05 08:29 09:06  misc  set up qemu image
+2018-11-05 10:00 13:08  misc  job hunting
+2018-11-06 10:00 10:27  misc  email
+2018-11-06 10:27 12:18  myst  node high-level docs PR
+2018-11-06 12:40 14:05  myst  cli pull requests
+2018-11-06 16:01 16:46  myst  dep fun
+2018-11-06 16:47 17:49  dev   kernel qemu stuff
+2018-11-06 18:05 20:54  dev   leaking addresses scan with qemu
+2018-11-07 08:49 09:20  misc  plumbers reading
+2018-11-07 09:20 11:41  misc  routing reading
+2018-11-07 12:10 14:32  misc  write wireguard presentation
+2018-11-07 14:32 16:27  misc  reading
+2018-11-08 09:00 11:59  dev   started work on 'sendmealink'
+2018-12-08 00:01 03:07  dev   started work on 'sendmealink'
+2018-11-08 09:35 16:41  dev   web dev sendalink.app
+2018-11-08 17:38 18:19  dev   web dev sendalink.app
+2018-11-08 19:00 11:59  dev   web dev sendalink.app
+2018-11-09 00:00 06:35  dev   web dev sendalink.app
+2018-12-03 18:00 18:24  misc  fix setup
+2018-12-03 18:24 20:53  dev   sendalink
+2018-12-04 07:00 09:07  dev   sendalink, using sendgrid
+2018-12-04 10:00 12:05  dev   sendalink
+2018-12-04 12:05 14:32  dev   property check
+2018-12-04 14:53 17:59  dev   property check
+2018-12-04 18:24 20:40  dev   php stuff
+2018-12-05 07:06 08:30  dev   webdev apache setup
+2018-12-05 12:00 15:09  aps   set up apache,postgres,php on cloud node
+2018-12-05 15:30 17:02  dev   more web dev
+2018-12-06 11:16 15:58  dev   finish www-template
+2018-12-06 19:31 21:10  dev   set up virtual hosts on don
+2018-12-06 11:31 12:00  dev   start rewrite of sendalink
+2018-12-07 00:01 01:45  dev   start rewrite of sendalink
+2018-12-07 11:00 16:07  dev   Implement alpha version of sendalink
+2018-12-07 16:07 16:54  ops   attempt to get sendalink live on don
+2018-12-10 11:00 12:33  dev   make sendalink live
+2018-12-10 12:33 13:00  ops   set up mx records for crowdcoded
+2018-12-10 13:00 14:59  ops   set up host backups
+2018-12-10 14:59 15:18  misc  web site research
+2018-12-10 19:45 21:54  ops   get pumped by mysql
+2018-12-11 09:00 12:06  dev   wordpress install
+2018-12-11 12:40 15:11  dev   build hugo crowdcoded site
+2018-12-11 15:12 16:44  misc  webdev business research
+2018-12-11 16:44 17:43  dev   look into mobil menu for sendalink
+2018-12-11 18:48 19:02  dev   Add contact to crowdcoded.com.au
+2018-12-11 19:02 09:36  misc  email and call with new webdev client
+2018-12-12 10:16 15:31  ops   web dev stuff
+2018-12-12 15:53 22:45  dev   web dev
+2018-12-13 07:00 08:35  dev   wordpress themes
+2018-12-13 12:35 13:50  ops   misc
+2018-12-13 13:50 15:17  ops   set up s3 backups for wp.crowdcoded.com.au
+2018-12-13 15:45 22:46  dev   front end web dev
+2018-12-14 08:36 10:26  misc  write blog post
+2018-12-14 10:26 10:35  misc  update personal site about me page
+2018-12-14 11:30 12:30  dev   Udate crowdcoded.com.au
+2018-12-14 12:31 15:01  dev   re-build wp.crowdcoded.com.au
+2018-12-19 16:12 17:13  dev   hackerrank bot dev
+2018-12-20 20:10 20:40  misc  email ben about ROON device
