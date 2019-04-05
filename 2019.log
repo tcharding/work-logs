@@ -16,3 +16,235 @@
 2019-1-31 09:00 10:00  ops   arch setup
 2019-1-31 10:30 15:13  dev   kernel docs patches
 2019-1-31 15:29 17:30  dev   work on setting up kernel dev env in qemu
+2019-2-01 07:27 09:52  ops   try to get qemu working
+2019-2-01 10:17 11:59  dev   patch /proc/slabinfo
+2019-2-01 12:07 13:13  dev   kernel.org fun
+2019-2-01 13:13 13:48  misc  phone call with bookkeeper
+2019-2-01 13:48 14:22  dev   kernel email
+2019-2-04 09:02 10:14  misc  weekly prep and general chores
+2019-2-04 10:14 10:36  misc  accounting stuff
+2019-2-04 10:36 11:02  dev   v2 of SLUB comments fixes patchset
+2019-2-04 11:55 15:03  dev   slabinfo cache name shortening
+2019-2-04 15:44 16:55  dev   slabinfo patchset hit a deadend
+2019-2-05 07:05 09:51  dev   moveable objects patchset reading
+2019-2-05 10:30 13:40  dev   attempt at debugfs
+2019-2-05 14:56 18:27  dev   debugfs smo test module
+2019-2-06 07:00 07:26  dev   hack up function tab demo
+2019-2-06 08:15 12:48  dev   finished SMO test module
+2019-2-06 14:02 14:23  dev   kernel email
+2019-2-06 14:23 16:20  misc  some ops, some email, some code reading
+2019-2-06 17:30 21:00  dev   LUG meet
+2019-2-07 06:56 07:32  dev   inode/dentry reading and some email
+2019-2-07 07:55 09:30  dev   SLUB code reading
+2019-2-07 12:00 17:03  dev   PowerPC docs convert to RST
+2019-2-07 17:39 18:32  dev   slab research
+2019-2-08 07:58 08:22  dev   kernel email
+2019-2-08 08:50 09:51  dev   leaking_addresses patchset
+2019-2-08 09:57 14:11  dev   slub hacking
+2019-2-08 15:08 17:09  dev   slab hacking
+2019-2-09 08:54 11:12  dev   slub hacking
+2019-2-09 17:01 21:45  dev   slub hacking
+2019-2-10 11:06 14:49  dev   slub hacknig, write test module
+2019-2-10 15:40 17:06  dev   finnish smo test module
+2019-2-10 17:07 19:07  dev   debug slab defrag core
+2019-2-10 19:08 21:00  dev   python, write slub test script
+2019-2-11 07:25 09:13  dev   go over current state of patch set
+2019-2-11 09:13 10:53  dev   python; slub test code
+2019-2-11 12:40 13:31  dev   send patch set to Christoph
+2019-2-11 19:35 20:36  misc  update resume linkedIn and odt
+2019-2-11 20:36 21:04  misc  update resume on tobin.cc
+2019-2-12 07:00 07:25  dev   kernel email
+2019-2-12 08:59 10:40  misc  reading
+2019-2-12 10:40 12:37  dev   debug slub patch set
+2019-2-12 13:50 14:28  dev   debug slub test module
+2019-2-12 14:28 18:32  dev   xarray test module
+2019-2-13 07:05 08:23  dev   parse exacta
+2019-2-13 08:23 08:37  dev   kernel email
+2019-2-13 08:37 08:41  dev   xarray docs patch v2
+2019-2-13 08:41 09:42  dev   smo xarray debugging
+2019-2-13 11:56 13:00  dev   smo xarray debugging
+2019-2-13 13:00 13:30  dev   patch reading
+2019-2-13 14:01 15:18  dev   dentry smo attempt
+2019-2-13 15:18 15:50  dev   dentry/inode reading
+2019-2-13 16:32 16:43  dev   send v2 to Christoph
+2019-2-13 16:43 17:44  misc  job searching
+2019-2-14 07:10 08:02  misc  apply for job at Canonical
+2019-2-14 08:02 09:57  dev   env setup
+2019-2-14 10:04 12:17  dev   slub document test suite
+2019-2-14 14:41 15:14  dev   leaking addresses and xarray docs v3
+2019-2-14 15:14 17:25  dev   strcpy functions
+2019-2-15 07:26 09:25  misc  job interview with Canonical
+2019-2-15 09:25 10:21  misc  email people about jobs
+2019-2-15 10:44 11:39  misc  design slub shrink interface
+2019-2-15 12:15 13:00  dev   strcpy testing
+2019-2-18 09:30 10:47  misc  company and personal chores
+2019-2-18 10:47 11:13  misc  kids chores
+2019-2-18 11:13 11:19  misc  sign NDA
+2019-2-18 11:19 13:37  dev   slub hacking
+2019-2-18 14:31 16:07  dev   slub hacking
+2019-2-18 16:07 16:22  misc  email
+2019-2-18 16:22 17:33  qemu   qemu fun
+2019-2-18 17:33 17:38  misc  call with book keeper
+2019-2-18 17:39 18:13  qemu  fucking qemu again
+2019-2-18 18:13 18:31  misc  kids chores
+2019-2-19 08:16 10:24  dev   strcpy patch set
+2019-2-19 10:24 10:28  misc  email
+2019-2-19 10:58 15:35  dev   slub testing
+2019-2-20 08:27 09:02  dev   kernel email
+2019-2-20 09:02 12:09  dev   slub testing/cleaning patchset
+2019-2-20 17:13 18:03  dev   fixup and send smo patch set v3 to Christoph
+2019-2-20 18:03 18:25  sta   (sta is Static Analysis contract) read spec
+2019-2-21 07:04 08:58  dev   slub, add to test module
+2019-2-21 09:31 09:52  dev   slub test module
+2019-2-21 09:59 11:42  dev   slub test module
+2019-2-21 11:47 12:19  sta   call and research
+2019-2-21 13:58 16:25  dev   slub rework defrag patches and some email
+2019-2-21 16:26 17:30  dev   C string manipulation == fun
+2019-2-22 07:06 10:19  dev   slub patchset v4 prep
+2019-2-22 10:26 11:13  misc  job emails with Canonical
+2019-2-22 13:26 14:35  misc  vm setup ubuntu disk image
+2019-2-22 15:00 15:36  dev   kernel email
+2019-2-22 15:36 17:17  dev   slub testing on VM
+2019-2-22 17:20 17:30  dev   scsi reading
+2019-2-23 06:43 07:58  dev   slub code reading
+2019-2-23 09:30 09:58  dev   slub code reading
+2019-2-23 14:51 15:06  dev   new sync laptop script
+2019-2-23 15:06 15:21  sta   sign statement of work
+2019-2-23 15:22 17:25  sta   get started
+2019-2-23 18:43 21:00  sta   Write scanner
+2019-2-24 07:35 10:50  sta   re-implement scaner
+2019-2-24 10:50 11:53  sta   add automated tests for basic parser
+2019-2-24 12:30 12:50  sta   start creating record types
+2019-2-24 18:45 21:11  sta   Results CSV
+2019-2-25 08:50 09:29  dev   smo v4 to Christoph
+2019-2-25 09:41 10:31  dev   strscpy and kselftest
+2019-2-25 11:14 15:16  dev   strscpy testing and v2 submit
+2019-2-26 08:31 08:42  dev   kernel email
+2019-2-26 08:42 11:48  sta   verify PerfDef
+2019-2-26 13:22 13:22  sta   Make Record an interface
+2019-2-26 13:41 14:22  sta   Make Record an interface
+2019-2-26 14:22 15:58  sta   hackety hack
+2019-2-26 16:29 18:28  sta   Implement Prices - OfficialDividends
+2019-2-27 06:30 08:12  sta   Refactor and implement RaceData 'WN Pool Final'
+2019-2-27 08:12 09:05  sta   Implement RaceData 'EX Pool Final'
+2019-2-27 09:50 10:48  sta   Implement 'Runner Statuses'
+2019-2-27 10:48 13:27  sta   Finished functionality
+2019-2-27 13:27 15:07  sta   Fix parse errors for data/SGD_DisplayData/2016/JAN
+2019-2-27 15:07 15:28  sta   bug fix the parser
+2019-2-28 06:57 07:54  dev   strscpy_pad patch implement suggestions
+2019-2-28 08:30 10:55  sta   bug fix
+2019-2-28 10:59 14:51  sta   Finish cleanup
+2019-2-28 14:45 16:24  dev   kernel email
+2019-3-01 07:00 09:54  job  job hunt
+2019-3-04 09:00 09:34  misc  email and weekly prep
+2019-3-04 09:35 10:50  sta   invoice for work done
+2019-3-04 11:02 12:30  dev   kernel testing
+2019-3-04 13:20 13:49  dev   kernel think about testin strscy_pad
+2019-3-04 13:49 14:19  misc  mess with env
+2019-3-04 14:19 18:49  dev   slub hacking
+2019-3-05 05:30 06:28  dev   slub refactor patch set
+2019-3-05 08:31 09:22  dev   slub node move
+2019-3-05 09:22 09:47  misc  recruiter calls (Zafar and Katie)
+2019-3-05 09:47 10:54  dev   slub implement node move functions
+2019-3-05 10:54 12:08  dev   slub build each individual patch
+2019-3-05 12:08 12:15  dev   kernel email
+2019-3-05 12:54 14:42  dev   send v5 of slub patch set to christoph
+2019-3-05 14:51 15:25  misc  job hunt
+2019-3-06 05:45 07:45  dev   kselftest
+2019-3-06 08:15 11:19  dev   kselftest patch set
+2019-3-06 12:01 15:42  dev   strscpy_pad and kselftest patch set
+2019-3-07 05:45 08:51  dev   strscpy_pad and kselftest patch set
+2019-3-07 08:51 09:36  misg  gpg stuff
+2019-3-07 12:15 12:33  misc  read up on vorteil, do website bug report
+2019-3-07 12:44 13:25  dev   pull request to Linus
+2019-3-07 13:25 15:26  dev   docs and ops drama
+2019-3-07 15:48 17:36  dev   kernel docs warning/errros fixing
+2019-3-07 17:36 17:52  dev   kernel email
+2019-3-08 07:31 09:41  dev   smo final touches to patch set
+2019-3-08 10:00 11:39  dev   slub hacking
+2019-3-08 12:35 15:02  dev   smo some more final touches
+2019-3-11 08:35 12:08  dev   use slab_list instead of lru patch set
+2019-3-11 12:22 13:11  dev   play with removal of SLAB allocator
+2019-3-11 13:11 14:17  misc  write conference submission OSSNA 2019
+2019-3-11 15:15 15:45  dev   slab hacking
+2019-3-11 16:25 18:41  dev   slab checkpatching
+2019-3-12 12:02 13:16  dev   respond to patch review
+2019-3-12 13:16 15:37  dev   slab hacking, dentry SMO
+2019-3-13 06:07 06:57  dev   dcache
+2019-3-13 09:04 13:32  dev   dcache docs conversion
+2019-3-13 14:25 15:09  dev   dcache docs submit patch set
+2019-3-13 15:09 16:21  dev   slab lru v2 submission
+2019-3-13 16:31 18:20  dev   vfs docs patch set
+2019-3-14 07:34 09:16  dev   lru implement suggestions
+2019-3-14 09:16 10:55  dev   slab list hacking
+2019-3-14 11:27 13:37  dev   list testing
+2019-3-14 13:37 14:56  dev   slab debugging
+2019-3-14 15:25 16:32  dev   slab lru v3 patch set
+2019-3-14 16:33 17:30  dev   dcache
+2019-3-15 07:12 07:49  dev   dentry and email
+2019-3-15 07:55 11:37  dev   dcache docs/comments fixes
+2019-3-15 11:54 12:14  dev   more dcache
+2019-3-18 09:50 11:03  dev   slab-lru v4
+2019-3-18 11:03 12:34  dev   dcache/slub hacking
+2019-3-18 12:34 13:00  dev   job hunting
+2019-3-18 14:34 15:36  dev   locking email thread
+2019-3-18 15:36 16:45  misc  procrastinate
+2019-3-18 16:45 18:23  dev   work on updating vfs.rst
+2019-3-19 08:00 10:15  dev   docs convert vfs.txt to rst v2
+2019-3-19 10:15 11:45  dev   vfs cleanup
+2019-3-19 12:25 14:41  dev   vfs docs
+2019-3-19 15:05 15:35  dev   vfs docs
+2019-3-20 09:03 10:13  dev   dcache and local tree cleanup
+2019-3-20 10:13 14:23  dev   dcache, smo and dentry mobility
+2019-3-20 14:57 15:13  misc  update resume online
+2019-3-20 15:13 16:29  dev   slub debugging
+2019-3-20 16:51 18:32  dev   dcache SMO debugging
+2019-3-21 07:15 09:57  dev   dcache SMO
+2019-3-21 10:34 10:57  dev   dcache user space tool
+2019-3-21 11:07 13:03  dev   dcache bug hunting
+2019-3-21 13:48 15:52  qemu  get fucked in the arse by qemu
+2019-3-21 16:07 16:58  qemu  more qemu bullshit
+2019-3-22 07:22 07:38  dev   kernel email
+2019-3-22 07:38 09:49  dev   vfs/fs docs fixes
+2019-3-22 09:49 10:43  dev   test mailing list patches and respond
+2019-3-22 11:08 11:32  dev   dcache review
+2019-3-22 11:32 14:46  qemu  raped by qemu ... again
+2019-3-25 08:46 09:02  misc  weekly prep
+2019-3-25 09:02 13:11  qemu  qemu shit
+2019-3-25 14:30 16:21  qemu  fucking qemu
+2019-3-25 16:44 17:07  qemu  finally get qemu image working!
+2019-3-25 17:07 18:36  dev   dcache SMO debugging
+2019-3-26 08:53 12:08  dev   vfs docs
+2019-3-26 12:38 15:06  dev   vfs docs
+2019-3-27 07:57 10:57  dev   vfs docs
+2019-3-27 11:21 15:03  dev   vfs docs patch set debugging
+2019-3-27 15:45 16:19  dev   vfs docs patch submit
+2019-3-27 16:51 18:07  dev   dentry SMO debugging
+2019-3-28 07:21 10:08  dev   slub hacking
+2019-3-28 10:46 15:39  dev   slub hacking
+2019-3-28 16:21 17:37  dev   slub hacking, bug hunting yo
+2019-3-29 07:31 07:56  dev   kernel email
+2019-3-29 09:14 11:55  dev   slab investigating
+2019-3-29 12:21 13:24  dev   dcache code reading
+2019-4-01 09:17 12:55  dev   slub hacking
+2019-4-01 13:31 14:49  dev   slub debugging
+2019-4-01 15:16 15:38  dev   smo
+2019-4-02 06:18 06:59  dev   bug hunting
+2019-4-02 08:49 10:39  dev   list rotate debugging
+2019-4-02 11:10 14:31  dev   slob bug fix
+2019-4-02 14:31 15:35  dev   slub hacking
+2019-4-03 05:56 06:26  dev   kernel email
+2019-4-03 08:27 10:06  dev   slab lru v5
+2019-4-03 10:20 11:26  dev   kernel email
+2019-4-03 12:08 12:42  dev   smo debugging
+2019-4-03 13:00 15:22  dev   SMO patch set RFC v2 submission
+2019-4-04 07:45 08:21  dev   kernel email
+2019-4-04 08:41 10:56  misc  XFCE set up and scripting
+2019-4-04 10:56 11:44  dev   kernel config/build fun
+2019-4-04 13:25 14:31  dev   lru debugging
+2019-4-04 15:03 15:40  dev   lru debugging
+2019-4-04 15:40 17:29  misc  job hunting
+2019-4-05 06:00 08:21  dev   slub SMO implement Al Viro's suggestions
+2019-4-05 08:50 09:37  dev   smo build/test and send to Christoph
+2019-4-05 09:52 13:07  dev   strscpy_pad v4 submission
+2019-4-05 13:07 13:58  misc  company books for Q3
