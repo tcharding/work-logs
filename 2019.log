@@ -248,3 +248,246 @@
 2019-4-05 08:50 09:37  dev   smo build/test and send to Christoph
 2019-4-05 09:52 13:07  dev   strscpy_pad v4 submission
 2019-4-05 13:07 13:58  misc  company books for Q3
+2019-4-08 07:52 09:13  misc  procrastinate reading HN
+2019-4-08 09:13 09:51  dev   patch testing
+2019-4-08 10:14 12:06  dev   slab patch review
+2019-4-09 09:30 09:52  dev   kernel email
+2019-4-09 09:52 10:44  dev   docs fixes
+2019-4-09 10:45 11:27  dev   benchmark research
+2019-4-09 11:29 12:30  misc  job applications
+2019-4-09 12:35 13:47  misc  benchmarking smo
+2019-4-09 13:47 14:30  misc  job hunting
+2019-4-10 09:00 11:00  misc  job applications
+2019-4-10 11:00 12:48  dev   remove SLAB allocator
+2019-4-10 14:24 14:51  sta   staticanalysis research
+2019-4-10 15:24 17:26  sta   design and start coding
+2019-4-11 06:30 06:53  sta   email and message to sta
+2019-4-11 06:53 07:22  misc  lwn kernel reading
+2019-4-11 08:12 11:35  dev   SMO RFCv3 benchmarking and submission
+2019-4-11 12:06 12:42  misc  read original slab allocator paper
+2019-4-11 12:42 13:37  dev   smo dcache update RFC 3
+2019-4-12 09:29 10:06  misc  email to Amir pre interview
+2019-4-12 10:06 11:32  sta   datamerge
+2019-4-12 12:30 14:07  misc  tech interview with privatebusiness.network mob
+2019-4-23 10:18 10:55  misc  trucking research
+2019-4-23 10:55 11:17  dev   kernel email
+2019-4-23 11:17 14:08  sta   finnish up `merge`
+2019-4-23 14:08 16:29  job   hunting
+2019-4-23 17:00 19:40  job   hunting
+2019-4-24 07:57 09:39  sta   final tests and debugging
+2019-4-24 09:39 09:56  sta   write delivery note
+2019-4-24 10:05 11:21  job   hunting
+2019-4-24 12:00 12:40  job   hunting
+2019-4-24 14:11 16:38  job   hunting
+2019-4-24 17:06 19:51  job   hunting
+2019-4-25 08:45 10:14  job   hunting
+2019-4-25 10:28 11:48  dev   start extending slabinfo
+2019-4-25 12:06 13:21  dev   slabinfo
+2019-4-25 13:45 14:15  dev   slabinfo
+2019-4-25 14:15 14:49  job   hunting
+2019-4-25 15:15 16:44  job   thrash linkedin
+2019-4-25 16:45 18:14  job   hunting
+2019-4-25 19:00 21:26  job   re-write resume local and on web
+2019-4-26 08:36 09:39  job   hunting
+2019-4-26 10:50 10:45  job   recruiter phone calls and hunter2 interview
+2019-4-26 10:51 11:07  job   research
+2019-4-26 11:07 11:37  job   hunting
+2019-4-26 11:37 12:32  dev   send in slabinfo patch set
+2019-4-26 13:36 17:45  ops   revamp backup and sync setup
+2019-4-27 10:23 11:44  dev   do hunter2 initial demo
+2019-4-27 12:08 14:20  dev   slab sysfs 
+2019-4-27 14:54 16:51  dev   slab sysfs
+2019-4-27 16:51 18:14  dev   kobject research
+2019-4-28 10:06 12:06  dev   kobject hacking
+2019-4-30 08:42 09:06  dev   kernel email
+2019-4-30 09:06 11:23  dev   kobject patches
+2019-4-30 12:15 13:08  dev   SMO RFC v4 submit
+2019-4-30 13:09 13:50  job   hunting
+2019-4-30 13:50 14:06  job   hangouts interview with TenX
+2019-4-30 14:06 15:11  job   hunting
+2019-4-30 16:20 17:15  dev   read LKML
+2019-5-01 08:30 09:38  dev   kobject emails
+2019-5-01 09:39 10:44  misc  call with book keeper for q3 books
+2019-5-01 10:44 12:14  dev   slab sysfs
+2019-5-01 12:37 13:38  dev   slab sysfs
+2019-5-01 13:38 14:16  dev   kernel email
+2019-5-01 14:17 16:47  misc  reading
+2019-5-02 07:20 07:59  dev   kernel email
+2019-5-02 08:25 10:52  dev   kobject hacking
+2019-5-02 11:33 12:33  dev   livepatching set build and submit
+2019-5-02 12:33 13:11  dev   hunter2 do 'take note' lab
+2019-5-02 13:11 14:51  dev   hunter, sprintf lab
+2019-5-02 15:05 17:05  job   hunting
+2019-5-07 08:16 09:04  misc  email, jobs, linkedin etc
+2019-5-07 09:04 10:46  dev   kobject init example
+2019-5-07 10:50 13:37  misc  paper design
+2019-5-07 13:37 16:14  dev   coblox naive functionality
+2019-5-07 16:14 18:33  dev   coblox full functionality minus encryption
+2019-5-08 07:49 10:15  dev   coblox finnish off project
+2019-5-08 11:54 12:04  dev   coblox submission
+2019-5-08 12:06 15:24  dev   fairfax programming challenge
+2019-5-09 06:15 07:13  dev   fairfax programming challenge
+2019-5-09 13:16 15:19  job   hunting
+2019-5-09 15:54 17:58  dev   kobject memleak fixes
+2019-5-10 07:31 08:23  job   hunting
+2019-5-10 08:23 12:57  dev   kobject memleak
+2019-5-10 13:20 15:35  job   hunting
+2019-5-13 07:17 09:12  dev   kobject mem leak patches
+2019-5-13 09:46 12:05  dev   ethereum smart contract design
+2019-5-13 12:05 12:50  job   call with Tim from Vonex
+2019-5-13 13:03 13:24  misc  read up on Solidity
+2019-5-13 13:25 13:40  dev   send kobject patches
+2019-5-13 14:30 17:33  dev   solidity king-and-queen hacking
+2019-5-14 08:18 08:50  dev   solidity
+2019-5-14 09:08 10:04  dev   solidity king-and-queens game
+2019-5-15 08:18 10:34  dev   docs patches
+2019-5-15 12:35 15:11  dev   kobject patches
+2019-5-15 17:30 19:30  dev   kobject audit
+2019-5-16 06:10 07:01  dev   kernel email
+2019-5-16 07:01 08:07  ops   setup new camera and headset
+2019-5-16 08:07 08:49  misc  call with Tycho
+2019-5-16 08:49 10:07  dev   kobject core patch
+2019-5-16 10:47 11:36  job   call with Philipp - TenX
+2019-5-16 11:36 12:54  job   call with Google
+2019-5-16 14:15 15:00  misc  read rust book
+2019-5-16 15:00 16:21  job   call with Alvin - TenX
+2019-5-16 16:21 18:27  dev   work on rust book
+2019-5-17 07:34 08:06  dev   kernel reading
+2019-5-17 08:06 11:57  dev   rust book
+2019-5-17 12:57 14:36  job   call with Vonex
+2019-5-20 09:00 11:00  misc  procrastinate
+2019-5-20 11:00 11:24  misc  call with Verbrato
+2019-5-20 11:24 12:39  dev   radix tree and xarray patching
+2019-5-20 11:00 15:40  dev   SMO RFC v5 patch set
+2019-5-21 08:23 09:14  misc  read up on Vonex
+2019-5-21 09:14 10:25  dev   slab sysfs
+2019-5-21 11:04 11:47  dev   kernel email
+2019-5-21 11:47 14:00  dev   rust book
+2019-5-21 11:47 14:19  job   call with TenX (offer!)
+2019-5-27 07:04 12:00  ops   laptop clean install
+2019-5-27 12:30 15:30  ops   laptop clean install
+2019-5-28 08:05 10:35  misc  ehtereum, work contract, email
+2019-5-28 10:35 11:34  dev   rust book reading
+2019-5-28 12:10 15:40  dev   rust: Implement temp-conv
+2019-5-28 15:56 16:57  dev   rust: Implement Fibonacci
+2019-5-28 16:57 17:57  dev   rust: Implement The 12 days of Christmas
+2019-5-29 07:15 09:05  misc  tenx: email and various setup tasks
+2019-5-29 09:44 13:54  kern  SMO work, add boot parameters and config options
+2019-5-30 08:00 10:49  dev   rust: Rust book I/O Project
+2019-5-30 11:20 13:39  misc  eth: Setup metamask, ledger, and do transfers
+2019-5-30 14:10 14:59  dev   rust: Rust book reading
+2019-5-30 14:59 18:30  dev   rust: Rust book reading
+2019-5-31 07:37 12:09  dev   rust: Rust book read and code
+2019-5-31 12:43 13:07  misc  buy bitcoin
+2019-5-31 13:07 13:39  dev   rust: Finish chapter 17
+2019-5-31 13:39 08:46  misc  email
+2019-6-03 09:45 13:42  dev   smo patch set
+2019-6-03 14:08 14:29  dev   send PATCH version of SMO!
+2019-6-03 14:29 14:51  misc  read hackernews
+2019-6-04 09:45 10:27  dev   vfs docs patch set additional patch
+2019-8-16 10:27 13:30  misc  setting up oss server
+2019-8-19 15:28 17:47  dev   config file (on plane, AEST)
+2019-8-19 14:00 18:00  dev   (in USA, PST) config file, patch review
+2019-8-20 06:02 06:37  dev   btsieve config file
+2019-8-20 06:37 08:43  dev   cnd config file
+2019-8-20 08:44 09:58  dev   write up issues
+2019-8-20 09:58 11:11  dev   kernel workshop prep
+2019-8-21 06:28 07:20  dev   patch review
+2019-8-21 07:20 07:25  dev   bash function coding
+2019-8-21 07:25 08:14  misc  kernel email
+2019-8-21 08:14 11:59  dev   sqlite implementation
+2019-8-22 06:28 07:20  misc  review candidate submission
+2019-8-22 07:20 07:27  misc  scrum board stuff
+2019-8-22 07:59 12:03  dev   sqlite db
+2019-8-22 12:03 12:06  misc  email
+2019-8-23 07:07 07:29  misc  patch review and slack
+2019-8-26 06:38 06:54  misc  small tasks
+2019-8-26 06:54 07:15  dev   tokio
+2019-8-26 07:15 08:06  dev   sqlite
+2019-8-26 08:20 09:29  dev   rewrite sqlite stuff
+2019-8-26 09:30 09:40  misc  read new issues in prep for grooming
+2019-8-26 09:44 11:36  misc  grooming
+2019-8-26 12:11 12:28  misc  read rust algo book
+2019-8-26 12:28 15:52  dev   sqlite
+2019-8-26 15:52 16:01  dev   patch review
+2019-8-27 08:13 08:54  dev   rust training
+2019-8-27 08:54 11:37  dev   sqlite
+2019-8-27 12:02 13:45  dev   diesel sqlite
+2019-8-27 14:04 15:58  dev   sqlite
+2019-8-28 08:00 08:13  misc  small tasks
+2019-8-28 08:13 09:43  misc  fix emacs rust dev env
+2019-8-28 09:43 11:30  misc  grooming
+2019-8-28 11:30 12:15  misc  chat with Tycho
+2019-8-28 12:18 12:37  misc  rust combinator reading
+2019-8-28 12:59 15:59  dev   sqlite
+2019-8-29 07:02 07:43  dev   rust training - read up on futures/tokio
+2019-8-29 07:55 08:26  misc  slack, one on one prep
+2019-8-29 08:26 12:00  dev   slqlite
+2019-8-29 12:00 12:48  misc  health cover call
+2019-8-29 14:26 14:42  misc  write up new issue
+2019-8-29 14:42 15:54  misc  one on one
+2019-8-30 09:11 11:59  dev   daily, prep, and error handling
+2019-8-30 12:01 12:20  dev   explore btsieve
+2019-8-30 13:02 14:43  dev   refactoring btsieve
+2019-8-30 16:00 16:49  dev   submit refactoring PR
+2019-9-02 10:28 11:30  misc  grooming
+2019-9-02 11:30 12:31  dev   separate enums
+2019-9-02 13:36 15:42  dev   metadata enums
+2019-9-02 15:42 17:13  dev   metadata enum fun
+2019-9-02 17:13 18:15  dev   metadata enum PR
+2019-9-03 07:20 09:01  dev   rust adt book
+2019-9-03 09:30 10:16  misc  daily, prep, prs
+2019-9-03 10:17 12:05  dev   metadata enums
+2019-9-03 13:26 15:06  dev   enums and btsieve refactor
+2019-9-03 15:10 18:00  dev   sqlite
+2019-9-04 07:20 08:25  misc  rust book reading
+2019-9-04 08:25 08:50  dev   metadata refactoring
+2019-9-04 08:50 11:30  misc  meetings
+2019-9-04 11:30 12:00  misc  health insurance stuff
+2019-9-04 13:30 13:32  dev   sqlite
+2019-9-04 13:32 17:30  misc  meetings
+2019-9-04 18:25 19:54  dev   rust algos
+2019-9-05 07:18 08:16  dev   btsieve
+2019-9-05 08:27 08:37  dev   iterator learning
+2019-9-05 09:41 17:30  dev   mob programming
+2019-9-06 08:15 13:19  dev   code retreat
+2019-9-06 13:29 14:00  dev   patch review
+2019-9-06 14:00 17:30  misc  meetings
+2019-9-09 07:00 07:55  misc  blockchain reading
+2019-9-09 08:00 09:33  dev   sqlite
+2019-9-09 09:33 09:37  misc  pre grooming
+2019-9-09 09:37 11:59  dev   sqlite and grooming
+2019-9-09 13:04 16:00  dev   sqlite
+2019-9-10 08:26 09:02  misc  slack
+2019-9-10 09:02 12:27  dev   sqlite hacking
+2019-9-10 12:42 16:30  dev   sqlite
+2019-9-11 08:34 12:26  dev   sqlite
+2019-9-11 13:00 13:43  dev   sqlite
+2019-9-11 13:43 19:33  dev   endpoints
+2019-9-12 06:59 07:24  misc  slack, github
+2019-9-12 07:40 07:56  dev   rust training
+2019-9-12 07:56 08:24  misc  onboarding tasks
+2019-9-12 08:24 09:07  dev   sqlite PR fixes
+2019-9-12 09:17 10:52  dev   deterministic id
+2019-9-12 10:52 12:19  dev   deterministic id
+2019-9-12 13:07 15:58  dev   coding, one on one, coding
+2019-9-13 07:54 08:30  misc  email, slack
+2019-9-13 08:30 11:23  dev   sqlite rework PR
+2019-9-13 11:23 11:52  dev   deterministic ids
+2019-9-13 13:09 16:44  dev   btsieve
+2019-9-13 16:44 17:37  dev   error handling
+2019-9-16 09:20 19:45  misc  slack
+2019-9-16 09:45 17:55  misc  meetings and some code
+2019-9-16 18:23 18:47  dev   deterministic ids
+2019-9-16 18:49 19:55  dev   rust red black tree
+2019-9-17 09:30 11:41  dev   deterministic ids PR
+2019-9-17 11:41 12:00  dev   dry tests
+2019-9-17 12:51 13:22  dev   testing
+2019-9-17 13:40 15:40  dev   btsieve testing
+2019-9-17 15:40 18:44  dev   sqlite research and small tasks
+2019-9-17 18:44 18:52  misc  tying training
+2019-9-18 07:32 07:52  misc  typing training
+2019-9-18 07:52 08:40  misc  remap emacs keys
+2019-9-18 08:40 08:44  dev   rbt
+2019-9-18 09:46 16:55  misc  meeting wednesday, patch review
+2019-9-18 16:55 
