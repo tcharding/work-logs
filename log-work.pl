@@ -21,6 +21,7 @@ my $VERSION = '0.01';
 my $help = 0;
 my $debug = 0;
 my $config_dir = "~/.log-work.d";
+my $time = "";
 my $year = "";
 my $month = "";
 my $today = 0;
@@ -46,6 +47,7 @@ Commands:
 
 Options (all commands):
 
+        -t, --time		Time to use instead of now().
 	-h, --help, --version   Display this help and exit.
 	    --config-dir	Directory holding log files (default ~/.log-work.d)
 
@@ -68,6 +70,7 @@ GetOptions(
     'm|month=s'		=> \$month,
     'today'		=> \$today,
     'this-week'		=> \$this_week,
+    't|time=s' 		=> \$time,	
     'config-dir=s'	=> \$config_dir,
     'h|help'		=> \$help,
     'version'		=> \$help,
@@ -85,9 +88,9 @@ my $command = $ARGV[0];
 shift @ARGV;
 
 if ($command =~ /^start/) {
-    start();
+    start($time);
 } elsif ($command =~ /^(stop|end)/) {
-    stop(@ARGV);
+    stop($time, @ARGV);
 } elsif ($command =~ /^(report|show)/) {
     if ($year eq "") {
         $year = this_year();
@@ -118,6 +121,8 @@ sub todo
 
 sub start
 {
+    my ($time) = @_;
+
     if (active_session()) {
         die 'You currently have an active session\n';
     }
@@ -125,7 +130,7 @@ sub start
     my $filename = get_log_filename(this_year());
     open my $fh, '>>', $filename or die "$0: $filename: $!\n";
 
-    my $entry = start_entry();
+    my $entry = start_entry($time);
     print $fh $entry;
 
     close($fh);
@@ -135,9 +140,13 @@ sub start
 
 sub start_entry
 {
+    my ($time) = @_;
     my $date = yyyy_mm_dd();
-    my $time = now();
 
+    if (!$time) {
+        $time = now();
+    }
+    
     return sprintf("%s %s ", $date, $time);
 }
 
@@ -204,21 +213,23 @@ sub now
 
 sub stop
 {
-    my ($cat, $desc) = @_;
+    my ($time, $cat, $desc) = @_;
     die "$0: missing category\n" unless @_ >= 1;
 
     if (!active_session()) {
         die 'You don\'t currently have an active session\n';
     }
 
-    die "$0: too many arguments\n" if @_ > 2;
+    die "$0: too many arguments\n" if @_ > 3;
 
     my $year = this_year();
     my $filename = get_log_filename(this_year());
 
     open my $fh, '>>', $filename or die "$0: $filename: $!\n";
 
-    my $time = now();
+    if (!$time) {
+        $time = now();
+    }
 
     my $entry;
     if (defined $desc) {
