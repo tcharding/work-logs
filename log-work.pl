@@ -356,7 +356,6 @@ sub extract_records_for_month
 		my @nums = split('-', $date);
 		my $rec_mon = $nums[1];
 
-		$mon += 1;	# 0 based index
 		return $mon == $rec_mon;
 	};
 
