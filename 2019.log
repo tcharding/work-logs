@@ -485,10 +485,104 @@
 2019-9-17 12:51 13:22  dev   testing
 2019-9-17 13:40 15:40  dev   btsieve testing
 2019-9-17 15:40 18:44  dev   sqlite research and small tasks
-2019-9-17 18:44 18:52  misc  tying training
-2019-9-18 07:32 07:52  misc  typing training
+2019-9-17 18:44 18:52  trn   touch typing
+2019-9-18 07:32 07:52  trn   touch typing
 2019-9-18 07:52 08:40  misc  remap emacs keys
 2019-9-18 08:40 08:44  dev   rbt
 2019-9-18 09:46 16:55  misc  meeting wednesday, patch review
-2019-9-18 16:55 15:50  dev   patch update
-2019-9-18 18:20 
+2019-9-18 16:55 17:50  dev   patch update
+2019-9-18 18:20 18:52  dev   add --time option to work-log.pl
+2019-9-18 18:52 19:13  misc  typing training
+2019-9-18 19:14 19:58  dev   red black tree
+2019-9-19 07:20 07:57  trn   touch typing
+2019-9-19 07:58 08:30  dev   red black tree
+2019-9-19 08:30 08:50  dev   read paper
+2019-9-19 09:48 11:22  misc  stand up and one on one
+2019-9-19 11:22 12:24  dev   datadase
+2019-9-19 13:30 17:55  dev   statestore database
+2019-9-20 07:48 08:00  trn   touch typing
+2019-9-20 08:00 08:39  misc  email
+2019-9-20 08:39 09:07  dev   write sqlite issues
+2019-9-20 09:31 10:42  misc  research, emacs, and daily
+2019-9-20 10:42 11:05  dev   write sqlite issues
+2019-9-20 11:05 15:14  dev   sqlite
+2019-9-20 15:14 15:58  dev   diesel, sqlite
+2019-9-20 18:23 19:01  trn   touch typing
+2019-9-23 08:01 08:08  misc  slack
+2019-9-23 08:08 08:21  trn   touch typing
+2019-9-23 08:24 08:46  dev   refactor asset PR
+2019-9-23 08:46 09:10  dev   read btsieve merge patch set
+2019-9-23 09:10 09:40  misc  issue curating
+2019-9-23 09:40 10:29  misc  daily
+2019-9-23 10:29 11:29  misc  grooming
+2019-9-23 11:29 12:24  misc  post grooming tasks
+2019-9-23 12:56 13:25  misc  slack
+2019-9-23 13:25 17:01  dev   sqlite
+2019-9-23 17:13 17:31  dev   sqlite
+2019-9-23 18:08 20:54  dev   sqlite
+2019-9-24 06:34 06:56  trn   touch typing
+2019-9-24 06:56 08:36  dev   sqlite
+2019-9-24 08:43 12:09  dev   sqlite
+2019-9-24 12:45 13:56  dev   sqlite
+2019-9-24 13:56 14:46  misc  PR maintenance and slack
+2019-9-24 14:46 15:57  dev   sqlite
+2019-9-24 15:57 19:42  dev   timestamps
+2019-9-24 22:39 23:59  dev   sqlite StateStore
+2019-9-25 00:00 01:40  dev   sqlite StateStore
+2019-9-25 09:46 10:34  misc  daily and research
+2019-9-25 10:43 12:22  dev   sqlite metadata types PR
+2019-9-25 14:09 15:30  misc  research and patch review
+2019-9-25 15:33 16:03  misc  not much of anything useful
+2019-9-26 07:18 07:47  trn   touch typing
+2019-9-26 07:58 08:40  dev   red black tree
+2019-9-26 09:20 11:26  misc  daily, desk set up
+2019-9-26 12:45 15:03  dev   sqlite, fix up metadata PR
+2019-9-26 15:03 15:29  ops   try out create-comit-app
+2019-9-26 17:00 20:00  misc  workshop
+2019-9-27 08:11 08:37  trn   touch typing
+2019-9-27 08:43 10:03  dev   sqlite PR update
+2019-9-27 10:03 12:00  misc  Friday wrap up
+2019-9-30 05:27 05:48  dev   investigate sqlite build dependency
+2019-9-30 05:48 07:09  dev   try to remove secp
+2019-10-07 10:34 11:36  misc  small tasks
+2019-10-07 11:36 11:50  misc  trading
+2019-10-07 13:42 14:40  misc  write up trading history
+2019-10-07 15:24 16:38  ops   set up gekko
+2019-10-07 18:21 20:58  ops   gekko
+2019-10-08 07:18 07:39  trn   touch typing
+2019-10-08 07:39 08:12  dev   data structures
+2019-10-08 08:12 08:55  misc  data structures reading
+2019-10-08 09:23 12:13  dev   slack and patch review
+2019-10-08 12:13 12:20  dev   patch review
+2019-10-08 13:09 05:30  dev   pair programming
+2019-10-09 07:30 08:14  trn   touch typing
+2019-10-09 08:14 09:05  dev   data structures
+2019-10-09 09:34 12:00  misc  standup and grooming
+2019-10-09 13:00 17:56  dev   EventQuery
+2019-10-10 07:20 08:14  trn   touch typing
+2019-10-10 08:14 08:59  dev   red black tree
+2019-10-10 09:22 09:32  misc  slack
+2019-10-10 09:32 12:30  dev   transaction queries
+2019-10-10 13:21 16:43  dev   pair programming with Lucas
+2019-10-10 18:15 18:57  trn   touch typing
+2019-10-10 18:57 19:55  dev   red black tree
+2019-10-11 07:26 08:00  trn   touch typing
+2019-10-11 08:00 08:13  ops   emacs launcher functions
+2019-10-11 08:13 09:09  dev   red black tree
+2019-10-11 09:34 12:32  dev   transaction queries
+2019-10-11 13:30 14:50  dev   pair programming with Lucas
+2019-10-11 15:17 16:25  trn   touch typing
+2019-10-14 07:20 08:13  trn   touch typing
+2019-10-14 08:13 12:21  dev   pair programming with Lucas
+2019-10-14 13:37 17:00  dev   pair programming, tobin types
+2019-10-14 17:00 17:55  misc  company update
+2019-10-14 18:20 19:07  trn   touch typing
+2019-10-14 19:07 19:26  dev   red black tree
+2019-10-15 07:22 07:56  trn   touch typing
+2019-10-15 07:56 08:59  dev   data structures
+2019-10-15 09:51 11:41  misc  meeting
+2019-10-15 12:57 17:51  dev   transaction query testing
+2019-10-15 18:12 18:26  trn   touch typing
+2019-10-15 18:26 19:54  dev   look at blockchain_contracts
+2019-10-16 07:20 07:56  trn   touch typing
+2019-10-16 07:56 
