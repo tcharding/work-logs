@@ -124,7 +124,7 @@ sub start
     my ($time) = @_;
 
     if (active_session()) {
-        die 'You currently have an active session\n';
+        die "$0: cannot start session while current session exists\n";
     }
 
     my $filename = get_log_filename(this_year());
@@ -217,7 +217,7 @@ sub stop
     die "$0: missing category\n" unless @_ >= 1;
 
     if (!active_session()) {
-        die 'You don\'t currently have an active session\n';
+        die "$0: You don\'t currently have an active session\n";
     }
 
     die "$0: too many arguments\n" if @_ > 3;
@@ -401,7 +401,7 @@ sub extract_records_for_today
         my $rec_mday = $nums[2];
 
         $mon += 1;	# 0 based index
-        return ($mday == $rec_mday and $mon == $rec_mon);
+        return ($mday == $rec_may and $mon == $rec_mon);
     };
 
     return extract_records($AoH, $guardfn);
