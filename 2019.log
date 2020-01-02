@@ -585,4 +585,216 @@
 2019-10-15 18:12 18:26  trn   touch typing
 2019-10-15 18:26 19:54  dev   look at blockchain_contracts
 2019-10-16 07:20 07:56  trn   touch typing
-2019-10-16 07:56 
+2019-10-16 07:56 08:07  dev   fix work-log script logging
+2019-10-16 08:07 08:57  dev   query testing
+2019-10-16 09:20 09:48  dev   raise query test PR
+2019-10-16 09:48 12:00  misc  team discussion
+2019-10-16 13:00 17:52  dev   multiple PRs
+2019-10-16 18:08 18:35  trn   touch typing
+2019-10-16 18:46 19:58  dev   refactoring
+2019-10-17 07:19 07:53  trn   touch typing
+2019-10-17 07:35 09:19  dev   various cleanup patches
+2019-10-17 09:19 10:31  raise PRs from train trip last night
+2019-10-17 10:31 12:40  dev   PRs and next task research
+2019-10-17 14:16 15:02  dev   PR maintenance
+2019-10-17 15:03 15:54  dev   add bors
+2019-10-17 15:54 15:30  dev   libp2p
+2019-10-18 07:47 09:25  dev   libp2p learning
+2019-10-18 09:25 11:51  dev   networking
+2019-10-18 13:05 17:00  misc  some dev then meetings
+2019-10-18 19:24 19:55  trn   touch typing
+2019-10-19 13:14 15:45  dev   rust bobtimus
+2019-10-20 07:50 07:56  dev   rate
+2019-10-20 09:00 12:58  dev   C()MIT trading bot
+2019-10-20 18:19 20:16  dev   C()MIT trading bot
+2019-10-21 06:49 07:24  mist  typing and keyboard stuff
+2019-10-21 07:26 09:31  dev   networking code reading/design
+2019-10-21 09:31 09:44  misc  pregrooming
+2019-10-21 09:45 10:33  misc  daily and call with Thomas
+2019-10-21 10:33 10:41  dev   trading bot
+2019-10-21 11:18 12:08  dev   detangling request handling
+2019-10-21 12:27 13:37  dev   validating request
+2019-10-21 13:37 15:02  misc  grooming
+2019-10-21 15:02 16:01  dev   validating request
+2019-10-21 16:31 18:47  dev   validating request
+2019-10-21 19:59 20:27  trn   touch typing
+2019-10-22 08:44 09:07  misc  email and slack
+2019-10-22 09:07 11:24  dev   incoming requests
+2019-10-22 11:53 15:00  dev   incoming requests
+2019-10-22 15:57 18:22  dev   incoming requests - finished it!
+2019-10-22 18:22 19:57  dev   crazy hacking on ComitNode
+2019-10-22 20:00 20:17  dev   a little bit more hacking on ComitNode
+2019-10-23 06:33 06:45  trn   touch typing
+2019-10-23 06:45 07:19  dev   algo training
+2019-10-23 07:19 10:25  dev   merging branches
+2019-10-23 10:25 12:03  misc  grooming
+2019-10-23 12:31 15:53  dev   merging branches and getting Response from channel
+2019-10-24 06:55 07:11  trn   touch typing
+2019-10-24 07:11 07:40  rust algo training
+2019-10-24 07:41 08:56  misc  slack, pr review and research
+2019-10-24 08:56 10:58  dev   seed file
+2019-10-24 11:29 12:02  dev   seed file
+2019-10-24 12:33 13:58  dev   seed file
+2019-10-24 13:58 14:44  misc  call with thomas
+2019-10-24 15:07 20:16  dev   secret seed config
+2019-10-25 06:32 06:36  trn   touch typing
+2019-10-25 06:36 08:09  dev   seed file
+2019-10-25 08:09 08:55  dev   refactor spawn
+2019-10-25 09:01 10:34  dev   spawn
+2019-10-25 10:34 11:58  dev   alice spawner
+2019-10-25 13:48 14:33  dev   seed file PR update and patch review
+2019-10-28 08:30 10:19  misc  catchup and PR fix up
+2019-10-28 10:19 12:07  dev   seed file
+2019-10-28 12:45 14:09  dev   error handling
+2019-10-28 14:36 15:06  dev   error handling
+2019-10-28 15:06 16:30  misc  planning meeting
+2019-10-28 16:30 17:11  dev   seed file
+2019-10-28 17:11 17:30  dev   create issues
+2019-10-28 17:30 17:42  dev   read code
+2019-10-28 18:14 18:43  trn   touch typing
+2019-10-28 18:43 19:54  dev   trading bot
+2019-10-29 07:18 07:58  trn   touch typing
+2019-10-29 07:58 08:49  dev   refactoring
+2019-10-29 09:30 09:46  misc  write issues
+2019-10-29 09:46 12:27  dev   refactor alice spawner
+2019-10-29 13:00  17:15  dev   refactor alice spawner
+2019-10-29 21:04 23:31  dev   alice refactoring
+2019-10-30 07:54 08:20  trn   touch typing
+2019-10-30 08:20 09:29  dev   epic refactoring
+2019-10-30 09:54 12:00  misc  meetings
+2019-10-30 13:13 16:45  dev   alice spawner
+2019-10-30 18:08 19:56  dev   more on alice refactoring
+2019-10-31 07:28 07:51  trn   touch typing
+2019-10-31 07:51 08:56  dev   alice work
+2019-10-31 09:24 17:22  dev   alice spawner refactoring
+2019-11-01 08:01 11:29  dev   finished alice spawner PR
+2019-11-01 12:38 17:08  dev   dependencies refactoring
+2019-11-01 17:29 19:16  dev   dependencies refactor
+2019-11-02 11:07 12:41  dev   refactoring deps
+2019-11-03 10:16 13:14  dev   refactor dependencies
+2019-11-04 08:30 08:56  trn   touch typing
+2019-11-04 09:29 11:56  dev   database messages
+2019-11-04 12:45 14:34  dev   trait bounds
+2019-11-05 06:38 07:43  dev   refactor dependencies
+2019-11-05 07:45 09:24  dev   db api
+2019-11-05 09:30 11:55  dev   db and connector
+2019-11-05 18:37 19:32  dev   refactor insert trait in network.rs
+2019-11-05 23:08 24:59  dev   mad refactoring
+2019-11-06 00:01 03:13  dev   mad refactoring
+2019-11-06 09:28 12:09  dev   connector refactor
+2019-11-06 13:39 14:37  dev   refactoring
+2019-11-06 14:37 15:26  misc  meeting
+2019-11-06 15:48 16:55  dev   unify spawners
+2019-11-07 08:40 10:55  dev   refactor, standup, talk with Thomas
+2019-11-07 10:55 11:56  dev   debugging
+2019-11-07 13:00 13:44  misc  call with Toby
+2019-11-07 13:45 15:34  dev   unify spawners debugging
+2019-11-07 15:34 15:39  misc  write down process ideas
+2019-11-07 15:39 16:50  dev   learn JS
+2019-11-07 17:15 17:40  dev   remove Dependencies
+2019-11-07 17:40 18:37  misc  call with Thomas
+2019-11-08 08:11 13:13  dev   load swaps
+2019-11-08 13:29 14:33  dev   load swaps
+2019-11-08 21:25 21:59  dev   load swaps
+2019-11-11 09:24 10:09  trn   touch typing
+2019-11-11 11:39 12:00  misc  catch up
+2019-11-11 12:55 17:35  dev   pair programming with Thomas
+2019-11-11 17:35 17:54  dev   load swaps
+2019-11-11 18:14 19:53  dev   load swaps
+2019-11-12 07:02 07:30  trn   touch typing
+2019-11-12 07:58 08:40  dev   mastering rust - text book exercises
+2019-11-12 09:08 12:16  dev   load swaps
+2019-11-12 13:00 17:30  misc  planning meeting
+2019-11-12 18:22 18:48  trn   touch typing
+2019-11-12 18:48 19:11  dev   mastering rust - text book exercises
+2019-11-13 07:20 07:49  trn   touch typing
+2019-11-13 07:49 08:21  dev   mastering rust - text book exercises
+2019-11-13 18:14 19:55  dev   lunch ring script
+2019-11-14 07:24 08:01  trn   touch typing
+2019-11-14 08:07 08:35  dev   mastering rust - text book exercises
+2019-11-14 09:43 10:13  misc  daily and some random reading
+2019-11-14 10:13 12:13  dev   diesel
+2019-11-14 13:06 15:44  dev   load swaps
+2019-11-14 16:12 17:30  dev   use thiserror
+2019-11-15 08:45 11:44  dev   metadata store
+2019-11-15 13:12 16:01  dev   swap kind
+2019-11-15 16:00 17:10  misc  retro
+2019-11-15 18:14 19:54  dev   trading bot
+2019-11-16 15:01 17:00  dev   trading bot
+2019-11-17 13:30 17:33  dev   trading bot
+2019-11-18 07:55 12:10  dev   metadat db
+2019-11-18 12:40 16:03  dev   medatata in the db
+2019-11-18 19:45 21:15  dev   swap store in database
+2019-11-19 06:29 07:45  dev   db swaps
+2019-11-19 08:29 11:55  dev   db
+2019-11-19 13:10 16:01  dev   database testing
+2019-11-19 17:04 19:55  dev   database bug hunting
+2019-11-20 06:56 08:59  dev   debug db locked issue
+2019-11-20 08:59 11:26  misc  workshop test run
+2019-11-20 12:43 14:44  dev   testing db
+2019-11-20 15:06 16:00  misc  play with cnd instance
+2019-11-20 17:35 21:51  dev   cnd --dump-config
+2019-11-21 08:00 09:02  dev   dump config
+2019-11-21 09:02 09:16  dev   PR maintanence
+2019-11-21 09:17 09:49  misc  admin tasks
+2019-11-21 09:49 11:23  dev   call with Thomas
+2019-11-21 11:23 11:32  dev   PR maintenance
+2019-11-21 13:14 14:10  dev   dump config
+2019-11-21 14:10 16:29  dev   async await db connection
+2019-11-21 16:29 16:34  misc  patch review
+2019-11-21 16:43 18:42  dev   pair programming with Thomas
+2019-11-22 06:23 07:16  dev   populate state store
+2019-11-22 06:23 10:00  dev   debugging db
+2019-11-22 10:00 11:22  misc  standup and retro
+2019-11-22 11:23 11:59  dev   bug hunting in the db
+2019-11-22 12:47 14:30  dev   db bug hunting
+2019-11-22 20:39 22:52  dev   merge SaveMessage<M> and Save into Save<T>
+2019-11-25 09:25 09:50  trn   touch typing
+2019-11-25 11:22 17:55  misc  meetings and some db work
+2019-11-26 07:20 09:50  trn   touch typing
+2019-11-26 09:29 12:00  misc  meetings and a little dev
+2019-11-26 13:00 17:50  dev   database follow up tickets
+2019-11-27 08:34 09:04  trn   touch typing
+2019-11-27 10:30 12:00  misc  dev update ops
+2019-11-27 13:11 15:06  misc  write november dev update
+2019-11-27 15:06 17:48  dev   timestamp PR
+2019-11-27 18:22 18:56  trn   touch typing
+2019-11-28 09:18 10:14  misc  PR maintenance stand up
+2019-11-28 12:22 13:04  trn   touch typing
+2019-11-28 13:04 13:25  dev   cnd lib
+2019-12-06 07:55 09:11  dev   patch review
+2019-12-06 09:11 12:06  dev   bug fix and resume swap
+2019-12-11 07:00 12:50  dev   remove early refund
+2019-12-11 14:18 16:10  dev   resume swap debugging
+2019-12-11 16:30 16:54  dev   remove unknown
+2019-12-11 16:54 19:03  dev   cache blocks
+2019-12-12 06:58 09:05  dev   refactor matching_transactions
+2019-12-12 09:39 10:30  dev   daily and design chat
+2019-12-12 10:50 14:04  dev   custom version string
+2019-12-12 14:35 17:43  misc  log research
+2019-12-13 08:05 09:59  dev   proxy layer
+2019-12-13 10:30 11:54  dev   proxy layer - battle the complier
+2019-12-13 11:54 12:22  dev   PR maintenence
+2019-12-13 12:22 15:04  dev   refactoring matching_transactions
+2019-12-16 08:02 09:09  dev   merge fun and PR maintenance
+2019-12-16 09:36 09:43  dev   resume swaps merge
+2019-12-16 09:43 14:22  dev   testing
+2019-12-16 14:28 15:33  misc  prep for 2020
+2019-12-16 15:33 15:46  dev   start logging spike
+2019-12-16 16:20 16:41  dev   patch review
+2019-12-16 16:41 19:59  dev   logging
+2019-12-17 09:20 11:50  dev   block cache
+2019-12-17 13:03 16:53  dev   testing
+2019-12-18 09:21 11:49  dev   patch maintenance and logging spike
+2019-12-18 13:15 19:01  dev   debugging
+2019-12-19 12:00 13:07  dev   cache blocks add macro
+2019-12-19 13:08 17:45  dev   debugging resume swap PR
+2019-12-20 09:05 11:58  dev   logging
+2019-12-20 12:28 16:00  dev   debugging resume swaps
+2019-12-23 10:00 10:29  misc  bamboo, email
+2019-12-23 10:29 14:59  dev   all sorts of hacing
+2019-12-23 16:04 19:59  dev   derive secret PR
+2019-12-24 09:25 10:54  dev   blockchain connectors
+2019-12-24 10:54 11:59  dev   refactoring matching_transaction
+2019-12-24 12:45 13:39  dev   refactoring matching_transaction
+2019-12-24 14:03 15:00  dev   more refactoring
