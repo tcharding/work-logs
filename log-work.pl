@@ -401,7 +401,7 @@ sub extract_records_for_today
         my $rec_mday = $nums[2];
 
         $mon += 1;	# 0 based index
-        return ($mday == $rec_may and $mon == $rec_mon);
+        return ($mday == $rec_mday and $mon == $rec_mon);
     };
 
     return extract_records($AoH, $guardfn);
