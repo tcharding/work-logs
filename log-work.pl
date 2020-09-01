@@ -26,6 +26,7 @@ my $year = "";
 my $month = "";
 my $today = 0;
 my $this_week = 0;
+my $from_finish = 0;
 
 sub help
 {
@@ -38,25 +39,29 @@ Version: $VERSION
 
 Commands:
 
-	start	Start a work session.
-	stop	Finish a work session.
-	report	Show report of logged hours.
+        start	Start a work session.
+        stop	Finish a work session.
+        report	Show report of logged hours.
 
-	end	Same as stop.
-	show	Same as report.
+        end	Same as stop.
+        show	Same as report.
 
 Options (all commands):
 
         -t, --time		Time to use instead of now().
-	-h, --help, --version   Display this help and exit.
-	    --config-dir	Directory holding log files (default ~/.log-work.d)
+        -h, --help, --version   Display this help and exit.
+            --config-dir	Directory holding log files (default ~/.log-work.d)
 
 Report Options:
 
-	-y, --year=<year>	Display report for <year>.
-	-m, --month=<month>	Display report for <month>.
-	    --today		Display report for today.
-	    --this-week		Display report for this week.
+        -y, --year=<year>	Display report for <year>.
+        -m, --month=<month>	Display report for <month>.
+            --today		Display report for today.
+            --this-week		Display report for this week.
+
+Start Options:
+
+	    --from-finish       Use the previous finish time as the new start time.
 
 Create log entries (start and stop work sessions). View summary
 report of hours logged.
@@ -70,7 +75,8 @@ GetOptions(
     'm|month=s'		=> \$month,
     'today'		=> \$today,
     'this-week'		=> \$this_week,
-    't|time=s' 		=> \$time,	
+    't|time=s'          => \$time,
+    'from-finish'       => \$from_finish,
     'config-dir=s'	=> \$config_dir,
     'h|help'		=> \$help,
     'version'		=> \$help,
@@ -88,7 +94,7 @@ my $command = $ARGV[0];
 shift @ARGV;
 
 if ($command =~ /^start/) {
-    start($time);
+    start($time, $from_finish);
 } elsif ($command =~ /^(stop|end)/) {
     stop($time, @ARGV);
 } elsif ($command =~ /^(report|show)/) {
@@ -121,7 +127,12 @@ sub todo
 
 sub start
 {
-    my ($time) = @_;
+    my ($time, $from_finish) = (@_);
+
+    if ($from_finish) {
+        my $last = last_log_entry(this_year());
+        $time = end_time($last);
+    }
 
     if (active_session()) {
         die "$0: cannot start session while current session exists\n";
@@ -146,7 +157,7 @@ sub start_entry
     if (!$time) {
         $time = now();
     }
-    
+
     return sprintf("%s %s ", $date, $time);
 }
 
@@ -154,7 +165,7 @@ sub active_session
 {
     my $entry = last_log_entry(this_year());
 
-    return ((length($entry) > length('2017-1-16 09:26') and
+    return ((length($entry) >= length('2017-1-16 09:26') and
              (length($entry) < length('2017-1-16 09:26 10:18'))));
 }
 
@@ -167,6 +178,15 @@ sub last_log_entry
     my $last_line = $backwards->readline();
 
     return $last_line;
+}
+
+sub end_time
+{
+    my ($entry) = @_;
+
+    my @spl = split(' ', $entry);
+
+    return $spl[2];
 }
 
 sub get_log_filename
