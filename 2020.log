@@ -1,0 +1,698 @@
+2019-1-01 00:00 00:01  misc  dummy entry - happy new years!
+2020-1-02 12:30 12:38  dev   Set up logs for 2020
+2020-1-02 12:38 12:50  trn   touch typing
+2020-1-02 13:00 19:38  dev   kernel rust hacking
+2020-1-06 08:22 08:56  krn   slabinfo.c reading
+2020-1-06 10:30 11:58  dev   PR maintenance
+2020-1-06 12:50 14:10  dev   patch review and maintenance
+2020-1-06 15:37 17:55  dev   Seed PR
+2020-1-06 18:16 20:07  krn   slabinfo
+2020-1-07 09:20 12:00  dev   tracing
+2020-1-07 12:57 14:01  dev   tracing
+2020-1-07 14:01 17:52  dev   debugging
+2020-1-08 09:26 11:27  dev   patch review
+2020-1-08 11:27 11:56  dev   patch maintenance
+2020-1-08 13:21 17:53  dev   libp2p network stuff
+2020-1-09 08:00 09:03  krn   slabcache
+2020-1-09 09:30 10:15  dev   patch review, email etc.
+2020-1-09 10:15 11:50  misc  one on one with Philipp
+2020-1-09 11:50 12:01  dev   respond to review
+2020-1-09 12:48 15:16  dev   Add custom Swarm type
+2020-1-09 15:16 17:44  dev   matching_transactions mergeing
+2020-1-10 08:21 08:59  dev   trading daemon
+2020-1-10 09:22 10:14  dev   patch review
+2020-1-10 10:14 12:14  dev   resume swap
+2020-1-10 13:00 16:21  dev   debuging and rebasing
+2020-1-10 17:36 18:03  dev   comit trade
+2020-1-20 05:52 06:46  misc  patch review, slack catch up
+2020-1-20 06:46 09:49  dev   debugging and rebasing of resume swaps
+2020-1-20 09:59 11:16  dev   debugging resume swaps
+2020-1-20 11:16 14:00  dev   tracing POC
+2020-1-21 05:58 06:43  misc  email, slack, basecamp, review
+2020-1-21 06:43 07:20  dev   write up tracing follow up issues
+2020-1-21 07:20 07:34  misc  read grooming tickets
+2020-1-21 07:34 11:04  dev   resume swap debugging
+2020-1-21 11:40 13:59  dev   resume swap debugging
+2020-1-22 06:00 06:22  misc  basecamp, slack, touch typing
+2020-1-22 06:22 09:53  dev   debugging resume swap
+2020-1-22 10:12 10:54  dev   debugging resume swap
+2020-1-22 10:54 11:47  dev   PR review
+2020-1-22 11:47 14:00  dev   resume swap
+2020-1-23 06:00 08:55  dev   block cache PR review
+2020-1-23 09:22 10:54  dev   follow up PR on resume swaps
+2020-1-23 10:54 11:12  dev   patch review
+2020-1-23 11:12 12:37  dev   TS research
+2020-1-23 13:00 13:56  dev   grooming
+2020-1-24 06:00 06:19  trn   touch typing
+2020-1-24 06:19 09:03  dev   patch review
+2020-1-24 09:40 11:03  dev   work on wrong block cache branch
+2020-1-24 11:03 13:42  dev   block cache PR
+2020-1-28 07:20 08:34  misc  slabinfo and some touch typing
+2020-1-28 09:38 10:00  misc  slack, email
+2020-1-28 10:00 10:22  misc  one on one
+2020-1-28 10:22 12:14  dev   tracing
+2020-1-28 12:58 13:56  dev   tracing
+2020-1-29 07:32 07:51  trn   touch typing
+2020-1-29 07:51 08:45  dev   start diff-ex-num project
+2020-1-29 09:25 17:30  misc  meetings and some dev
+2020-1-29 18:05 19:26  dev   diff-ex-num
+2020-1-30 07:20 07:32  trn   touch typing
+2020-1-30 07:32 08:53  dev   diff-ex-num
+2020-1-30 09:17 10:00  misc  morning prep and build cnd with Francks PR
+2020-1-30 10:00 13:59  misc  reasearch, discussion, communication stuff
+2020-1-30 13:59 17:31  dev   return error
+2020-1-31 07:22 08:40  dev   slabinfo-rs
+2020-1-31 09:20 10:45  misc  start of day prep i.e., comms, calendare etc
+2020-1-31 10:45 12:18  dev   failed swap PR
+2020-1-31 13:20 13:36  misc  patch review, and read up on lightning
+2020-1-31 13:36 13:58  misc  retro prep
+2020-1-31 13:58 17:18  misc  learning and retro
+2020-1-31 17:50 19:29  dev   slabinfo-rs
+2020-2-03 07:15 09:59  dev   PR review and daily prep
+2020-2-03 09:59 10:37  dev   Patch maintanence
+2020-2-03 10:37 11:58  misc  lightning research
+2020-2-03 13:21 14:12  ops   bitcoind/lightning
+2020-2-03 14:36 16:02  dev   e2e testing - lnd
+2020-2-04 07:30 12:00  dev   e2e lnd
+2020-2-04 12:48 13:12  misc  pre grooming
+2020-2-04 13:12 14:11  dev   e2e lnd
+2020-2-04 14:37 16:01  dev   e2e testing - lnd
+2020-2-05 07:22 08:57  misc  PR review, morning prep
+2020-2-05 08:57 11:57  dev   lnd testing TS
+2020-2-05 12:48 16:03  dev   ethereum ledger kind
+2020-2-05 18:43 19:30  dev   macrofy everything
+2020-2-06 07:30 09:16  misc  patch review and morning prep
+2020-2-06 09:16 09:50  dev   lnd
+2020-2-06 09:58 11:56  dev   lnd
+2020-2-06 12:52 15:58  dev   lnd
+2020-2-06 18:40 19:36  dev   procedural macro demo
+2020-2-07 06:41 09:57  dev   ledger unrolling
+2020-2-07 09:57 11:08  misc  retro
+2020-2-07 11:09 12:23  dev   lnd
+2020-2-07 13:04 14:13  dev   lnd
+2020-2-10 08:08 13:02  dev   lnd bullshit
+2020-2-10 13:32 13:39  dev   push lnd changes
+2020-2-10 13:39 15:28  misc  think about db, ledger stuff
+2020-2-10 15:28 17:19  dev   lnd try dismaly to connect to the LND node
+2020-2-10 17:50 17:59  misc  github notifications
+2020-2-11 07:26 08:56  dev   slabinfo
+2020-2-11 09:30 09:53  misc  coms and moring prep
+2020-2-11 09:53 11:45  misc  meetings
+2020-2-11 12:30 16:00  misc  meetings
+2020-2-11 16:00 17:28  dev   rfc003 -> han/herc20 refactor
+2020-2-12 07:20 08:50  dev   slabinfo
+2020-2-12 09:30 12:00  dev   pairing with Franck
+2020-2-12 13:00 17:00  dev   pairing with Franck
+2020-2-12 17:00 17:18  misc  slack
+2020-2-12 17:18 17:30  dev   pair with Lucas
+2020-2-12 17:57 19:31  dev   slabinfo
+2020-2-13 07:31 09:19  dev   slabinfo
+2020-2-13 09:53 10:17  misc  morning prep
+2020-2-13 10:17 11:56  dev   lnd, bitcoind instance
+2020-2-13 12:59 16:54  dev   lnd
+2020-2-14 07:57 08:46  misc  morning patch review and comms
+2020-2-14 15:55 18:06  misg  fixme
+2020-2-14 16:20 18:06  dev   matching transactions
+2020-2-17 08:00 08:53  misc  morning catch up
+2020-2-17 08:53 11:02  dev   matching transactions
+2020-2-17 11:02 11:49  misc  meeting
+2020-2-17 13:07 13:35  dev   design call with Franck and Thomas
+2020-2-17 13:35 16:08  dev   matching txs
+2020-2-17 18:40 19:03  misc  slack and review
+2020-2-17 19:03 20:58  dev   slabinfo-rs
+2020-2-18 07:30 07:41  misc  morning prep
+2020-2-18 07:41 10:54  dev   matching transactions
+2020-2-18 11:34 15:45  misc  meetings
+2020-2-18 18:09 20:09  dev   slabinfo
+2020-2-19 07:14 08:45  misc  morning prep
+2020-2-19 08:45 11:22  dev   matching txs
+2020-2-19 12:10 16:01  dev   matching transactions
+2020-2-20 07:24 08:32  misc  morning prep
+2020-2-20 08:32 10:15  dev   re-work matcing tx PR
+2020-2-20 10:15 12:00  dev   test matching transactions
+2020-2-20 12:45 14:03  dev   test matching transactions
+2020-2-20 14:09 16:27  dev   test matching transactions
+2020-2-21 07:08 09:11  dev   morning prep and impl matching transactions review suggestions
+2020-2-21 09:11 10:58  misc  retro blow up
+2020-2-21 10:58 11:54  dev   testing
+2020-2-24 09:29 10:19  trn   touch typing
+2020-2-24 11:28 15:10  dev   matching transaction PR
+2020-2-24 15:10 17:44  dev   matching transaction follow up
+2020-2-24 22:08 23:10  dev   play around with struct trait bounds
+2020-2-25 07:55 09:33  dev   slabinfo
+2020-2-25 10:00 11:24  misc  meetings
+2020-2-25 11:24 12:02  misc  emacs org mode
+2020-2-25 12:45 16:00  misc  meetings
+2020-2-25 16:00 16:08  dev   start on new issue
+2020-2-25 17:13 17:41  dev   try_into
+2020-2-26 07:26 09:00  dev   slabinfo
+2020-2-26 09:30 11:55  dev   remove into trait
+2020-2-26 12:55 13:48  dev   finish remove Into<LedgerKind> PR
+2020-2-26 13:48 17:16  dev   hackety hack, 2 PRs
+2020-2-27 08:23 09:07  misc  morning prep
+2020-2-27 09:07 12:00  dev   remove Ledger trait
+2020-2-27 13:26 16:31  dev   add identity
+2020-2-27 16:31 17:12  dev   remove ledger trait
+2020-2-28 07:21 08:50  dev   adding identity
+2020-2-28 09:54 12:05  dev   adding identity
+2020-2-28 12:39 13:03  dev   config fixup
+2020-2-28 13:03 13:52  misc  meeting
+2020-2-28 13:52 15::00 dev   config fixup
+2020-3-02 07:29 11:32  dev   lnd config
+2020-3-02 11:32 12:13  dev   remove identity from ledger PR
+2020-3-02 13:00 14:50  dev   config lnd
+2020-3-02 15:07 15:59  dev   fix up PRs
+2020-3-03 07:39 08:59  dev   mornig prep plus PR maintenance
+2020-3-03 08:59 11:12  dev   various exploritory tasks related to remove Ledger
+2020-3-03 11:54 16:06  dev   remove HtlcLocation
+2020-3-04 07:42 08:37  misc  morning prep
+2020-3-04 08:37 11:04  dev   remove htlc location
+2020-3-04 11:40 14:08  dev   remove ledger trait
+2020-3-04 14:08 15:23  dev   read comit-libp2p
+2020-3-04 15:23 16:00  dev   libp2p reading and clean up
+2020-3-05 07:33 08:38  misc  call with Protocol Labs
+2020-3-05 08:38 09:35  misc  morning prep and patch review
+2020-3-05 09:35 10:27  dev   bug fix remove ledger PR
+2020-3-05 10:27 11:37  misc  update resume
+2020-3-05 11:37 11:57  misc  reading communication protocol spike
+2020-3-05 13:07 14:16  dev   com protocol
+2020-3-05 14:16 15:54  dev   epic research and create tickets
+2020-3-06 06:57 07:31  misc  morning prep
+2020-3-06 07:31 13:00  dev   async traits and meetings
+2020-3-09 09:18 18:00  misc  libp2p code reading and upstream patching
+2020-3-10 08:43 11:45  dev   libp2p and meeting
+2020-3-10 12:43 16:05  misc  meetings
+2020-3-10 16:05 18:20  dev   start on libp2p oneshot protocols
+2020-3-11 08:15 09:12  misc  morning prep
+2020-3-11 09:12 12:24  dev   libp2p secret hash protocol
+2020-3-11 13:02 17:59  dev   libp2p
+2020-3-11 18:36 20:10  dev   libp2p
+2020-3-12 08:17 12:04  dev   libp2p
+2020-3-12 13:03 13:17  misc  chat with Rishab
+2020-3-12 13:17 17:31  dev   libp2p
+2020-3-13 08:41 09:55  misc  morning prep
+2020-3-13 09:55 10:43  dev   libp21
+2020-3-13 10:43 12:08  misc  meeting
+2020-3-13 12:43 13:05  misc  retro prep
+2020-3-13 13:05 15:00  dev   libp2p
+2020-3-13 15:00 16:00  misc  retro
+2020-3-16 07:29 08:28  misc  morning prep
+2020-3-16 08:28 11:25  dev   libp2p oneshots
+2020-3-16 11:56 15:46  dev   libp2p oneshot protocols
+2020-3-17 07:59 11:36  dev   swarm/controller interface function PR
+2020-3-17 11:36 11:58  dev   announce protocol
+2020-3-17 12:57 16:12  dev   libp2p announce protocol
+2020-3-18 06:49 08:39  dev   morning prep and patch maintenance
+2020-3-18 08:39 12:10  dev   libp2p announce protocol
+2020-3-18 13:02 16:05  dev   libp2p announce protocol
+2020-3-19 09:11 14:41  misc  quarterly planning
+2020-3-19 14:41 17:47  dev   announce protocol
+2020-3-20 08:37 09:04  misc  morning prep
+2020-3-20 09:04 12:06  dev   han/herc plus grooming
+2020-3-20 13:10 14:34  dev   han/herc
+2020-3-20 14:34 15:00  dev   han/herc
+2020-3-20 15:00 16:02  misc  retro
+2020-3-23 09:19 09:55  misc  morning prep
+2020-3-24 07:33 12:00  misc  meetings
+2020-3-24 12:37 17:12  dev   PR maintanence
+2020-3-25 08:30 09:05  misc  morning prep
+2020-3-25 09:05 16:01  dev   ln
+2020-3-25 18:12 19:39  dev   libp2p use ipnet instead of `get_if_addrs`
+2020-3-25 20:13 20:39  dev   libp2p finish ipnet PR
+2020-3-25 20:39 21:25  dev   read libp2p issues
+2020-3-26 07:58 09:41  misc  PL hiring process
+2020-3-26 09:41 12:05  dev   announc network behaviour tickets
+2020-3-26 12:39 18:40  dev   mob programming
+2020-3-27 08:18 09:03  misc  morning prep
+2020-3-27 09:03 11:54  dev   spawn han eth side
+2020-3-27 12:45 15:59  dev   pair programming
+2020-3-30 07:21 07:49  trn   touch typing
+2020-3-30 07:49 08:30  misc  morning prep
+2020-3-30 08:30 12:26  dev   ln mob
+2020-3-30 12:26 18:30  dev   lnd-mod actions
+2020-3-31 08:00 08:15  misc  morning prep
+2020-3-31 08:15 08:31  trn   touch typing
+2020-3-31 08:32 12:09  dev   lnd mob
+2020-3-31 12:55 17:26  dev   libp2p experiment
+2020-4-01 07:56 08:27  mics  carona media
+2020-4-01 08:27 09:47  misc  libp2p PR update and 1on1 with Philipp
+2020-4-01 09:47 11:58  dev   mulit protocol
+2020-4-01 12:45 15:59  dev   add action routes
+2020-4-02 08:50 10:00  misc  morning prep
+2020-4-02 10:00 11:56  misc  q1 retro
+2020-4-02 13:00 16:00  dev   lnd
+2020-4-02 16:00 20:05  misc  personal book keeping
+2020-4-03 07:52 12:43  dev   ln mob - try to remove log colors
+2020-4-03 13:19 16:05  dev   debugging
+2020-4-06 09:17 11:57  dev   pull out individial PRs
+2020-4-06 12:42 17:38  dev   ln ticket creation, PR creation
+2020-4-07 08:04 08:34  misc  morning prep
+2020-4-07 08:34 11:58  misc  meetings
+2020-4-07 12:57 17:13  dev   meetings
+2020-4-08 07:53 10:06  misc  morning prep and 1 on 1 with Philipp
+2020-4-08 10:06 11:50  dev   bind bug PR, js docs
+2020-4-08 12:42 15:03  dev   sdk docs issue
+2020-4-08 15:03 15:59  misc  github actions research
+2020-4-09 07:59 11:44  dev   meeting plus PR maintenance
+2020-4-09 12:44 18:21  dev   database schema
+2020-4-10 09:00 14:30  dev   postfix interpreter
+2020-4-11 13:54 16:57  dev   postfix interpreter
+2020-4-20 08:46 09:54  misc  morning prep
+2020-4-20 09:54 11:05  dev   two comit-rs PRs
+2020-4-20 11:05 11:30  dev   blockchain contracts investigation
+2020-4-20 11:30 12:00  misc  huddle
+2020-4-20 12:40 14:46  dev   blockchain contracts PR
+2020-4-20 14:46 16:09  misc  meeting
+2020-4-20 16:09 18:04  dev   postfix hacking
+2020-4-21 08:21 11:27  misc  meetings
+2020-4-21 12:37 16:20  misc  meetings
+2020-4-21 16:20 18:32  dev   mad refactoring of SwapId code
+2020-4-22 08:10 08:29  trn   touch typing
+2020-4-22 08:29 12:01  dev   swap id hacking
+2020-4-22 13:04 17:55  dev   a bunch of PRs
+2020-4-23 07:42 07:59  trn   touch typing
+2020-4-23 07:59 08:26  misc  morning prep
+2020-4-23 08:26 08:43  misc  email
+2020-4-23 08:43 09:31  dev   postfix hacking
+2020-4-23 09:31 11:26  dev   add db/controller interface
+2020-4-23 12:47 13:19  dev   endpoint test PR investigation
+2020-4-23 13:19 16:46  misc  dev environment tweeking
+2020-4-23 16:46 18:00  dev   return data on endpoint
+2020-4-24 09:05 12:00  dev   db/controlller and new naming convention
+2020-4-24 12:29 13:56  dev   db/controlller and new naming convention
+2020-4-24 13:56 15:59  dev   get /swaps PR
+2020-4-26 11:24 13:00  dev   postfix hacking
+2020-4-26 13:08 16:19  dev   postfix re-write
+2020-4-27 08:13 12:06  misc  mornig prep and huddle
+2020-4-27 13:25 15:38  dev   get /swaps PR
+2020-4-27 15:38 16:16  dev   write up naming issue
+2020-4-28 07:43 07:56  trn   touch typing
+2020-4-28 07:56 08:52  misc  mornig prep
+2020-4-28 08:52 11:47  dev   get swaps and grooming
+2020-4-28 12:36 13:04  dev   get swaps
+2020-4-28 13:04 17:29  dev   PRs and e2e tests
+2020-4-29 06:55 10:30  misc  3 hour long interviews with Protocl Labs
+2020-4-29 10:30 12:01  misc  meeting
+2020-4-29 12:53 13:22  dev   filecoin spec PR
+2020-4-29 13:22 16:01  dev   ledger investigation
+2020-4-30 07:59 11:00  dev   debuging e2e tests
+2020-4-30 11:00 12:00  misc  grooming
+2020-4-30 12:58 16:03  dev   various PRs
+2020-4-30 16:03 18:20  dev   etheremu ledger split
+2020-5-01 07:37 10:02  dev   morning prep and debugging PRs
+2020-5-01 10:02 12:00  dev   duplicate swaps PR debugging and fixing
+2020-5-01 12:58 16:04  dev   filecoin project spec and bitcoin reading
+2020-5-04 10:00 12:00  dev   debugging
+2020-5-04 13:00 17:00  dev   filecoin spec
+2020-5-04 17:00 18:32  misc  tenx town hall
+2020-5-05 07:24 08:06  misc  retro planning
+2020-5-05 08:06 09:03  dev   filecoin spec
+2020-5-05 09:03 10:00  misc  ln planning/investigation
+2020-5-05 10:00 11:50  misc  meetings
+2020-5-05 12:36 16:00  misc  meetings
+2020-5-06 05:10 08:20  dev   strip out rfc003
+2020-5-06 08:20 09:01  dev   e2e testing
+2020-5-06 09:01 09:28  misc  1on1 with Philipp
+2020-5-06 09:28 11:59  dev   db stuff
+2020-5-06 12:46 15:58  dev   database and naming
+2020-5-07 07:48 09:18  dev   morning prep
+2020-5-07 09:18 12:00  dev   database
+2020-5-07 12:55 19:23  dev   database stuff - hacking like mad
+2020-5-08 08:03 08:48  dev   morning prep
+2020-5-08 08:48 13:05  dev   database
+2020-5-08 13:38 15:00  dev   database
+2020-5-08 15:00 16:00  dev   meeting
+2020-5-11 09:11 12:00  dev   database
+2020-5-11 13:00 19:47  dev   database
+2020-5-12 07:15 09:17  dev   database
+2020-5-12 09:17 11:59  dev   database
+2020-5-12 12:45 16:37  dev   ln conversion
+2020-5-13 04:56 09:03  dev   new hbit module
+2020-5-13 09:03 09:27  dev   morning prep
+2020-5-13 09:27 11:30  dev   add hbit module
+2020-5-13 12:45 15:33  dev   hbit debugging
+2020-5-13 18:22 19:55  dev   crank hard on hbit/herc20
+2020-5-14 07:15 12:02  dev   hbit patch fixup
+2020-5-14 13:11 15:03  dev   PR maintenance
+2020-5-14 15:03 16:00  PR    debugging
+2020-5-15 07:58 08:28  dev   morning prep
+2020-5-15 08:28 12:34  dev   hbit
+2020-5-18 09:30 12:20  dev   misc
+2020-5-18 13:00 19:08  dev   pair with Thomas
+2020-5-19 07:43 07:52  misc  email
+2020-5-19 07:52 09:05  dev   comit crate
+2020-5-19 09:05 09:16  misc  retro planning
+2020-5-19 09:16 13:04  misc  retro plus pairing
+2020-5-19 14:00 16:34  dev   hbit
+2020-5-19 19:20 20:34  dev   filecoin proofs
+2020-5-20 08:08 12:33  dev   network module
+2020-5-20 13:19 16:03  dev   network modul
+2020-5-21 07:25 09:06  dev   network module
+2020-5-21 09:15 11:47  dev   network module
+2020-5-21 13:46 18:54  dev   network module hacking
+2020-5-21 19:52 20:59  pl    Remove unwrap in fil-proofs-tooling
+2020-5-22 07:23 07:56  pl    Raise and update PRs
+2020-5-22 07:56 08:41  dev   patch review, morning prep
+2020-5-22 08:41 12:47  dev   network plus design call
+2020-5-22 13:25 16:06  dev   network module PR
+2020-5-23 02:19 03:56  dev   fixed up the network module PR
+2020-5-23 05:32 07:12  dev   hbit/herc20 post endpoints
+2020-5-25 08:33 11:07  dev   PR maintenance, morning prep
+2020-5-25 11:07 12:00  dev   network PR
+2020-5-25 13:10 17:08  dev   network PR debugging
+2020-5-25 17:08 17:47  misc  procrastinate
+2020-5-26 07:31 07:43  trn   touch typing
+2020-5-26 07:43 11:50  dev   various tasks and meetings
+2020-5-26 12:35 13:39  dev   various tasks and meetings
+2020-5-26 13:39 16:44  misc  emacs tweaking
+2020-5-26 16:44 18:05  pl    remove unwraps
+2020-5-27 07:30 07:44  trn   touch typing
+2020-5-27 07:44 09:27  dev   morning prep
+2020-5-27 09:27 10:09  misc  tweak emacs
+2020-5-27 10:09 10:33  dev   more patch review
+2020-5-27 10:34 11:20  pl    remove unwrap
+2020-5-27 11:20 12:17  dev   rua, add api
+2020-5-27 12:17 16:35  dev   blockchain timestamp hacking
+2020-5-27 16:35 16:46  dev   patch review
+2020-5-27 16:46 17:14  dev   blockchain timestamps
+2020-5-27 17:14 18:04  pl    remove unwrap
+2020-5-28 07:54 08:07  trn   touch typing
+2020-5-28 08:07 08:37  dev   clean up yesterdays work
+2020-5-28 08:37 10:30  dev   expiry has passed PR
+2020-5-28 10:30 12:00  pl    remove unwrap
+2020-5-28 12:56 15:25  dev   recommended action
+2020-5-28 15:25 15:54  pl    remove unwrap
+2020-5-28 17:52 20:00  pl    finished off all unwraps
+2020-5-29 08:23 12:09  dev   rua controller re-write
+2020-5-29 13:03 15:03  dev   single action only
+2020-5-31 11:31 11:45  misc  communications
+2020-5-31 11:45 15:10  pl    finish the remove unwrap PR
+2020-6-01 08:12 08:40  misc  mornig prep
+2020-6-01 08:40 11:57  dev   refactoring single action
+2020-6-01 12:54 14:06  dev   rua
+2020-6-01 14:06 14:17  misc  patch review
+2020-6-01 14:17 16:27  pl    add loggin PR
+2020-6-01 16:28 16:41  dev   rua follow up pr
+2020-6-01 16:41 18:03  dev   refactoring
+2020-6-02 07:49 11:30  dev   do clean up PRs and have design chats
+2020-6-02 14:17 15:17  misc  merge conficts an github drama
+2020-6-02 15:17 16:20  pl    blake2 hash length
+2020-6-02 16:21 16:26  dev   PR maintenance
+2020-6-02 16:26 18:16  misc  procrastinate
+2020-6-03 08:11 08:29  trn   touch typing
+2020-6-03 08:39 10:25  misc  1on1 with Philipp
+2020-6-03 10:25 10:59  misc  superannuation call for tenx/amp
+2020-6-03 10:59 12:40  dev   libp2p connection investigation
+2020-6-03 14:00 16:14  dev   cleanups
+2020-6-03 17:59 20:18  pl    fix clippy warnings in core
+2020-6-04 09:07 10:07  misc  mornig prep
+2020-6-04 10:07 12:05  dev   ledger networks
+2020-6-04 13:22 18:05  dev   remove hard code ledgers
+2020-6-04 18:05 18:20  misc  work reading
+2020-6-05 08:17 08:32  pl    PR maintenance
+2020-6-05 08:32 10:01  misc  mornig prep
+2020-6-05 10:01 12:00  dev   mob hacking
+2020-6-05 13:00 13:32  dev   ChainId
+2020-6-05 13:32 17:00  dev   clean up
+2020-6-09 07:55 09:28  misc  mornig prep
+2020-6-09 09:28 09:41  misc  prep for retro
+2020-6-09 09:41 12:00  dev   storage cleanup
+2020-6-09 13:00 15:00  dev   storage refactor
+2020-6-09 15:00 16:37  misc  retro
+2020-6-09 16:37 18:00  dev   storage refactor
+2020-6-10 07:33 07:48  trn   touch typing
+2020-6-10 07:48 08:50  dev   storage refactor
+2020-6-10 08:50 12:00  dev   e2e test refactor
+2020-6-10 12:55 15:12  dev   dubugging test refactor and rename halight
+2020-6-10 15:12 17:08  dev   pl clippy pathces and comit PR maintenance
+2020-6-11 08:08 08:59  misc  mornig prep
+2020-6-11 08:59 12:40  dev   storage module refactor
+2020-6-11 13:40 19:18  dev   refactor storage
+2020-6-12 07:35 07:43  misc  mornig prep
+2020-6-12 07:43 07:51  trn   touch typing
+2020-6-12 07:51 09:22  dev   storage refactor
+2020-6-12 09:22 10:50  dev   refactor network modules
+2020-6-12 10:50 11:16  dev   investigate blockchain contracts import path
+2020-6-12 11:16 11:43  dev   patch maintenance
+2020-6-12 12:41 17:37  dev   remove rfc003
+2020-6-13 09:34 14:00  dev   pre rfc003 removal
+2020-6-13 16:22 18:12  dev   pre rfc003 removal
+2020-6-15 08:33 10:13  misc  mornig prep and PR review
+2020-6-15 10:13 12:01  dev   e2e testing
+2020-6-15 12:34 16:21  dev   pre rfc003 removal work
+2020-6-15 16:25 16:41  dev   think about re-write multiple peers
+2020-6-15 19:11 20:59  pl    remove clippy warnings
+2020-6-16 07:59 10:07  dev   e2e pre rfc003 removal
+2020-6-16 10:07 11:59  dev   e2e pre rfc003 removal
+2020-6-16 13:16 16:31  dev   rm rfc003
+2020-6-16 16:34 18:29  pl    clippy and filesystems
+2020-6-17 07:32 11:53  dev   refactoring and rfc003 removal
+2020-6-17 12:45 15:59  dev   many small clean up PRs
+2020-6-17 17:30 19:29  ps    filesystem safe write
+2020-6-18 08:43 09:42  misc  1 on 1 with Philipp
+2020-6-18 09:42 10:42  dev   PR maintenance
+2020-6-19 07:25 07:45  misc  mornig prep
+2020-6-19 07:45 08:22  misc  harpocrates planning
+2020-6-19 08:22 11:23  dev   harpocrates research and libp2p pingping
+2020-6-19 11:23 14:55  tor   rust research
+2020-6-19 14:55 15:36  misc  more research
+2020-6-20 08:10 09:00  dev   tor stuff
+2020-6-20 10:12 13:27  dev   investigate libtor-sys
+2020-6-20 13:27 14:29  dev   start implementing simple-tor-tc
+2020-6-20 16:05 17:59  dev   simple-tor-tc
+2020-6-22 09:14 12:00  dev   tor
+2020-6-22 12:45 17:47  dev   tor network connection
+2020-6-23 03:47 05:45  dev   TCP read/write over Tor network
+2020-6-23 07:25 08:27  dev   async
+2020-6-23 10:06 11:38  dev   async simple-tor-tc
+2020-6-23 11:38 11:58  dev   transports
+2020-6-23 12:55 14:07  dev   ping pong
+2020-6-23 14:07 14:15  misc  retro planning
+2020-6-23 14:15 16:05  misc  retro
+2020-6-24 08:15 08:26  trn   touch typing
+2020-6-24 08:26 09:17  misc  bascamp reading
+2020-6-24 09:17 12:07  dev   fucking Tokio
+2020-6-24 12:58 15:23  dev   failed attempt at debuggin Tokio libp2p panic
+2020-6-24 15:23 18:05  dev   multiaddr, libp2p, and tor
+2020-6-25 08:13 08:22  trn   touch typing
+2020-6-25 08:22 12:00  dev   tor ping-pong
+2020-6-25 12:56 17:00  dev   tor ping-pong
+2020-6-26 08:30 09:24  misc  mornig prep
+2020-6-26 09:24 11:00  dev   ping-pong clean up
+2020-6-26 13:52 13:53  dev   upstream prep
+2020-6-26 13:53 14:00  dev   raise PR for torut
+2020-6-26 14:00 14:54  dev   blog post
+2020-6-26 14:54 16:00  misc  retro
+2020-6-29 10:08 12:02  misc  email, huddle, morning prep
+2020-6-29 13:00 13:55  misc  order book demo meeting
+2020-6-29 13:55 17:16  misc  deliven Tor POC
+2020-7-01 07:36 09:00  misc  morning prep, tor
+2020-7-01 09:00 09:52  misc  1 on 1 with Philipp
+2020-7-01 09:52 11:26  dev   tor libp2p
+2020-7-01 12:23 14:12  dev   libp2p upstream effort
+2020-7-01 14:13 16:23  dev   ping-pong
+2020-7-01 16:23 17:06  misc  option problem thinking
+2020-7-02 07:48 08:30  misc  mornig prep
+2020-7-02 08:30 09:31  misc  comit-networ tor blogpost
+2020-7-02 09:31 11:58  dev   tor libp2p
+2020-7-02 12:30 14:17  dev   libp2p upstreaming
+2020-7-02 14:17 15:58  dev   cnd over tor
+2020-7-03 08:12 10:11  dev   tor
+2020-7-03 10:11 10:42  misc  email ops
+2020-7-03 10:42 12:16  misc  emacs stuff
+2020-7-03 12:41 15:15  dev   tor transport
+2020-7-03 15:15 16:06  dev   wrote rust-cat
+2020-7-06 09:19 10:17  misc  mornig prep
+2020-7-06 10:17 12:02  misc  grin research
+2020-7-06 13:36 17:32  misc  crypto research
+2020-7-07 08:19 08:31  trn   touch typing
+2020-7-07 08:31 12:01  dev   pair programming with Rishab
+2020-7-07 12:53 15:00  dev   pairing with Rishab
+2020-7-07 15:00 16:30  misc  retro
+2020-7-08 07:46 07:49  trn   touch typing
+2020-7-08 07:49 12:04  dev   debugging
+2020-7-08 13:17 15:55  dev   pairing with Rishab
+2020-7-08 15:55 17:11  misc  option trading call with Toby
+2020-7-09 07:43 12:01  dev   orderbook
+2020-7-09 13:06 16:28  dev   orderbook
+2020-7-10 08:02 09:00  dev   orderbook
+2020-7-10 10:24 13:00  dev   orderbook
+2020-7-10 13:45 16:01  dev   orderbook
+2020-7-13 09:53 11:59  dev   orderbook
+2020-7-13 12:58 16:26  dev   orderbook
+2020-7-13 16:26 17:56  misc  fill health form
+2020-7-14 08:03 08:15  trn   touch typing
+2020-7-14 08:16 08:37  misc  mornig prep
+2020-7-14 08:38 12:01  dev   orderbook
+2020-7-14 12:49 15:58  dev   config ledger
+2020-7-14 15:58 16:23  dev   orderbook cleanup
+2020-7-15 08:04 08:31  misc  mornig prep
+2020-7-15 08:31 12:00  misc  mornig prep
+2020-7-15 12:24 17:15  dev   orderbook
+2020-7-16 08:04 11:53  dev   orderbook
+2020-7-16 12:30 16:24  dev   orderbook
+2020-7-16 17:50 19:58  dev   libp2p look into ping issue
+2020-7-17 07:57 08:02  trn   touch typing
+2020-7-17 08:03 08:30  misc  mornig prep
+2020-7-17 08:30 12:07  dev   orderbook cleanups
+2020-7-17 12:40 15:27  dev   orderbook
+2020-7-17 15:27 16:30  misc  research
+2020-7-20 10:12 12:05  misc  morning prep and research
+2020-7-20 12:40 13:49  misc  nectar reading
+2020-7-20 13:49 15:29  dev   orderbook cleanup
+2020-7-20 15:29 16:51  dev   tor libp2p
+2020-7-20 16:51 19:31  misc  crypto trading
+2020-7-21 07:36 08:14  misc  mornig prep
+2020-7-21 08:14 11:55  dev   orderbook forex terms
+2020-7-21 12:36 13:29  dev   orderbook forex terms
+2020-7-21 13:29 16:23  dev   port to new tor repo
+2020-7-21 18:39 21:12  dev   rust crypto trader
+2020-7-22 07:57 08:06  trn   touch typing
+2020-7-22 08:06 08:24  misc  mornig prep
+2020-7-22 08:24 11:00  dev   debugging e2e tests
+2020-7-22 12:37 12:37  misc  nectar demo
+2020-7-22 13:30 14:30  misc  forex discussion
+2020-7-22 14:30 17:39  dev   forex terms
+2020-7-22 17:39 17:44  misc  bascamp
+2020-7-22 18:12 20:20  dev   rust crypto trader
+2020-7-23 07:30 09:06  dev   orderbook forex
+2020-7-23 10:30 11:11  dev   orderbook
+2020-7-23 11:11 12:11  misc  orderbook call
+2020-7-23 13:00 15:00  dev   debugging e2e tests
+2020-7-23 13:00 16:20  misc  retro
+2020-7-23 18:51 20:55  dev   rust crypto trader
+2020-7-24 10:27 11:28  misc  mornig prep
+2020-7-24 12:29 13:31  dev   publish tor transport to crates.io
+2020-7-24 13:31 13:56  misc  random tasks
+2020-7-24 13:56 15:57  misc  post orderbook call and chatting wit franck
+2020-7-27 08:29 09:57  misc  mornig prep
+2020-7-27 09:57 11:57  dev   peer tracker debugging
+2020-7-27 13:00 14:18  misc  forex chat with Daniel
+2020-7-27 14:18 18:45  misc  small PRs and long chats
+2020-7-28 07:52 08:49  misc  shapeup project reading
+2020-7-28 08:49 11:15  dev   take order
+2020-7-28 11:15 11:25  dev   PR maintenance
+2020-7-28 12:17 15:26  misc  CI debugging
+2020-7-28 15:26 16:24  misc  reading
+2020-7-28 18:48 20:38  dev   rust crypto trader
+2020-7-29 08:36 10:09  misc  1 on 1 with Philipp
+2020-7-29 10:09 12:02  dev   orderbook research
+2020-7-29 13:00 14:00  orderbook research
+2020-7-29 14:00 15:00  orderbook call
+2020-7-29 15:00 17:27  dev   orderbook
+2020-7-30 09:08 11:49  dev   orderbook
+2020-8-03 10:11 10:41  misc  mornig prep
+2020-8-03 10:41 12:01  dev   ordebook
+2020-8-03 14:04 17:28  dev   stuff
+2020-8-03 17:57 19:17  dev   rust crypto trader
+2020-8-03 19:30 20:00  dev   rust crypto trader
+2020-8-04 08:13 08:54  misc  mornig prep
+2020-8-04 08:54 10:59  misc  reasearch, PR maintenance and testing, chat with Franck
+2020-8-04 12:27 13:10  dev   PR/CI maintenance
+2020-8-04 13:10 14:36  misc  drain my reading list
+2020-8-04 14:36 16:20  misc  retro
+2020-8-05 08:15 09:51  dev   rust crypto trader
+2020-8-05 09:51 11:41  misc  new project call
+2020-8-05 12:30 13:46  misc  rsa design
+2020-8-05 13:46 16:35  dev   rsa draft PR
+2020-8-05 17:41 21:03  dev   crypto trader
+2020-8-06 08:06 08:32  misc  mornig prep
+2020-8-06 08:32 13:00  dev   sra
+2020-8-06 13:00 16:30  dev   sra
+2020-8-07 08:00 12:00  misc  write sra design doc
+2020-8-07 12:59 15:31  misc  write sra design doc
+2020-8-07 09:00 23:55  dev   crypto trader
+2020-8-08 00:00 00:47  dev   crypto trader
+2020-8-10 08:32 09:15  misc  mornig prep
+2020-8-10 09:16 09:40  misc  status reading
+2020-8-10 09:40 10:01  dev   PR review
+2020-8-10 10:24 11:53  dev   sra
+2020-8-10 13:30 16:17  dev   call and code and doc PR
+2020-8-10 17:16 20:00  dev   crypto trader
+2020-8-11 08:00 08:53  misc  status stuff
+2020-8-11 08:53 09:01  misc  mornig prep
+2020-8-11 09:01 09:35  dev   sep
+2020-8-11 10:10 13:00  misc  sep and call with Thomas
+2020-8-11 13:45 16:22  dev   sep
+2020-8-12 07:59 08:14  misc  mornig prep
+2020-8-12 08:14 08:18  trn   touch typing
+2020-8-12 08:19 09:00  sep
+2020-8-12 09:00 09:45  misc  one on one with Philipp
+2020-8-12 09:45 11:57  dev   sep
+2020-8-12 12:54 14:36  dev   sep
+2020-8-12 14:53 17:34  dev   crypto trader
+2020-8-13 08:06 09:10  misc  call with Dmitriy
+2020-8-13 09:10 10:03  dev   sep
+2020-8-13 10:03 10:28  dev   sep
+2020-8-13 11:01 12:29  dev   sep
+2020-8-13 13:34 14:30  dev   sep
+2020-8-13 14:30 16:21  dev   sep
+2020-8-14 08:09 09:46  dev   crypto trader, spread bot
+2020-8-14 09:46 10:29  dev   sep
+2020-8-14 10:29 11:25  misc  ethereum research
+2020-8-14 12:05 12:29  misc  ethereum research
+2020-8-14 12:29 15:41  dev   sep
+2020-8-16 12:02 13:18  misc  book keeping
+2020-8-16 14:00 14:35  misc  book keeping
+2020-8-17 08:58 09:57  dev   sep and morning prep
+2020-8-17 09:57 11:58  dev   sep
+2020-8-17 13:03 15:07  dev   sep PR re-write
+2020-8-17 15:07 16:13  dev   sep
+2020-8-17 16:13 17:00  dev   sep
+2020-8-17 19:00 20:17  misc  end of year books
+2020-8-18 07:50 09:30  dev   sep
+2020-8-18 09:30 12:52  dev   tuning sep config
+2020-8-18 14:00 15:00  dev   sep
+2020-8-18 15:00 16:00  misc  retro
+2020-8-19 05:12 06:00  misc  uni course research
+2020-8-19 07:26 07:38  trn   touch typing
+2020-8-19 07:38 11:02  dev   sep config, numerical shit
+2020-8-19 12:00 13:49  dev   sep, PR raised
+2020-8-19 13:50 17:17  dev   crypto trader
+2020-8-19 18:28 20:01  dev   crypto trader
+2020-8-20 07:45 08:30  dev   nim setup
+2020-8-20 08:30 09:48  misc  interview with Dmitriy
+2020-8-20 09:48 11:00  dev   PR maintanence
+2020-8-20 12:38 16:13  dev   sep
+2020-8-21 06:51 08:26  dev   crypto trader
+2020-8-21 10:36 13:16  dev   sep
+2020-8-21 13:16 15:40  misc  personal ops
+2020-8-24 08:45 10:16  dev   libp2p
+2020-8-24 10:49 13:35  dev   sep
+2020-8-24 14:05 16:26  dev   sep
+2020-8-24 16:27 17:49  math  coursera
+2020-8-25 07:50 08:22  misc  mornig prep
+2020-8-25 08:22 08:34  trn   touch typing
+2020-8-25 08:34 09:27  dev   read new orderbook code
+2020-8-25 09:58 13:27  misc  end of year personal books
+2020-8-25 14:03 15:12  misc  end of year personal books
+2020-8-25 15:13 16:24  math  coursera
+2020-8-25 18:24 19:44  math  coursera
+2020-8-26 07:44 10:53  misc  bunch of calls
+2020-8-26 12:27 13:26  misc  decentralised orderbook reading
+2020-8-26 13:26 16:28  dev   call with Franck and Thomas
+2020-8-27 07:48 09:56  dev   sep re-design
+2020-8-27 10:34 12:18  dev   patch review and chat with Thomas
+2020-8-27 12:18 12:35  dev   email
+2020-8-27 13:17 15:35  dev   re-design and unit test
+2020-8-27 15:36 15:48  dev   PR maintenance, basecamp
+2020-8-28 07:00 07:48  misc  email
+2020-8-28 07:48 08:07  dev   additional unit test
+2020-8-28 08:07 10:18  math  coursera
+2020-8-28 10:18 11:08  misc  job stuff
+2020-8-28 11:08 12:00  misc  mailing list
+2020-8-28 12:00 12:43  dev   code reading
+2020-8-31 08:06 08:48  misc  mornig prep
+2020-8-31 08:48 10:12  misc  research
+2020-8-31 10:12 11:32  dev   add support for erc20
+2020-8-31 11:32 12:05  misc  hudle
+2020-8-31 13:04 13:31  dev   raise erc20 PR
+2020-8-31 13:31 15:03  dev   quic
+2020-8-31 15:03 15:43  dev   bug fix start time
+2020-8-31 15:43 17:29  misc  quic reading
+2020-8-31 19:02 20:45  math  coursera
+2020-9-01 07:25 07:50  misc  mornig prep
+2020-9-01 07:50 08:00  trn   touch typing
+2020-9-01 08:03 09:49  dev   research sect integration
+2020-9-01 10:46 11:13  dev   sect integration
+2020-9-01 11:13 11:55  misc  write blog post
