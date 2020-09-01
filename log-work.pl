@@ -153,7 +153,6 @@ sub start_entry
 sub active_session
 {
     my $entry = last_log_entry(this_year());
-    my $start = start_entry();
 
     return ((length($entry) > length('2017-1-16 09:26') and
              (length($entry) < length('2017-1-16 09:26 10:18'))));
