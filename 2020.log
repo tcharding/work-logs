@@ -876,3 +876,70 @@
 2020-10-29 07:59 08:20  trn   touch typing
 2020-10-29 08:20 12:01  dev   debugging
 2020-10-29 13:13 16:18  dev   debugging and retro
+2020-11-02 10:47 13:39  misc  onboarding call with Brian
+2020-11-02 13:39 14:11  misc  vpn setup
+2020-11-02 14:30 15:47  misc  attempt to get globalprotect VPN working
+2020-11-02 15:47 18:20  misc  onboarding tasks
+2020-11-02 18:20 18:35  misc  ssh key fun
+2020-11-02 18:35 19:57  dev   serde patch
+2020-11-03 06:36 07:09  misc  morning prep
+2020-11-03 07:09 07:14  misc  touch typing setup
+2020-11-03 07:14 07:31  trn   touch typing
+2020-11-03 07:31 09:50  ops   attempt to set up sgx
+2020-11-03 09:50 11:04  dev   fix clippy warnings
+2020-11-03 12:03 16:15  dev   looking around the code, sgx setup
+2020-11-04 10:48 11:00  misc  write startup script
+2020-11-04 11:01 11:30  misc  morning prep
+2020-11-04 11:30 11:50  trn   touch typing
+2020-11-04 11:50 12:08  misc  email Brian on vision/mission
+2020-11-04 12:08 14:22  dev   e2e testing
+2020-11-04 15:00 19:50  dev   e2e testing
+2020-11-05 07:32 07:55  misc  morning prep
+2020-11-05 07:59 08:18  trn   touch typing
+2020-11-05 08:18 12:00  dev   manifest cleanup and e2e
+2020-11-05 13:07 16:09  dev   e2e
+2020-11-06 07:30 08:17  misc  morning prep
+2020-11-06 08:17 09:07  dev   rustfmt patch
+2020-11-06 09:07 10:28  dev   review Trevors backup PR
+2020-11-06 10:28 11:44  misc  security training
+2020-11-06 11:44 14:08  dev   e2e: Add RPC client
+2020-11-06 14:08 16:05  dev   e2e testing
+2020-11-09 10:27 10:43  misc  morning prep
+2020-11-09 10:43 11:08  trn   touch typing
+2020-11-09 11:08 11:39  dev   patch review
+2020-11-09 11:39 15:22  dev   e2e testing
+2020-11-09 15:53 20:02  dev   e2e testing
+2020-11-10 07:28 08:02  misc  morning prep
+2020-11-10 08:02 08:19  trn   touch typinglgs
+2020-11-10 08:19 12:00  dev   approval e2e testing
+2020-11-10 12:31 16:12  dev   e2e testing
+2020-11-11 09:40 11:51  dev   cargo deny and PR maintenance
+2020-11-11 12:36 18:31  dev   e2e
+2020-11-11 18:31 19:30  misc  weekly calls
+2020-11-12 07:26 07:42  misc  morning prep
+2020-11-12 07:42 08:06  ttp   touch typing
+2020-11-12 08:06 12:01  dev   debugging the build
+2020-11-12 12:45 16:08  dev   API oid parsing patch
+2020-11-13 07:48 08:16  misc  morning prep
+2020-11-13 08:16 08:36  ttp   touch typing
+2020-11-13 08:36 10:31  dev   e2e test improvements
+2020-11-13 10:31 12:22  dev   clean up patches
+2020-11-13 13:00 13:06  dev   raise clippy pr
+2020-11-13 13:06 15:49  dev   clean up PRs
+2020-11-16 12:00 08:30  misc  spent day battling Arch and Ubuntu
+2020-11-17 07:30 16:00  misc  spent day doing Ubuntu install/setup
+2020-11-18 12:00 16:17  ops   set up new machine
+2020-11-18 17:00 21:18  dev   refactoring twopartywallet
+2020-11-19 07:30 08:56  dev   magit and helping Raymond
+2020-11-19 08:56 09:13  dev   github notifications
+2020-11-19 09:13 11:45  dev   refactor twopartywallet
+2020-11-19 12:38 14:43  dev   attempt to help Raymond
+2020-11-19 14:43 16:17  misc  mess with git history
+2020-11-20 07:50 11:28  dev   patch review
+2020-11-20 11:28 11:42  misc  change energy providers
+2020-11-20 12:27 16:01  dev   fixing error handling
+2020-11-23 11:08 15:00  dev   more error handling
+2020-11-23 11:10 11:40  misc  morning prep
+2020-11-23 11:40 11:53  ttp   touch typing practice
+2020-11-23 11:54 14:03  dev   help Dominique out
+2020-11-23 14:03 
