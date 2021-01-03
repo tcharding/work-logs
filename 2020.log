@@ -938,8 +938,112 @@
 2020-11-20 07:50 11:28  dev   patch review
 2020-11-20 11:28 11:42  misc  change energy providers
 2020-11-20 12:27 16:01  dev   fixing error handling
-2020-11-23 11:08 15:00  dev   more error handling
 2020-11-23 11:10 11:40  misc  morning prep
 2020-11-23 11:40 11:53  ttp   touch typing practice
 2020-11-23 11:54 14:03  dev   help Dominique out
-2020-11-23 14:03 
+2020-11-23 14:03 21:28  dev   merge cleanup
+2020-11-24 07:31 08:31  misc  morning prep
+2020-11-24 08:31 11:58  dev   various cleanup patches
+2020-11-24 12:38 14:40  dev   error handling in trusted
+2020-11-24 14:40 15:52  dev   more error handling
+2020-11-25 12:07 13:54  dev   patch maintanence
+2020-11-25 13:54 14:47  dev   os maintainer tasks
+2020-11-25 14:47 16:21  dev   twopartywallet splitting
+2020-11-25 16:39 18:00  more tpw splitting
+2020-11-25 18:00 19:59  misc  weekly call + design chat with Trevor
+2020-11-26 07:26 08:39  misc  morning prep
+2020-11-26 08:39 09:00  ttp   touch typing practice
+2020-11-26 09:00 11:55  dev   tpw
+2020-11-26 12:38 16:27  dev   more tpw
+2020-11-27 07:28 08:40  misc  morning prep
+2020-11-27 08:40 14:40  dev   splitting parties Pr
+2020-11-30 11:00 18:40  misc  laptop setup, failed to setup sgx
+2020-11-30 18:40 21:27  dev   presentation and call with Trevor
+2020-12-01 07:46 08:04  misc  morning prep
+2020-12-01 08:04 08:11  ttp   touch typing practice
+2020-12-01 08:11 11:30  dev   tpw improvements
+2020-12-01 12:17 13:21  dev   play aroun with config
+2020-12-01 13:21 16:35  dev   tpw 
+2020-12-02 11:53 14:16  misc  morning prep
+2020-12-02 14:16 17:00  dev   tpw re-design
+2020-12-02 17:00 18:53  misc  weekly catchup calls
+2020-12-02 18:54 20:30  div   tpw re-design
+2020-12-03 07:23 08:47  misc  morning prep
+2020-12-03 08:47 09:14  ttp   touch typing practice
+2020-12-03 09:14 12:04  dev   tpw curve stuff
+2020-12-03 12:46 14:51  dev   add custom chain code
+2020-12-03 14:51 16:26  dev   chain code debugging
+2020-12-04 07:24 07:49  misc  morning prep
+2020-12-04 07:49 08:05  ttp   touch typing practice
+2020-12-04 08:05 12:00  dev   tpw
+2020-12-04 12:55 15:24  dev   tpw, epic refactoring of ecdsa
+2020-12-07 10:50 11:42  misc  morning prep
+2020-12-07 11:42 12:02  dev   patch review and comment review
+2020-12-07 12:29 13:13  dev   tpw PR maintenance
+2020-12-07 13:13 14:22  dev   PR review for Durgesh
+2020-12-07 14:22 15:51  dev   tpw split design
+2020-12-07 17:13 21:14  dev   split party server
+2020-12-08 07:37 08:29  misc  morning prep
+2020-12-08 08:29 08:48  ttp   touch typing practice
+2020-12-08 08:48 11:51  dev   twp: Add new Seed
+2020-12-08 12:48 16:01  dev   more tpw
+2020-12-09 08:10 12:18  dev   tpw: various patches
+2020-12-09 13:15 13:44  dev   patch review
+2020-12-09 13:44 15:32  est   intro to mathematical thinking proofs
+2020-12-09 15:33 17:07  dev   get e2e test env setup
+2020-12-09 17:07 17:49  mics  snek
+2020-12-09 17:49 20:00  misc  meetings and research
+2020-12-10 08:19 12:00  dev   ecdsa unit testing
+2020-12-10 12:00 15:30  dev   more ecdsa unit testing
+2020-12-11 07:45 09:20  dev   morning prep, patch review/maintenance
+2020-12-11 09:20 10:38  dev   zeroize secrets
+2020-12-11 10:47 13:12  misc  math
+2020-12-11 13:49 14:07  misc  math
+2020-12-11 14:07 15:17  dev   have another go at split parties
+2020-12-14 10:25 10:49  misc  morning prep
+2020-12-14 10:49 11:55  misc  coursera
+2020-12-14 11:55 12:40  dev   os patch review
+2020-12-14 12:40 13:58  dev   tpw usage in trusted
+2020-12-14 14:19 15:58  dev   tpw usage in trusted
+2020-12-14 16:41 20:31  dev   split client/server
+2020-12-15 07:17 14:04  dev   re-work the split parties code
+2020-12-15 14:48 16:09  dev   more split parties
+2020-12-16 11:47 21:06  dev   start on an epic refactoring of trusted API
+2020-12-17 09:00 10:04  misc  morning prep
+2020-12-17 10:04 12:04  dev   facade
+2020-12-17 12:50 20:12  dev   facade
+2020-12-18 07:42 08:03  misc  morning prep
+2020-12-18 08:04 08:18  ttp   touch typing practice
+2020-12-18 08:23 12:03  dev   seal/unseal seed
+2020-12-18 12:30 15:11  dev   split parties sealing
+2020-12-18 15:11 16:02  misc  coursera
+2020-12-21 13:03 13:14  misc  morning prep
+2020-12-21 13:14 16:27  dev   finish spilt party mode
+2020-12-21 16:27 17:24  misc  watch AMA with Kris
+2020-12-21 17:24 18:19  dev   testing split parties PR
+2020-12-21 18:19 19:39  misc  math
+2020-12-21 19:39 20:40  dev   dbk first PR
+2020-12-22 07:30 08:14  dev   morning prep and todo list
+2020-12-22 08:14 08:55  dev   os maintanence tasks
+2020-12-22 08:55 12:03  dev   rust-bitcoin stuff
+2020-12-22 13:00 13:21  dev   more rust-bitcoin
+2020-12-22 13:21 15:02  dev   rust-secp245k1 upstream work
+2020-12-22 15:02 16:15  dev   rust-secp
+2020-12-22 16:15 16:32  dev   patch review
+2020-12-22 16:32 17:49  misc  demo call
+2020-12-23 11:09 12:04  misc  morning prep
+2020-12-23 13:00 15:25  dev   bdk clippy warnings
+2020-12-23 15:25 16:31  dev   bitcoin dev kit clippy patches
+2020-12-23 16:32 20:50  dev   calls and shit
+2020-12-24 10:40 16:00  dev   bdk and rust-secp
+2020-12-29 07:00 07:25  misc  morning prep
+2020-12-29 07:25 10:26  dev   tpw split party signing
+2020-12-29 10:52 13:22  misc  1 on 1 with Brian
+2020-12-29 13:40 14:14  misc  reading
+2020-12-29 14:14 16:14  dev   zeroize rust-secp
+2020-12-30 12:01 12:29  misc  morning prep
+2020-12-30 12:29 15:40  dev   bdk clippy warnings PR
+2020-12-30 12:29 19:45  dev   bdk clippy warnings PR and calls
+2020-12-31 07:56 10:40  dev   patch review
+2020-12-31 10:56 13:54  dev   trusted startup script
+2020-12-31 13:54 15:55  misc  reading list
