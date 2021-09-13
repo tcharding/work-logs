@@ -1,0 +1,767 @@
+2019-1-01 00:00 00:01  misc  dummy entry - happy new years!
+2021-1-04 10:47 12:24  misc  morning prep
+2021-1-04 12:24 19:29  dev   split server backups
+2021-1-05 07:35 08:43  misc  morning prep
+2021-1-05 08:43 11:31  dev   clean up split server backup
+2021-1-05 14:11 14:15  misc  reading
+2021-1-05 14:15 15:32  dev   rust-secp256k1 OS contrib
+2021-1-06 09:45 10:31  misc  morning prep
+2021-1-06 10:31 11:23  dev   patch review
+2021-1-06 11:23 12:21  dev   minor PRs
+2021-1-06 12:21 12:49  misc  coursera
+2021-1-06 13:29 15:28  misc  coursera
+2021-1-06 15:28 16:59  dev   code reading
+2021-1-06 18:29 21:18  dev   calls
+2021-1-07 07:58 10:35  misclg  sgx reading
+2021-1-07 11:27 14:53  dev   sgx test code
+2021-1-07 14:53 16:11  dev   sgx, test code
+2021-1-07 16:13 17:30  dev   bkdk
+2021-1-08 08:54 10:03  misc  morning prep
+2021-1-08 10:03 12:08  dev   pass raw seed over the wire
+2021-1-08 13:14 16:02  dev   debugging party-2 backup
+2021-1-11 12:01 12:32  misc  morning prep
+2021-1-11 12:32 15:00  dev   debugging party-2
+2021-1-11 15:00 20:31  dev   more debugging
+2021-1-12 08:45 09:12  misc  morning prep
+2021-1-12 09:47 12:37  dev   design and thinking
+2021-1-12 14:16 14:54  dev   merging PRs
+2021-1-12 14:54 16:21  misc  write document
+2021-1-13 10:38 12:02  misc  morning prep
+2021-1-13 12:53 14:03  misc  coursera
+2021-1-13 14:03 14:24  dev   open source reviews
+2021-1-13 14:24 20:21  dev   calls and shit
+2021-1-14 07:21 07:34  misc  morning prep
+2021-1-14 07:34 11:57  dev   key hacking
+2021-1-14 12:58 16:03  dev   epic key cleanup PR
+2021-1-15 08:28 09:32  misc  morning prep
+2021-1-15 09:32 09:47  ttp   touch typing practice
+2021-1-15 09:47 10:30  dev   documentation
+2021-1-15 10:30 14:54  dev   patch maintenance and new endpoint
+2021-1-15 14:54 16:10  misc  math
+2021-1-16 08:15 09:33  dev   bdk work
+2021-1-18 10:00 10:19  misc  morning prep
+2021-1-18 10:19 12:02  misc  coursera
+2021-1-18 13:26 18:41  dev   p2 seed/keys to ss
+2021-1-18 18:41 20:03  dev   os contrib
+2021-1-19 07:57 08:32  misc  morning prep
+2021-1-19 08:32 09:01  dev   rebase and merge PR
+2021-1-19 09:02 09:11  ttp   touch typing practice
+2021-1-19 09:11 10:10  misc  re-work backup script, backup to clould
+2021-1-19 10:10 11:55  dev   test p2 backup/restore in the cloud
+2021-1-19 12:49 16:38  misc  coursera
+2021-1-20 10:21 10:50  misc  morning prep
+2021-1-20 10:50 12:02  misc  coursera
+2021-1-20 13:05 14:12  dev   add version string
+2021-1-20 14:12 14:58  dev   investigate clippy
+2021-1-20 14:58 17:00  dev   documentation
+2021-1-20 17:00 19:00  misc  work calls
+2021-1-20 19:00 20:14  misc  call with Trevor
+2021-1-21 07:26 09:34  dev   various patches
+2021-1-21 09:34 11:53  dev   SS hacking
+2021-1-21 12:47 15:07  dev   ss backup/restore
+2021-1-21 15:07 15:58  dev   rust tor tokio transport work
+2021-1-22 06:45 10:37  dev   ss polishing
+2021-1-27 06:49 09:30  dev   bdk
+2021-1-27 09:31 09:52  misc  morning prep
+2021-1-27 11:16 11:27  ttp   touch typing practice
+2021-1-27 11:27 14:15  dev   testing
+2021-1-27 14:39 18:30  dev   start up script
+2021-1-27 18:30 19:30  misc  weekly call
+2021-1-27 19:30 20:00  dev   code reading
+2021-1-28 07:30 08:18  misc  morning prep
+2021-1-28 08:18 10:02  misc  freediving course work
+2021-1-28 10:04 12:34  dev   testing, add binary to e2e crate
+2021-1-28 13:10 15:17  dev   testing PR
+2021-1-28 15:17 16:00  misc  math
+2021-1-29 08:00 08:46  misc  morning prep
+2021-1-29 08:46 08:58  ttp   touch typing practice
+2021-1-29 08:59 12:01  dev   remove custom logger
+2021-2-01 08:49 09:52  misc  jobs for kids
+2021-2-01 09:52 11:08  math  coursera
+2021-2-01 12:03 12:54  misc  training
+2021-2-01 12:54 17:46  dev   tracing
+2021-2-01 17:57 19:37  misc  rust-bitcoin reading / no_std
+2021-2-02 08:22 10:10  misc  morning prep
+2021-2-02 10:10 11:56  math  coursera
+2021-2-02 13:20 16:01  dev   upgrade testing
+2021-2-03 08:00 11:49  dev   upgrade testing
+2021-2-03 12:50 12:56  dev   PR maintenance
+2021-2-03 12:56 14:23  math  coursera
+2021-2-03 14:23 16:32  dev   bdk
+2021-2-03 16:32 20:19  dev   testing and weekly call
+2021-2-04 08:31 09:41  misc  morning prep
+2021-2-04 09:41 09:59  ttp   touch typing practice
+2021-2-04 09:59 10:21  dev   update online resume
+2021-2-04 10:21 11:48  dev   curv/rustsecp256k1
+2021-2-04 12:32 14:11  dev   curv
+2021-2-04 14:11 16:17  dev   dependencies
+2021-2-05 08:00 10:13  dev   morning prep and curv PR implement review suggestions
+2021-2-05 10:13 12:01  dev   curv
+2021-2-05 12:50 15:54  dev   rust-secp
+2021-2-08 11:00 16:00  dev   rust-secp
+2021-2-08 16:36 17:30  rust  secp fork cleanup
+2021-2-08 17:30 18:30  misc  devops call
+2021-2-08 18:30 20:14  rust  secp fork dependency removal
+2021-2-09 08:28 10:14  misc  PR maintenance and PR review
+2021-2-09 10:14 12:00  misc  math
+2021-2-09 13:01 14:11  misc  math
+2021-2-09 14:11 15:03  dev   investigate re-init
+2021-2-09 15:03 16:21  dev   bdk
+2021-2-10 09:13 11:55  dev   dbk
+2021-2-10 13:00 18:12  dev   gmp
+2021-2-10 18:13 19:35  misc  weekly call
+2021-2-11 08:00 10:21  dev   debugging
+2021-2-11 10:21 11:05  dev   os pr maintenance
+2021-2-11 11:05 12:00  dev   cro
+2021-2-11 12:59 13:40  dev   pr review
+2021-2-11 13:40 15:13  dev   address validation
+2021-2-11 15:13 16:16  misc  reading
+2021-2-12 10:30 12:29  dev   morning prep
+2021-2-12 12:29 12:43  ttp   touch typing practice
+2021-2-12 12:43 13:01  dev   os pr maintenance
+2021-2-12 13:01 16:00  misc  cosmos reading
+2021-2-13 12:12 14:03  math  coursera
+2021-2-13 14:06 16:27  dev   bdk
+2021-2-15 11:14 11:30  dev   morning prep
+2021-2-15 11:30 17:11  dev   connecting after upgrade
+2021-2-15 17:58 18:56  math  coursera
+2021-2-15 18:57 19:38  dev   os contrib
+2021-2-16 07:42 14:25  dev   debugg remote attestation
+2021-2-16 14:59 15:24  dev   os contrib
+2021-2-16 15:24 16:00  misc  reading
+2021-2-16 19:00 21:06  ops   set up bitcoin core
+2021-2-17 11:36 14:14  dev   pr review
+2021-2-17 14:49 15:44  dev   pr review
+2021-2-17 15:45 16:21  math  coursera
+2021-2-17 16:21 20:08  misc  calls
+2021-2-18 08:00 12:32  dev   sgx ra
+2021-2-18 12:32 16:04  dev   sgx ra
+2021-2-18 16:04 16:30  misc  sgx ra paper reading
+2021-2-19 08:37 09:10  dev   morning prep
+2021-2-19 09:10 09:24  ttp   touch typing practice
+2021-2-19 09:24 15:13  dev   RA reorg
+2021-2-22 11:36 19:40  dev   ra refactor
+2021-2-23 08:00 09:16  dev   morning prep
+2021-2-23 09:25 09:35  ttp   touch typing practice
+2021-2-23 09:35 12:40  dev   finish off ra stuff
+2021-2-23 13:16 14:40  dev   verify logic discussion and fix
+2021-2-23 14:40 11:51  dev   morning prep
+2021-2-24 11:51 13:51  dev   os contrib
+2021-2-24 13:51 14:20  dev   ra merging
+2021-2-24 14:20 15:30  dev   logging
+2021-2-24 15:30 16:23  misc  call with Gus
+2021-2-24 16:24 17:08  dev   logging
+2021-2-24 17:31 20:00  dev   weekly call
+2021-2-25 09:00 11:36  dev   logging and morning prep
+2021-2-25 12:30 13:02  misc  call with Microsoft
+2021-2-25 13:02 15:04  dev   json logging
+2021-2-25 15:04 16:30  misc  procrastinate
+2021-2-26 08:00 08:26  dev   morning prep
+2021-2-26 08:26 08:43  ttp   touch typing practice
+2021-2-26 08:43 08:56  dev   add to authors list
+2021-2-26 08:56 09:36  math  coursera
+2021-2-26 09:36 12:20  dev   struct opt
+2021-2-26 13:00 15:18  dev   logging
+2021-3-01 11:30 12:24  dev   morning prep
+2021-3-01 12:24 12:39  misc  tax stuff
+2021-3-01 12:39 13:31  dev   implement p2 verify
+2021-3-01 13:31 20:21  dev   start work on runner
+2021-3-01 20:22 20:43  misc  slack with Trevor
+2021-3-02 08:00 11:43  dev   dependencies
+2021-3-02 13:00 16:10  dev   dependency hell
+2021-3-03 11:30 12:11  dev   morning prep
+2021-3-03 12:11 12:55  dev   fix dependencies
+2021-3-03 12:55 13:21  dev   fix sgx-comm rename
+2021-3-03 13:21 18:30  dev   vault.sh re-write
+2021-3-03 18:30 19:30  misc  weekly call
+2021-3-03 19:31 20:02  misc  wrap up the day
+2021-3-04 08:00 08:32  dev   morning prep
+2021-3-04 08:32 08:53  ttp   touch typing practice
+2021-3-04 08:53 11:57  dev   vault.sh re-write
+2021-3-04 13:05 15:13  dev   vault re-write PR up
+2021-3-04 15:13 16:37  dev   os contrib
+2021-3-05 08:00 09:07  dev   morning prep
+2021-3-05 09:07 09:29  ttp   touch typing practice
+2021-3-05 09:29 09:41  dev   os contrib
+2021-3-05 09:41 10:13  math  coursera
+2021-3-05 10:13 11:26  misc  get snek board running
+2021-3-05 11:26 11:59  dev   os contrib
+2021-3-05 13:10 14:00  dev   update curve and fix clippy warnings
+2021-3-05 14:00 15:27  misc  bitcoin stuff
+2021-3-08 12:00 13:19  misc  expense claim and morning prep
+2021-3-08 13:22 15:00  dev   more expense claim and PR review
+2021-3-08 15:02 17:11  dev   add p2 healthcheck
+2021-3-08 17:11 17:51  math  coursera
+2021-3-08 17:51 19:51  misc  pre-producton infra call
+2021-3-08 19:51 20:00  misc  wrap up
+2021-3-09 08:00 08:36  misc  morning prep
+2021-3-09 08:36 09:58  dev   debugging prod error
+2021-3-09 10:43 12:04  dev   debugging prod error
+2021-3-09 12:04 13:42  dev   runner
+2021-3-09 13:43 16:25  misc  procrastinate
+2021-3-10 09:41 10:23  misc  morning prep
+2021-3-10 10:23 12:02  misc  bitcoin learning
+2021-3-10 12:14 15:13  dev   remove sem and resarch mods
+2021-3-10 15:13 20:00  dev   weekly calls, randmo stuff
+2021-3-11 08:06 08:37  misc  morning prep
+2021-3-11 08:37 08:56  ttp   touch typing practice
+2021-3-11 08:56 11:50  dev   logging
+2021-3-11 12:46 14:29  dev   logging
+2021-3-11 14:29 16:33  misc  study
+2021-3-12 08:48 09:40  misc  morning prep
+2021-3-12 09:40 10:02  ttp   touch typing practice
+2021-3-12 10:02 11:05  dev   add version string to untrusted
+2021-3-12 11:05 11:50  misc  bitcoin study
+2021-3-12 13:04 16:32  dev   repo restructure
+2021-3-15 11:01 13:09  dev   play with git pre-commit hook
+2021-3-15 13:09 15:59  dev   print version
+2021-3-15 17:15 17:59  math  coursera
+2021-3-15 17:59 19:43  misc  bitcoin learning
+2021-3-16 08:30 08:48  misc  morning prep
+2021-3-16 08:48 11:56  dev   cosmos address
+2021-3-16 12:42 16:04  dev   add ethereum support
+2021-3-17 09:00 11:49  dev   repo re-org
+2021-3-17 13:00 14:46  dev   a lot of git flow chat
+2021-3-17 14:46 16:51  math  coursera
+2021-3-17 16:51 18:00  runner
+2021-3-17 18:00 20:01  misc  dry run call
+2021-3-18 07:54 09:11  misc  morning prep
+2021-3-18 09:11 11:58  dev   eth support
+2021-3-18 12:45 15:09  dev   eth support
+2021-3-18 15:09 15:53  dev   code reading
+2021-3-19 08:00 08:49  misc  morning prep
+2021-3-19 09:23 09:40  ttp   touch typing practice
+2021-3-19 09:40 11:54  dev   eth support
+2021-3-19 13:22 16:00  dev   eth support
+2021-3-22 11:34 15:10  dev   eth support
+2021-3-22 15:24 18:00  dev   eth support
+2021-3-22 18:00 18:47  misc  git flow call
+2021-3-22 18:47 20:01  misc  reading
+2021-3-23 08:37 12:00  dev   ethereum and geth
+2021-3-23 12:55 16:12  dev   ethereum rpc client
+2021-3-24 11:44 14:18  dev   repo restructure
+2021-3-24 14:50 15:43  dev   repo restructure
+2021-3-24 15:43 18:00  dev   ethereum jsonrpc re-write
+2021-3-24 18:00 20:05  misc  weekly calls
+2021-3-25 08:00 08:49  misc  morning prep
+2021-3-25 08:49 12:00  geth  rpc
+2021-3-25 13:30 15:50  geth  rpc
+2021-3-25 15:50 17:31  math  coursera
+2021-3-26 08:01 09:33  misc  morning prep
+2021-3-26 09:33 12:01  dev   ethereum library
+2021-3-26 13:04 17:05  dev   ethereum
+2021-3-27 14:35 16:49  math  coursera
+2021-3-29 11:32 13:35  dev   ethereum
+2021-3-29 15:12 15:41  dev   etherem
+2021-3-29 16:11 19:00  dev   ethereum
+2021-3-29 19:00 20:39  math  coursera
+2021-3-30 07:54 11:27  dev   etheremu
+2021-3-30 12:07 12:58  misc  next 6 months call
+2021-3-30 12:58 16:00  dev   ethereum in trusted
+2021-3-31 10:57 13:05  math  coursera
+2021-3-31 13:05 20:07  dev   ethereum
+2021-4-01 08:30 09:50  misc  morning prep
+2021-4-01 09:50 11:50  dev   eth untrusted testing
+2021-4-01 13:00 16:31  dev   debugging
+2021-4-06 07:45 10:15  misc  morning prep
+2021-4-06 10:15 13:21  dev   eth/cro stuff
+2021-4-06 13:40 15:43  dev   more ethereum
+2021-4-07 11:07 12:58  dev   more eth
+2021-4-08 08:13 11:25  dev   sgx rubbish
+2021-4-08 12:40 15:06  misc  fucking aesm/sgx debugging
+2021-4-08 15:07 16:15  math  coursera
+2021-4-09 08:55 10:39  misc  fix aesmd/sgx bullshit
+2021-4-09 10:39 14:52  dev   debugging/testing eth get balance
+2021-4-09 15:20 17:18  dev   ethereum support e2e testing
+2021-4-09 17:18 20:25  misc  retro quarterly call
+2021-4-19 11:20 15:44  dev   e2e testing ethereum
+2021-4-19 15:44 16:20  math  coursera
+2021-4-19 16:20 19:55  dev   e2e testing
+2021-4-20 08:02 08:28  misc  morning prep
+2021-4-20 08:28 11:01  dev   debug eth
+2021-4-20 12:15 14:58  dev   debugging eth
+2021-4-20 14:59 15:08  math  coursera
+2021-4-20 15:54 16:21  misc  thinking
+2021-4-21 11:15 15:04  dev   eth debugging
+2021-4-21 15:45 18:37  dev   eth debugging
+2021-4-22 07:35 09:13  misc  bitcoin teaching
+2021-4-22 09:13 14:15  dev   eth debugging
+2021-4-22 14:15 14:42  math  coursera
+2021-4-22 14:59 15:57  dev   eth debugging
+2021-4-23 08:20 11:50  dev   eth debugging
+2021-4-23 12:33 15:00  dev   eth debugging
+2021-4-23 15:21 15:42  math  coursera
+2021-4-26 11:49 12:13  misc  morning prep
+2021-4-26 12:13 13:47  dev   patch review
+2021-4-26 13:47 15:23  dev   eth debugging
+2021-4-26 16:00 19:59  dev   eth debugging
+2021-4-27 07:57 08:24  misc  morning prep
+2021-4-27 08:24 10:48  dev   got eth working
+2021-4-27 10:48 11:31  dev   cleanup eth stuff
+2021-4-27 12:48 16:10  dev   ethereum polishing
+2021-4-28 10:15 12:48  dev   ethereum post debugging
+2021-4-28 12:48 14:52  dev   ethereum research
+2021-4-28 15:25 15:44  misc  call with Gus
+2021-4-28 15:44 16:59  dev   ethereum fee scaling
+2021-4-28 16:59 17:30  misc  coursera math
+2021-4-28 17:30 18:00  misc  weekly call
+2021-4-28 18:00 18:28  misc  coursera math
+2021-4-28 18:28 19:25  dev   ethereum nonce
+2021-4-29 08:13 10:23  dev   add rETH
+2021-4-29 10:42 11:00  dev   test rETH
+2021-4-29 11:00 16:00  dev   more eth stuff
+2021-4-30 08:13 11:50  dev   encrypt/decrypt in TPW
+2021-4-30 12:58 13:26  misc  help jimmy on twp enc/dec
+2021-4-30 13:26 15:05  misc  coursera
+2021-5-03 12:08 17:17  dev   eth cancel txn
+2021-5-03 18:01 20:54  dev   eth cancel testing
+2021-5-04 08:48 08:57  misc  morning prep
+2021-5-04 08:57 11:44  dev   eth cancel txn
+2021-5-04 13:12 15:34  dev   eth cancel txn
+2021-5-04 15:34 16:07  misc  coursera
+2021-5-04 16:07 17:21  dev   hack on rust-bitcoin-cli
+2021-5-05 08:20 11:01  dev   eth cancel txn PR!
+2021-5-05 13:10 15:30  dev   bitcoin support
+2021-5-05 17:22 20:03  misc  bitcoin research and training
+2021-5-06 08:36 10:19  misc  morning prep
+2021-5-06 11:02 12:03  dev   bitcoin
+2021-5-06 12:57 16:25  dev   bitcoin and dbk exploration
+2021-5-07 07:55 08:57  misc  morning prep
+2021-5-07 08:57 11:54  dev   bitcoin learning
+2021-5-07 12:44 14:51  math  coursera
+2021-5-07 14:51 16:21  dev   bdk learning
+2021-5-10 11:42 12:29  misc  morning prep
+2021-5-10 12:29 15:42  deg   bitcoin
+2021-5-10 16:00 17:29  dev   bitcoin
+2021-5-10 17:29 19:03  dev   bitcoin
+2021-5-10 19:03 08:23  misc  morning prep
+2021-5-11 08:23 10:42  dev   bitcoin
+2021-5-11 10:42 11:16  dev   os contrib
+2021-5-11 11:16 11:48  math  coursera
+2021-5-11 12:51 16:20  dev   bitcoin
+2021-5-12 10:10 10:23  misc  morning prep
+2021-5-12 10:23 12:10  dev   dbk usage
+2021-5-12 12:10 13:09  dev   e2e tbtc testing
+2021-5-12 13:39 16:28  dev   refactor e2e setup
+2021-5-12 17:30 18:04  misc  weekly call
+2021-5-12 18:04 18:51  misc  wallet setups
+2021-5-13 08:10 09:33  dev   rustdoc pr maintenance
+2021-5-13 09:33 11:05  dev   bitcoin testing
+2021-5-13 11:05 11:47  math  coursera
+2021-5-13 13:16 16:15  dev   bitcoin testing
+2021-5-14 07:48 08:10  misc  morning prep
+2021-5-14 08:10 09:23  dev   bitcoin testing
+2021-5-14 09:23 11:38  dev   bitcoin testing
+2021-5-14 12:30 15:01  dev   dbk hacking
+2021-5-17 12:00 15:15  dev   patch review
+2021-5-17 15:15 16:22  misc  call with Trevor
+2021-5-17 17:01 19:13  dev   dbk, electrum-client, wallet
+2021-5-17 19:13 19:52  math  coursera
+2021-5-18 07:56 11:55  dev   bdk ureq
+2021-5-18 12:40 15:00  dev   wrote ureq version of EsploraBlockchain
+2021-5-18 15:00 15:56  math  coursera
+2021-5-18 15:56 16:29  misc  upgrade bitcoin node
+2021-5-19 08:30 09:49  misc  morning prep
+2021-5-19 12:12 15:42  dev   bitcoin signing
+2021-5-19 18:09 19:29  dev   bitcoin signing
+2021-5-20 07:49 09:37  misc  morning prep
+2021-5-20 09:37 11:02  dev   bitcoin signing
+2021-5-20 12:42 16:04  dev   bitcoin signing, initial impl done!
+2021-5-21 08:16 08:36  misc  morning prep
+2021-5-21 08:36 14:29  dev   bitcoin signing debugging
+2021-5-21 14:29 15:46  math  coursera
+2021-5-21 15:46 16:18  misc  learn bitcoin command line
+2021-5-24 10:54 11:21  misc  morning prep
+2021-5-24 11:21 11:53  dev   bitcoin signing debugging
+2021-5-24 12:48 19:58  dev   bitcoin signing debugging
+2021-5-25 08:59 11:50  dev   bitcoin signing debugging
+2021-5-25 12:49 16:28  dev   bitcoin signing debugging
+2021-5-26 09:57 10:16  misc  morning prep
+2021-5-26 10:16 11:50  dev   bitcoin signing debugging
+2021-5-26 13:03 14:25  dev   ecdsa signing
+2021-5-26 14:25 17:30  dev   ecdsa signing
+2021-5-26 17:30 18:29  misc  weekly call and call with Trevor
+2021-5-26 18:29 19:16  dev   ecdsa signing
+2021-5-26 19:16 20:04  math  coursera
+2021-5-27 08:01 11:56  dev   bitcoin testing
+2021-5-27 13:07 15:21  dev   bitcoin support added!
+2021-5-27 15:21 16:11  misc  emails and slack
+2021-5-28 07:47 07:52  misc  morning prep
+2021-5-28 07:52 09:55  dev   patch review
+2021-5-28 09:55 11:30  dev   ethereum/bitcoin tidy up
+2021-5-28 12:38 14:51  dev   bitcoin cleaning up pr
+2021-5-31 11:57 12:30  misc  morning prep
+2021-5-31 12:30 13:46  dev   bitcoin PR cleanup
+2021-5-31 14:30 16:18  dev   tpw cleanup patch
+2021-5-31 16:18 19:09  dev   call with Trevor and bitcoin testing
+2021-6-01 08:14 09:04  misc  morning prep
+2021-6-01 09:04 11:41  dev   add ureq backend to rust_jsonrpc
+2021-6-01 12:29 13:37  misc  reading
+2021-6-01 13:37 14:33  misc  coursera
+2021-6-01 14:53 15:34  misc  coursera
+2021-6-01 15:34 19:00  misc  learn bitcoin from the command line
+2021-6-01 19:00 20:07  misc  bitcoin socratic call
+2021-6-02 11:49 14:56  dev   patch review and bdk stuff
+2021-6-02 14:56 15:57  dev   bdk ureq
+2021-6-02 16:23 17:00  misg  plan for weekly call
+2021-6-02 17:23 18:58  misc  weekly call
+2021-6-02 18:58 20:54  misc  coursera
+2021-6-03 08:31 08:42  misc  morning prep
+2021-6-03 08:42 11:03  dev   refactoring post bitcoin
+2021-6-03 11:03 11:59  dev   recid twp
+2021-6-03 13:00 15:35  dev   cleanup patches
+2021-6-03 15:35 16:30  misc  coursera
+2021-6-04 07:17 07:32  misc  morning prep
+2021-6-04 07:32 08:16  dev   patch review
+2021-6-04 08:16 12:01  dev   recid tpw
+2021-6-04 12:16 13:59  dev   debugging
+2021-6-04 14:10 15:02  misc  coursera
+2021-6-04 15:02 16:27  dev   jira tickets
+2021-6-07 11:11 12:33  misc  morning prep
+2021-6-07 12:33 16:06  dev   debugging and recid
+2021-6-07 16:40 18:04  dev   recid
+2021-6-07 18:05 20:27  dev   bdk wallet into mash map
+2021-6-08 07:38 08:56  misc  morning prep
+2021-6-08 08:56 10:48  misc  vaul-331 investigate memory db
+2021-6-08 11:36 15:00  dev   bdk ureq
+2021-6-08 15:00 15:27  misc  Jira ticket comments
+2021-6-08 15:27 17:18  dev   coursera
+2021-6-09 11:19 12:49  math  coursera
+2021-6-09 12:49 13:44  dev   add sled to untrusted
+2021-6-09 14:30 20:11  dev   bitcoin improvements
+2021-6-10 08:42 11:49  dev   hacking like mad, tpw, reviews, morning prep
+2021-6-10 13:15 13:28  ttp   touch typing practice
+2021-6-10 13:28 16:11  dev   btc batch transactions
+2021-6-11 08:13 09:18  misc  morning prep
+2021-6-11 09:18 11:01  dev   4 PRs plus e2e testing btc
+2021-6-11 11:57 14:00  dev   fix sled
+2021-6-15 08:02 08:52  misc  morning prep
+2021-6-15 08:52 09:07  misc  bip/optech reading
+2021-6-15 09:07 09:25  dev   update personal website
+2021-6-15 09:25 11:55  dev   btc batch payments
+2021-6-15 12:53 14:51  dev   re-working bitcoin
+2021-6-15 14:51 15:24  math  coursera
+2021-6-15 15:24 16:27  dev   btc batch payments
+2021-6-16 08:30 11:13  dev   coursera challenges
+2021-6-16 11:47 15:59  dev   bitcoin descriptor and address
+2021-6-16 17:00 19:59  misc  weekly call and chat with Trevor
+2021-6-17 08:13 08:35  dev   morning prep
+2021-6-17 08:36 08:50  ttp   touch typing practice
+2021-6-17 08:50 09:28  misc  read bips
+2021-6-17 09:28 10:17  dev   btc withdrawal/rebasing
+2021-6-17 10:36 12:08  dev   fix SegWit stuff
+2021-6-17 13:00 13:07  dev   final release fixes for btc
+2021-6-17 13:07 14:30  math  coursera
+2021-6-18 08:07 09:13  dev   morning prep
+2021-6-18 09:13 09:41  misc  morning reading
+2021-6-18 09:41 09:56  ttp   touch typing practice
+2021-6-18 09:56 11:38  dev   bitcoin drain
+2021-6-18 12:42 13:33  dev   fix bitcoin bug
+2021-6-18 13:33 15:39  dev   bitcoin consolidation
+2021-6-18 17:10 19:05  dev   bdk ElectrumBlockchain<T>
+2021-6-21 11:05 12:00  misc  morning prep
+2021-6-21 13:00 13:41  misc  chat with Ru, btc drain
+2021-6-21 13:41 18:06  dev   btc add transfer abs fee
+2021-6-21 19:36 19:36  dev   bitcoin consolidate
+2021-6-22 08:11 08:30  misc  morning prep
+2021-6-22 08:30 10:32  dev   improve bitcoin consolidate
+2021-6-22 10:33 10:55  misc  touch typing practice
+2021-6-22 10:55 11:50  dev   improve bitcoin consolidate
+2021-6-22 13:05 16:00  dev   btc batch payments
+2021-6-23 09:11 09:58  misc  morning prep
+2021-6-23 09:58 10:19  misc  touch typing practice
+2021-6-23 10:20 11:00  misc  bitcoin reading
+2021-6-23 11:00 11:57  dev   btc batch payments
+2021-6-23 13:00 13:48  dev   add lib crates to trusted/untrusted
+2021-6-23 13:48 14:11  dev   btc multi pay
+2021-6-23 14:11 15:31  misc  call wit Gus
+2021-6-23 15:31 17:30  dev   btc multi pay
+2021-6-23 17:30 19:00  misc  weekly call
+2021-6-23 19:00 19:22  misc  design call with Trevor
+2021-6-24 09:52 11:05  dev   btc attempt batch fetch txns
+2021-6-24 11:05 11:15  misc  touch typing practice
+2021-6-24 11:15 11:59  dev   add lib to trusted/untrusted
+2021-6-24 12:30 16:46  dev   btc consolidate
+2021-6-24 16:46 18:09  dev   bdk hacking
+2021-6-25 08:17 11:10  dev   morning prep, patch review and batch btc
+2021-6-25 11:10 11:54  misc  touch typing and bitocin reading
+2021-6-25 13:00 13:24  misc  morning prep
+2021-7-05 13:24 16:10  misc  coursera
+2021-7-05 16:30 20:03  dev   various patches
+2021-7-06 08:19 09:20  misc  morning prep
+2021-7-06 09:20 11:04  dev   bdk
+2021-7-06 11:04 15:14  dev   btc consolidate feature
+2021-7-06 15:14 16:19  dev   investigate e2e build times
+2021-7-07 07:25 12:24  dev   bitcoin reading, various OS tasks
+2021-7-07 12:47 16:27  dev   btc batch payments
+2021-7-07 16:27 17:30  misc  doge reading
+2021-7-07 17:30 18:30  misc  weekly call
+2021-7-07 18:47 19:55  dev   coursera
+2021-7-08 07:55 12:34  dev   bitcoin max txn limit
+2021-7-08 13:00 15:00  dev   bitcoin max txn limit
+2021-7-09 08:43 09:10  misc  morning prep
+2021-7-09 09:10 11:43  dev   updating btc batch payments PR
+2021-7-09 12:33 14:00  dev   btc batch payments
+2021-7-12 11:30 12:25  misc  morning prep
+2021-7-12 12:25 13:21  misc  touch typing practice
+2021-7-12 13:21 14:14  misc  bitcoin reading
+2021-7-12 14:14 14:58  dev   coursera python tsp
+2021-7-12 15:22 16:21  dev   coin selection
+2021-7-12 16:40 17:37  dev   custom coin selection
+2021-7-12 17:37 19:36  dev   bdk
+2021-7-13 09:37 10:46  misc  morning prep
+2021-7-13 10:46 10:59  misc  touch typing practice
+2021-7-13 10:59 11:15  misc  bitcoin reading
+2021-7-13 11:15 11:37  dev   bdk
+2021-7-13 13:37 15:55  dev   bdk, ureq stuff
+2021-7-13 15:55 16:11  dev   enable config of max_utxos
+2021-7-13 16:11 16:40  dev   btc swagger
+2021-7-13 16:40 17:20  misc  dogecoin research
+2021-7-14 08:24 09:30  dev   bdk and os reading
+2021-7-14 09:30 10:28  misc  call with blockstream
+2021-7-14 10:28 11:17  dev   bdk patch review
+2021-7-14 12:00 13:51  dev   swagger
+2021-7-14 15:16 17:15  dev   electrs/doge
+2021-7-14 17:30 17:46  misc  weekly call
+2021-7-15 07:36 08:32  misc  morning prep
+2021-7-15 08:32 09:44  dev   doge ops
+2021-7-15 09:44 11:55  dev   doge forks
+2021-7-15 12:52 14:18  dev   doge-wallet-rs skelleton
+2021-7-15 15:40 19:54  dev   dogecoin forks
+2021-7-16 07:27 09:51  misc  coursera
+2021-7-16 09:51 11:40  dev   electrs
+2021-7-16 13:06 15:59  dev   upstream bdk/electrs/configure_me work
+2021-7-18 04:16 05:00  cou   programming languages, part A
+2021-7-18 06:28 08:01  cou   programming languages, part A
+2021-7-19 09:35 09:46  misc  morning prep
+2021-7-19 09:46 12:00  dev   electrs
+2021-7-19 12:44 14:16  dev   electrs
+2021-7-19 15:44 17:59  dev   electrs doge and research
+2021-7-19 18:03 18:26  misc  touch typing practice
+2021-7-19 18:26 18:55  misc  bitcoin reading
+2021-7-19 18:55 19:57  cou   programming languages, part A
+2021-7-20 08:00 10:31  dev   bdk and morning prep
+2021-7-20 10:31 11:14  dev   swagger
+2021-7-20 11:14 11:47  ops   set up electrumX with dogecoind
+2021-7-20 13:00 14:47  dev   doge wallet
+2021-7-20 16:55 17:54  dev   bdk doge wallet
+2021-7-20 17:59 18:58  cou   programming languages, part A
+2021-7-20 18:58 20:07  dev   snekboard hacking
+2021-7-21 07:50 08:09  misc  morning prep
+2021-7-21 08:09 09:10  dev   snekboard robot hacking
+2021-7-21 09:25 11:59  dev   doge, addres prefixes
+2021-7-21 13:08 14:30  dev   more doge
+2021-7-21 15:51 17:15  dev   get doge-wallet-rs working!
+2021-7-21 17:30 18:00  misc  weekly call 
+2021-7-21 18:37 19:41  cou   programming languages, part A
+2021-7-21 19:41 20:48  cou   programming languages, part A - hw1 dev
+2021-7-22 07:46 08:00  misc  morning prep
+2021-7-22 08:00 08:43  misc  call with Philipp
+2021-7-22 08:43 09:35  misc  bitcoin reading
+2021-7-22 09:35 11:57  dev   dogcoin forking
+2021-7-22 12:07 13:00  dev   more forking bullshit
+2021-7-22 13:44 16:29  dev   doge, common/trusted done
+2021-7-23 08:07 08:19  misc  morning prep
+2021-7-23 08:19 10:31  dev   bdk
+2021-7-23 10:31 11:30  attend Thorin's funeral
+2021-7-23 11:30 11:53  dev   electrum
+2021-7-23 12:51 16:00  dev   electrum and coursera
+2021-7-26 08:07 08:52  misc  morning prep and whirlpool reading
+2021-7-26 08:52 09:08  misc  touch typing practice
+2021-7-26 09:08 09:44  misc  bitcoin reading
+2021-7-26 09:44 11:55  dev   dogecoin support
+2021-7-26 12:40 14:09  cou   programming languages, part A
+2021-7-26 15:25 16:12  dev   doge
+2021-7-26 16:24 19:30  dev   doge
+2021-7-27 07:44 08:17  misc  bitcoin reading
+2021-7-27 08:17 08:36  misc  morning prep
+2021-7-27 08:36 11:45  dev   dogecoin debugging
+2021-7-27 13:00 15:01  dev   dogecoin debugging
+2021-7-27 17:57 20:04  dev   doge debugging
+2021-7-28 08:11 12:07  dev   dogecoin
+2021-7-28 13:00 13:45  dev   doge debugging
+2021-7-28 14:56 17:01  dev   debugging doge
+2021-7-28 18:00 19:45  cou   programming languages, part A
+2021-7-29 07:46 08:06  misc  morning prep
+2021-7-29 08:06 08:22  misc  touch typing practice
+2021-7-29 08:22 09:05  misc  bitcoin reading
+2021-7-29 09:05 10:18  dev   os contrib
+2021-7-29 10:18 11:02  dev   debug doge
+2021-7-29 11:02 11:55  dev   programming languages, part A - hw2
+2021-7-29 13:10 13:53  dev   patch review
+2021-7-29 13:53 14:37  dev   doge/electrumx debugging
+2021-7-29 14:37 16:00  dev   doge debugging, txn signed. Halleluja
+2021-7-29 19:20 20:03  dev   more doge
+2021-7-30 08:10 08:30  misc  morning prep
+2021-7-30 08:30 08:49  misc  touch typing practice
+2021-7-30 08:49 11:46  dev   altcoin support for rusty bitcoin forks
+2021-7-30 12:57 15:53  dev   bitcoin forks
+2021-8-01 02:20 04:41  dev   programming languages, part A - hw2
+2021-8-02 07:14 08:35  misc  bitcoin reading
+2021-8-02 08:35 08:44  misc  touch typing practice
+2021-8-02 08:44 11:37  dev   bitcoin altcoin support
+2021-8-02 12:48 13:00  dev   bitcoin altcoin support
+2021-8-02 13:00 14:01  misc  call with Ru
+2021-8-02 14:01 15:33  dev   bitcoin altcoin support
+2021-8-02 16:59 19:59  dev   bdk issues
+2021-8-03 07:42 08:37  misc  morning prep
+2021-8-03 08:37 08:49  misc  touch typing practice
+2021-8-03 08:49 09:31  misc  bitcoin reading
+2021-8-03 09:31 11:57  dev   dogecoin debugging
+2021-8-03 13:14 15:00  dev   debug dogecoin
+2021-8-03 17:16 17:52  cou   programming languages, part A
+2021-8-03 17:52 18:27  misc  call with John Newbery
+2021-8-03 18:27 18:57  cou   programming languages, part A
+2021-8-03 18:57 20:00  dev   bdk
+2021-8-04 07:51 12:03  dev   dogecoin debug and raise PR
+2021-8-04 16:01 17:30  dev   feature gates
+2021-8-04 17:30 18:02  misc  weekly call
+2021-8-04 18:11 20:14  dev   feature gate coins
+2021-8-05 07:48 12:25  dev   refactoring and cleaning up
+2021-8-05 13:10 15:01  dev   debug CI build failures
+2021-8-05 17:53 18:10  dev   patch review
+2021-8-05 18:10 18:24  cou   programming languages, part A
+2021-8-06 08:07 12:00  dev   patch review, rebasing, hacking
+2021-8-06 13:06 14:25  dev   patch maintenance and coursera
+2021-8-06 15:10 15:52  cou   programming languages, part A
+2021-8-09 07:54 08:54  misc  morning prep
+2021-8-09 08:54 09:05  misc  touch typing practice
+2021-8-09 09:05 09:46  misc  bitcoin reading
+2021-8-09 09:46 12:08  dev   upgrade deps
+2021-8-09 12:45 13:49  dev   give up on upgrading mongodb
+2021-8-09 13:49 14:40  dev   dependabot
+2021-8-09 14:40 16:31  dev   programming languages, part A
+2021-8-09 16:31 16:50  dev   cargo deny
+2021-8-10 07:57 10:00  dev   dependencies
+2021-8-10 13:00 14:01  dev   more dependencies
+2021-8-10 14:02 17:56  dev   more dependencies
+2021-8-10 17:56 18:53  cou   programming languages, part A
+2021-8-10 18:53 20:05  misc  sydney bitcoin socratic
+2021-8-11 08:01 08:31  misc  morning prep
+2021-8-11 08:32 09:23  dev   programming languages, part A - hw3
+2021-8-11 09:24 11:12  dev   rustsec patches
+2021-8-11 12:06 14:26  dev   fucking dependencies
+2021-8-11 17:05 20:41  dev   upgrade mongodb
+2021-8-12 08:01 10:09  dev   morning prep and patch review
+2021-8-12 11:00 14:19  dev   tokio debugging
+2021-8-12 14:19 16:56  dev   tokio upgrade debugging
+2021-8-12 16:58 18:40  cou   programming languages, part A
+2021-8-13 08:16 09:29  dev   morning prep
+2021-8-13 09:29 11:57  dev   debug tokio
+2021-8-13 12:48 15:02  dev   tokio debugging
+2021-8-15 05:52 08:02  cou   programming languages, part A
+2021-8-16 09:07 11:06  dev   morning prep
+2021-8-16 11:06 11:15  misc  touch typing practice
+2021-8-16 11:15 11:30  misc  bitcoin reading
+2021-8-16 11:30 13:00  dev   patch maintenance
+2021-8-16 13:00 13:30  misc  call with ru
+2021-8-16 15:59 17:34  dev   debugging and patch maintenance
+2021-8-16 17:34 18:02  dev   dogecoin research
+2021-8-17 07:27 08:30  misc  debug rust-analyzer
+2021-8-17 08:30 09:36  misc  dependabot and various PR tasks
+2021-8-17 09:36 10:52  dev   debugging doge
+2021-8-17 10:52 12:43  dev   debug dogecoin e2e tests
+2021-8-17 15:08 15:20  dev   do updates/upgrades
+2021-8-17 15:20 15:29  misc  touch typing practice
+2021-8-17 15:29 17:16  dev   os contrib
+2021-8-17 17:16 19:51  misc  reading code from various OS bitcoin projects
+2021-8-18 07:52 08:29  dev   morning prep
+2021-8-18 08:29 09:25  misc  touch typing practice
+2021-8-18 09:25 11:55  dev   debug dogecoin
+2021-8-18 12:29 13:30  dev   debug dogecoin
+2021-8-18 15:10 16:25  dev   more dogecoin debugging
+2021-8-18 16:25 16:31  dev   patch maintenance
+2021-8-18 16:43 17:30  dev   os contrib
+2021-8-18 17:30 18:05  misc  weekly call
+2021-8-18 18:05 20:01  dev   os contrib and chat with Trevor
+2021-8-19 08:31 10:21  dev   patch review
+2021-8-19 10:37 11:41  dev   patch review
+2021-8-19 11:41 11:54  misc  bitcoin reading
+2021-8-19 12:54 14:41  dev   bdk/nakamoto
+2021-8-19 16:30 19:56  dev   implement litecoin support
+2021-8-20 08:11 08:32  dev   morning prep
+2021-8-20 08:32 08:54  misc  procrastinate
+2021-8-20 08:54 09:07  misc  touch typing practice
+2021-8-20 09:07 09:47  misc  bitcoin reading
+2021-8-20 09:47 10:33  dev   raise litecoin PR
+2021-8-20 10:33 11:30  dev   bdk/nakamoto
+2021-8-20 12:51 13:58  dev   bdk/nakamoto
+2021-8-23 08:53 11:14  dev   morning prep
+2021-8-23 11:14 12:22  misc  reading
+2021-8-23 15:12 16:12  misc  bitcoin stuff
+2021-8-23 16:12 17:59  dev   refactor btc/doge/ltc modules
+2021-8-23 17:59 18:10  misc  touch typing practice
+2021-8-23 18:10 18:49  misc  reading
+2021-8-24 08:17 09:13  dev   morning prep
+2021-8-24 09:13 09:29  misc  touch typing practice
+2021-8-24 09:29 10:14  misc  bitcoin reading
+2021-8-24 10:14 12:03  dev   fork upgrade dependencies
+2021-8-24 12:38 14:00  dev   fucking deps
+2021-8-24 15:07 17:48  dev   upgrade forks
+2021-8-24 17:51 19:36  dev   bdk/nakamoto
+2021-8-25 05:55 07:01  misc  bdk dev call
+2021-8-25 07:01 07:45  dev   Lloyd's gun wallet
+2021-8-25 07:45 10:32  dev   gun
+2021-8-25 10:37 11:15  dev   morning prep
+2021-8-25 11:15 11:24  misc  touch typing practice
+2021-8-25 11:24 11:53  misc  bitcoin reading
+2021-8-25 12:44 14:30  ops   fix home directory       
+2021-8-25 14:30 15:30  misc  call with Lloyd
+2021-8-25 15:30 16:00  ops   try to fix ssh
+2021-8-25 17:23 18:00  misc  weekly call
+2021-8-25 19:00 19:29  ops   more fucking ssh
+2021-8-25 19:30 19:46  dev   bdk
+2021-8-26 07:47 08:30  misc  call with Kraken
+2021-8-26 08:30 10:14  dev   upgrade curv deps
+2021-8-26 11:00 12:42  dev   upgrade hmac/digest/curv/sha2/sha3
+2021-8-26 12:42 14:12  dev   look into upgrading bitcoin stack
+2021-8-26 14:53 15:56  dev   bdk pass in utxo set
+2021-8-27 08:16 09:05  dev   morning prep
+2021-8-27 09:05 09:19  misc  touch typing practice
+2021-8-27 09:19 09:59  misc  bitcoin reading
+2021-8-27 09:59 12:00  dev   bdk serde database
+2021-8-27 13:04 13:41  dev   bdk serde database
+2021-8-27 14:30 16:00  dev   bdk
+2021-8-30 10:24 11:57  misc  bitcoin reading
+2021-8-30 13:00 13:44  misc  call with Ru
+2021-8-30 13:44 19:00  ser/deser bdk db
+2021-8-30 19:00 20:04  dev   os contrib
+2021-8-31 08:17 08:25  dev   morning prep
+2021-8-31 08:25 08:40  misc  procrastinate
+2021-8-31 08:40 08:49  misc  touch typing practice
+2021-8-31 08:49 09:23  misc  bitcoin reading
+2021-8-31 09:23 11:53  dev   debug e2e tests
+2021-8-31 12:58 13:58  dev   fix e2e tests
+2021-8-31 17:30 20:01  dev   bdk db serde
+2021-9-01 07:57 09:39  dev   bdk esplora tests
+2021-9-01 09:39 09:59  dev   morning prep
+2021-9-01 09:59 11:42  dev   debugging db serde stuff
+2021-9-01 12:30 14:14  dev   debuggin nad workspace stuff
+2021-9-01 16:56 20:27  dev   debugging
+2021-9-02 07:57 11:43  dev   testing bitcoin-like in untrusted
+2021-9-02 12:45 12:58  dev   bdk, testing esplora patch
+2021-9-02 12:58 15:21  dev   serde db
+2021-9-02 15:21 16:00  dev   serde db
+2021-9-03 07:57 08:09  dev   morning prep
+2021-9-03 08:09 08:18  misc  bitcoin reading
+2021-9-03 08:59 09:40  misc  bitcoin reading
+2021-9-03 09:40 09:52  misc  touch typing practice
+2021-9-03 10:52 14:07  dev   debugging serde db stuff
+2021-9-03 14:08 14:55  misc  bitcoin reading
+2021-9-06 07:54 11:59  dev   dependency debugging
+2021-9-06 12:30 15:25  dev   fix bitcoin-like serder patch
+2021-9-06 16:00 20:08  misc  lap top purging
+2021-9-07 11:00 12:39  dev   patch review
+2021-9-07 12:39 13:19  dev   error messages and patch maintenance
+2021-9-07 16:18 17:23  dev   add balance check to bitcoin-like coins
+2021-9-07 17:23 19:48  misc  heaps of bullshit VPN stuff and some patches
+2021-9-08 10:37 11:59  dev   debugging bitcoin-like db serde PR
+2021-9-08 12:30 13:07  dev   debug and merge serde PR
+2021-9-08 13:37 14:57  dev   serder bitcoin types debugging
+2021-9-08 16:39 20:22  dev   start fixing bitcoin address bug
+2021-9-09 08:37 09:57  dev   rust-bitcoin address prefixes
+2021-9-09 09:57 11:58  dev   rust-bitcoin address prefixes
+2021-9-09 13:30 13:57  misc  brainstorming call with Jimmy
+2021-9-09 13:57 16:01  dev   rust-bitcoin address prefixes
+2021-9-10 10:00 14:27  dev   rust-bitcoin address prefixes
+2021-9-13 10:10 10:28  dev   morning prep
