@@ -1,2 +1,118 @@
 2022-1-01 00:00 00:01  misc  dummy entry - happy new years!
-2022-1-03 08:00 
+2022-1-03 08:00 08:23  misc  email
+2022-1-03 08:23 08:52  misc  write intro blog post
+2022-1-03 08:53 09:16  misc  onboarding tasks
+2022-1-03 09:16 12:00  dev   crate smashing
+2022-1-03 12:21 13:03  dev   crate smashing
+2022-1-03 14:45 17:03  dev   crate smashing
+2022-1-04 07:48 07:59  misc  morning prep
+2022-1-04 07:59 09:21  dev   secp: parity int PR
+2022-1-04 09:46 11:20  dev   crate smashing
+2022-1-04 12:07 13:49  dev   disallow duplicate fields in PSBT Global
+2022-1-04 13:49 14:54  dev   serde testing
+2022-1-04 14:58 15:58  dev   serde testing
+2022-1-05 07:54 09:10  dev   github PRs and issues
+2022-1-05 09:10 09:21  misc  morning prep
+2022-1-05 09:21 09:31  misc  kids stuff
+2022-1-05 09:31 10:43  dev   disallow duplicate fields in PSBT Global
+2022-1-05 10:43 11:34  dev   serde testing
+2022-1-05 11:35 11:57  misc  bitcoin reading
+2022-1-05 12:47 15:35  dev   psbt global PR
+2022-1-05 15:36 16:16  dev   crate smashing
+2022-1-05 16:16 16:39  misc  touch tying and looking around github
+2022-1-06 07:52 08:24  misc  morning prep
+2022-1-06 08:24 10:47  dev   crate smashing
+2022-1-06 11:17 13:14  dev   crate smashing
+2022-1-06 14:02 14:45  dev   psbt global PR
+2022-1-06 14:45 15:54  dev   serde testing
+2022-1-06 15:54 16:18  dev   parity fall out
+2022-1-06 16:18 16:45  misc  bitcoin reading
+2022-1-06 16:45 16:57  misc  touch tying
+2022-1-07 08:04 08:15  misc  morning prep
+2022-1-07 08:15 11:14  dev   wow much hacking, various PRs
+2022-1-07 12:12 14:51  dev   regression testing
+2022-1-07 14:51 15:08  dev   PR review
+2022-1-10 12:18 13:12  misc  morning prep
+2022-1-10 13:12 16:01  dev   PR maintenance, serde and crate smashing
+2022-1-10 16:01 16:17  misc  attempt to organise mailing list
+2022-1-11 07:41 08:58  misc  ireland trip covid shit
+2022-1-11 08:58 09:30  dev   PR review
+2022-1-11 12:15 12:30  dev   PR review
+2022-1-11 12:30 13:46  dev   PR maintenance
+2022-1-11 13:46 14:28  dev   crate smashing
+2022-1-11 14:28 15:26  dev   crate smashing
+2022-1-11 15:41 18:13  dev   testing
+2022-1-11 18:13 20:25  misc  tax stuff
+2022-1-12 07:42 09:48  dev   notifications and patch review
+2022-1-12 10:46 12:49  dev   contributor PR refactoring
+2022-1-12 14:15 16:24  dev   serde regression testing
+2022-1-12 17:02 17:26  dev   serde regression testing
+2022-1-12 17:26 18:30  dev   deprecate schnorrsig method
+2022-1-12 18:30 19:03  dev   clippy PR
+2022-1-12 19:03 20:00  dev   patch maintenance
+2022-1-13 09:00 10:00  dev   morning prep
+2022-1-13 10:00 10:26  misc  call with Kraken (Pierre, Pete, Channing)
+2022-1-13 10:26 11:01  dev   serde regression testing
+2022-1-13 11:01 11:58  misc  accounts, invoicing, tax, bitcoin
+2022-1-13 13:08 14:06  misc  accounts, invoicing, tax, bitcoin
+2022-1-13 14:06 14:55  ops   shell functions
+2022-1-13 16:38 17:07  dev   write rustdoc tests
+2022-1-13 17:07 20:18  dev   add examples to key module
+2022-1-14 08:16 08:55  dev   maintain examples PR
+2022-1-14 08:55 09:11  dev   maintain make map private PR
+2022-1-14 09:11 09:59  dev   various patch maintenance
+2022-1-14 10:37 13:45  dev   rebase elechai's edition 2018 branch
+2022-1-14 15:07 17:35  dev   edition 2018
+2022-1-15 09:28 12:12  dev   edition 2018 many crates
+2022-1-15 13:09 14:07  dev   edition 2018 many crates
+2022-1-16 09:00 12:00  dev   edition 2018 many crates
+2022-1-17 09:09 10:24  dev   miniscript testing
+2022-1-17 10:24 10:47  dev   bdk testing
+2022-1-18 08:04 09:03  dev   patch maintenance
+2022-1-18 09:03 10:29  dev   bdk rc testing
+2022-1-18 11:42 14:08  dev   bdk rc testing
+2022-1-18 14:08 14:30  misc  email
+2022-1-18 14:30 14:35  misc  touch tying
+2022-1-18 14:35 15:44  dev   rust-bitcoinconsensus
+2022-1-18 15:44 16:01  dev   github actions
+2022-1-19 10:00 11:39  dev   notifications
+2022-1-19 11:39 11:58  dev   to_u32
+2022-1-19 12:31 16:40  dev   many patches
+2022-1-20 09:27 10:46  dev   patch maintenance
+2022-1-20 10:46 11:04  dev   notifications
+2022-1-20 11:25 11:56  misc  invoice re-issue
+2022-1-20 11:56 13:47  dev   CI
+2022-1-21 09:34 11:10  dev   morning prep
+2022-1-21 11:10 11:35  misc  issue reading
+2022-1-21 11:35 12:53  dev   clean up macros
+2022-1-21 13:18 16:34  dev   proc macros
+2022-1-22 07:37 08:04  dev   notifications
+2022-1-22 08:04 11:38  dev   proc macro workshop
+2022-1-22 12:20 14:20  dev   proc macro workshop
+2022-1-22 14:20 15:56  dev   consensus_encoding proc marcos
+2022-1-23 10:26 12:51  dev   go through old issues
+2022-1-23 13:40 16:41  dev   mess around with rustfmt
+2022-1-24 07:30 07:47  dev   morning prep
+2022-1-24 07:47 08:55  dev   rustfmt
+2022-1-24 09:20 12:06  dev   refactoring
+2022-1-24 12:40 13:48  dev   refactoring
+2022-1-24 14:33 16:38  dev   macros
+2022-1-25 07:30 08:13  dev   notifications
+2022-1-25 08:13 08:40  dev   morning chores
+2022-1-25 08:40 08:50  misc  touch typing
+2022-1-25 08:50 10:27  dev   refactor logical operators
+2022-1-25 11:27 15:15  dev   conext randomization
+2022-1-25 15:53 15:58  dev   conext randomization
+2022-1-26 08:00 11:39  dev   no-default-features
+2022-1-26 13:18 16:33  dev   context randomization
+2022-1-26 16:33 17:01  dev   notifications
+2022-1-27 08:00 08:09  misc  touch typing
+2022-1-27 08:09 12:03  dev   bitcoin_hashes build options
+2022-1-27 12:44 14:03  dev   randomize context
+2022-1-31 08:56 09:59  dev   morning prep
+2022-1-31 09:59 13:10  misc  overseas trip planning
+2022-1-31 13:10 15:18  dev   improve various draft PRs
+2022-1-31 15:18 15:45  dev   context randomization
+2022-2-01 08:21 08:33  misc  touch typing
+2022-2-01 08:33 09:27  dev   feature gates
+2022-2-01 12:12 16:48  dev   randomize context
