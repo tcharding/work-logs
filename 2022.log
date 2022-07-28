@@ -185,3 +185,420 @@
 2022-2-28 10:08 10:58  dev   conversion methods PR
 2022-2-28 11:00 11:26  dev   fixed width serde PR maintenance
 2022-2-28 11:54 12:30  dev   pr reading
+2022-3-01 15:29 16:13  dev   notifications and email
+2022-3-01 16:13 16:35  dev   secp bitcoin_hashes disable default features
+2022-3-01 16:35 16:57  dev   patch review
+2022-3-01 16:57 18:26  dev   fixed width de/ser
+2022-3-01 18:26 19:14  dev   deprecate schnorrsig
+2022-3-01 19:14 20:33  dev   more fixed width de/ser
+2022-3-02 08:12 09:14  dev   std features
+2022-3-02 09:14 10:02  dev   serialization testing
+2022-3-08 08:00 08:33  misc  catch up tasks
+2022-3-08 08:33 08:42  misc  touch typing practice
+2022-3-08 08:42 09:00  misc  email
+2022-3-08 09:00 09:29  dev   patch maintenance
+2022-3-08 10:13 10:52  dev   bitcoin_hashes no default features
+2022-3-08 10:52 14:36  dev   fixed width serialization
+2022-3-08 15:14 17:28  dev   sighash single bug
+2022-3-09 07:06 07:32  dev   signature hash
+2022-3-09 07:32 08:20  dev   ci pipeline improvements
+2022-3-09 08:20 08:57  dev   fixed width serde
+2022-3-09 08:57 09:16  misc  various todo list tasks
+2022-3-09 10:11 13:26  dev   code study and cleanup patches
+2022-3-09 13:35 14:37  dev   cleanup patches
+2022-3-10 06:19 06:27  misc  touch typing practice
+2022-3-10 06:27 07:38  dev   notification and PR maintenance
+2022-3-10 07:44 08:32  dev   remove impl_array_newtype macro
+2022-3-10 08:32 09:28  dev   chain hash type
+2022-3-10 12:20 12:41  dev   add chain hash type
+2022-3-10 12:41 14:20  dev   attempt some fuzzing
+2022-3-10 15:36 16:53  dev   rm feature gated enum variants
+2022-3-11 07:26 08:34  dev   notifications
+2022-3-11 09:09 09:52  more notifications, update secp
+2022-3-11 09:52 10:30  dev   shared secret serde
+2022-3-14 11:01 11:47  misc  todo tasks
+2022-3-14 11:47 12:27  dev   rebaseing
+2022-3-15 14:04 14:22  dev   notifications
+2022-3-15 14:22 15:04  dev   PR maintenance and branch cleanup
+2022-3-16 08:53 09:58  dev   patch maintenance
+2022-3-16 10:42 17:05  dev   remove op_codeseparator from sighash
+2022-3-17 06:53 06:59  misc  touch typing practice
+2022-3-17 06:59 07:06  misc  notifications
+2022-3-17 07:06 08:46  dev   PR maintenance
+2022-3-17 08:46 09:46  misc  write up Bitcoin SoC project
+2022-3-17 09:46 09:55  dev   wasm issue
+2022-3-17 10:27 13:38  dev   attempt to fix WASM build
+2022-3-17 13:42 16:18  dev   Add ScriptRef type
+2022-3-17 23:07 23:59  dev   further investigate OP_CODESEPARATOR
+2022-3-18 00:00 00:39  dev   further investigate OP_CODESEPARATOR
+2022-3-18 00:40 01:32  dev   non-standard sighash types
+2022-3-18 10:00 10:37  dev   notifications
+2022-3-18 10:37 12:02  misc  project management
+2022-3-19 08:20 09:18  dev   notifications
+2022-3-19 09:18 11:49  dev   work on the WASM mess in secp256k1
+2022-3-21 07:09 08:01  dev   notifications
+2022-3-21 08:01 08:47  dev   PR review and chain hash PR maintenance
+2022-3-21 08:47 09:50  dev   stack wide research of things to do
+2022-3-21 11:54 12:11  mis   notifications
+2022-3-21 13:30 14:25  misc  procrastinate
+2022-3-21 14:25 15:48  misc  bitcoin reading
+2022-3-23 09:36 10:30  misc  notifications
+2022-3-23 11:02 13:31  dev   chain hash
+2022-3-23 14:31 15:13  dev   feature gated variants
+2022-3-23 14:31 15:30  dev   key getter functions
+2022-3-23 15:30 16:31  misc  mentoring call with Gus
+2022-3-23 16:31 16:43  dev   key getter functions
+2022-3-24 07:53 09:29  dev   patch review
+2022-3-24 10:05 12:49  dev   review and re-working PRs
+2022-3-24 13:12 15:43  dev   key convenience methods
+2022-3-25 10:05 11:55  dev   notifications
+2022-3-25 11:58 14:00  dev   wasm PRs
+2022-3-28 09:30 11:17  dev   notifications
+2022-3-28 11:18 11:40  misc  email
+2022-3-28 11:40 14:23  dev   taproot docs
+2022-3-28 14:23 15:06  dev   notifications
+2022-3-28 16:18 19:50  dev   psbt fun
+2022-3-29 07:28 08:13  dev   notifications
+2022-3-29 08:13 11:51  dev   wasm stuff
+2022-3-29 11:51 14:11  dev   key conversions
+2022-3-29 14:50 16:30  key conversions
+2022-3-30 07:49 08:00  notifications
+2022-3-30 08:00 08:13  misc  march invoice
+2022-3-30 08:13 08:22  misc  touch typing practice
+2022-3-30 08:22 08:57  dev   secp ci PRs
+2022-3-30 08:57 09:38  dev   wasm
+2022-3-30 10:00 14:30  dev   psbt example
+2022-3-30 14:30 16:40  dev   psbt example
+2022-3-31 07:53 08:36  dev   notifications
+2022-3-31 09:07 09:34  dev   notifications
+2022-3-31 09:35 10:40  dev   conversion functions
+2022-3-31 10:40 11:14  dev   patch review
+2022-3-31 11:14 13:12  dev   psbt example
+2022-3-31 13:43 14:10  misc  monthly report
+2022-3-31 14:10 16:03  dev   psbt example
+2022-4-01 07:45 08:41  dev   notifications
+2022-4-01 08:41 08:52  misc  touch typing practice
+2022-4-01 08:52 09:25  dev   psbt example
+2022-4-01 09:31 09:50  dev   psbt example
+2022-4-01 10:04 13:14  dev   psbt example
+2022-4-04 07:47 08:06  misc  email - read proposed bip
+2022-4-04 08:06 08:37  dev   notifications
+2022-4-04 08:37 10:33  dev   psbt example
+2022-4-04 11:31 12:35  dev   psbt serde issue
+2022-4-04 12:35 13:24  dev   psbt example
+2022-4-04 15:08 18:26  dev   psbt new example
+2022-4-05 07:20 08:34  dev   notifications
+2022-4-05 08:34 08:44  misc  touch typing practice
+2022-4-05 08:44 11:11  dev   psbt bitcoind example
+2022-4-05 11:11 13:26  dev   psbt bitcoind example
+2022-4-05 13:49 15:48  dev   psbt bitcoind example
+2022-4-06 08:02 11:57  dev   psbt bitcoind example
+2022-4-06 12:45 13:13  dev   psbt bitcoind example
+2022-4-06 13:13 16:25  dev   secp key _assign methods
+2022-4-07 07:30 08:03  dev   notifications
+2022-4-07 08:03 10:08  dev   project planning edition 2018
+2022-4-07 10:08 11:00  dev   bitcoinconsensus upgrade Bitcoin Core
+2022-4-07 12:18 12:58  dev   bitcoinconsensus upgrade Bitcoin Core
+2022-4-07 12:58 13:53  misc  bitocinconsensus wasm bug
+2022-4-07 13:54 14:13  misc  bitcoin reading
+2022-4-07 14:29 16:38  dev   bdk sighash upstreaming
+2022-4-08 07:39 08:45  dev   notifications
+2022-4-18 07:00 09:40  notifications
+2022-4-18 09:40 10:12  dev   remove debug_assert
+2022-4-18 10:12 10:57  dev   sighash stuff
+2022-4-18 12:00 13:34  misc  laptop research
+2022-4-18 13:34 13:40  misc  touch typing practice
+2022-4-18 13:40 16:05  misc  reading
+2022-4-19 07:40 10:01  dev   notifications and sighash stuff
+2022-4-19 10:01 13:57  dev   sighash
+2022-4-19 14:14 16:15  dev   sighash
+2022-4-20 07:55 09:53  dev   notifications
+2022-4-20 10:23 10:54  dev   notifications and PR maintenance
+2022-4-20 10:54 13:10  dev   rustfmt
+2022-4-20 13:56 15:16  dev   serde regression tests
+2022-4-20 15:16 15:28  misc  invoice kraken
+2022-4-20 15:28 16:35  dev   go through open prs
+2022-4-21 07:34 10:04  dev   notifications and patch review
+2022-4-21 11:08 13:42  misc  todo tasks
+2022-4-22 07:40 08:32  dev   notifications
+2022-4-22 08:32 10:58  dev   post msrv fixes
+2022-4-22 11:54 14:55  dev   clippy miniscript
+2022-4-23 07:20 07:35  dev   notifications
+2022-4-25 13:33 13:48  misc  email
+2022-4-25 13:48 16:41  dev   secp edition 2018
+2022-4-25 16:41 17:12  dev   miniscript unit test
+2022-4-26 06:59 07:40  dev   notifications
+2022-4-26 10:23 11:57  dev   PR maintenance
+2022-4-26 11:57 12:25  dev   miniscrit, refactor
+2022-4-27 07:51 08:01  dev   notifications
+2022-4-27 08:02 09:44  dev   bitcoin_hashe, bunch of PRs
+2022-4-27 10:00 10:38  dev   rust-secp clippy
+2022-4-27 10:38 11:24  dev   miniscript
+2022-4-27 11:49 12:19  dev   clean up PR to MiniscriptKey
+2022-4-27 12:19 13:38  dev   miniscript refactoring PRs
+2022-4-27 13:38 13:56  misc  reading
+2022-4-27 13:56 14:59  dev   attempt at github action
+2022-4-28 08:03 10:02  dev   notifications, patch review, PR maintenance
+2022-4-28 10:20 10:32  dev   fix up endian-ness PR
+2022-4-28 10:32 10:42  misc  mailing list
+2022-4-28 10:42 12:11  dev   refator translatepk
+2022-4-28 13:00 16:23  dev   miniscript
+2022-4-29 09:02 09:41  dev   notifications
+2022-4-29 09:41 10:19  dev   update PRs
+2022-4-29 10:19 11:01  dev   github actions
+2022-4-29 12:06 12:59  dev   more github actions, needs-rebase-bot
+2022-4-29 12:59 13:32  misc  reading
+2022-4-29 13:32 16:00  misc  reading
+2022-5-02 08:10 09:12  dev   notifications
+2022-5-02 09:12 10:10  dev   Patch maintenance
+2022-5-02 10:10 10:31  misc  procrastinate
+2022-5-02 10:31 10:48  dev   miniscript, patch review
+2022-5-02 12:01 12:12  dev   miniscript
+2022-5-02 12:40 14:52  dev   miniscript clippy
+2022-5-02 16:48 18:27  dev   algorithms in C/Rust
+2022-5-03 07:48 08:03  dev   notification
+2022-5-03 08:03 11:24  dev   edition 2018 and rebasing
+2022-5-03 12:24 16:13  dev   miniscript: refactor examples
+2022-5-04 07:30 07:51  dev   notification
+2022-5-04 07:51 08:16  dev   patch maintenance
+2022-5-04 08:16 10:52  dev   miniscript: spk refactoring
+2022-5-04 12:00 12:42  dev   miniscript examples and semantic/abstract change
+2022-5-04 14:08 16:01  dev   bitcoin: implement error::Error codebase wide
+2022-5-04 19:54 10:28  dev   notification
+2022-5-05 10:28 12:43  dev   miniscript DescriptorTrait
+2022-5-05 14:30 14:41  dev   patch review
+2022-5-05 14:41 15:29  dev   miniscript: extract traits out of DescriptorTrait
+2022-5-06 07:53 08:44  dev   notification
+2022-5-06 08:44 09:36  dev   miniscript: extract traits out of DescriptorTrait
+2022-5-06 09:36 09:43  misc  touch typing practice
+2022-5-06 09:43 10:03  dev   miniscript: integration test script
+2022-5-06 10:03 12:06  dev   miniscript: refactoring
+2022-5-06 13:07 13:59  dev   miniscript: derive Hash
+2022-5-06 13:59 15:00  dev   misiscript; After/Older
+2022-5-09 08:18 08:40  dev   notification
+2022-5-09 08:40 09:00  misc  procrastinate
+2022-5-09 10:22 12:02  dev   miniscript: Older/After
+2022-5-09 12:41 14:31  dev   miniscript: Older/After
+2022-5-10 07:47 10:11  dev   miniscritp: DesciptorTrait refactoring
+2022-5-10 10:49 13:15  dev   various cleen up tasks
+2022-5-10 14:00 16:21  dev   miniscript: clippy
+2022-5-11 07:05 10:39  dev   various PRs
+2022-5-11 10:39 10:52  misc  email
+2022-5-11 11:17 13:00  dev   miniscript: docs
+2022-5-11 13:57 16:12  dev   miniscrip: hacking like its my job
+2022-5-12 07:42 07:54  dev   notification
+2022-5-12 07:54 10:00  dev   various patches
+2022-5-12 10:00 11:00  ops   set up new laptop
+2022-5-13 08:08 08:57  dev   notification
+2022-5-13 08:57 09:46  misc  procrastinate
+2022-5-13 09:46 12:17  dev   miniscript: timelocks
+2022-5-16 07:54 09:59  dev   notifications and rust-bip39 no-std patch review
+2022-5-16 09:59 10:51  dev   base64 research
+2022-5-16 10:51 11:36  dev   miniscript: timelocks rebasing
+2022-5-16 12:50 16:58  dev   miniscript timelocks
+2022-5-16 16:58 04:36  dev   notification
+2022-5-17 04:36 06:32  dev   miniscript: timelocks
+2022-5-17 06:50 08:45  dev   miniscript: timelocks
+2022-5-17 09:32 12:08  dev   miniscript: delete descriptor trait
+2022-5-17 12:21 13:17  dev   pattern matching
+2022-5-17 16:14 16:46  misc  reading
+2022-5-17 16:46 17:29  dev   miniscript: Implement cause
+2022-5-17 19:23 20:26  dev   miniscript: Finish implementing cause
+2022-5-18 07:46 08:26  dev   notification
+2022-5-18 08:26 08:30  misc  email
+2022-5-18 08:30 12:00  dev   miniscript: refactoring with combinators
+2022-5-18 12:40 14:26  dev   miniscript: Debugging ms attribute tests
+2022-5-18 14:26 16:30  dev   bitcoincore-rpc: patch review
+2022-5-19 08:00 08:13  misc  Rion laptop
+2022-5-19 08:13 10:14  dev   notifications and maintainer tasks
+2022-5-19 10:30 11:28  dev   notifications
+2022-5-19 12:27 14:04  dev   timelocks
+2022-5-19 14:04 16:43  dev   bring loads of PRs back to life
+2022-5-20 07:33 08:52  dev   notifications
+2022-5-20 08:52 10:45  dev   patch maintenance
+2022-5-24 16:01 19:01  dev   timelocks
+2022-5-25 07:21 10:24  dev   psbt signing
+2022-5-25 11:00 15:55  dev   psbt examples
+2022-5-25 15:55 17:22  dev   bitcoin: TryFrom
+2022-5-25 22:00 21:16  dev   timestamps
+2022-5-26 07:40 10:08  dev   notifications and patch maintenance
+2022-5-26 10:52 13:13  dev   conversion methods
+2022-5-26 13:49 15:09  dev   timelocks
+2022-5-26 15:20 16:03  dev   clean up tree
+2022-5-27 07:49 10:33  dev   notifcations and rustfmt
+2022-5-27 10:33 11:40  dev   patch maintenance
+2022-5-31 08:15 13:37  dev   notifications and patch maintenance
+2022-5-31 14:22 15:07  dev   patch maintenance
+2022-5-31 15:07 17:05  dev   timelocks
+2022-6-01 08:38 10:20  dev   notifications and Address::from_str PR
+2022-6-01 10:20 10:44  dev   more pr review
+2022-6-01 10:44 13:32  dev   bitcoin_hashes: custom error
+2022-6-01 15:08 17:04  dev   timelocks
+2022-6-02 06:56 07:32  misc  typing and optech
+2022-6-02 07:32 09:27  dev   notifications
+2022-6-02 09:35 09:55  dev   PR maintenance
+2022-6-02 10:08 11:14  dev   psbt example
+2022-6-02 11:14 11:45  dev   more notifications
+2022-6-02 12:08 12:41  misc  monthly report
+2022-6-02 12:41 12:46  dev   non-exaustive
+2022-6-02 12:46 15:09  dev   locktime
+2022-6-03 08:34 08:42  misc  touch typing practice
+2022-6-03 08:42 09:03  dev   notifications
+2022-6-03 09:03 10:10  dev   custom error
+2022-6-03 10:10 12:07  dev   locktime module and usage
+2022-6-03 13:00 13:52  dev   locktime module and usage
+2022-6-06 08:33 10:01  dev   notifications
+2022-6-06 10:01 10:08  misc  touch typing practice
+2022-6-06 10:08 11:27  dev   lock times
+2022-6-06 11:27 11:56  dev   rust-bitocoinconsensus: release notes
+2022-6-06 12:57 14:47  dev   rustfmt
+2022-6-07 08:32 08:42  misc  touch typing practice
+2022-6-07 08:42 10:23  dev   notifications
+2022-6-07 10:46 13:35  dev   bitcoin_hashes fixes and rust-bitcoin upgrade
+2022-6-07 13:36 16:15  dev   clippy, including githooks
+2022-6-08 08:25 10:09  dev   notifications
+2022-6-08 10:09 10:39  dev   psbt signing
+2022-6-08 11:26 14:49  dev   psbt signing
+2022-6-08 14:49 15:12  dev   maintanence tasks
+2022-6-09 08:49 09:30  dev   notifications
+2022-6-09 09:30 10:46  dev   jsonrpc crate exploration
+2022-6-09 11:42 11:54  misc  email
+2022-6-09 11:54 12:36  dev   jsonrpc crate exploration
+2022-6-09 12:37 14:42  dev   jsonrpc: epic cleanup PR
+2022-6-09 14:42 16:34  dev   secp: patch rebasing on edition 2018 changes
+2022-6-10 08:15 09:56  dev   notifications and patch maintenance
+2022-6-10 09:56 10:46  dev   psbt signing
+2022-6-10 11:52 13:17  dev   secp256k1: clippy
+2022-6-14 08:06 08:12  misc  touch typing
+2022-6-14 08:00 11:56  dev   patch maintenance
+2022-6-14 14:13 15:42  dev   psbt signing
+2022-6-15 07:44 07:49  misc  touch typing
+2022-6-15 07:49 08:10  misc  fix danis computer
+2022-6-15 08:10 09:23  dev   notifications
+2022-6-15 09:23 09:30  misc  bill kraken
+2022-6-15 09:30 09:51  misc  email accountant
+2022-6-15 10:14 11:59  dev   psbt signing
+2022-6-15 13:00 15:36  dev   psbt signing
+2022-6-16 08:38 09:02  misc  email
+2022-6-16 09:02 13:07  dev   git subtree
+2022-6-16 14:01 17:29  dev   locktime
+2022-6-17 08:04 11:06  dev   notifications
+2022-6-17 11:06 13:18  dev   timelocks
+2022-6-17 14:01 15:47  dev   timelocks
+2022-6-18 10:44 10:52  dev   notifications
+2022-6-18 10:52 12:34  dev   psbt signing
+2022-6-20 09:01 09:28  dev   notifications
+2022-6-20 09:28 09:36  misc  touch typing
+2022-6-20 09:36 10:42  dev   submodule
+2022-6-20 12:00 14:14  dev   locktime
+2022-6-20 14:14 15:00  dev   go through all open PRs
+2022-6-21 07:53 08:08  dev   notifications
+2022-6-21 08:08 10:41  dev   rustfmt
+2022-6-21 10:41 10:49  dev   patch review
+2022-6-21 10:49 12:00  dev   locktime
+2022-6-21 13:06 15:06  dev   locktime
+2022-6-22 08:26 08:30  misc  touch typing
+2022-6-22 08:30 09:52  dev   notifications
+2022-6-22 09:52 11:37  dev   locktime
+2022-6-22 11:40 12:04  dev   tightness
+2022-6-22 12:31 13:35  misc  test psbt taproot example
+2022-6-22 13:35 13:52  dev   play with taproot psbt signing
+2022-6-22 14:37 15:30  dev   bitcoinconsensus subtree
+2022-6-22 15:30 16:30  misc  call with Gus
+2022-6-22 16:30 16:56  dev   bitcoin_hashes release notes
+2022-6-23 08:03 11:39  dev   locktime
+2022-6-23 12:56 15:17  dev   clippy and a couple of other small PRs
+2022-6-23 15:17 16:57  dev   locktime
+2022-6-24 09:02 10:02  dev   notifications
+2022-6-24 10:02 10:43  dev   timelock
+2022-6-24 11:35 12:09  dev   patch maintenance
+2022-6-28 08:00 08:40  dev   notifications
+2022-6-28 09:56 11:08  dev   patch maintenance
+2022-6-28 11:49 14:37  dev   secp upgrade and associated PRs
+2022-6-28 15:03 16:30  dev   serde human-readable witness
+2022-6-29 07:22 07:53  misc  email
+2022-6-29 07:53 08:20  dev   notifications 
+2022-6-29 08:20 08:45  misc  call with Andrew
+2022-6-29 08:46 08:55  dev   notifications
+2022-6-29 08:55 09:14  dev   upgrade secp PR
+2022-6-29 09:14 09:44  dev   patch review
+2022-6-29 09:44 09:59  dev   display witness
+2022-6-29 10:43 12:02  dev   locktime
+2022-6-29 12:02 13:16  dev   check status of all the crates
+2022-6-29 13:16 13:37  dev   msrv checklist
+2022-6-29 13:37 14:23  dev   introduce SPDX license
+2022-6-29 14:25 15:08  dev   move sighash types
+2022-6-30 07:42 08:50  dev   notifications
+2022-6-30 08:50 11:31  dev   audit/update all PRs needed for release
+2022-6-30 11:31 13:01  dev   taproo-psbt review
+2022-6-30 13:39 15:39  dev   hack on rust-bip39
+2022-6-30 15:39 15:54  dev   play with clippy
+2022-6-30 15:54 17:03  dev   serde exploration
+2022-7-01 09:33 09:45  dev   notifications
+2022-7-01 09:45 12:01  dev   locktime
+2022-7-01 12:01 12:15  misc  monthly report
+2022-7-01 12:15 13:42  dev   serde human_readable witness
+2022-7-10 11:00 13:27  dev   notifications
+2022-7-11 07:36 07:42  misc  touch typing
+2022-7-11 07:42 09:00  dev   cfg bench
+2022-7-11 09:00 10:23  dev   locktime
+2022-7-11 10:32 11:49  dev   patch review and derive Hash
+2022-7-11 11:49 12:02  dev   serde witness PR rebase
+2022-7-11 12:41 13:12  dev   witness serde
+2022-7-11 14:28 16:25  dev   patch review and psb signing stuff
+2022-7-11 18:00 19:58  dev   Algorithms in C: chapter 3
+2022-7-12 08:28 08:32  misc  touch typing
+2022-7-12 08:32 08:44  misc  email
+2022-7-12 08:44 10:32  dev   notifications
+2022-7-12 10:32 11:49  misc  update resume
+2022-7-12 11:49 12:57  dev   sequence
+2022-7-12 13:30 15:12  dev   sequence
+2022-7-12 15:34 17:27  dev   locktime and sequence
+2022-7-13 08:24 08:31  misc  touch typing
+2022-7-13 08:31 12:22  dev   sequence and lock time incl. miniscript
+2022-7-13 13:30 13:53  misc  emails
+2022-7-13 13:53 15:34  dev   cfg bench
+2022-7-13 15:35 15:55  dev   algorithms in C
+2022-7-13 15:55 09:27  dev   notifications
+2022-7-14 09:27 12:57  dev   timelocks
+2022-7-14 13:33 16:27  dev   cargo-crev and reviews
+2022-7-15 08:12 09:19  dev   notifications
+2022-7-15 09:19 12:57  dev   ci
+2022-7-15 13:46 16:00  dev   ci
+2022-7-18 07:46 08:58  dev   notifications
+2022-7-18 08:58 14:21  misc  fye 2022 tax return
+2022-7-18 14:21 15:57  dev   ci
+2022-7-19 08:19 08:41  dev   notifications
+2022-7-19 08:41 10:15  dev   fix secp bitcoin_hashes dependency mess
+2022-7-19 10:15 11:46  dev   patch maintenance
+2022-7-19 12:30 13:57  dev   more rebasing
+2022-7-19 13:57 15:44  dev   ScriptRef PR
+2022-7-19 15:44 16:01  dev   notifications
+2022-7-20 07:51 11:23  misc  code while at hospital
+2022-7-20 11:23 12:05  dev   patch maintenance
+2022-7-20 12:05 12:55  dev   psbt signing
+2022-7-20 12:55 13:05  dev   clippy
+2022-7-20 13:05 14:08  dev   ScriptRef
+2022-7-20 14:36 16:06  dev   release PRs
+2022-7-21 07:51 07:57  misc  touch typing
+2022-7-21 07:58 08:50  dev   notifications and patch maintenance
+2022-7-21 09:25 12:41  dev   notifications and patch maintenance
+2022-7-21 12:41 13:32  dev   bitcoinconsensus: rustfmt
+2022-7-21 13:32 14:50  dev   jsonrpc rustfmt, clippy, ci
+2022-7-21 14:50 16:23  dev   miniscript: macros
+2022-7-22 07:02 08:41  dev   notifications
+2022-7-22 09:06 12:21  dev   psbt signing and bitcoinconsensus upgrade
+2022-7-22 12:21 12:35  dev   bitcoinconsensus githooks
+2022-7-22 12:35 13:57  dev   clean up PRs
+2022-7-22 14:50 12:12  misc  email
+2022-7-25 12:12 16:12  dev   miniscript: test upcoming release of bitcoin
+2022-7-25 16:12 16:28  dev   semver
+2022-7-26 07:34 07:51  misc  email
+2022-7-26 07:51 08:59  dev   notifications
+2022-7-26 10:52 14:50  dev   crate smashing
+2022-7-26 15:30 17:28  dev   crate smashing, bitcoin_encoding
+2022-7-27 08:28 12:58  dev   notifications and rust-bech32
+2022-7-27 13:50 14:22  dev   discussions post + research
+2022-7-27 14:22 17:30  dev   bech32: u5 crate
+2022-7-28 08:02 14:08  dev   wild hacking: errors, policy, patch maintenance
+2022-7-28 14:59 18:28  dev   work on u5
