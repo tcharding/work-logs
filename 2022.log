@@ -602,3 +602,127 @@
 2022-7-27 14:22 17:30  dev   bech32: u5 crate
 2022-7-28 08:02 14:08  dev   wild hacking: errors, policy, patch maintenance
 2022-7-28 14:59 18:28  dev   work on u5
+2022-7-28 18:41 20:27  dev   u5 integere implementation
+2022-7-29 07:30 10:08  dev   notifications and error handling
+2022-7-29 10:49 11:40  dev   notifications
+2022-7-29 11:40 15:59  dev   bech32 u5 crate
+2022-8-01 09:09 12:52  dev   convi crate and notifications
+2022-8-01 12:52 14:40  misc  reading
+2022-8-01 14:59 17:00  dev   bitcoin-str
+2022-8-01 17:24 19:53  dev   crate smashing
+2022-8-02 08:08 08:49  dev   notifications
+2022-8-02 08:49 10:20  dev   bitcoin: Amount
+2022-8-02 11:04 12:44  dev   finish off Amount/SignedAmount PR
+2022-8-02 15:16 17:14  dev   bitcoin: re-export and util flatten
+2022-8-03 08:11 10:21  dev   notifications
+2022-8-03 11:45 12:38  dev   sighash unit tests and remove deprecated
+2022-8-03 12:38 16:34  dev   TxAmount new type
+2022-8-04 08:05 09:52  dev   notifications
+2022-8-04 09:52 10:45  misc  email incl. Rust lightning talk
+2022-8-04 10:45 14:06  dev   amounts and sighash
+2022-8-04 14:55 15:08  misc  read bitcoin optech
+2022-8-04 15:08 15:50  dev   patch maintenance
+2022-8-05 08:35 09:23  dev   notifications
+2022-8-05 09:23 10:06  dev   patch review
+2022-8-05 10:31 11:14  dev   notifications
+2022-8-05 11:14 11:47  dev   PR maintenance
+2022-8-05 11:47 13:47  dev   clean up util
+2022-8-08 08:05 09:20  misc  chores
+2022-8-08 09:20 10:32  dev   notifications
+2022-8-08 14:04 16:48  dev   bip158
+2022-8-09 08:37 09:29  dev   notifications
+2022-8-09 09:29 10:30  dev   miniscript: upgrade bitcoin
+2022-8-09 10:30 12:13  dev   bitcoin_hashes rm Index
+2022-8-09 13:00 14:07  dev   bitcoin_hashes rebasing
+2022-8-09 14:07 16:33  dev   bip158
+2022-8-10 07:32 08:00  dev   notifications
+2022-8-10 09:30 10:34  dev   patch review
+2022-8-10 10:34 10:40  dev   rust-bitcoincore-rpc patch maintenance
+2022-8-10 10:40 11:13  dev   PR maintenance
+2022-8-10 12:15 12:54  dev   patch review
+2022-8-10 12:54 13:25  dev   bip158 PR
+2022-8-10 13:53 16:05  dev   uint module
+2022-8-11 08:00 12:41  dev   uint256
+2022-8-11 13:22 15:40  dev   more uint work
+2022-8-15 07:25 09:55  dev   notifications and patch review
+2022-8-15 10:40 14:00  ops   set up new dev machine
+2022-8-15 14:02 14:57  dev   flatten util
+2022-8-15 14:57 15:40  dev   target and difficulty
+2022-8-16 08:14 14:44  dev   relative lock time
+2022-8-16 14:44 15:44  dev   target/difficulty
+2022-8-17 08:00 12:04  dev   rust-bitcoincore-rpc review _every_ PR
+2022-8-17 12:53 16:09  dev   target/difficulty
+2022-8-17 16:09 16:28  dev   notifications
+2022-8-18 08:00 08:31  dev   notifications
+2022-8-18 08:32 09:55  dev   sign psbt testing
+2022-8-18 10:48 13:08  dev   target/difficulty
+2022-8-18 14:19 15:19  dev   mark target/difficulty PR ready for review
+2022-8-18 15:19 16:36  dev   target/difficulty fixes
+2022-8-19 08:00 12:30  dev   target/work implement review improvements
+2022-8-19 13:18 15:00  dev   PR maintenance
+2022-8-22 08:17 09:51  dev   notifications
+2022-8-22 10:20 12:53  dev   fuzzing fix, rebasing
+2022-8-23 07:27 11:15  dev   target/work
+2022-8-23 11:40 13:59  dev   target/work
+2022-8-23 14:45 16:41  dev   target/work
+2022-8-24 07:32 08:06  dev   notifications
+2022-8-24 08:06 12:06  dev   target/work
+2022-8-24 13:00 08:53  dev   notifications
+2022-9-01 08:53 12:15  dev   amount crate
+2022-9-01 12:56 15:49  dev   bitcoin-hashes PRs
+2022-9-01 15:49 17:04  dev   remove todos from rust-bitcoin
+2022-9-02 08:42 10:50  dev   notifications
+2022-9-02 10:50 11:58  misc  monthly report
+2022-9-02 11:58 12:31  dev   rebase bitcoin-units
+2022-9-02 13:00 13:30  dev   wrap up week
+2022-9-05 08:01 08:38  mis   email
+2022-9-05 08:38 10:47  dev   notifications and procrastination
+2022-9-05 10:47 12:40  dev   bitcoin-internals
+2022-9-05 13:53 15:52  dev   bitcoin-hashes pinning
+2022-9-06 08:04 09:46  dev   notifications
+2022-9-06 09:46 12:38  dev   bitcoin-hashes hex
+2022-9-06 13:08 16:44  dev   hex stuff
+2022-9-06 16:44 11:14  dev   notifications
+2022-9-07 09:30 11:14  dev   notifications
+2022-9-08 08:18 10:55  dev   notifications
+2022-9-08 10:55 12:43  misc  write lightning talk
+2022-9-08 12:46 13:08  dev   patch review
+2022-9-08 13:32 14:42  misc  move some coins around
+2022-9-08 14:42 16:01  dev   formatting PRs
+2022-9-09 08:04 11:56  dev   PR maintenance
+2022-9-09 12:39 12:42  dev   notifications
+2022-9-12 07:54 09:14  dev   notifications
+2022-9-12 09:14 09:58  dev   patch maintenance
+2022-9-12 09:58 10:56  dev   investigate miniscript
+2022-9-12 12:28 14:15  misc  re-write lighting talk
+2022-9-12 14:15 15:52  dev   flatten util
+2022-9-13 07:54 08:39  dev   notifications
+2022-9-13 08:39 10:16  dev   patch maintenance
+2022-9-13 10:16 12:41  dev   flattening util
+2022-9-13 13:32 15:43  dev   bitcoinconsensus
+2022-9-14 07:53 11:52  dev   rebasing like mad after bitcoin-internals was introduced
+2022-9-15 07:20 10:33  dev   notifications and PR maintenance
+2022-9-15 10:34 13:30  dev   fix deprecated
+2022-9-15 13:30 13:36  misc  bill kraken
+2022-9-15 13:36 14:09  div   api design
+2022-9-15 15:03 17:06  dev   make secp optional
+2022-9-16 07:22 09:07  dev   notifications
+2022-9-16 09:40 13:05  dev   hashes and fuzzing
+2022-9-16 13:05 15:31  dev   target/work
+2022-9-19 07:58 09:12  dev   notifications
+2022-9-19 09:12 09:44  dev   PR maintenance
+2022-9-19 10:03 12:00  dev   target/work
+2022-9-19 12:53 14:21  dev   target/work improvements
+2022-9-19 14:53 15:14  dev   util flattening
+2022-9-20 07:48 08:00  dev   notifications
+2022-9-20 09:00 09:30  misc  monthly call with Andrew
+2022-9-20 08:30 09:40  dev   patch maintenance
+2022-9-20 14:15 16:56  dev   empty internal_macros
+2022-9-20 16:56 18:43  dev   more refactoring and module moving
+2022-9-21 08:24 11:08  dev   crate smashing
+2022-9-21 11:33 12:26  dev   units crate
+2022-9-21 13:05 15:48  dev   base58
+2022-9-30 09:13 10:08  dev   notifications
+2022-9-30 10:08 11:37  misc  research non-work
+2022-9-30 11:37 12:21  dev   pr maintenance
+2022-9-30 13:56 14:15  dev   base58 crate
